@@ -31,7 +31,7 @@
     
     
     <li>
-              <a href="#" class="feat-btn"><i class="fas fa-user-friends"></i> Données démographiques
+              <a href="#" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
                 <span class="fas fa-caret-down first"></span>
               </a>
               <ul class="feat-show">
@@ -67,32 +67,18 @@
     
     
     <li>
-              <a href="#" class="env-btn"><i class="fas fa-seedling"></i> Données environnementales
+              <a href="#" class="env-btn"><i class="fas fa-seedling"></i> Voyages à l'étranger
                 <span class="fas fa-caret-down third"></span>
               </a>
               <ul class="env-show">
-    <li><a href="#"> Espaces vert</a></li>
-    <li><a href="#"> Emission de CO2</a></li>
     </ul>
     </li>
     
     <li>
-              <a href="#" class="eco-btn"><i class="fas fa-money-bill-wave"></i> Données économiques
+              <a href="#" class="eco-btn"><i class="fas fa-money-bill-wave"></i> Préparations de voyages
                 <span class="fas fa-caret-down fourth"></span>
               </a>
               <ul class="eco-show">
-    <li><a href="#"> Nombre d'entreprises</a></li>
-    <li><a href="#"> Argent</a></li>
-    </ul>
-    </li>
-    
-    <li>
-              <a href="#" class="serv-btn"><i class="fas fa-train"></i> Moyen de transports
-              <span class="fas fa-caret-down second"></span>
-              </a>
-              <ul class="serv-show">
-    <li><a href="#">Train</a></li>
-    <li><a href="#">Voiture</a></li>
     </ul>
     </li>
     </ul>
@@ -137,25 +123,6 @@
     <div id="mapid" style="height: 100vh;">
     </div>
 
-    <!-- <script type="module">
-        //Import departements GoneTo
-        async function fetchGoneTo() {
-          const res = await fetch("./GoneTo.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var GoneTo = await fetchGoneTo();
-        
-        async function fetchToGo() {
-          const res = await fetch("./ToGo.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var ToGo = await fetchToGo();
-    </script> -->
-
-
-
     <!-- Ci dessous le script javascript des trucs des donnees -->
     <script type="module">
         
@@ -176,12 +143,19 @@
     });
     CartoDB_Voyager.addTo(mymap);
 
+
+    import planeIcon from "../assets/assets.js";
+    import "../modules/rotated_markers.js";
+    import {calcMiddleLatLng, calcRotationAngle, createMiddleMarker} from "../modules/fonctions_transverses.js";
+    import {BusGeo} from "./Transports/BusLines/index.js"
+    import {TrainGeo} from "./Transports/TrainLines/index.js"
     
 
 
 
-    // Ici je cree les départements, normalement pas trop besoin de toucher à ces lignes, on varra pour ajouter des popup ou alors je vous renvoie vers une page de tuto
-    async function fetchGoneTo() {
+    // Import des fichiers json
+        async function fetchGoneTo() {
+          // Dpts ou je suis alle
           const res = await fetch("./GoneTo.json");
           const GoneTo = await res.json();
           return GoneTo;
@@ -189,14 +163,41 @@
         var GoneTo = await fetchGoneTo();
         
         async function fetchToGo() {
+          // dpts ou je ne suis pas alle
           const res = await fetch("./ToGo.json");
           const GoneTo = await res.json();
           return GoneTo;
         }
         var ToGo = await fetchToGo();
-    // var deptsGoneTo = GoneTo.querySelectorAll("a");
+
+        async function fetchPref() {
+          // villes ou je suis alle taille prefectures
+          const res = await fetch("./Lieux/PrefecturesPts.json");
+          const prefectures = await res.json();
+          return prefectures
+        }
+        var prefs = await fetchPref();
+
+        async function fetchSousPref() {
+          // villes ou je suis alle taille sous-prefectures
+          const res = await fetch("./Lieux/SousPrefPts.json");
+          const SousPrefectures = await res.json();
+          return SousPrefectures
+        }
+        var SousPrefs = await fetchSousPref();
+
+        async function fetchPlane() {
+          // villes ou je suis alle taille sous-prefectures
+          const res = await fetch("./Transports/Avion.json");
+          const Avion = await res.json();
+          return Avion
+        }
+        var Avion = await fetchPlane();
+    
+
+    // Ajout des json importes sur la carte
     var deptsGoneTo = new Array(GoneTo.features)[0];
-    var deptsGoneToGeo = new Array(deptsGoneTo.length);
+    var deptsGoneToGeo = new Array(deptsGoneTo.length);    
     for (var i = 0; i < deptsGoneTo.length;i++) {
       deptsGoneToGeo[i] = L.geoJSON(deptsGoneTo[i], {style : deptsGoneTo[i].properties.style});
     };
@@ -209,7 +210,46 @@
       deptsToGoGeo[i] = L.geoJSON(deptsToGo[i], {style : deptsToGo[i].properties.style});
     };
     var deptsToGoLayer = L.layerGroup(deptsToGoGeo);
-    deptsToGoLayer.addTo(mymap);
+    // deptsToGoLayer.addTo(mymap);
+
+    var Pref = new Array(prefs.features)[0];
+    var PrefGeo = new Array(Pref.length);
+    for (var i = 0; i < Pref.length;i++) {
+      PrefGeo[i] = L.marker(Pref[i].geometry.coordinates);
+    };
+    var PrefsLayer = L.layerGroup(PrefGeo);
+    PrefsLayer.addTo(mymap)
+
+    var SsPref = new Array(SousPrefs.features)[0];
+    var SsPrefGeo = new Array(SsPref.length);
+    for (var i = 0; i < SsPref.length;i++) {
+      SsPrefGeo[i] = L.marker(SsPref[i].geometry.coordinates);
+    };
+    var SsPrefsLayer = L.layerGroup(SsPrefGeo);
+    SsPrefsLayer.addTo(mymap)
+
+    var Avions = new Array(Avion.features)[0];
+    var AvionsGeo = new Array(Avions.length);
+    var AvionsMarkers = new Array(Avions.length);
+    for (var i = 0; i < Avions.length;i++) {
+      AvionsGeo[i] = L.geoJSON(Avions[i], {style : {"color":"#FF5500", "weight":2, "opacity":0.75}});
+      AvionsMarkers[i] = createMiddleMarker(mymap, Avions[i], planeIcon)
+    };
+    var AvionsTot = AvionsGeo.concat(AvionsMarkers)
+    var AvionsLayer = L.layerGroup(AvionsTot);
+    AvionsLayer.addTo(mymap);
+
+    for (var i = 0; i < BusGeo.length; i++) {
+      BusGeo[i].setStyle({"color": "#546de5"})
+    }
+    var BusLayer = L.layerGroup(BusGeo);
+    BusLayer.addTo(mymap);
+
+    for (var i = 0; i < TrainGeo.length; i++) {
+      TrainGeo[i].setStyle({"color": "#c44569"})
+    }
+    var TrainLayer = L.layerGroup(TrainGeo);
+    TrainLayer.addTo(mymap);
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique
@@ -240,7 +280,15 @@
 
     // transformation en objet facilement manipulable
     
-
+      // Calques
+      var visite = {
+        "Départements visités": deptsGoneToLayer,
+        "Départements à visiter": deptsToGoLayer,
+        "Préfectures": PrefsLayer,
+        "Sous-Préfectures": SsPrefsLayer,
+        "Avions": AvionsLayer
+      };
+      var layerControl = L.control.layers(null, visite).addTo(mymap);
     // Création d'un encadre qui affiche les infos
     var info = L.control();
     
