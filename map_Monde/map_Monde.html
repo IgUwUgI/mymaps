@@ -3,7 +3,7 @@
 <head>
     <!-- On ne touche pas ici, en-tete de la page -->
   <meta charset="utf-8">
-  <link rel="stylesheet" href="map_FR.css">
+  <link rel="stylesheet" href="map_Monde.css">
   <title>Carte de la démographie</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin="">
@@ -149,22 +149,16 @@
     import {calcMiddleLatLng, calcRotationAngle, createMiddleMarker} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/index.js"
     import {TrainGeo} from "./Transports/TrainLines/index.js"
+    import {PaysGeo} from "./Lieux/Pays/index.js"
     
 
 
 
     // Import des fichiers json
-        async function fetchGoneTo() {
-          // Dpts ou je suis alle
-          const res = await fetch("./GoneTo.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var GoneTo = await fetchGoneTo();
         
         async function fetchToGo() {
           // dpts ou je ne suis pas alle
-          const res = await fetch("./ToGo.json");
+          const res = await fetch("./Regions.json");
           const GoneTo = await res.json();
           return GoneTo;
         }
@@ -212,13 +206,6 @@
     
 
     // Ajout des json importes sur la carte
-    var deptsGoneTo = new Array(GoneTo.features)[0];
-    var deptsGoneToGeo = new Array(deptsGoneTo.length);    
-    for (var i = 0; i < deptsGoneTo.length;i++) {
-      deptsGoneToGeo[i] = L.geoJSON(deptsGoneTo[i], {style : deptsGoneTo[i].properties.style});
-    };
-    var deptsGoneToLayer = L.layerGroup(deptsGoneToGeo);
-    deptsGoneToLayer.addTo(mymap);
 
     var deptsToGo = new Array(ToGo.features)[0];
     var deptsToGoGeo = new Array(deptsToGo.length);
@@ -282,6 +269,9 @@
     }
     var TrainLayer = L.layerGroup(TrainGeo);
     TrainLayer.addTo(mymap);
+
+    var PaysLayer = L.layerGroup(PaysGeo);
+    PaysLayer.addTo(mymap);
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique

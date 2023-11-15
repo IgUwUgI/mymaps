@@ -13,7 +13,7 @@ export function calcRotationAngle(map, line, angleInit) {
     var latlng2 = latlngs[1]
     const p1 = map.project(latlng1);
     const p2 = map.project(latlng2);
-    var res = (Math.atan((p2["y"]-p1["y"])/(p2["x"]-p1["x"]))*180/Math.PI + angleInit);
+    var res = (Math.atan((p2["y"]-p1["y"])/(p2["x"]-p1["x"]))*180/Math.PI + angleInit + 90*(1+Math.sign(p1["x"]-p2["x"])));
     return res;
   }
 
