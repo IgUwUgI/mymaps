@@ -187,6 +187,20 @@
             "type": "Feature",
             "properties": {
                 "COUNTRY": "France",
+                "Region": "Auvergne-Rhône-Alpes",
+                "Departement": "Bouches-du-Rhône",
+                "Name": "Marseille",
+                "Code": 13000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.29648, 5.36978]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
                 "Region": "Pays-de-Loire",
                 "Departement": "Loire-Atlantique",
                 "Name": "Nantes",
