@@ -1,1 +1,273 @@
 
+// For polygons see https://france-geojson.gregoiredavid.fr/
+{
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Hauts-de-France",
+                "Departement": "Somme",
+                "Name": "Amiens",
+                "Code": 80000
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[2.276237774794,49.950685348477],[2.2814096652893,49.941512688013],[2.2891779720069,49.942418646906],[2.2956288356959,49.938555490599],[2.3039257314236,49.92826064917],[2.3226840156437,49.93088844201],[2.3262745100517,49.935411525985],[2.3395719629451,49.928175338672],[2.3321171197189,49.923837283005],[2.3333316694293,49.912147629569],[2.3202211399386,49.903941837255],[2.3198058980625,49.895133865332],[2.3308721134408,49.891160412492],[2.3351232807728,49.890502654201],[2.343141353374,49.88033427172],[2.3457883236865,49.866028290276],[2.3373901699027,49.862858422629],[2.3248339649283,49.854623225389],[2.3198223739724,49.847071255383],[2.3126702357969,49.851074950276],[2.3096648068431,49.860734694247],[2.3043177515256,49.859566085537],[2.2785737770862,49.867018086258],[2.2823148470468,49.875657465469],[2.2723682182225,49.874790088088],[2.257761009004,49.874489304681],[2.2571216355003,49.887279258536],[2.2492820511274,49.892580257385],[2.234208260765,49.893106618025],[2.2289922195196,49.895669213824],[2.2266619415716,49.906090763087],[2.2387140941741,49.916200963396],[2.2547402444301,49.919322598263],[2.2471593537462,49.92616549844],[2.2655282596909,49.937508018122],[2.2677558144466,49.946182892542],[2.276237774794,49.950685348477]]
+            
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Pays-de-Loire",
+                "Departement": "Maine-et-Loire",
+                "Name": "Angers",
+                "Code": 49000
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[-0.60963936321701,47.488831081119],[-0.59959013353401,47.483595057899],[-0.58327440951766,47.482344016874],[-0.57119470683213,47.504809820335],[-0.56938232454194,47.514014912557],[-0.5414110434875,47.517592641129],[-0.5309042330836,47.526043589631],[-0.52370350495705,47.516905128642],[-0.52617944973814,47.508608097566],[-0.53361329499437,47.499874072552],[-0.52100728984824,47.492669936467],[-0.50854693935628,47.489376107043],[-0.51318415784276,47.484220979633],[-0.51941469571499,47.465861895637],[-0.51487582724164,47.457895772504],[-0.50943892868771,47.447679571916],[-0.51889770522082,47.450867474859],[-0.53438635404247,47.442788276641],[-0.55213957729399,47.44108685281],[-0.55761976284035,47.443065774863],[-0.56521962181917,47.437654436355],[-0.58917137664753,47.451048998173],[-0.58992708467661,47.458770718999],[-0.60116423628972,47.455560611283],[-0.61355348646012,47.454931352996],[-0.60878794945355,47.464410348432],[-0.60963936321701,47.488831081119]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Auvergne-Rhône-Alpes",
+                "Departement": "Haute-Savoie",
+                "Name": "Annecy",
+                "Code": 74000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45.89908, 6.12954]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Provence-Alpes-Côte-d'Azur",
+                "Departement": "Vaucluse",
+                "Name": "Avignon",
+                "Code": 84000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.94931, 4.80552]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Bourgogne-Franche-Comté",
+                "Departement": "Doubs",
+                "Name": "Besançon",
+                "Code": 25000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.23782, 6.02405]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Centre-Val-de-Loire",
+                "Departement": "Cher",
+                "Name": "Bourges",
+                "Code": 18000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.08101, 2.39878]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Bourgogne-Franche-Comté",
+                "Departement": "Côte-d'Or",
+                "Name": "Dijon",
+                "Code": 21000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.32204, 5.04148]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Nouvelle-Aquitaine",
+                "Departement": "Charente-Maritime",
+                "Name": "La Rochelle",
+                "Code": 17000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [46.16032, -1.15113]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Auvergne-Rhône-Alpes",
+                "Departement": "Haute-Loire",
+                "Name": "Le Puy-en-Velay",
+                "Code": 43000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45.04276, 3.88293]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Hauts-de-France",
+                "Departement": "Nord",
+                "Name": "Lille",
+                "Code": 59000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [50.62925, 3.05725]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Nouvelle-Aquitaine",
+                "Departement": "Haute-Vienne",
+                "Name": "Limoges",
+                "Code": 87000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45.83361, 1.2611]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Bourgogne-Franche-Comté",
+                "Departement": "Jura",
+                "Name": "Lons-le-Saunier",
+                "Code": 39000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [46.67136, 5.55079]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Auvergne-Rhône-Alpes",
+                "Departement": "Rhône",
+                "Name": "Lyon",
+                "Code": 69000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [45.76404, 4.83565]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Pays-de-Loire",
+                "Departement": "Loire-Atlantique",
+                "Name": "Nantes",
+                "Code": 44000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [47.21837, -1.55362]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Occitanie",
+                "Departement": "Gard",
+                "Name": "Nîmes",
+                "Code": 30000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.83669, 4.36005]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Île-de-France",
+                "Departement": "Paris",
+                "Name": "Paris",
+                "Code": 75000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.85661, 2.35222]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Bretagne",
+                "Departement": "Ille-et-Vilaine",
+                "Name": "Rennes",
+                "Code": 35000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.11726, -1.67779]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Grand-Est",
+                "Departement": "Aube",
+                "Name": "Troyes",
+                "Code": 10000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.29734, 4.0744]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Auvergne-Rhône-Alpes",
+                "Departement": "Drôme",
+                "Name": "Valence",
+                "Code": 26000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [44.93339, 4.89236]
+            }
+        }
+    ]
+}
