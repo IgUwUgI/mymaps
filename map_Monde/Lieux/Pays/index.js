@@ -1,13 +1,13 @@
-const el1 = "./Lieux/Pays/France.json"
-const el2 = "./Lieux/Pays/Allemagne.json"
-const el3 = "./Lieux/Pays/Autriche.json"
-const el4 = "./Lieux/Pays/Belgique.json"
-const el5 = "./Lieux/Pays/Hongrie.json"
-const el6 = "./Lieux/Pays/Maroc.json"
-const el7 = "./Lieux/Pays/Slovaquie.json"
-const el8 = "./Lieux/Pays/Slovenie.json"
-const el9 = "./Lieux/Pays/Suisse.json"
-const el10 = "./Lieux/Pays/Tchequie.json"
+const el1 = "./Lieux/Pays/Europe/France.json"
+const el2 = "./Lieux/Pays/Europe/Allemagne.json"
+const el3 = "./Lieux/Pays/Europe/Autriche.json"
+const el4 = "./Lieux/Pays/Europe/Belgique.json"
+const el5 = "./Lieux/Pays/Europe/Hongrie.json"
+const el6 = "./Lieux/Pays/Afrique/Maroc.json"
+const el7 = "./Lieux/Pays/Europe/Slovaquie.json"
+const el8 = "./Lieux/Pays/Europe/Slovenie.json"
+const el9 = "./Lieux/Pays/Europe/Suisse.json"
+const el10 = "./Lieux/Pays/Europe/Tchequie.json"
 
 var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10]
 

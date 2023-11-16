@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Austria",
+        "Region": "Salzburg",
+        "FR_Name": "Salzbourg",
+        "EN_Name": "Salzburg",
+        "OG_Name": "Salzburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.80949,13.05501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Austria",
+        "Region": "Salzburg-Umgebung",
+        "FR_Name": "Grödig",
+        "EN_Name": "Grödig",
+        "OG_Name": "Grödig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.73842,13.03823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Austria",
+        "Region": "Vienna",
+        "FR_Name": "Vienne",
+        "EN_Name": "Vienna",
+        "OG_Name": "Wien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.20817,16.37381]
+      }
+    }
+  ]
+}

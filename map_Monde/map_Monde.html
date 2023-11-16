@@ -150,6 +150,9 @@
     import {BusGeo} from "./Transports/BusLines/index.js"
     import {TrainGeo} from "./Transports/TrainLines/index.js"
     import {PaysGeo} from "./Lieux/Pays/index.js"
+    import {RegionsGeo} from "./Lieux/Regions/index.js"
+    import {VillesPtGeo} from "./Lieux/Villes/indexPts.js"
+    import {VillesPolyGeo} from "./Lieux/Villes/indexPoly.js"
     
 
 
@@ -272,6 +275,9 @@
 
     var PaysLayer = L.layerGroup(PaysGeo);
     PaysLayer.addTo(mymap);
+
+    var RegionsLayer = L.layerGroup(RegionsGeo);
+    RegionsLayer.addTo(mymap);
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique

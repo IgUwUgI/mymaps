@@ -1,18 +1,12 @@
 {
   "type": "FeatureCollection",
-  "name": "gadm41_DEU_0",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "DEU",
-        "COUNTRY": "Germany"
+        "FR_Name": "Allemagne",
+        "EN_Name": "Germany",
+        "OG_Name": "Deutschland"
       },
       "geometry": {
         "type": "MultiPolygon",

@@ -1,18 +1,12 @@
 {
   "type": "FeatureCollection",
-  "name": "gadm41_BEL_0",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "GID_0": "BEL",
-        "COUNTRY": "Belgium"
+        "FR_Name": "Belgique",
+        "EN_Name": "Belgium",
+        "OG_Name": "Belgique (FR), België (NL)"
       },
       "geometry": {
         "type": "MultiPolygon",
