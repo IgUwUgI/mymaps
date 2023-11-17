@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Aargau",
+        "FR_Name": "Kaiseraugst",
+        "EN_Name": "Kaiseraugst",
+        "OG_Name": "Kaiseraugst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.53802,7.72896]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Basel-Stadt",
+        "FR_Name": "Bâle",
+        "EN_Name": "Basel",
+        "OG_Name": "Basel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.55959,7.58857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Genève",
+        "FR_Name": "Genève",
+        "EN_Name": "Geneva",
+        "OG_Name": "Genève"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.20439,6.14315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Vaud",
+        "FR_Name": "Lausanne",
+        "EN_Name": "Lausanne",
+        "OG_Name": "Lausanne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.51965,6.63227]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Sankt-Gallen",
+        "FR_Name": "Saint-Gall",
+        "EN_Name": "Saint-Gallen",
+        "OG_Name": "Sankt-Gallen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.42448, 9.37671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Region": "Zürich",
+        "FR_Name": "Zurich",
+        "EN_Name": "Zurich",
+        "OG_Name": "Zürich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.37688,8.54169]
+      }
+    }
+  ]
+}

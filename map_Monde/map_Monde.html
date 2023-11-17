@@ -31,7 +31,7 @@
     
     
     <li>
-              <a href="#" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
+              <a href="../map_France/map_FR.html" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
                 <span class="fas fa-caret-down first"></span>
               </a>
               <ul class="feat-show">
@@ -158,46 +158,6 @@
 
 
     // Import des fichiers json
-        
-        async function fetchToGo() {
-          // dpts ou je ne suis pas alle
-          const res = await fetch("./Regions.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var ToGo = await fetchToGo();
-
-        async function fetchPref() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/PrefecturesPts.json");
-          const prefectures = await res.json();
-          return prefectures
-        }
-        var prefs = await fetchPref();
-
-        async function fetchPrefPoly() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/PrefecturesPoly.json");
-          const prefecturesPoly = await res.json();
-          return prefecturesPoly
-        }
-        var prefsPoly = await fetchPrefPoly();
-
-        async function fetchSousPref() {
-          // villes ou je suis alle taille sous-prefectures
-          const res = await fetch("./Lieux/SousPrefPts.json");
-          const SousPrefectures = await res.json();
-          return SousPrefectures
-        }
-        var SousPrefs = await fetchSousPref();
-
-        async function fetchSsPrefPoly() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/SousPrefPoly.json");
-          const SsprefecturesPoly = await res.json();
-          return SsprefecturesPoly
-        }
-        var SsprefsPoly = await fetchSsPrefPoly();
 
         async function fetchPlane() {
           // villes ou je suis alle taille sous-prefectures
@@ -209,46 +169,6 @@
     
 
     // Ajout des json importes sur la carte
-
-    var deptsToGo = new Array(ToGo.features)[0];
-    var deptsToGoGeo = new Array(deptsToGo.length);
-    for (var i = 0; i < deptsToGo.length;i++) {
-      deptsToGoGeo[i] = L.geoJSON(deptsToGo[i], {style : deptsToGo[i].properties.style});
-    };
-    var deptsToGoLayer = L.layerGroup(deptsToGoGeo);
-    // deptsToGoLayer.addTo(mymap);
-
-    var Pref = new Array(prefs.features)[0];
-    var PrefGeo = new Array(Pref.length);
-    for (var i = 0; i < Pref.length;i++) {
-      PrefGeo[i] = L.marker(Pref[i].geometry.coordinates);
-    };
-    var PrefsLayer = L.layerGroup(PrefGeo);
-    PrefsLayer.addTo(mymap)
-
-    var PrefPoly = new Array(prefsPoly.features)[0];
-    var PrefPolyGeo = new Array(PrefPoly.length);
-    for (var i = 0; i < PrefPoly.length;i++) {
-      PrefPolyGeo[i] = L.geoJSON(PrefPoly[i], {"style" : {"color" : "#000000", "opacity": 1}});
-    };
-    var PrefsPolyLayer = L.layerGroup(PrefPolyGeo);
-    PrefsPolyLayer.addTo(mymap)
-
-    var SsPref = new Array(SousPrefs.features)[0];
-    var SsPrefGeo = new Array(SsPref.length);
-    for (var i = 0; i < SsPref.length;i++) {
-      SsPrefGeo[i] = L.marker(SsPref[i].geometry.coordinates);
-    };
-    var SsPrefsLayer = L.layerGroup(SsPrefGeo);
-    SsPrefsLayer.addTo(mymap)
-
-    var SsPrefPoly = new Array(SsprefsPoly.features)[0];
-    var SsPrefPolyGeo = new Array(SsPrefPoly.length);
-    for (var i = 0; i < SsPrefPoly.length;i++) {
-      SsPrefPolyGeo[i] = L.geoJSON(SsPrefPoly[i], {"style" : {"color" : "#000000", "opacity": 1}});
-    };
-    var SsPrefsPolyLayer = L.layerGroup(SsPrefPolyGeo);
-    SsPrefsPolyLayer.addTo(mymap)
 
     var Avions = new Array(Avion.features)[0];
     var AvionsGeo = new Array(Avions.length);
@@ -278,6 +198,12 @@
 
     var RegionsLayer = L.layerGroup(RegionsGeo);
     RegionsLayer.addTo(mymap);
+
+    var VillesPtsLayer = L.layerGroup(VillesPtGeo);
+    VillesPtsLayer.addTo(mymap);
+
+    var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
+    VillesPolyLayer.addTo(mymap);
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique

@@ -6,7 +6,7 @@ const el5 = "./Lieux/Villes/Afrique/MarocPoly.json"
 const el6 = "./Lieux/Villes/Europe/SlovaquiePoly.json"
 const el7 = "./Lieux/Villes/Europe/SloveniePoly.json"
 const el8 = "./Lieux/Villes/Europe/SuissePoly.json"
-const el9 = "./Lieux/Villes/Europe/Tchequie.Polyjson"
+const el9 = "./Lieux/Villes/Europe/TchequiePoly.json"
 
 var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9]
 

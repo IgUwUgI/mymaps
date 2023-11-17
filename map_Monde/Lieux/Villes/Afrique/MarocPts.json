@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Marrakech",
+        "FR_Name": "Marrakech",
+        "EN_Name": "Marrakesh",
+        "OG_Name": "Murrakus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.62947, -7.98108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Agadir en Idawtanan",
+        "FR_Name": "Agadir",
+        "EN_Name": "Agadir",
+        "OG_Name": "Agadir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.42775, -9.5981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
+        "FR_Name": "Tiznit",
+        "EN_Name": "Tiznit",
+        "OG_Name": "Tiznit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.69339, -9.73215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
+        "FR_Name": "Mirleft",
+        "EN_Name": "Mirleft",
+        "OG_Name": "Mirleft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.57971, -10.03513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
+        "FR_Name": "Tafraout",
+        "EN_Name": "Tafraout",
+        "OG_Name": "Tafrawt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.71821, -8.97698]
+      }
+    }
+  ]
+}
