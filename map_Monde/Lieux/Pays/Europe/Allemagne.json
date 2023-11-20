@@ -6,7 +6,8 @@
       "properties": {
         "FR_Name": "Allemagne",
         "EN_Name": "Germany",
-        "OG_Name": "Deutschland"
+        "OG_Name": "Deutschland",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",

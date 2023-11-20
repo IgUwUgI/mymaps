@@ -6,7 +6,8 @@
       "properties": {
         "FR_Name": "Hongrie",
         "EN_Name": "Hungary",
-        "OG_Name": "Magyarorszag"
+        "OG_Name": "Magyarorszag",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",

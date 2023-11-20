@@ -6,7 +6,8 @@
       "properties": {
         "FR_Name": "Belgique",
         "EN_Name": "Belgium",
-        "OG_Name": "Belgique (FR), België (NL)"
+        "OG_Name": "Belgique (FR), België (NL)",
+        "style": {"color": "#FF9FF3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
