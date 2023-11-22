@@ -8,7 +8,8 @@
         "Region": "Bratislavský",
         "FR_Name": "Bratislava",
         "EN_Name": "Bratislava",
-        "OG_Name": "Bratislavský"
+        "OG_Name": "Bratislavský",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -21,5 +22,6 @@
       ]
       }
     }
-  ]
+  ],
+  "ordre-villes": ["Bratislava I", "Bratislava II", "Bratislava III", "Bratislava IV", "Bratislava V"]
 }

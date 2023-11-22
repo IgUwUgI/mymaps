@@ -15,7 +15,7 @@ var eltsGeo = Array()
 async function fetchVille(file) {
     const res = await fetch(file);
     const Ville = await res.json();
-    return L.geoJson(Ville);
+    return L.geoJson(Ville, {"style": Ville.features[0].properties.style});
   }
 
 for(var i = 0; i < elts.length; i++) {

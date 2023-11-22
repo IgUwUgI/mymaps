@@ -8,7 +8,8 @@
         "Region": "Bruxelles-Capitale",
         "FR_Name": "Bruxelles-Capitale",
         "EN_Name": "Brussels-Capital",
-        "OG_Name": "Bruxelles-Capitale (FR), BrusselseHoof (NL)"
+        "OG_Name": "Bruxelles-Capitale (FR), BrusselseHoof (NL)",
+        "style": {"color": "#FF9FF3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22,7 +23,8 @@
         "Region": "Vlaanderen",
         "FR_Name": "Anvers",
         "EN_Name": "Antwerp",
-        "OG_Name": "Antwerpen"
+        "OG_Name": "Antwerpen",
+        "style": {"color": "#FF9FF3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36,7 +38,8 @@
         "Region": "Vlaanderen",
         "FR_Name": "Flandres orientales",
         "EN_Name": "Eastern Flanders",
-        "OG_Name": "Oost-Vlaanderen"
+        "OG_Name": "Oost-Vlaanderen",
+        "style": {"color": "#FF9FF3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50,7 +53,8 @@
         "Region": "Vlaanderen",
         "FR_Name": "Flandres occidentales",
         "EN_Name": "Wertern Flanders",
-        "OG_Name": "West-Vlaanderen"
+        "OG_Name": "West-Vlaanderen",
+        "style": {"color": "#FF9FF3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",

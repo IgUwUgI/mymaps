@@ -8,7 +8,8 @@
         "Region": "NA",
         "FR_Name": "Argovie",
         "EN_Name": "Argovia",
-        "NOG_Name": "Aargau"
+        "NOG_Name": "Aargau",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -22,7 +23,8 @@
         "Region": "NA",
         "FR_Name": "Bâle-Ville",
         "EN_Name": "Basel-City",
-        "OG_Name": "Basel-Stadt"
+        "OG_Name": "Basel-Stadt",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -36,7 +38,8 @@
         "Region": "NA",
         "FR_Name": "Genève",
         "EN_Name": "Geneva",
-        "OG_Name": "Genève"
+        "OG_Name": "Genève",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -50,7 +53,8 @@
         "Region": "NA",
         "FR_Name": "Vaud",
         "EN_Name": "Vaud",
-        "OG_Name": "Vaud"
+        "OG_Name": "Vaud",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -64,7 +68,8 @@
         "Region": "NA",
         "FR_Name": "Saint-Gall",
         "EN_Name": "Saint-Gallen",
-        "OG_Name": "Sankt-Gallen"
+        "OG_Name": "Sankt-Gallen",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -78,7 +83,8 @@
         "Region": "NA",
         "FR_Name": "Zurich",
         "EN_Name": "Zurich",
-        "OG_Name": "Zürich"
+        "OG_Name": "Zürich",
+        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",

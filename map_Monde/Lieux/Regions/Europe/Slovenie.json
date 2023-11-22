@@ -8,7 +8,8 @@
         "Region": "NA",
         "FR_Name": "Slovénie centrale",
         "EN_Name": "Central Slovenia",
-        "OG_Name": "Osrednjeslovenska"
+        "OG_Name": "Osrednjeslovenska",
+        "style": {"color": "#7A3BD3", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",

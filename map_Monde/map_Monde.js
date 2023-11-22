@@ -1,7 +1,10 @@
 
 // Creation de la carte, ouverture centree sur les coordonnees specifiees
 // syntaxe : setview([Nord, Est], zoom)
-var mymap = L.map('mapid').setView([10, 3], 3);
+var mymap = L.map('mapid', {
+    zoomDelta: 0.25,
+    zoomSnap: 0
+}).setView([10, 3], 3);
 // var mymap = new WE.map('mapid');
 // WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 //         attribution: '© OpenStreetMap contributors'
@@ -22,10 +25,10 @@ import "../modules/rotated_markers.js";
 import {createMiddleMarker} from "../modules/fonctions_transverses.js";
 import {BusGeo} from "./Transports/BusLines/indexBus.js"
 import {TrainGeo} from "./Transports/TrainLines/indexTrain.js"
-import {PaysGeo} from "./Lieux/Pays/index.js"
-import {RegionsGeo} from "./Lieux/Regions/index.js"
-import {VillesPtGeo} from "./Lieux/Villes/indexPts.js"
-import {VillesPolyGeo} from "./Lieux/Villes/indexPoly.js"
+import {PaysGeo} from "./Lieux/Pays/indexCountries.js"
+import {RegionsGeo} from "./Lieux/Regions/indexRegions.js"
+import {VillesPtGeo} from "./Lieux/Villes/indexCityPts.js"
+import {VillesPolyGeo} from "./Lieux/Villes/indexCityPoly.js"
 
 
 
@@ -122,6 +125,22 @@ info.update = function (props) {
 info.addTo(mymap);
 info.update("");
 
+// Apparition disparition de choses selon le zoom
+function zoomChangeCities(e){
+    if(mymap.getZoom() < 8){
+        if(mymap.hasLayer(VillesPolyLayer)){
+        VillesPolyLayer.removeFrom(mymap);
+        VillesPtsLayer.addTo(mymap);
+        }
+    } else {
+        if(mymap.hasLayer(VillesPtsLayer)){
+        VillesPolyLayer.addTo(mymap);
+        VillesPtsLayer.removeFrom(mymap);
+        }
+    }
+};
+
+mymap.on('zoom', zoomChangeCities);
 
 
 //Modification de l'encadre au survol d'un objet a la souris, syntaxe generale
