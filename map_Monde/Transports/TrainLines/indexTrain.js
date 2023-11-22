@@ -16,9 +16,19 @@ const el15 = "./Transports/TrainLines/15-Budapest-Ljubljana.geojson"
 const el16 = "./Transports/TrainLines/16-Ljubljana-Zurich.geojson"
 const el17 = "./Transports/TrainLines/17-Zurich-Basel.geojson"
 const el18 = "./Transports/Trainlines/18-Basel-Mulhouse.geojson"
+const el19 = "./Transports/Trainlines/19-Paris-Bruxelles.geojson"
+const el20 = "./Transports/Trainlines/20-Bruxelles-Anvers.geojson"
+const el21 = "./Transports/Trainlines/21-Bruxelles-Gand.geojson"
+const el22 = "./Transports/Trainlines/22-Gand-Brugge.geojson"
+const el23 = "./Transports/Trainlines/23-Brugge-Knokke.geojson"
+const el24 = "./Transports/Trainlines/24-Brugge-Lille.geojson"
 
 
-var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18]
+var elts = [
+  el1, el2, el3, el4, 
+  el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, 
+  el19, el20, el21, el22, el23, el24
+]
 
 var eltsGeo = Array()
 
