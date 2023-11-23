@@ -25,10 +25,10 @@ import "../modules/rotated_markers.js";
 import {createMiddleMarker} from "../modules/fonctions_transverses.js";
 import {BusGeo} from "./Transports/BusLines/indexBus.js"
 import {TrainGeo} from "./Transports/TrainLines/indexTrain.js"
-import {PaysGeo} from "./Lieux/Pays/indexCountries.js"
-import {RegionsGeo} from "./Lieux/Regions/indexRegions.js"
-import {VillesPtGeo} from "./Lieux/Villes/indexCityPts.js"
-import {VillesPolyGeo} from "./Lieux/Villes/indexCityPoly.js"
+import {PaysGeo} from "./MapSpots/Pays/indexCountries.js"
+import {RegionsGeo} from "./MapSpots/Regions/indexRegions.js"
+import {VillesPtGeo} from "./MapSpots/Villes/indexCityPts.js"
+import {VillesPolyGeo} from "./MapSpots/Villes/indexCityPoly.js"
 
 
 

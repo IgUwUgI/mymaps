@@ -15,49 +15,21 @@
 
     import planeIcon from "../assets/assets.js";
     import "../modules/rotated_markers.js";
-    import {calcMiddleLatLng, calcRotationAngle, createMiddleMarker} from "../modules/fonctions_transverses.js";
+    import {createMiddleMarker} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/index.js"
     import {TrainGeo} from "./Transports/TrainLines/index.js"
+    import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
+    import {PrefGeo} from "./MapSpots/Villes/indexVille.js";
+    import {PrefPolyGeo} from "./MapSpots/Villes/indexVille.js";
     
 
 
 
     // Import des fichiers json
-        async function fetchGoneTo() {
-          // Dpts ou je suis alle
-          const res = await fetch("./GoneTo.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var GoneTo = await fetchGoneTo();
-        
-        async function fetchToGo() {
-          // dpts ou je ne suis pas alle
-          const res = await fetch("./ToGo.json");
-          const GoneTo = await res.json();
-          return GoneTo;
-        }
-        var ToGo = await fetchToGo();
-
-        async function fetchPref() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/PrefecturesPts.json");
-          const prefectures = await res.json();
-          return prefectures
-        }
-        var prefs = await fetchPref();
-
-        async function fetchPrefPoly() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/PrefecturesPoly.json");
-          const prefecturesPoly = await res.json();
-          return prefecturesPoly
-        }
-        var prefsPoly = await fetchPrefPoly();
 
         async function fetchSousPref() {
           // villes ou je suis alle taille sous-prefectures
-          const res = await fetch("./Lieux/SousPrefPts.json");
+          const res = await fetch("./MapSpots/Villes/SousPrefPts.json");
           const SousPrefectures = await res.json();
           return SousPrefectures
         }
@@ -65,7 +37,7 @@
 
         async function fetchSsPrefPoly() {
           // villes ou je suis alle taille prefectures
-          const res = await fetch("./Lieux/SousPrefPoly.json");
+          const res = await fetch("./MapSpots/Villes/SousPrefPoly.json");
           const SsprefecturesPoly = await res.json();
           return SsprefecturesPoly
         }
@@ -81,35 +53,20 @@
     
 
     // Ajout des json importes sur la carte
-    var deptsGoneTo = new Array(GoneTo.features)[0];
-    var deptsGoneToGeo = new Array(deptsGoneTo.length);    
-    for (var i = 0; i < deptsGoneTo.length;i++) {
-      deptsGoneToGeo[i] = L.geoJSON(deptsGoneTo[i], {style : deptsGoneTo[i].properties.style});
-    };
-    var deptsGoneToLayer = L.layerGroup(deptsGoneToGeo);
-    deptsGoneToLayer.addTo(mymap);
+    var dptsLayer = L.layerGroup(DptsGeo);
+    dptsLayer.addTo(mymap);
 
-    var deptsToGo = new Array(ToGo.features)[0];
-    var deptsToGoGeo = new Array(deptsToGo.length);
-    for (var i = 0; i < deptsToGo.length;i++) {
-      deptsToGoGeo[i] = L.geoJSON(deptsToGo[i], {style : deptsToGo[i].properties.style});
-    };
-    var deptsToGoLayer = L.layerGroup(deptsToGoGeo);
+    // var deptsToGo = new Array(ToGo.features)[0];
+    // var deptsToGoGeo = new Array(deptsToGo.length);
+    // for (var i = 0; i < deptsToGo.length;i++) {
+    //   deptsToGoGeo[i] = L.geoJSON(deptsToGo[i], {style : deptsToGo[i].properties.style});
+    // };
+    // var deptsToGoLayer = L.layerGroup(deptsToGoGeo);
     // deptsToGoLayer.addTo(mymap);
 
-    var Pref = new Array(prefs.features)[0];
-    var PrefGeo = new Array(Pref.length);
-    for (var i = 0; i < Pref.length;i++) {
-      PrefGeo[i] = L.marker(Pref[i].geometry.coordinates);
-    };
     var PrefsLayer = L.layerGroup(PrefGeo);
     PrefsLayer.addTo(mymap)
 
-    var PrefPoly = new Array(prefsPoly.features)[0];
-    var PrefPolyGeo = new Array(PrefPoly.length);
-    for (var i = 0; i < PrefPoly.length;i++) {
-      PrefPolyGeo[i] = L.geoJSON(PrefPoly[i], {"style" : {"color" : "#000000", "opacity": 1}});
-    };
     var PrefsPolyLayer = L.layerGroup(PrefPolyGeo);
     PrefsPolyLayer.addTo(mymap)
 
@@ -183,8 +140,7 @@
     
       // Calques
       var visite = {
-        "Départements visités": deptsGoneToLayer,
-        "Départements à visiter": deptsToGoLayer,
+        "Départements visités": dptsLayer,
         "Préfectures": PrefsLayer,
         "Sous-Préfectures": SsPrefsLayer,
         "Avions": AvionsLayer
