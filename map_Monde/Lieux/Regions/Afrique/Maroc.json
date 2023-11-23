@@ -7,7 +7,8 @@
         "Region": "Marrakech-Safi",
         "FR_Name": "Marrakech",
         "EN_Name": "Marrakesh",
-        "OG_Name": "Murrakus"
+        "OG_Name": "Murrakus",
+        "style": {"color": "#FFB142", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -20,7 +21,8 @@
         "Region": "Souss-Massa",
         "FR_Name": "Agadir-Ida-Outanane",
         "EN_Name": "Agadir-Ida-U-tanane",
-        "OG_Name": "Agadir en Idawtanan"
+        "OG_Name": "Agadir en Idawtanan",
+        "style": {"color": "#FFB142", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -33,7 +35,8 @@
         "Region": "Souss-Massa",
         "FR_Name": "Tiznit",
         "EN_Name": "Tiznit",
-        "OG_Name": "Tiznit"
+        "OG_Name": "Tiznit",
+        "style": {"color": "#FFB142", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -46,7 +49,8 @@
         "Region": "Guelmim-Oued Noun",
         "FR_Name": "Guelmim",
         "EN_Name": "Guelmim",
-        "OG_Name": "Glaymim"
+        "OG_Name": "Glaymim",
+        "style": {"color": "#FFB142", "weight": 1, "opacity": 0.75}
       },
       "geometry": {
         "type": "MultiPolygon",
