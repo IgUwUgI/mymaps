@@ -19,8 +19,12 @@
     import {BusGeo} from "./Transports/BusLines/index.js"
     import {TrainGeo} from "./Transports/TrainLines/index.js"
     import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-    import {PrefGeo} from "./MapSpots/Villes/indexVille.js";
+    import {PrefGeo, VillesPtsGeo} from "./MapSpots/Villes/indexVille.js";
     import {PrefPolyGeo} from "./MapSpots/Villes/indexVille.js";
+    import {SsPrefGeo} from "./MapSpots/Villes/indexVille.js";
+    import {SsPrefPolyGeo} from "./MapSpots/Villes/indexVille.js";
+    // import { VillesPtsGeo } from "./MapSpots/Villes/indexVille.js";
+    import { VillesPolyGeo } from "./MapSpots/Villes/indexVille.js";
     
 
 
@@ -70,21 +74,17 @@
     var PrefsPolyLayer = L.layerGroup(PrefPolyGeo);
     PrefsPolyLayer.addTo(mymap)
 
-    var SsPref = new Array(SousPrefs.features)[0];
-    var SsPrefGeo = new Array(SsPref.length);
-    for (var i = 0; i < SsPref.length;i++) {
-      SsPrefGeo[i] = L.marker(SsPref[i].geometry.coordinates);
-    };
     var SsPrefsLayer = L.layerGroup(SsPrefGeo);
     SsPrefsLayer.addTo(mymap)
 
-    var SsPrefPoly = new Array(SsprefsPoly.features)[0];
-    var SsPrefPolyGeo = new Array(SsPrefPoly.length);
-    for (var i = 0; i < SsPrefPoly.length;i++) {
-      SsPrefPolyGeo[i] = L.geoJSON(SsPrefPoly[i], {"style" : {"color" : "#000000", "opacity": 1}});
-    };
     var SsPrefsPolyLayer = L.layerGroup(SsPrefPolyGeo);
     SsPrefsPolyLayer.addTo(mymap)
+
+    // var VillesLayer = L.layerGroup(VillesPtsGeo);
+    // VillesLayer.addTo(mymap)
+
+    var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
+    VillesPolyLayer.addTo(mymap)
 
     var Avions = new Array(Avion.features)[0];
     var AvionsGeo = new Array(Avions.length);
