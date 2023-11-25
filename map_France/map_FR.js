@@ -16,36 +16,17 @@
     import planeIcon from "../assets/assets.js";
     import "../modules/rotated_markers.js";
     import {createMiddleMarker} from "../modules/fonctions_transverses.js";
-    import {BusGeo} from "./Transports/BusLines/index.js"
-    import {TrainGeo} from "./Transports/TrainLines/index.js"
+    import {BusGeo} from "./Transports/BusLines/indexBus.js"
+    import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
+    import {VeloGeo} from "./Transports/Velo/indexVelo.js"
     import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-    import {PrefGeo, VillesPtsGeo} from "./MapSpots/Villes/indexVille.js";
-    import {PrefPolyGeo} from "./MapSpots/Villes/indexVille.js";
-    import {SsPrefGeo} from "./MapSpots/Villes/indexVille.js";
-    import {SsPrefPolyGeo} from "./MapSpots/Villes/indexVille.js";
+    import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPolyGeo} from "./MapSpots/Villes/indexVille.js"
     // import { VillesPtsGeo } from "./MapSpots/Villes/indexVille.js";
-    import { VillesPolyGeo } from "./MapSpots/Villes/indexVille.js";
     
 
 
 
     // Import des fichiers json
-
-        async function fetchSousPref() {
-          // villes ou je suis alle taille sous-prefectures
-          const res = await fetch("./MapSpots/Villes/SousPrefPts.json");
-          const SousPrefectures = await res.json();
-          return SousPrefectures
-        }
-        var SousPrefs = await fetchSousPref();
-
-        async function fetchSsPrefPoly() {
-          // villes ou je suis alle taille prefectures
-          const res = await fetch("./MapSpots/Villes/SousPrefPoly.json");
-          const SsprefecturesPoly = await res.json();
-          return SsprefecturesPoly
-        }
-        var SsprefsPoly = await fetchSsPrefPoly();
 
         async function fetchPlane() {
           // villes ou je suis alle taille sous-prefectures
@@ -108,6 +89,9 @@
     }
     var TrainLayer = L.layerGroup(TrainGeo);
     TrainLayer.addTo(mymap);
+
+    var VeloLayer = L.layerGroup(VeloGeo);
+    VeloLayer.addTo(mymap);
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique

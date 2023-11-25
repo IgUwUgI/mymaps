@@ -88,7 +88,7 @@ for(var i = 0; i < eltsPrefPts.length; i++) {
 for(var i = 0; i < eltsPoly.length; i++) {
   var j = await fetchPoly(eltsPoly[i]);
   var Ville_j = new Array(j.features)[0];
-  for (var k = 0; k <eltsPoly.length; k++){
+  for (var k = 0; k <Ville_j.length; k++){
     VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": Ville_j[0].properties.style}));
   }
 }
