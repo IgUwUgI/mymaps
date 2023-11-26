@@ -32,8 +32,8 @@ var eltsPrefPts = [el2];
 var eltsSsPrefPoly = [el3];
 var eltsSsPrefPts = [el4];
 var eltsPoly = [el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16];
-var eltsPts = [el17, el19, el20, el21];
-// , el18, el22, el23, el24, el25, el26, el27, el28
+var eltsPts = [el17, el19, el20, el21, el22, el24];
+// , el18, el23, el25, el26, el27, el28
 
 var PrefPolyGeo0 = Array();
 var PrefGeo0 = Array();
@@ -58,7 +58,21 @@ for(var i = 0; i < eltsPrefPoly.length; i++) {
   var j = await fetchPoly(eltsPrefPoly[i]);
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
-    PrefPolyGeo0.push(L.geoJson(Pref_j[k], {"style": Pref_j[k].properties.style}));
+    var style0 = {"color": Pref_j[k].properties.color, "weight": 1, "fillOpacity": 0.30}
+    switch (Pref_j[k].properties.type) {
+      case "Main":
+        style0["fillOpacity"] = 0.30;
+        break;
+      case "Banlieue":
+        style0["fillOpacity"] = 0.15;
+        break;
+      case "A_completer":
+        style0["fillOpacity"] = 0;
+        break;
+      default:
+        break;
+    }
+    PrefPolyGeo0.push(L.geoJson(Pref_j[k], {"style": style0}));
   }
 }
 
@@ -82,7 +96,7 @@ for(var i = 0; i < eltsSsPrefPts.length; i++) {
   var j = await fetchPt(eltsSsPrefPts[i]);
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
-    PrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+    SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
   }
 }
 
@@ -98,7 +112,7 @@ for(var i = 0; i < eltsPts.length; i++) {
   var j = await fetchPt(eltsPts[i]);
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
-    SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+    VillesPtsGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
   }
 }
 
