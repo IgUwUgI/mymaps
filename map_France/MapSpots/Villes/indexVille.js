@@ -32,7 +32,8 @@ var eltsPrefPts = [el2];
 var eltsSsPrefPoly = [el3];
 var eltsSsPrefPts = [el4];
 var eltsPoly = [el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16];
-var eltsPts = [el17, el18, el19, el20, el21, el22, el23, el24, el25, el26, el27, el28];
+var eltsPts = [el17, el19, el20, el21];
+// , el18, el22, el23, el24, el25, el26, el27, el28
 
 var PrefPolyGeo0 = Array();
 var PrefGeo0 = Array();
@@ -77,8 +78,8 @@ for(var i = 0; i < eltsSsPrefPoly.length; i++) {
   }
 }
 
-for(var i = 0; i < eltsPrefPts.length; i++) {
-  var j = await fetchPt(eltsPrefPts[i]);
+for(var i = 0; i < eltsSsPrefPts.length; i++) {
+  var j = await fetchPt(eltsSsPrefPts[i]);
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
     PrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
@@ -89,17 +90,17 @@ for(var i = 0; i < eltsPoly.length; i++) {
   var j = await fetchPoly(eltsPoly[i]);
   var Ville_j = new Array(j.features)[0];
   for (var k = 0; k <Ville_j.length; k++){
-    VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": Ville_j[0].properties.style}));
+    VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": Ville_j[k].properties.style}));
   }
 }
 
-// for(var i = 0; i < eltsSsPrefPts.length; i++) {
-//   var j = await fetchPt(eltsSsPrefPts[i]);
-//   var Pref_j = new Array(j.features)[0];
-//   for (var k = 0; k < Pref_j.length; k++){
-//     SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-//   }
-// }
+for(var i = 0; i < eltsPts.length; i++) {
+  var j = await fetchPt(eltsPts[i]);
+  var Pref_j = new Array(j.features)[0];
+  for (var k = 0; k < Pref_j.length; k++){
+    SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+  }
+}
 
 export const PrefPolyGeo = PrefPolyGeo0;
 export const PrefGeo = PrefGeo0;

@@ -7,7 +7,7 @@
               "Region": "GrandEst",
               "Nom": "Aube",
               "Code": "10",
-              "style":{"color":"#1B9CFC", "weight":1, "opacity":0.75}
+              "style":{"color":"#1B9CFC", "weight":2, "opacity":0.75}
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -21,7 +21,7 @@
               "Region": "GrandEst",
               "Nom": "Marne",
               "Code": "51",
-              "style":{"color":"#1B9CFC", "weight":1, "opacity":0.75}
+              "style":{"color":"#1B9CFC", "weight":2, "opacity":0.75}
             },
             "geometry": {
               "type": "MultiPolygon",
