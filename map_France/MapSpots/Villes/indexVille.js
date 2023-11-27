@@ -88,7 +88,21 @@ for(var i = 0; i < eltsSsPrefPoly.length; i++) {
   var j = await fetchPoly(eltsSsPrefPoly[i]);
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
-    SsPrefPolyGeo0.push(L.geoJson(Pref_j[k], {"style": Pref_j[k].properties.style}));
+    var style0 = {"color": Pref_j[k].properties.color, "weight": 1, "fillOpacity": 0.30}
+    switch (Pref_j[k].properties.type) {
+      case "Main":
+        style0["fillOpacity"] = 0.30;
+        break;
+      case "Banlieue":
+        style0["fillOpacity"] = 0.15;
+        break;
+      case "A_completer":
+        style0["fillOpacity"] = 0;
+        break;
+      default:
+        break;
+    }
+    SsPrefPolyGeo0.push(L.geoJson(Pref_j[k], {"style": style0}));
   }
 }
 

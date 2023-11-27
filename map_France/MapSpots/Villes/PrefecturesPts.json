@@ -210,6 +210,21 @@
                 "coordinates": [43.29648, 5.36978]
             }
         },
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Occitanie",
+                "Departement": "Gard",
+                "Name": "Montpellier",
+                "Code": 34000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.61076, 3.87671]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
@@ -278,6 +293,20 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [48.29734, 4.0744]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Provence-Alpes-Côte-d'Azur",
+                "Departement": "Var",
+                "Name": "Toulon",
+                "Code": 83000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.12422, 5.928]
             }
         },
         {

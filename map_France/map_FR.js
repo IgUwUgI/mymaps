@@ -20,8 +20,7 @@
     import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
     import {VeloGeo} from "./Transports/Velo/indexVelo.js"
     import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-    import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPolyGeo} from "./MapSpots/Villes/indexVille.js"
-    // import { VillesPtsGeo } from "./MapSpots/Villes/indexVille.js";
+    import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPtsGeo, VillesPolyGeo} from "./MapSpots/Villes/indexVille.js"
     
 
 
@@ -61,8 +60,8 @@
     var SsPrefsPolyLayer = L.layerGroup(SsPrefPolyGeo);
     SsPrefsPolyLayer.addTo(mymap)
 
-    // var VillesLayer = L.layerGroup(VillesPtsGeo);
-    // VillesLayer.addTo(mymap)
+    var VillesLayer = L.layerGroup(VillesPtsGeo);
+    VillesLayer.addTo(mymap)
 
     var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
     VillesPolyLayer.addTo(mymap)
