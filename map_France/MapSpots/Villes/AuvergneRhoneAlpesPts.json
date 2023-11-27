@@ -426,26 +426,12 @@
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
-              "Nom": "Chassagny",
+              "Nom": "Beauvallon",
               "Code": "69700"
             },
             "geometry": {
               "type": "Point",
-              "coordinates": [45.60637, 4.73236]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Auvergne-Rhône-Alpes",
-              "Departement": "Rhône",
-              "Nom": "Saint-Jean-de-Touslas",
-              "Code": "69700"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [45.57816, 4.66219]
+              "coordinates": [45.58503, 4.69636]
             }
           },
           {

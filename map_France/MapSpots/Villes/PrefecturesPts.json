@@ -210,13 +210,26 @@
                 "coordinates": [43.29648, 5.36978]
             }
         },
-        
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Île-de-France",
+                "Departement": "Seine-et-Marne",
+                "Name": "Melun",
+                "Code": 77000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.5421, 2.6554]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
                 "COUNTRY": "France",
                 "Region": "Occitanie",
-                "Departement": "Gard",
+                "Departement": "Héraut",
                 "Name": "Montpellier",
                 "Code": 34000
             },

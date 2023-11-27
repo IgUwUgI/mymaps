@@ -3,12 +3,13 @@
       {
         "type": "Feature",
         "properties": {
+          "type": "Main",
           "COUNTRY": "France",
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Crozet",
           "Code": "01170",
-          "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+          "color":"#82589F"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -18,12 +19,13 @@
       {
         "type": "Feature",
         "properties": {
+          "type": "Main",
           "COUNTRY": "France",
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Gex",
           "Code": "01170",
-          "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+          "color":"#82589F"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -33,12 +35,13 @@
       {
         "type": "Feature",
         "properties": {
+          "type": "Main",
           "COUNTRY": "France",
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Lelex",
           "Code": "01410",
-          "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+          "color":"#82589F"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -48,12 +51,13 @@
       {
         "type": "Feature",
         "properties": {
+          "type": "Main",
           "COUNTRY": "France",
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Mijoux",
           "Code": "01410",
-          "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+          "color":"#82589F"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -63,12 +67,13 @@
       {
         "type": "Feature",
         "properties": {
+          "type": "Main",
           "COUNTRY": "France",
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Oyonnax",
           "Code": "01100",
-          "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+          "color":"#82589F"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -76,14 +81,55 @@
         }
       },
       {
+        "type": "Feature",
+        "properties": {
+          "type": "Banlieue",
+          "COUNTRY": "France",
+          "Region": "Auvergne-Rhône-Alpes",
+          "Departement": "Ain",
+          "Nom": "Oyonnax_Banlieue",
+          "Code": "01100",
+          "color":"#82589F"
+        },
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [[[5.6593018160193,46.291769015401],[5.6684879063687,46.301247853855],[5.6845768021754,46.310927537001],[5.714721806193,46.308772354673],[5.7192939761881,46.293462363342],[5.7160491956243,46.279915646538],[5.720112401844,46.265870062788],[5.7251783026651,46.26068696966],[5.7133067507651,46.256629573205],[5.678098789492,46.262535354513],[5.6503229264635,46.274427191671],[5.6593018160193,46.291769015401]]]
+          ],
+          "ordre-villes": "Arbent"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "A_completer",
+          "COUNTRY": "France",
+          "Region": "Auvergne-Rhône-Alpes",
+          "Departement": "Ain",
+          "Nom": "Oyonnax_Banlieue_C",
+          "Code": "01100",
+          "color":"#82589F"
+        },
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [[[5.645386166447,46.219866635332],[5.6351102369755,46.226920258749],[5.6194393748458,46.233858496679],[5.6135435302255,46.240468518148],[5.6204736936254,46.251028002804],[5.6298694016638,46.256854089222],[5.6360038449378,46.260599883051],[5.6408234021021,46.244718236022],[5.6611240284874,46.231157382382],[5.645386166447,46.219866635332]]],
+            [[[5.6135435302255,46.240468518148],[5.6194393748458,46.233858496679],[5.6351102369755,46.226920258749],[5.645386166447,46.219866635332],[5.6405635276983,46.217351448097],[5.6236046625943,46.222912013052],[5.6066278165702,46.214959393552],[5.5903238219946,46.213448055243],[5.5956910938424,46.225134652705],[5.5994655574267,46.239433316775],[5.6135435302255,46.240468518148]]],
+            [[[5.5788203180825,46.195588457034],[5.5903238219946,46.213448055243],[5.6066278165702,46.214959393552],[5.6236046625943,46.222912013052],[5.6405635276983,46.217351448097],[5.6323275070588,46.196970248002],[5.6354118293687,46.184723757717],[5.6224970101513,46.182307864049],[5.6081457658304,46.187270966564],[5.5980056297899,46.193326200958],[5.5788203180825,46.195588457034]]]
+          ],
+          "ordre-villes": ["Bellignat", "Groissiat", "Martignat"]
+        }
+      },
+      {
           "type": "Feature",
           "properties": {
+            "type": "Main",
             "COUNTRY": "France",
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Saint-Etienne-du-Bois",
             "Code": "01350",
-            "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+            "color":"#82589F"
           },
           "geometry": {
             "type": "MultiPolygon",
@@ -93,12 +139,13 @@
         {
           "type": "Feature",
           "properties": {
+            "type": "Main",
             "COUNTRY": "France",
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Les Vans",
             "Code": "07140",
-            "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+            "color":"#82589F"
           },
           "geometry": {
             "type": "MultiPolygon",
@@ -108,12 +155,32 @@
         {
           "type": "Feature",
           "properties": {
+            "type": "Banlieue",
+            "COUNTRY": "France",
+            "Region": "Auvergne-Rhône-Alpes",
+            "Departement": "Ardèche",
+            "Nom": "Les Vans_Banlieue",
+            "Code": "07140",
+            "color":"#82589F"
+          },
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [[[4.1135653565607,44.443715141408],[4.125036363275,44.441878202389],[4.1278539348617,44.446864896685],[4.1445435354091,44.448093704564],[4.144354532538,44.43359654374],[4.142712954356,44.424608057129],[4.1537279376683,44.417520591254],[4.1498317599099,44.415371849458],[4.1566901648362,44.405858845728],[4.1548419343749,44.400707968428],[4.1390006920191,44.411628490086],[4.1266112226367,44.411732494052],[4.1156923689628,44.414060093578],[4.1068096792362,44.411361564351],[4.104947089963,44.414000047317],[4.1091593692319,44.420642234161],[4.1096220635234,44.433732088438],[4.1046080320479,44.440387810963],[4.1135653565607,44.443715141408]]]
+            ],
+            "ordre-villes": ["Chambonas"]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "type": "Main",
             "COUNTRY": "France",
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Payzac",
             "Code": "07230",
-            "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+            "color":"#82589F"
           },
           "geometry": {
             "type": "MultiPolygon",
@@ -123,12 +190,13 @@
         {
           "type": "Feature",
           "properties": {
+            "type":"Main",
             "COUNTRY": "France",
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Cantal",
             "Nom": "Dienne",
             "Code": "15300",
-            "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+            "color":"#82589F"
           },
           "geometry": {
             "type": "MultiPolygon",
@@ -138,12 +206,13 @@
         {
           "type": "Feature",
           "properties": {
+            "type":"Main",
             "COUNTRY": "France",
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Cantal",
             "Nom": "Marcoles",
             "Code": "15220",
-            "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+            "color":"#82589F"
           },
           "geometry": {
             "type": "MultiPolygon",
@@ -153,12 +222,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Buis-les-Baronnies",
               "Code": "26170",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -168,12 +238,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Donzere",
               "Code": "26290",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -183,12 +254,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Ferrassieres",
               "Code": "26570",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -198,12 +270,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Garde-Adhemar",
               "Code": "26700",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -213,12 +286,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Motte-Chalancon",
               "Code": "26470",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -228,12 +302,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montbrun-les-bains",
               "Code": "26570",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -243,27 +318,49 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montelimar",
               "Code": "26200",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
               "coordinates": [[[[4.7411702191089,44.588775228937],[4.7501793109269,44.58863197874],[4.7813177813148,44.583121353606],[4.7906929930693,44.57985322749],[4.7925833903487,44.571382404929],[4.7981749773334,44.565875153821],[4.7924979267601,44.556634965357],[4.7880641121932,44.543850006399],[4.7980530105328,44.538956721393],[4.7981107121398,44.531596301143],[4.7656940098419,44.520556965566],[4.7509632823224,44.520144264964],[4.7333683193073,44.526907928137],[4.7203240586659,44.529836762358],[4.7029703921961,44.536093799338],[4.6936369285978,44.542226212664],[4.692360716096,44.555893769347],[4.6957323063776,44.563072621497],[4.7024424953059,44.559506257526],[4.7070086082734,44.566482686877],[4.7063976351634,44.576312465765],[4.7186719384268,44.574572478538],[4.7320696510306,44.578797967249],[4.7328631598618,44.585888376096],[4.7411702191089,44.588775228937]]]]
             }
           },
+          
           {
             "type": "Feature",
             "properties": {
+              "type":"A_completer",
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Drome",
+              "Nom": "Montelimar_Banlieue_C",
+              "Code": "26200",
+              "color":"#82589F"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [
+                [[[4.7328631598618,44.585888376096],[4.7320696510306,44.578797967249],[4.7186719384268,44.574572478538],[4.7063976351634,44.576312465765],[4.7138573577779,44.583044052178],[4.7328631598618,44.585888376096]]]
+              ],
+              "ordre-villes": ["Ancone"]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Pierrelatte",
               "Code": "26700",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -273,12 +370,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Reilhanette",
               "Code": "26570",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -288,12 +386,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Remuzat",
               "Code": "26510",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -303,12 +402,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Saint-Paul-Trois-Chateaux",
               "Code": "26130",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -318,12 +418,45 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Loire",
+              "Nom": "La Grand-Croix",
+              "Code": "42320",
+              "color":"#82589F"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[4.5390659052721,45.504987137025],[4.5485073656018,45.510651147294],[4.5647384446898,45.514784370033],[4.569640937666,45.510973768262],[4.574597516165,45.497442411626],[4.5651645308556,45.496775448175],[4.5613707889536,45.49311582746],[4.5390659052721,45.504987137025]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type": "Main",
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Loire",
+              "Nom": "L'Horme'",
+              "Code": "42152",
+              "color":"#82589F"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[4.5390659052721,45.504987137025],[4.5613707889536,45.49311582746],[4.5433737170305,45.481457375065],[4.534096861804,45.481415241865],[4.5264738869079,45.485974612177],[4.5252432229613,45.492074221879],[4.5362760295825,45.505626970061],[4.5390659052721,45.504987137025]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Lorette",
               "Code": "42420",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -333,12 +466,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Montrond-les-Bains",
               "Code": "42210",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -348,12 +482,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Rive-de-Gier",
               "Code": "42800",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -363,12 +498,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Saint-Chamond",
               "Code": "42400",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -378,12 +514,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Saint-Paul-en-Jarez",
               "Code": "42740",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -393,12 +530,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Besse-et-Saint-Anastaise",
               "Code": "63610",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -408,12 +546,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "La Bourboule",
               "Code": "63150",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -423,12 +562,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Murol",
               "Code": "63790",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -438,12 +578,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Saint-Ours",
               "Code": "63230",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -453,42 +594,52 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
-              "Nom": "Chassagny",
+              "Nom": "Beauvallon",
               "Code": "69700",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
-              "coordinates": [[[[4.7102787953727,45.618715093353],[4.7119270332885,45.619760046143],[4.7299984767341,45.620718473374],[4.7342116323033,45.61528005795],[4.7581676013424,45.607889949482],[4.7566762611522,45.600396002053],[4.7511207554329,45.593585087409],[4.7313013071952,45.590365748298],[4.720067671333,45.594430927007],[4.7156291240653,45.600871108223],[4.7060076550498,45.605890183966],[4.7019582056884,45.613130909124],[4.7102787953727,45.618715093353]]]]
+              "coordinates": [
+                [[[4.7102787953727,45.618715093353],[4.7119270332885,45.619760046143],[4.7299984767341,45.620718473374],[4.7342116323033,45.61528005795],[4.7581676013424,45.607889949482],[4.7566762611522,45.600396002053],[4.7511207554329,45.593585087409],[4.7313013071952,45.590365748298],[4.720067671333,45.594430927007],[4.7156291240653,45.600871108223],[4.7060076550498,45.605890183966],[4.7019582056884,45.613130909124],[4.7102787953727,45.618715093353]]],
+                [[[4.6492789007153,45.56490904439],[4.655051565973,45.578785517166],[4.6655904096915,45.58860216721],[4.6862220536903,45.576380462726],[4.6873145169173,45.571947133892],[4.6964920180093,45.569278987989],[4.6874938955911,45.558204571972],[4.6831387073324,45.565644636168],[4.6699440512117,45.570285378667],[4.6585848075301,45.56377146269],[4.6492789007153,45.56490904439]]]
+              ],
+              "ordre-villes": ["Chassagny", "Saint-Jean-de-Touslas"]
             }
           },
           {
             "type": "Feature",
             "properties": {
+              "type": "A_completer",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
-              "Nom": "Saint-Jean-de-Touslas",
+              "Nom": "Beauvallon_C",
               "Code": "69700",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
-              "coordinates": [[[[4.6492789007153,45.56490904439],[4.655051565973,45.578785517166],[4.6655904096915,45.58860216721],[4.6862220536903,45.576380462726],[4.6873145169173,45.571947133892],[4.6964920180093,45.569278987989],[4.6874938955911,45.558204571972],[4.6831387073324,45.565644636168],[4.6699440512117,45.570285378667],[4.6585848075301,45.56377146269],[4.6492789007153,45.56490904439]]]]
+              "coordinates": [
+                [[[4.6862220536903,45.576380462726],[4.6655904096915,45.58860216721],[4.6899379898326,45.60492404667],[4.7060076550498,45.605890183966],[4.7156291240653,45.600871108223],[4.720067671333,45.594430927007],[4.7185581850684,45.589152543703],[4.7101325630467,45.586991451106],[4.7127838100769,45.574154129754],[4.7041383992924,45.572020296687],[4.6862220536903,45.576380462726]]]
+              ],
+              "ordre-villes": ["Saint-Andeol-le-Chateau"]
             }
           },
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Saint-Martin-en-Haut",
               "Code": "69850",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -498,12 +649,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Crest-Voland",
               "Code": "73590",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -513,12 +665,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Flumet",
               "Code": "73590",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F", "weight":1
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -528,12 +681,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Hauteluce",
               "Code": "73620",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -543,12 +697,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Notre-Dame-de-Bellecombe",
               "Code": "73590",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -558,12 +713,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Araches-la-Frasse",
               "Code": "74300",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -573,12 +729,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Chamonix-Mont-Blanc",
               "Code": "74400",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -588,12 +745,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Cluses",
               "Code": "74300",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -603,12 +761,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Banlieue",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Cluses_Banlieue",
               "Code": "NA",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.15}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -625,12 +784,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Megeve",
               "Code": "74120",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -640,12 +800,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Morillon",
               "Code": "74440",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -655,12 +816,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Praz-sur-Arly",
               "Code": "74440",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -670,12 +832,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Samoens",
               "Code": "74340",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -685,12 +848,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Sixt-Fer-a-Cheval",
               "Code": "74740",
-              "style":{"color":"#82589F", "weight":1, "fillOpacity":0.30}
+              "color":"#82589F"
             },
             "geometry": {
               "type": "MultiPolygon",
