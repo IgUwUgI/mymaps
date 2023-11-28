@@ -33,20 +33,6 @@
             "properties": {
               "COUNTRY": "France",
               "Region": "Hauts-de-France",
-              "Departement": "Oise",
-              "Nom": "Beauvais",
-              "Code": "60000"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [49.42953, 2.08071]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Hauts-de-France",
               "Departement": "Somme",
               "Nom": "Le Crotoy",
               "Code": "80550"

@@ -6,12 +6,12 @@
             "COUNTRY": "France",
             "Region": "Bretagne",
             "Departement": "Côtes-d'Armor",
-            "Nom": "Binic",
+            "Nom": "Binic-Etables-sur-Mer",
             "Code": "22520"
           },
           "geometry": {
             "type": "Point",
-            "coordinates": [48.60148, -2.82492]
+            "coordinates": [48.61912, -2.83492]
           }
         },
         {
@@ -188,6 +188,20 @@
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
+              "Nom": "Port-Launay",
+              "Code": "29150"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.21509, -4.07309]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
               "Nom": "Quimperlé",
               "Code": "29300"
             },
@@ -230,6 +244,20 @@
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
+              "Nom": "Saint-Ségal",
+              "Code": "29590"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.241, -4.06653]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
               "Nom": "Saint-Thégonnec Loc-Eguiner",
               "Code": "29410"
             },
@@ -244,12 +272,54 @@
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
+              "Nom": "Trebabu",
+              "Code": "29217"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.37049, -4.73546]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
               "Nom": "Tregunc",
               "Code": "29910"
             },
             "geometry": {
               "type": "Point",
               "coordinates": [47.85544, -3.85267]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Paimpont",
+              "Code": "35380"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.01956, -2.17405]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Saint-Malon-sur-Mel",
+              "Code": "35750"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.09352, -2.10071]
             }
           }
     ]

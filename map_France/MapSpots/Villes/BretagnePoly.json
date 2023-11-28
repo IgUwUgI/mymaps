@@ -3,27 +3,51 @@
         {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Côtes-d'Armor",
-              "Nom": "Binic",
+              "Nom": "Binic-Etables-sur-Mer",
               "Code": "22520",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
-              "coordinates": [[[[-2.8087858803032,48.592080268616],[-2.8266310677301,48.587302723944],[-2.8376028816667,48.592210338754],[-2.8384868963686,48.599469389092],[-2.8494752810298,48.603834934431],[-2.8575862857946,48.6007131986],[-2.8608816529391,48.60637944407],[-2.8459085057796,48.61071128201],[-2.8269903830936,48.613781482238],[-2.8182343775138,48.617838043511],[-2.8153839194992,48.609899617724],[-2.8251563129905,48.600303982104],[-2.8196028872168,48.593528075876],[-2.8087858803032,48.592080268616]]]]
+              "coordinates": [
+                [[[-2.8087858803032,48.592080268616],[-2.8266310677301,48.587302723944],[-2.8376028816667,48.592210338754],[-2.8384868963686,48.599469389092],[-2.8494752810298,48.603834934431],[-2.8575862857946,48.6007131986],[-2.8608816529391,48.60637944407],[-2.8459085057796,48.61071128201],[-2.8269903830936,48.613781482238],[-2.8182343775138,48.617838043511],[-2.8153839194992,48.609899617724],[-2.8251563129905,48.600303982104],[-2.8196028872168,48.593528075876],[-2.8087858803032,48.592080268616]]]
+              ],
+              "ordre-villes": ["Binic"]
             }
           },
           {
               "type": "Feature",
               "properties": {
+                "type": "A_completer",
+                "COUNTRY": "France",
+                "Region": "Bretagne",
+                "Departement": "Côtes-d'Armor",
+                "Nom": "Binic-Etables-sur-Mer",
+                "Code": "22520",
+                "color":"#6E7A7D"
+              },
+              "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                  [[[-2.8608816529391,48.60637944407],[-2.8641755293443,48.607261480597],[-2.8633281596444,48.616452234371],[-2.858117059767,48.628094897776],[-2.8467383347471,48.645511761406],[-2.8258477881242,48.643361079722],[-2.8182343775138,48.617838043511],[-2.8269903830936,48.613781482238],[-2.8459085057796,48.61071128201],[-2.8608816529391,48.60637944407]]]
+                ],
+                "ordre-villes": ["Etables-sur-Mer"]
+              }
+            },
+          {
+              "type": "Feature",
+              "properties": {
+                "type": "Main",
                 "COUNTRY": "France",
                 "Region": "Bretagne",
                 "Departement": "Côtes-d'Armor",
                 "Nom": "Pordic",
                 "Code": "22590",
-                "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+                "color":"#6E7A7D"
               },
               "geometry": {
                 "type": "MultiPolygon",
@@ -33,12 +57,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Brennilis",
               "Code": "29690",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -48,12 +73,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Crozon",
               "Code": "29160",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -63,12 +89,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Douarnenez",
               "Code": "29100",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -78,12 +105,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Kerlouan",
               "Code": "29890",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -93,12 +121,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Lanildut",
               "Code": "29840",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -108,12 +137,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Le Conquet",
               "Code": "29217",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -123,12 +153,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Le Faou",
               "Code": "29590",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -138,12 +169,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Locmaria-Plouzané",
               "Code": "29280",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -153,12 +185,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plogoff",
               "Code": "29770",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -168,12 +201,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plomodiern",
               "Code": "29550",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -183,12 +217,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plougonvelin",
               "Code": "29770",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -198,12 +233,29 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
+              "Nom": "Port-Launay",
+              "Code": "29150",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[-4.0686790960291,48.21731717596],[-4.0826531554846,48.216778920901],[-4.0971288613422,48.211139638779],[-4.0994843852675,48.214232919495],[-4.0887128906021,48.222717677935],[-4.0777990390886,48.22509281863],[-4.0686790960291,48.21731717596]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type": "Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Quimperlé",
               "Code": "29300",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -213,12 +265,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Roscanvel",
               "Code": "29570",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -228,12 +281,13 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Saint-Nic",
               "Code": "29550",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -243,12 +297,29 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
+              "Nom": "Saint-Ségal",
+              "Code": "29590",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[-4.065035025352,48.263398489194],[-4.046218822251,48.254679387202],[-4.0420380163838,48.246751999181],[-4.0289603439726,48.239845794724],[-4.0332546131559,48.235167793169],[-4.0444116320295,48.236410398871],[-4.0526408302949,48.236214662483],[-4.0665429083183,48.229657350423],[-4.0699461159711,48.223810670756],[-4.0686790960291,48.21731717596],[-4.0777990390886,48.22509281863],[-4.0887128906021,48.222717677935],[-4.0994843852675,48.214232919495],[-4.0971288613422,48.211139638779],[-4.1089206591942,48.206634276976],[-4.1174882606342,48.214100785996],[-4.1175321579093,48.218293752035],[-4.1143504668231,48.230828692622],[-4.1089246552936,48.240500221035],[-4.0992289578865,48.237432882455],[-4.0850007974879,48.239830981468],[-4.0828867924975,48.247673915568],[-4.0753747992278,48.256041274303],[-4.065035025352,48.263398489194]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Saint-Thégonnec Loc-Eguiner",
               "Code": "29410",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -258,16 +329,65 @@
           {
             "type": "Feature",
             "properties": {
+              "type":"Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
+              "Nom": "Trebabu",
+              "Code": "29217",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[-4.7453651907655,48.356302759321],[-4.7506521883353,48.360128043709],[-4.7463155347754,48.366807677946],[-4.7470539862126,48.367756394663],[-4.7367009777634,48.377442531742],[-4.7238598845695,48.383982387777],[-4.7125676874282,48.381752187688],[-4.720079281182,48.376104370021],[-4.7205583528039,48.366685948558],[-4.7402446067473,48.359648893786],[-4.7453651907655,48.356302759321]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type":"Main",
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Tregunc",
               "Code": "29910",
-              "style":{"color":"#6E7A7D", "weight":1, "fillOpacity":0.30}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
               "coordinates": [[[[-3.8786296538741,47.85985859324],[-3.8546011541576,47.870136887081],[-3.8487423667496,47.879355468645],[-3.8243778289612,47.883149396146],[-3.8159833103601,47.873827153779],[-3.8164630679728,47.866450502167],[-3.8056484177703,47.86625411237],[-3.7964283297038,47.872241376206],[-3.7974590401643,47.852883670912],[-3.7897351197523,47.842916646943],[-3.8003385651471,47.831826531807],[-3.8056283616315,47.820001075466],[-3.8053191046849,47.813449815822],[-3.810804055963,47.794266199553],[-3.8206986898906,47.797035412496],[-3.837052356745,47.797206603832],[-3.84572557896,47.792371643861],[-3.8510640634047,47.795944465815],[-3.8536850991125,47.803179888577],[-3.8653715148318,47.809482207573],[-3.8923444805786,47.83181405626],[-3.9024789053236,47.835940597569],[-3.8947508741191,47.849931650898],[-3.8856654989422,47.857566642225],[-3.8786296538741,47.85985859324]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type":"Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Paimpont",
+              "Code": "35380",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[-2.2805448747503,48.021141981641],[-2.2732905382845,48.031066688064],[-2.2496935818942,48.047711871848],[-2.2389276764401,48.052906969638],[-2.221628555571,48.050885101825],[-2.1937224368739,48.05137685593],[-2.1732539089072,48.062569615512],[-2.1684835856701,48.076205340153],[-2.1560844050334,48.08495920435],[-2.1472466116239,48.085365029233],[-2.1339047418034,48.084973915077],[-2.1232749446358,48.080876057747],[-2.1003696472062,48.075440719737],[-2.0930697972739,48.076527911947],[-2.0914434395673,48.073976935424],[-2.0839410123563,48.066244312049],[-2.0881440529204,48.058700744379],[-2.0851878850816,48.049895860655],[-2.0732758375864,48.048813341355],[-2.0763550550849,48.039871288614],[-2.0703187348869,48.039153343489],[-2.0807763499681,48.028536408337],[-2.0947967158558,48.028006253677],[-2.1047343387019,48.022045414675],[-2.1131761516716,48.001742519298],[-2.1174592739159,47.997873074113],[-2.1356359461381,47.995423254352],[-2.1407223648419,47.991311211996],[-2.1383975046643,47.979735166187],[-2.1534958198305,47.983345608933],[-2.1741360719446,47.979763196453],[-2.1843552422385,47.982080329852],[-2.1934375448781,47.990558846207],[-2.2039507169895,47.993962577836],[-2.2144229306734,47.993240241495],[-2.2255224672225,47.994723032118],[-2.2395885283037,47.99946545839],[-2.2817928808654,47.990960728676],[-2.2875436724891,47.991499296817],[-2.289084836122,48.001031912939],[-2.2755284368087,48.009854335432],[-2.2808005622425,48.015636920079],[-2.2805448747503,48.021141981641]]]]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "type":"Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Saint-Malon-sur-Mel",
+              "Code": "35750",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [[[[-2.1058219049616,48.107387428452],[-2.1025785984482,48.105619071999],[-2.0808120845344,48.106621741297],[-2.0699675807217,48.095951310701],[-2.0807952811993,48.085007311559],[-2.0930697972739,48.076527911947],[-2.1003696472062,48.075440719737],[-2.1232749446358,48.080876057747],[-2.1339047418034,48.084973915077],[-2.1472466116239,48.085365029233],[-2.1485629545438,48.100806217187],[-2.142637499503,48.111751088368],[-2.1358881235323,48.111468563347],[-2.1142257684301,48.107384273601],[-2.1058219049616,48.107387428452]]]]
             }
           }
     ]

@@ -118,7 +118,22 @@ for(var i = 0; i < eltsPoly.length; i++) {
   var j = await fetchPoly(eltsPoly[i]);
   var Ville_j = new Array(j.features)[0];
   for (var k = 0; k <Ville_j.length; k++){
-    VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": Ville_j[k].properties.style}));
+    var style0 = {"color": Ville_j[k].properties.color, "weight": 1, "fillOpacity": 0.30}
+    switch (Ville_j[k].properties.type) {
+      case "Main":
+        style0["fillOpacity"] = 0.30;
+        break;
+      case "Banlieue":
+        style0["fillOpacity"] = 0.15;
+        break;
+      case "A_completer":
+        style0["fillOpacity"] = 0;
+        break;
+      default:
+        style0 = Ville_j[k].properties.style
+        break;
+    }
+    VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": style0}));
   }
 }
 

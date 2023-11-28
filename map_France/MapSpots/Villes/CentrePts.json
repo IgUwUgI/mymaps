@@ -20,6 +20,62 @@
               "COUNTRY": "France",
               "Region": "Centre-ValdeLoire",
               "Departement": "Loiret",
+              "Nom": "Dordives",
+              "Code": "45680"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.14553, 2.76746]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Centre-ValdeLoire",
+              "Departement": "Loiret",
+              "Nom": "Ferrières-en-Gatinais",
+              "Code": "45210"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.09035, 2.78981]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Centre-ValdeLoire",
+              "Departement": "Loiret",
+              "Nom": "Fontenay-sur-Loing",
+              "Code": "45210"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.10392, 2.77351]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Centre-ValdeLoire",
+              "Departement": "Loiret",
+              "Nom": "Nargis",
+              "Code": "45210"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.10936, 2.75711]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Centre-ValdeLoire",
+              "Departement": "Loiret",
               "Nom": "Saint-Firmin-sur-Loire",
               "Code": "45250"
             },
