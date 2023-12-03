@@ -73,6 +73,22 @@
           {
             "type": "Feature",
             "properties": {
+              "type": "Main",
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Finistère",
+              "Nom": "Guilers",
+              "Code": "29820",
+              "color":"#6E7A7D"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.42484, -4.55824]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
               "COUNTRY": "France",
               "Region": "Bretagne",
               "Departement": "Finistère",
@@ -180,20 +196,6 @@
             "geometry": {
               "type": "Point",
               "coordinates": [48.34142, -4.71871]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Port-Launay",
-              "Code": "29150"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.21509, -4.07309]
             }
           },
           {

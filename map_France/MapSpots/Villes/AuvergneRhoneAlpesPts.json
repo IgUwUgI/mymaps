@@ -454,6 +454,20 @@
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
+              "Nom": "Cohennoz",
+              "Code": "73088"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.75737, 6.48116]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Savoie",
               "Nom": "Crest-Voland",
               "Code": "73590"
             },

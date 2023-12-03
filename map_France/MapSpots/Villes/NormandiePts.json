@@ -15,6 +15,22 @@
         }
       },
       {
+          "type": "Feature",
+          "properties": {
+              "COUNTRY": "France",
+              "Region": "Normandie",
+              "Departement": "Manche",
+              "Name": "Biville",
+              "Code": 50440
+          },
+          "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [
+                49.61367, -1.82204
+              ]
+          }
+      },
+      {
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
@@ -26,6 +42,164 @@
         "geometry": {
           "type": "Point",
           "coordinates": [49.67675, -1.46816]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Flamanville",
+          "Code": "50340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [49.53207, -1.8658]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "La Hague",
+          "Code": "50440"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.66396, -1.84856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Les Pieux",
+          "Code": "50340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.51319, -1.8083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Montfarville",
+          "Code": "50760"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.6561, -1.26876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Quettehou",
+          "Code": "50630"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.59252, -1.30272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Saint-Vaast-la-Hougue",
+          "Code": "50630"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.58736, -1.26837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Siouville-Hague",
+          "Code": "50340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.55848, -1.84011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Tréauville",
+          "Code": "50340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.53131, -1.81141
+          ]
+        }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "COUNTRY": "France",
+              "Region": "Normandie",
+              "Departement": "Manche",
+              "Name": "Urville-Nacqueville",
+              "Code": 50460
+          },
+          "geometry": {
+              "type": "MultiPolygon",
+              "coordinates": [
+                49.67444, -1.73679
+              ]
+          }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Normandie",
+          "Departement": "Manche",
+          "Nom": "Valognes",
+          "Code": "50700"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.50959, -1.46921
+          ]
         }
       }
     ]
