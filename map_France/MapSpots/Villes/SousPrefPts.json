@@ -214,6 +214,20 @@
             "type": "Feature",
             "properties": {
                 "COUNTRY": "France",
+                "Region": "Occitanie",
+                "Departement": "Aveyron",
+                "Name": "Millau",
+                "Code": "12100"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [44.10057, 3.0778]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
                 "Region": "Île-de-France",
                 "Departement": "Seine-et-Marne",
                 "Name": "Provins",

@@ -160,6 +160,20 @@
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
+              "Nom": "Barret-de-Lioure",
+              "Code": "26570"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [44.18615, 5.49348]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Drome",
               "Nom": "Donzere",
               "Code": "26290"
             },
@@ -222,6 +236,34 @@
             "geometry": {
               "type": "Point",
               "coordinates": [44.17524, 5.44341]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Drome",
+              "Nom": "Montfroc",
+              "Code": "26560"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [44.17446, 5.63846]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Drome",
+              "Nom": "Mollans-sur-Ouvèze",
+              "Code": "26170"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [44.23723, 5.19174]
             }
           },
           {
