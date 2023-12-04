@@ -32,8 +32,8 @@ var eltsPrefPts = [el2];
 var eltsSsPrefPoly = [el3];
 var eltsSsPrefPts = [el4];
 var eltsPoly = [el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16];
-var eltsPts = [el17, el19, el20, el21, el22, el24, el25, el26, el28];
-// , el18, el23, el27
+var eltsPts = [el17, el19, el20, el21, el22, el23, el24, el25, el26, el28];
+// , el18, el27
 
 var PrefPolyGeo0 = Array();
 var PrefGeo0 = Array();
