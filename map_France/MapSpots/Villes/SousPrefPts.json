@@ -284,6 +284,20 @@
             "type": "Feature",
             "properties": {
                 "COUNTRY": "France",
+                "Region": "Bourgogne-Franche-Comté",
+                "Departement": "Yonne",
+                "Name": "Sens",
+                "Code": 89100
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [48.20065, 3.28268]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
                 "Region": "Auvergne-Rhône-Alpes",
                 "Departement": "Isère",
                 "Name": "Vienne",

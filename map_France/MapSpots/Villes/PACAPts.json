@@ -768,6 +768,36 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Aurel",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.13009, 5.42753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Bédoin",
+          "Code": "84410"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.124, 5.18037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bonnieux",
           "Code": "84480"
         },
@@ -775,6 +805,21 @@
           "type": "Point",
           "coordinates": [
             43.82911, 5.31269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Brantes",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.1932, 5.33361
           ]
         }
       },
@@ -813,6 +858,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Flassan",
+          "Code": "84410"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.09904, 5.24236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Joucas",
           "Code": "84220"
         },
@@ -843,6 +903,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Lagarde-d'Apt",
+          "Code": "84400"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43.98358, 5.47296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Lioux",
           "Code": "84220"
         },
@@ -865,6 +940,36 @@
           "type": "Point",
           "coordinates": [
             43.76347, 5.36258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Mazan",
+          "Code": "84380"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.05637, 5.1276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Monieux",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.06742, 5.35936
           ]
         }
       },
@@ -918,6 +1023,36 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Saint-Christol",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.02793, 5.49281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Saint-Léger-du-Ventoux",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.21228, 5.27651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Saturnin-les-Apt",
           "Code": "84490"
         },
@@ -925,6 +1060,51 @@
           "type": "Point",
           "coordinates": [
             43.94407, 5.38373
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Saint-Trinit",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.10205, 5.46518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Sault",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.09141, 5.40817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Savoillan",
+          "Code": "84390"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.17969, 5.3742
           ]
         }
       },
@@ -955,6 +1135,21 @@
           "type": "Point",
           "coordinates": [
             43.92342, 5.40545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côted'Azur",
+          "Nom": "Villes-sur-Auzon",
+          "Code": "84570"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.05834, 5.23399
           ]
         }
       }
