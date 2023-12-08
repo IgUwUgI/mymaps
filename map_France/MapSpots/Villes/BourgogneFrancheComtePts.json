@@ -50,6 +50,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Arc-et-Senans",
+          "Code": "25610"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.03295, 5.78116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
           "Nom": "Larnod",
           "Code": "25720"
         },
@@ -57,6 +72,21 @@
           "type": "Point",
           "coordinates": [
             47.18773, 5.97353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Nans-sous-Sainte-Anne",
+          "Code": "25420"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.97747, 5.99968
           ]
         }
       },
@@ -95,6 +125,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Rennes-sur-Loue",
+          "Code": "25440"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.01204, 5.85305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
           "Nom": "Saint-Vit",
           "Code": "25410"
         },
@@ -102,6 +147,441 @@
           "type": "Point",
           "coordinates": [
             47.18078, 5.81016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Samson",
+          "Code": "25440"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            47.05329, 5.8784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Bonlieu",
+          "Code": "391300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.60025, 5.85382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Champagnole",
+          "Code": "39300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.74609, 5.90572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Charchilla",
+          "Code": "39260"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.46504, 5.71341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Clairvaux-les-Lacs",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.57623, 5.75173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Coyron",
+          "Code": "39260"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.51194, 5.70636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Doucier",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.65633, 5.7789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Hauts-de-Bienne",
+          "Code": "39400"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.52234, 6.02213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "La Chaux-du-Dombierf",
+          "Code": "39150"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.60422, 5.90374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "La Tour-du-Meix",
+          "Code": "39270"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.52719, 5.66096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Lajoux",
+          "Code": "39310"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.37446, 5.97205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Lamoura",
+          "Code": "39310"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.39666, 5.96468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Le Frasnois",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6384, 5.89916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Les Rousses",
+          "Code": "39400"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.48434, 6.0618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Maisod",
+          "Code": "39260"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.43089, 5.72385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Marigny",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.68202, 5.78458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Menetrux-en-Joux",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.62312, 5.8294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Meussia",
+          "Code": "39260"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.49806, 5.72613
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Moirans-en-Montagne",
+          "Code": "39260"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.47688, 5.69207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Monnet-la-Ville",
+          "Code": "39300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.71889, 5.79467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Montigny-sur-l'Ain",
+          "Code": "39300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.70965, 5.7847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Morbier",
+          "Code": "39400"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.53666, 6.01461
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Moutoux",
+          "Code": "39300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.79086, 5.93943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Nozeroy",
+          "Code": "39250"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.77518, 6.03863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Orgelet",
+          "Code": "39270"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.52252, 5.61296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Pont-de-Poitte",
+          "Code": "39130"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.58555, 5.69662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Pont-du-Navoy",
+          "Code": "39300"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.72453, 5.77776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Prémanon",
+          "Code": "39220"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.46302, 6.03191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Bourgogne-Franche-Comté",
+          "Nom": "Septmoncel-Les-Molunes",
+          "Code": "39310"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.37044, 5.91123
           ]
         }
       },
