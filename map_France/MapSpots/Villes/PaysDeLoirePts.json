@@ -4,9 +4,9 @@
           "type": "Feature",
           "properties": {
             "COUNTRY": "France",
-            "Region": "PaysdelaLoire",
+            "Region": "Pays-de-Loire",
             "Nom": "Batz-sur-Mer",
-            "Code": "44740"
+            "Code": 44740
           },
           "geometry": {
             "type": "Point",
@@ -19,9 +19,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Le Croisic",
-              "Code": "44490"
+              "Code": 44490
             },
             "geometry": {
               "type": "Point",
@@ -34,9 +34,9 @@
               "type": "Feature",
               "properties": {
                 "COUNTRY": "France",
-                "Region": "PaysdelaLoire",
+                "Region": "Pays-de-Loire",
                 "Nom": "La Baule-Escoublac",
-                "Code": "44500"
+                "Code": 44500
               },
               "geometry": {
                 "type": "Point",
@@ -49,9 +49,9 @@
                 "type": "Feature",
                 "properties": {
                   "COUNTRY": "France",
-                  "Region": "PaysdelaLoire",
+                  "Region": "Pays-de-Loire",
                   "Nom": "La Bernerie-en-Retz",
-                  "Code": "44760"
+                  "Code": 44760
                 },
                 "geometry": {
                   "type": "Point",
@@ -64,9 +64,9 @@
                 "type": "Feature",
                 "properties": {
                   "COUNTRY": "France",
-                  "Region": "PaysdelaLoire",
+                  "Region": "Pays-de-Loire",
                   "Nom": "Guérande",
-                  "Code": "44350"
+                  "Code": 44350
                 },
                 "geometry": {
                   "type": "Point",
@@ -79,9 +79,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Les Moutiers-en-Retz",
-                    "Code": "44760"
+                    "Code": 44760
                   },
                   "geometry": {
                     "type": "Point",
@@ -94,9 +94,9 @@
                 "type": "Feature",
                 "properties": {
                   "COUNTRY": "France",
-                  "Region": "PaysdelaLoire",
+                  "Region": "Pays-de-Loire",
                   "Nom": "La Plaine-sur-Mer",
-                  "Code": "44770"
+                  "Code": 44770
                 },
                 "geometry": {
                   "type": "Point",
@@ -109,9 +109,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Pornic",
-                    "Code": "44210"
+                    "Code": 44210
                   },
                   "geometry": {
                     "type": "Point",
@@ -124,9 +124,9 @@
                 "type": "Feature",
                 "properties": {
                   "COUNTRY": "France",
-                  "Region": "PaysdelaLoire",
+                  "Region": "Pays-de-Loire",
                   "Nom": "Pornichet",
-                  "Code": "44380"
+                  "Code": 44380
                 },
                 "geometry": {
                   "type": "Point",
@@ -139,9 +139,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Le Pouliguen",
-                    "Code": "44510"
+                    "Code": 44510
                   },
                   "geometry": {
                     "type": "Point",
@@ -154,9 +154,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Préfailles",
-                    "Code": "44770"
+                    "Code": 44770
                   },
                   "geometry": {
                     "type": "Point",
@@ -169,9 +169,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Saint-Brévin-les-Pins",
-                    "Code": "44250"
+                    "Code": 44250
                   },
                   "geometry": {
                     "type": "Point",
@@ -184,9 +184,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Saint-Michel-Chef-Chef",
-                    "Code": "44730"
+                    "Code": 44730
                   },
                   "geometry": {
                     "type": "Point",
@@ -199,9 +199,9 @@
                   "type": "Feature",
                   "properties": {
                     "COUNTRY": "France",
-                    "Region": "PaysdelaLoire",
+                    "Region": "Pays-de-Loire",
                     "Nom": "Courléon",
-                    "Code": "49390"
+                    "Code": 49390
                   },
                   "geometry": {
                     "type": "Point",
@@ -214,9 +214,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Barbatre",
-              "Code": "85630"
+              "Code": 85630
             },
             "geometry": {
               "type": "Point",
@@ -229,9 +229,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "L'Epine",
-              "Code": "85740"
+              "Code": 85740
             },
             "geometry": {
               "type": "Point",
@@ -244,9 +244,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "La Guérinière",
-              "Code": "85680"
+              "Code": 85680
             },
             "geometry": {
               "type": "Point",
@@ -259,9 +259,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Noirmoutier-en-l'Ile",
-              "Code": "85330"
+              "Code": 85330
             },
             "geometry": {
               "type": "Point",
@@ -274,9 +274,9 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Saint-Gilles-Croix-de-Vie",
-              "Code": "85800"
+              "Code": 85800
             },
             "geometry": {
               "type": "Point",

@@ -8,7 +8,7 @@
               "Region": "Bretagne",
               "Departement": "Côtes-d'Armor",
               "Nom": "Binic-Etables-sur-Mer",
-              "Code": "22520",
+              "Code": 22520,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -27,7 +27,7 @@
                 "Region": "Bretagne",
                 "Departement": "Côtes-d'Armor",
                 "Nom": "Binic-Etables-sur-Mer",
-                "Code": "22520",
+                "Code": 22520,
                 "color":"#6E7A7D"
               },
               "geometry": {
@@ -46,7 +46,7 @@
                   "Region": "Bretagne",
                   "Departement": "Côtes-d'Armor",
                   "Nom": "Binic-Etables-sur-Mer_Banlieue_C",
-                  "Code": "22520",
+                  "Code": 22520,
                   "color":"#6E7A7D"
                 },
                 "geometry": {
@@ -67,7 +67,7 @@
                 "Region": "Bretagne",
                 "Departement": "Côtes-d'Armor",
                 "Nom": "Pordic",
-                "Code": "22590",
+                "Code": 22590,
                 "color":"#6E7A7D"
               },
               "geometry": {
@@ -83,7 +83,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Brennilis",
-              "Code": "29690",
+              "Code": 29690,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -99,7 +99,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Crozon",
-              "Code": "29160",
+              "Code": 29160,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -115,7 +115,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Douarnenez",
-              "Code": "29100",
+              "Code": 29100,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -131,7 +131,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Guilers",
-              "Code": "29820",
+              "Code": 29820,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -147,7 +147,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Kerlouan",
-              "Code": "29890",
+              "Code": 29890,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -163,7 +163,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Porspoder",
-              "Code": "29840",
+              "Code": 29840,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -181,7 +181,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Porspoder_Banlieue",
-              "Code": "29840",
+              "Code": 29840,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -200,7 +200,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Porspoder_Banlieue_C",
-              "Code": "29840",
+              "Code": 29840,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -220,7 +220,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Le Conquet",
-              "Code": "29217",
+              "Code": 29217,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -236,7 +236,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Le Faou",
-              "Code": "29590",
+              "Code": 29590,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -252,7 +252,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Locmaria-Plouzané",
-              "Code": "29280",
+              "Code": 29280,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -268,7 +268,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plogoff",
-              "Code": "29770",
+              "Code": 29770,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -284,7 +284,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plomodiern",
-              "Code": "29550",
+              "Code": 29550,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -300,7 +300,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Plougonvelin",
-              "Code": "29770",
+              "Code": 29770,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -316,7 +316,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Quimperlé",
-              "Code": "29300",
+              "Code": 29300,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -332,7 +332,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Quimperlé_Banlieue_C",
-              "Code": "29300",
+              "Code": 29300,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -351,7 +351,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Roscanvel",
-              "Code": "29570",
+              "Code": 29570,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -367,7 +367,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Saint-Nic",
-              "Code": "29550",
+              "Code": 29550,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -383,7 +383,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Saint-Ségal",
-              "Code": "29590",
+              "Code": 29590,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -399,7 +399,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Saint-Thégonnec Loc-Eguiner",
-              "Code": "29410",
+              "Code": 29410,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -415,7 +415,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Trebabu",
-              "Code": "29217",
+              "Code": 29217,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -431,7 +431,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Concarneau",
-              "Code": "29900",
+              "Code": 29900,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -449,7 +449,7 @@
               "Region": "Bretagne",
               "Departement": "Finistère",
               "Nom": "Concarneau_Banlieue",
-              "Code": "29910",
+              "Code": 29910,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -468,7 +468,7 @@
               "Region": "Bretagne",
               "Departement": "Ille-et-Vilaine",
               "Nom": "Paimpont",
-              "Code": "35380",
+              "Code": 35380,
               "color":"#6E7A7D"
             },
             "geometry": {
@@ -484,7 +484,7 @@
               "Region": "Bretagne",
               "Departement": "Ille-et-Vilaine",
               "Nom": "Saint-Malon-sur-Mel",
-              "Code": "35750",
+              "Code": 35750,
               "color":"#6E7A7D"
             },
             "geometry": {

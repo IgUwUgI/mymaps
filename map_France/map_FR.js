@@ -1,7 +1,10 @@
         
   // Creation de la carte, ouverture centree sur les coordonnees specifiees
   // syntaxe : setview([Nord, Est], zoom)
-  var mymap = L.map('mapid').setView([46.4836, 2.5264], 6);
+  var mymap = L.map('mapid', {
+    zoomDelta: 0.25,
+    zoomSnap: 0
+}).setView([46.4836, 2.5264], 6);
 
   // fond de carte
   var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -15,12 +18,12 @@
 
     import planeIcon from "../assets/assets.js";
     import "../modules/rotated_markers.js";
-    import {createMiddleMarker} from "../modules/fonctions_transverses.js";
+    import {createMiddleMarker, latLngMoyenne} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/indexBus.js"
     import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
     import {VeloGeo} from "./Transports/Velo/indexVelo.js"
     import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-    import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPtsGeo, VillesPolyGeo} from "./MapSpots/Villes/indexVille.js"
+    import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
     
 
 
@@ -34,7 +37,6 @@
           return Avion
         }
         var Avion = await fetchPlane();
-    
 
     // Ajout des json importes sur la carte
     var dptsLayer = L.layerGroup(DptsGeo);
@@ -92,6 +94,9 @@
     var VeloLayer = L.layerGroup(VeloGeo);
     VeloLayer.addTo(mymap);
 
+    var VillesDpt = latLngMoyenne(VillesDpttmp)
+    var VillesReg = latLngMoyenne(VillesRegtmp)
+
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique
 
@@ -144,7 +149,11 @@
     info.addTo(mymap);
     info.update("");
 
-    
+    function zoomChange(e){
+      console.log(mymap.getZoom())
+  };
+
+  mymap.on('zoom', zoomChange);
 
     //Modification de l'encadre au survol d'un objet a la souris, syntaxe generale
     // Les trucs a changer sont monObjet, monTexte, #maNouvelleCouleur

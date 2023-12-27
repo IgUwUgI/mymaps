@@ -104,7 +104,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Alpes-de-Haute-Provence",
                 "Name": "Barcelonette",
-                "Code": "04400",
+                "Code": 4400,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -123,7 +123,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Alpes-de-Haute-Provence",
                 "Name": "Barcelonette_Banlieue_C",
-                "Code": "04400",
+                "Code": 4400,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -206,7 +206,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Hautes-Alpes",
                 "Name": "Briançon",
-                "Code": "05100",
+                "Code": 5100,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -225,7 +225,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Hautes-Alpes",
                 "Name": "Briançon_Banlieue",
-                "Code": "05100",
+                "Code": 5100,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -245,7 +245,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Hautes-Alpes",
                 "Name": "Briançon_Banlieue_C",
-                "Code": "05100",
+                "Code": 5100,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -617,7 +617,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Alpes-de-Haute-Provence",
                 "Name": "Forcalquier",
-                "Code": "04300",
+                "Code": 4300,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -636,7 +636,7 @@
                 "Region": "Provence-Alpes-Côte-d'Azur",
                 "Departement": "Alpes-de-Haute-Provence",
                 "Name": "Forcalquier_Banlieue",
-                "Code": "04300",
+                "Code": 4300,
                 "color":"#EE4C4C"
             },
             "geometry": {
@@ -654,7 +654,7 @@
             "COUNTRY": "France",
             "Region": "Occitanie",
             "Nom": "Millau",
-            "Code": "12100",
+            "Code": 12100,
             "color":"#58B19F"
           },
           "geometry": {
@@ -671,7 +671,7 @@
             "COUNTRY": "France",
             "Region": "Occitanie",
             "Nom": "Millau_Banlieue_C",
-            "Code": "12100",
+            "Code": 12100,
             "color":"#58B19F"
           },
           "geometry": {
@@ -901,7 +901,7 @@
             "COUNTRY": "France",
             "Region": "Bourgogne-Franche-Comté",
             "Nom": "Sens",
-            "Code": "89100",
+            "Code": 89100,
             "color":"#CD6133"
           },
           "geometry": {
@@ -920,7 +920,7 @@
             "Region": "Bourgogne-Franche-Comté",
             "Departement": "Sens",
             "Nom": "Sens",
-            "Code": "89100",
+            "Code": 89100,
             "color":"#CD6133"
           },
           "geometry": {

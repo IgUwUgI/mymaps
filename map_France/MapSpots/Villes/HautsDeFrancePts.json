@@ -7,7 +7,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Aisne",
               "Nom": "Chamouille",
-              "Code": "02860"
+              "Code": 2860
             },
             "geometry": {
               "type": "Point",
@@ -21,7 +21,7 @@
                 "Region": "Hauts-de-France",
                 "Departement": "Aisne",
                 "Nom": "Neuville-sur-Ailette",
-                "Code": "02860"
+                "Code": 2860
               },
               "geometry": {
                 "type": "Point",
@@ -35,7 +35,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Somme",
               "Nom": "Le Crotoy",
-              "Code": "80550"
+              "Code": 80550
             },
             "geometry": {
               "type": "Point",
@@ -49,7 +49,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Somme",
               "Nom": "Saint-Valéry-sur-Somme",
-              "Code": "80230"
+              "Code": 80230
             },
             "geometry": {
               "type": "Point",

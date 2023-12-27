@@ -7,7 +7,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Banon",
-          "Code": "04150",
+          "Code": 4150,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -24,7 +24,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bevons",
-          "Code": "04200",
+          "Code": 4200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -41,7 +41,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Céreste",
-          "Code": "04280",
+          "Code": 4280,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -58,7 +58,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Curel",
-          "Code": "04200",
+          "Code": 4200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -75,7 +75,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Jausiers",
-          "Code": "04850",
+          "Code": 4850,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -92,7 +92,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "La Condamine-Chatelard",
-          "Code": "04530",
+          "Code": 4530,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -109,7 +109,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Le Lauzet-Ubaye",
-          "Code": "04340",
+          "Code": 4340,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -126,7 +126,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Les Omergues",
-          "Code": "04200",
+          "Code": 4200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -143,7 +143,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Manosque",
-          "Code": "04100",
+          "Code": 4100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -160,7 +160,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Manosque_Banlieue",
-          "Code": "04100",
+          "Code": 4100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -180,7 +180,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Noyers-sur-Jabron",
-          "Code": "04200",
+          "Code": 4200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -197,7 +197,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Ongles",
-          "Code": "04230",
+          "Code": 4230,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -214,7 +214,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Oppedette",
-          "Code": "04110",
+          "Code": 4110,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -231,7 +231,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Reillanne",
-          "Code": "04110",
+          "Code": 4110,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -248,7 +248,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Revest-des-Brousses",
-          "Code": "04150",
+          "Code": 4150,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -265,7 +265,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Revest-du-Bion",
-          "Code": "04150",
+          "Code": 4150,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -282,7 +282,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Michel-l'Observatoire",
-          "Code": "04870",
+          "Code": 4870,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -299,7 +299,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Paul-sur-Ubaye",
-          "Code": "04530",
+          "Code": 4530,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -316,7 +316,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Vincent-sur-Jabron",
-          "Code": "04530",
+          "Code": 4530,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -333,7 +333,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Sainte-Croix-du-Verdon",
-          "Code": "04500",
+          "Code": 4500,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -350,7 +350,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Simiane-la-Rotonde",
-          "Code": "04150",
+          "Code": 4150,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -367,7 +367,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Sisteron",
-          "Code": "04200",
+          "Code": 4200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -384,7 +384,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Ubaye-Serre-Poncon",
-          "Code": "04340",
+          "Code": 4340,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -403,7 +403,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Val d'Oronaye",
-          "Code": "04530",
+          "Code": 4530,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -420,7 +420,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Barret-sur-Méouge",
-          "Code": "05300",
+          "Code": 5300,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -437,7 +437,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cervières",
-          "Code": "05100",
+          "Code": 5100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -454,7 +454,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Chateau-Ville-Vieille",
-          "Code": "05350",
+          "Code": 5350,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -471,7 +471,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Embrun",
-          "Code": "05200",
+          "Code": 5200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -488,7 +488,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Embrun_Banlieue",
-          "Code": "05200",
+          "Code": 5200,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -507,7 +507,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Eygliers",
-          "Code": "05600",
+          "Code": 5600,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -524,7 +524,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Guillestre",
-          "Code": "05600",
+          "Code": 5600,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -541,7 +541,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Le Monetier-les-Bains",
-          "Code": "05220",
+          "Code": 5220,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -558,7 +558,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Mont-Dauphin",
-          "Code": "05600",
+          "Code": 5600,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -575,7 +575,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Montgenèvre",
-          "Code": "05100",
+          "Code": 5100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -592,7 +592,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Névache",
-          "Code": "05100",
+          "Code": 5100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -609,7 +609,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Crépin",
-          "Code": "05600",
+          "Code": 5600,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -626,7 +626,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Clément-sur-Durance",
-          "Code": "05600",
+          "Code": 5600,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -643,7 +643,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Véran",
-          "Code": "05350",
+          "Code": 5350,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -660,7 +660,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Savines-le-Lac",
-          "Code": "05160",
+          "Code": 5160,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -677,7 +677,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Serres",
-          "Code": "05700",
+          "Code": 5700,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -694,7 +694,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Val-des-Prés",
-          "Code": "05100",
+          "Code": 5100,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -711,7 +711,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cassis",
-          "Code": "13260",
+          "Code": 13260,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -728,7 +728,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cassis_Banlieue_C",
-          "Code": "13260",
+          "Code": 13260,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -745,7 +745,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "La Roque-d'Anthéron",
-          "Code": "13640",
+          "Code": 13640,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -762,7 +762,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Lancon-Provence",
-          "Code": "13680",
+          "Code": 13680,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -779,7 +779,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Salon-de-Provence",
-          "Code": "13300",
+          "Code": 13300,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -796,7 +796,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Salon-de-Provence_Banlieue",
-          "Code": "13300",
+          "Code": 13300,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -815,7 +815,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Paul-les-Durance",
-          "Code": "13115",
+          "Code": 13115,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -832,7 +832,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Rémy-de-Provence",
-          "Code": "13115",
+          "Code": 13115,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -849,7 +849,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saintes-Maries-de-la-Mer",
-          "Code": "13460",
+          "Code": 13460,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -866,7 +866,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bormes-les-Mimosas-Le-Lavandou",
-          "Code": "83230",
+          "Code": 83230,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -885,7 +885,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bormes-les-Mimosas-Le-Lavandou_C",
-          "Code": "83230",
+          "Code": 83230,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -903,7 +903,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cavalaire-sur-Mer",
-          "Code": "83240",
+          "Code": 83240,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -920,7 +920,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cavalaire-sur-Mer_Banlieue_C",
-          "Code": "83240",
+          "Code": 83240,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -938,7 +938,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "La Londe-les-Maures",
-          "Code": "83250",
+          "Code": 83250,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -955,7 +955,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Tropez",
-          "Code": "83990",
+          "Code": 83990,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -972,7 +972,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Tropez_Banlieue_C",
-          "Code": "83990",
+          "Code": 83990,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -991,7 +991,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Aurel",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1008,7 +1008,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bédoin",
-          "Code": "84410",
+          "Code": 84410,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1025,7 +1025,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Bonnieux",
-          "Code": "84480",
+          "Code": 84480,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1042,7 +1042,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Brantes",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1059,7 +1059,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Buoux",
-          "Code": "84480",
+          "Code": 84480,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1076,7 +1076,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cadenet",
-          "Code": "84160",
+          "Code": 84160,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1093,7 +1093,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cadenet_Banlieue",
-          "Code": "84160",
+          "Code": 84160,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1111,7 +1111,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Cadenet_Banlieue_C",
-          "Code": "84160",
+          "Code": 84160,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1131,7 +1131,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Flassan",
-          "Code": "84410",
+          "Code": 84410,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1148,7 +1148,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Joucas",
-          "Code": "84220",
+          "Code": 84220,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1165,7 +1165,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Lacoste",
-          "Code": "84480",
+          "Code": 84480,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1182,7 +1182,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
         "Nom": "Lagarde-d'Apt",
-          "Code": "84400",
+          "Code": 84400,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1199,7 +1199,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Lioux",
-          "Code": "84220",
+          "Code": 84220,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1216,7 +1216,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Mazan",
-          "Code": "84380",
+          "Code": 84380,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1233,7 +1233,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Monieux",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1250,7 +1250,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Murs",
-          "Code": "84220",
+          "Code": 84220,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1267,7 +1267,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Roussillon",
-          "Code": "84220",
+          "Code": 84220,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1284,7 +1284,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Rustrel",
-          "Code": "84400",
+          "Code": 84400,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1301,7 +1301,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Christol",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1318,7 +1318,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Léger-du-Ventoux",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1335,7 +1335,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Saturnin-les-Apt",
-          "Code": "84490",
+          "Code": 84490,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1352,7 +1352,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Saturnin-les-Apt_Banlieue",
-          "Code": "84490",
+          "Code": 84490,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1370,7 +1370,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Sault",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1387,7 +1387,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Savoillan",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1404,7 +1404,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Saint-Trinit",
-          "Code": "84390",
+          "Code": 84390,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1421,7 +1421,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Sivergues",
-          "Code": "84400",
+          "Code": 84400,
           "color":"#EE4C4C"
         },
         "geometry": {
@@ -1438,7 +1438,7 @@
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côted'Azur",
           "Nom": "Villes-sur-Auzon",
-          "Code": "84570",
+          "Code": 84570,
           "color":"#EE4C4C"
         },
         "geometry": {

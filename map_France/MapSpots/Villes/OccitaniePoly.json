@@ -7,7 +7,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Aigues-Mortes",
-              "Code": "30220",
+              "Code": 30220,
               "color":"#58B19F"
             },
             "geometry": {
@@ -24,7 +24,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Aimargues",
-              "Code": "30470",
+              "Code": 30470,
               "color":"#58B19F"
             },
             "geometry": {
@@ -41,7 +41,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Bagnols-sur-Cèze",
-              "Code": "30200",
+              "Code": 30200,
               "color":"#58B19F"
             },
             "geometry": {
@@ -58,7 +58,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Bagnols-sur-Cèze_Banlieue",
-              "Code": "30200",
+              "Code": 30200,
               "color":"#58B19F"
             },
             "geometry": {
@@ -78,7 +78,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Bagnols-sur-Cèze_Banlieue_C",
-              "Code": "30200",
+              "Code": 30200,
               "color":"#58B19F"
             },
             "geometry": {
@@ -96,7 +96,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Beaucaire",
-              "Code": "30300",
+              "Code": 30300,
               "color":"#58B19F"
             },
             "geometry": {
@@ -114,7 +114,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Beaucaire_Banlieue_PACA",
-              "Code": "30300",
+              "Code": 30300,
               "color":"#EE4C4C"
             },
             "geometry": {
@@ -132,7 +132,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Connaux",
-              "Code": "30330",
+              "Code": 30330,
               "color":"#58B19F"
             },
             "geometry": {
@@ -149,7 +149,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Connaux_Banlieue_C",
-              "Code": "30300",
+              "Code": 30300,
               "color":"#58B19F"
             },
             "geometry": {
@@ -167,7 +167,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Cailar",
-              "Code": "30740",
+              "Code": 30740,
               "color":"#58B19F"
             },
             "geometry": {
@@ -184,7 +184,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Lédenon",
-              "Code": "30210",
+              "Code": 30210,
               "color":"#58B19F"
             },
             "geometry": {
@@ -201,7 +201,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Grau-du-Roi",
-              "Code": "30240",
+              "Code": 30240,
               "color":"#58B19F"
             },
             "geometry": {
@@ -218,7 +218,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Grau-du-Roi_Banlieue",
-              "Code": "30240",
+              "Code": 30240,
               "color":"#58B19F"
             },
             "geometry": {
@@ -236,7 +236,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Vigan",
-              "Code": "30120",
+              "Code": 30120,
               "color":"#58B19F"
             },
             "geometry": {
@@ -253,7 +253,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Vigan_Banlieue",
-              "Code": "30120",
+              "Code": 30120,
               "color":"#58B19F"
             },
             "geometry": {
@@ -274,7 +274,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Le Vigan_Banlieue_C",
-              "Code": "30120",
+              "Code": 30120,
               "color":"#58B19F"
             },
             "geometry": {
@@ -293,7 +293,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Pont-Saint-Esprit",
-              "Code": "30130",
+              "Code": 30130,
               "color":"#58B19F"
             },
             "geometry": {
@@ -310,7 +310,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Pont-Saint-Esprit_Banlieue_C",
-              "Code": "30130",
+              "Code": 30130,
               "color":"#58B19F"
             },
             "geometry": {
@@ -330,7 +330,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Saint-Gilles",
-              "Code": "30800",
+              "Code": 30800,
               "color":"#58B19F"
             },
             "geometry": {
@@ -347,7 +347,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Saint-Laurent-d'Aigouze",
-              "Code": "30220",
+              "Code": 30220,
               "color":"#58B19F"
             },
             "geometry": {
@@ -364,7 +364,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Sumène",
-              "Code": "30440",
+              "Code": 30440,
               "color":"#58B19F"
             },
             "geometry": {
@@ -381,7 +381,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Uzes",
-              "Code": "30700",
+              "Code": 30700,
               "color":"#58B19F"
             },
             "geometry": {
@@ -398,7 +398,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Uzes_Banlieue",
-              "Code": "30700",
+              "Code": 30700,
               "color":"#58B19F"
             },
             "geometry": {
@@ -416,7 +416,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Uzes_Banlieue_C",
-              "Code": "30700",
+              "Code": 30700,
               "color":"#58B19F"
             },
             "geometry": {
@@ -435,7 +435,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Val d'Aigoual",
-              "Code": "30570",
+              "Code": 30570,
               "color":"#58B19F"
             },
             "geometry": {
@@ -454,7 +454,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Vauvert",
-              "Code": "30600",
+              "Code": 30600,
               "color":"#58B19F"
             },
             "geometry": {
@@ -471,7 +471,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Vergèze",
-              "Code": "30310",
+              "Code": 30310,
               "color":"#58B19F"
             },
             "geometry": {
@@ -488,7 +488,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Vergèze_Banlieue",
-              "Code": "30310",
+              "Code": 30310,
               "color":"#58B19F"
             },
             "geometry": {
@@ -507,7 +507,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Vers-Pont-du-Gard",
-              "Code": "30210",
+              "Code": 30210,
               "color":"#58B19F"
             },
             "geometry": {
@@ -524,7 +524,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Clermont-l'Hérault",
-              "Code": "34800",
+              "Code": 34800,
               "color":"#58B19F"
             },
             "geometry": {
@@ -541,7 +541,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Clermont-l'Hérault_Banlieue_C",
-              "Code": "34800",
+              "Code": 34800,
               "color":"#58B19F"
             },
             "geometry": {
@@ -560,7 +560,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Mauguio",
-              "Code": "34130",
+              "Code": 34130,
               "color":"#58B19F"
             },
             "geometry": {
@@ -577,7 +577,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Palavas-les-Flots",
-              "Code": "34250",
+              "Code": 34250,
               "color":"#58B19F"
             },
             "geometry": {
@@ -594,7 +594,7 @@
               "COUNTRY": "France",
               "Region": "Occitanie",
               "Nom": "Gatuzières",
-              "Code": "48150",
+              "Code": 48150,
               "color":"#58B19F"
             },
             "geometry": {

@@ -5,9 +5,9 @@
             "properties": {
               "type": "Main",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Pornic",
-              "Code": "44210",
+              "Code": 44210,
               "color":"#6D214F"
             },
             "geometry": {
@@ -22,9 +22,9 @@
               "properties": {
                 "type": "Banlieue",
                 "COUNTRY": "France",
-                "Region": "PaysdelaLoire",
+                "Region": "Pays-de-Loire",
                 "Nom": "Pornic_Banlieue",
-                "Code": "44210",
+                "Code": 44210,
                 "color":"#6D214F"
               },
               "geometry": {
@@ -41,9 +41,9 @@
                 "properties": {
                   "type": "Banlieue",
                   "COUNTRY": "France",
-                  "Region": "PaysdelaLoire",
+                  "Region": "Pays-de-Loire",
                   "Nom": "Courléon",
-                  "Code": "49390",
+                  "Code": 49390,
                   "color":"#6D214F"
                 },
                 "geometry": {
@@ -58,9 +58,9 @@
             "properties": {
               "type": "Main",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Barbatre",
-              "Code": "85630",
+              "Code": 85630,
               "color":"#6D214F"
             },
             "geometry": {
@@ -75,9 +75,9 @@
             "properties": {
               "type": "Main",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "L'Epine",
-              "Code": "85740",
+              "Code": 85740,
               "color":"#6D214F"
             },
             "geometry": {
@@ -92,9 +92,9 @@
             "properties": {
               "type": "Banlieue",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "L'Epine_Banlieue",
-              "Code": "85740",
+              "Code": 85740,
               "color":"#6D214F"
             },
             "geometry": {
@@ -109,9 +109,9 @@
             "properties": {
               "type": "Main",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Noirmoutier-en-l'Ile",
-              "Code": "85330",
+              "Code": 85330,
               "color":"#6D214F"
             },
             "geometry": {
@@ -126,9 +126,9 @@
             "properties": {
               "type": "Main",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Saint-Gilles-Croix-de-Vie",
-              "Code": "85330",
+              "Code": 85330,
               "color":"#6D214F"
             },
             "geometry": {
@@ -143,9 +143,9 @@
             "properties": {
               "type": "Banlieue",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Saint-Gilles-Croix-de-Vie_Banlieue",
-              "Code": "85330",
+              "Code": 85330,
               "color":"#6D214F"
             },
             "geometry": {
@@ -162,9 +162,9 @@
             "properties": {
               "type": "A_completer",
               "COUNTRY": "France",
-              "Region": "PaysdelaLoire",
+              "Region": "Pays-de-Loire",
               "Nom": "Saint-Gilles-Croix-de-Vie_Banlieue_C",
-              "Code": "85330",
+              "Code": 85330,
               "color":"#6D214F"
             },
             "geometry": {

@@ -33,6 +33,27 @@ var eltsSsPrefPoly = [el3];
 var eltsSsPrefPts = [el4];
 var eltsPoly = [el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16];
 var eltsPts = [el17, el18, el19, el20, el21, el22, el23, el24, el25, el26, el27, el28];
+
+var Regions = {
+  "Auvergne-Rhône-Alpes": 0,
+  "Bourgogne-Franche-Comté": 1,
+  "Bretagne": 2,
+  "Centre-Val-de-Loire": 3,
+  "Corse": 4,
+  "Grand-Est": 5,
+  "Hauts-de-France": 6,
+  "Île-de-France": 7,
+  "Normandie": 8,
+  "Nouvelle-Aquitaine": 9,
+  "Occitanie": 10,
+  "Provence-Alpes-Côte-d'Azur": 11,
+  "Pays-de-Loire": 12,
+  "Guadeloupe": 13,
+  "Guyane": 14,
+  "La Réunion": 15,
+  "Martinique": 16,
+  "Mayotte": 17
+}
 // 
 
 var PrefPolyGeo0 = Array();
@@ -41,6 +62,18 @@ var SsPrefPolyGeo0 = Array();
 var SsPrefGeo0 = Array();
 var VillesPolyGeo0 = Array();
 var VillesPtsGeo0 = Array();
+var VillesZoomDpt = Array(96);
+var VillesZoomReg = Array(18);
+
+var VillesDpttmp0 = Array(96);
+var VillesRegtmp0 = Array(18);
+
+for(i = 0; i < 96; i++) {
+  VillesDpttmp0[i] = []
+}
+for(i = 0; i < 18; i++) {
+  VillesRegtmp0[i] = []
+}
 
 async function fetchPoly(file) {
     const res = await fetch(file);
@@ -68,6 +101,7 @@ for(var i = 0; i < eltsPrefPoly.length; i++) {
         break;
       case "A_completer":
         style0["fillOpacity"] = 0;
+        style0["opacity"] = 0.3;
         break;
       default:
         break;
@@ -81,9 +115,11 @@ for(var i = 0; i < eltsPrefPts.length; i++) {
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
     PrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+    VillesDpttmp0[Pref_j[k].properties.Code/1000].push(Pref_j[k]);
+    VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
-
+console.log(VillesRegtmp0)
 for(var i = 0; i < eltsSsPrefPoly.length; i++) {
   var j = await fetchPoly(eltsSsPrefPoly[i]);
   var Pref_j = new Array(j.features)[0];
@@ -98,6 +134,7 @@ for(var i = 0; i < eltsSsPrefPoly.length; i++) {
         break;
       case "A_completer":
         style0["fillOpacity"] = 0;
+        style0["opacity"] = 0.3;
         break;
       default:
         break;
@@ -111,6 +148,8 @@ for(var i = 0; i < eltsSsPrefPts.length; i++) {
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
     SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code/1000)].push(Pref_j[k]);
+    VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
 
@@ -128,6 +167,7 @@ for(var i = 0; i < eltsPoly.length; i++) {
         break;
       case "A_completer":
         style0["fillOpacity"] = 0;
+        style0["opacity"] = 0.3;
         break;
       default:
         style0 = Ville_j[k].properties.style
@@ -142,8 +182,12 @@ for(var i = 0; i < eltsPts.length; i++) {
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
     VillesPtsGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
+    console.log(Pref_j[k].properties.Region);
+    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code/1000)].push(Pref_j[k]);
+    VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
+
 
 export const PrefPolyGeo = PrefPolyGeo0;
 export const PrefGeo = PrefGeo0;
@@ -151,3 +195,5 @@ export const SsPrefPolyGeo = SsPrefPolyGeo0;
 export const SsPrefGeo = SsPrefGeo0;
 export const VillesPolyGeo = VillesPolyGeo0;
 export const VillesPtsGeo = VillesPtsGeo0;
+export const VillesDpttmp = VillesDpttmp0;
+export const VillesRegtmp = VillesRegtmp0;

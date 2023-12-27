@@ -8,7 +8,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Crozet",
-          "Code": "01170",
+          "Code": 1170,
           "color":"#82589F"
         },
         "geometry": {
@@ -24,7 +24,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Crozet_Banlieue_C",
-          "Code": "01170",
+          "Code": 1170,
           "color":"#82589F"
         },
         "geometry": {
@@ -43,7 +43,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Gex",
-          "Code": "01170",
+          "Code": 1170,
           "color":"#82589F"
         },
         "geometry": {
@@ -59,7 +59,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Gex",
-          "Code": "01170",
+          "Code": 1170,
           "color":"#82589F"
         },
         "geometry": {
@@ -79,7 +79,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Echenevex",
-          "Code": "01170",
+          "Code": 1170,
           "color":"#82589F"
         },
         "geometry": {
@@ -95,7 +95,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Lelex",
-          "Code": "01410",
+          "Code": 1410,
           "color":"#82589F"
         },
         "geometry": {
@@ -111,7 +111,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Mijoux",
-          "Code": "01410",
+          "Code": 1410,
           "color":"#82589F"
         },
         "geometry": {
@@ -127,7 +127,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Oyonnax",
-          "Code": "01100",
+          "Code": 1100,
           "color":"#82589F"
         },
         "geometry": {
@@ -143,7 +143,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Oyonnax_Banlieue",
-          "Code": "01100",
+          "Code": 1100,
           "color":"#82589F"
         },
         "geometry": {
@@ -162,7 +162,7 @@
           "Region": "Auvergne-Rhône-Alpes",
           "Departement": "Ain",
           "Nom": "Oyonnax_Banlieue_C",
-          "Code": "01100",
+          "Code": 1100,
           "color":"#82589F"
         },
         "geometry": {
@@ -183,7 +183,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Saint-Etienne-du-Bois",
-            "Code": "01350",
+            "Code": 1350,
             "color":"#82589F"
           },
           "geometry": {
@@ -199,7 +199,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Les Vans",
-            "Code": "07140",
+            "Code": 7140,
             "color":"#82589F"
           },
           "geometry": {
@@ -215,7 +215,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Les Vans_Banlieue",
-            "Code": "07140",
+            "Code": 7140,
             "color":"#82589F"
           },
           "geometry": {
@@ -235,7 +235,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Les Vans_Banlieue_C",
-            "Code": "07140",
+            "Code": 7140,
             "color":"#82589F"
           },
           "geometry": {
@@ -254,7 +254,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ardèche",
             "Nom": "Payzac",
-            "Code": "07230",
+            "Code": 7230,
             "color":"#82589F"
           },
           "geometry": {
@@ -270,7 +270,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Cantal",
             "Nom": "Dienne",
-            "Code": "15300",
+            "Code": 15300,
             "color":"#82589F"
           },
           "geometry": {
@@ -286,7 +286,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Cantal",
             "Nom": "Marcoles",
-            "Code": "15220",
+            "Code": 15220,
             "color":"#82589F"
           },
           "geometry": {
@@ -302,7 +302,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Drome",
             "Nom": "Barret-de-Lioure",
-            "Code": "26570",
+            "Code": 26570,
             "color":"#82589F"
           },
           "geometry": {
@@ -320,7 +320,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Buis-les-Baronnies",
-              "Code": "26170",
+              "Code": 26170,
               "color":"#82589F"
             },
             "geometry": {
@@ -336,7 +336,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Donzere",
-              "Code": "26290",
+              "Code": 26290,
               "color":"#82589F"
             },
             "geometry": {
@@ -352,7 +352,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Ferrassieres",
-              "Code": "26570",
+              "Code": 26570,
               "color":"#82589F"
             },
             "geometry": {
@@ -368,7 +368,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Garde-Adhemar",
-              "Code": "26700",
+              "Code": 26700,
               "color":"#82589F"
             },
             "geometry": {
@@ -384,7 +384,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Motte-Chalancon",
-              "Code": "26470",
+              "Code": 26470,
               "color":"#82589F"
             },
             "geometry": {
@@ -400,7 +400,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Mollans-sur-Ouvèze",
-              "Code": "26170",
+              "Code": 26170,
               "color":"#82589F"
             },
             "geometry": {
@@ -418,7 +418,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montbrun-les-bains",
-              "Code": "26570",
+              "Code": 26570,
               "color":"#82589F"
             },
             "geometry": {
@@ -434,7 +434,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montfroc",
-              "Code": "26560",
+              "Code": 26560,
               "color":"#82589F"
             },
             "geometry": {
@@ -452,7 +452,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montelimar",
-              "Code": "26200",
+              "Code": 26200,
               "color":"#82589F"
             },
             "geometry": {
@@ -469,7 +469,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montelimar_Banlieue_C",
-              "Code": "26200",
+              "Code": 26200,
               "color":"#82589F"
             },
             "geometry": {
@@ -498,7 +498,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Pierrelatte",
-              "Code": "26700",
+              "Code": 26700,
               "color":"#82589F"
             },
             "geometry": {
@@ -514,7 +514,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Reilhanette",
-              "Code": "26570",
+              "Code": 26570,
               "color":"#82589F"
             },
             "geometry": {
@@ -530,7 +530,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Remuzat",
-              "Code": "26510",
+              "Code": 26510,
               "color":"#82589F"
             },
             "geometry": {
@@ -546,7 +546,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Saint-Paul-Trois-Chateaux",
-              "Code": "26130",
+              "Code": 26130,
               "color":"#82589F"
             },
             "geometry": {
@@ -562,7 +562,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Saint-Paul-Trois-Chateaux",
-              "Code": "26130",
+              "Code": 26130,
               "color":"#82589F"
             },
             "geometry": {
@@ -581,7 +581,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Montrond-les-Bains",
-              "Code": "42210",
+              "Code": 42210,
               "color":"#82589F"
             },
             "geometry": {
@@ -597,7 +597,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Besse-et-Saint-Anastaise",
-              "Code": "63610",
+              "Code": 63610,
               "color":"#82589F"
             },
             "geometry": {
@@ -613,7 +613,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "La Bourboule",
-              "Code": "63150",
+              "Code": 63150,
               "color":"#82589F"
             },
             "geometry": {
@@ -629,7 +629,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "La Bourboule_Banlieue",
-              "Code": "63150",
+              "Code": 63150,
               "color":"#82589F"
             },
             "geometry": {
@@ -648,7 +648,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Murol",
-              "Code": "63790",
+              "Code": 63790,
               "color":"#82589F"
             },
             "geometry": {
@@ -664,7 +664,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Saint-Ours",
-              "Code": "63230",
+              "Code": 63230,
               "color":"#82589F"
             },
             "geometry": {
@@ -680,7 +680,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Beauvallon",
-              "Code": "69700",
+              "Code": 69700,
               "color":"#82589F"
             },
             "geometry": {
@@ -700,7 +700,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Beauvallon_C",
-              "Code": "69700",
+              "Code": 69700,
               "color":"#82589F"
             },
             "geometry": {
@@ -719,7 +719,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Saint-Martin-en-Haut",
-              "Code": "69850",
+              "Code": 69850,
               "color":"#82589F"
             },
             "geometry": {
@@ -735,7 +735,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Cohennoz",
-              "Code": "73088",
+              "Code": 73088,
               "color":"#82589F"
             },
             "geometry": {
@@ -751,7 +751,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Crest-Voland",
-              "Code": "73590",
+              "Code": 73590,
               "color":"#82589F"
             },
             "geometry": {
@@ -767,7 +767,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Hauteluce",
-              "Code": "73620",
+              "Code": 73620,
               "color":"#82589F"
             },
             "geometry": {
@@ -783,7 +783,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Notre-Dame-de-Bellecombe",
-              "Code": "73590",
+              "Code": 73590,
               "color":"#82589F"
             },
             "geometry": {
@@ -799,7 +799,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Araches-la-Frasse",
-              "Code": "74300",
+              "Code": 74300,
               "color":"#82589F"
             },
             "geometry": {
@@ -815,7 +815,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Chamonix-Mont-Blanc",
-              "Code": "74400",
+              "Code": 74400,
               "color":"#82589F"
             },
             "geometry": {
@@ -831,7 +831,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Chamonix-Mont-Blanc_Banlieue",
-              "Code": "74400",
+              "Code": 74400,
               "color":"#82589F"
             },
             "geometry": {
@@ -850,7 +850,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Cluses",
-              "Code": "74300",
+              "Code": 74300,
               "color":"#82589F"
             },
             "geometry": {
@@ -923,7 +923,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Passy",
-              "Code": "74190",
+              "Code": 74190,
               "color":"#82589F", "weight":1
             },
             "geometry": {
@@ -941,7 +941,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Sallanches",
-              "Code": "74700",
+              "Code": 74700,
               "color":"#82589F", "weight":1
             },
             "geometry": {
@@ -959,7 +959,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Sallanches_Banlieue",
-              "Code": "74700",
+              "Code": 74700,
               "color":"#82589F", "weight":1
             },
             "geometry": {
@@ -985,7 +985,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Sallanches_Banlieue_C",
-              "Code": "74700",
+              "Code": 74700,
               "color":"#82589F", "weight":1
             },
             "geometry": {
@@ -1015,7 +1015,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Samoens",
-              "Code": "74340",
+              "Code": 74340,
               "color":"#82589F"
             },
             "geometry": {
@@ -1031,7 +1031,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Samoens_Banlieue",
-              "Code": "74440",
+              "Code": 74440,
               "color":"#82589F"
             },
             "geometry": {
@@ -1051,7 +1051,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Sixt-Fer-a-Cheval",
-              "Code": "74740",
+              "Code": 74740,
               "color":"#82589F"
             },
             "geometry": {

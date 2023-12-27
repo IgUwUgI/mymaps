@@ -4,10 +4,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Bourgueuil",
-          "Code": "37140"
+          "Code": 37140
         },
         "geometry": {
           "type": "Point",
@@ -18,10 +18,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Candes-Saint-Martin",
-          "Code": "37500"
+          "Code": 37500
         },
         "geometry": {
           "type": "Point",
@@ -32,10 +32,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Channay-sur-Lathan",
-          "Code": "37330"
+          "Code": 37330
         },
         "geometry": {
           "type": "Point",
@@ -46,10 +46,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Continvoir",
-          "Code": "37340"
+          "Code": 37340
         },
         "geometry": {
           "type": "Point",
@@ -60,10 +60,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Courcelles-de-Touraine",
-          "Code": "37330"
+          "Code": 37330
         },
         "geometry": {
           "type": "Point",
@@ -74,10 +74,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Gizeux",
-          "Code": "37340"
+          "Code": 37340
         },
         "geometry": {
           "type": "Point",
@@ -88,10 +88,10 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Centre-ValdeLoire",
+          "Region": "Centre-Val-de-Loire",
           "Departement": "Indre-et-Loire",
           "Nom": "Rillé",
-          "Code": "37340"
+          "Code": 37340
         },
         "geometry": {
           "type": "Point",
@@ -102,10 +102,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Briare",
-              "Code": "45250"
+              "Code": 45250
             },
             "geometry": {
               "type": "Point",
@@ -116,10 +116,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Dordives",
-              "Code": "45680"
+              "Code": 45680
             },
             "geometry": {
               "type": "Point",
@@ -130,10 +130,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Ferrières-en-Gatinais",
-              "Code": "45210"
+              "Code": 45210
             },
             "geometry": {
               "type": "Point",
@@ -144,10 +144,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Fontenay-sur-Loing",
-              "Code": "45210"
+              "Code": 45210
             },
             "geometry": {
               "type": "Point",
@@ -158,10 +158,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Nargis",
-              "Code": "45210"
+              "Code": 45210
             },
             "geometry": {
               "type": "Point",
@@ -172,10 +172,10 @@
             "type": "Feature",
             "properties": {
               "COUNTRY": "France",
-              "Region": "Centre-ValdeLoire",
+              "Region": "Centre-Val-de-Loire",
               "Departement": "Loiret",
               "Nom": "Saint-Firmin-sur-Loire",
-              "Code": "45250"
+              "Code": 45250
             },
             "geometry": {
               "type": "Point",

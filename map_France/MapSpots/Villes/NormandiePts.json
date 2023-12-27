@@ -7,7 +7,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Barfleur",
-          "Code": "50760"
+          "Code": 50760
         },
         "geometry": {
           "type": "Point",
@@ -37,7 +37,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Fermanville",
-          "Code": "50840"
+          "Code": 50840
         },
         "geometry": {
           "type": "Point",
@@ -51,7 +51,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Flamanville",
-          "Code": "50340"
+          "Code": 50340
         },
         "geometry": {
           "type": "Point",
@@ -65,7 +65,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "La Hague",
-          "Code": "50440"
+          "Code": 50440
         },
         "geometry": {
           "type": "Point",
@@ -81,7 +81,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Les Pieux",
-          "Code": "50340"
+          "Code": 50340
         },
         "geometry": {
           "type": "Point",
@@ -97,7 +97,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Montfarville",
-          "Code": "50760"
+          "Code": 50760
         },
         "geometry": {
           "type": "Point",
@@ -113,7 +113,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Quettehou",
-          "Code": "50630"
+          "Code": 50630
         },
         "geometry": {
           "type": "Point",
@@ -129,7 +129,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Saint-Vaast-la-Hougue",
-          "Code": "50630"
+          "Code": 50630
         },
         "geometry": {
           "type": "Point",
@@ -145,7 +145,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Siouville-Hague",
-          "Code": "50340"
+          "Code": 50340
         },
         "geometry": {
           "type": "Point",
@@ -161,7 +161,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Tréauville",
-          "Code": "50340"
+          "Code": 50340
         },
         "geometry": {
           "type": "Point",
@@ -193,7 +193,7 @@
           "Region": "Normandie",
           "Departement": "Manche",
           "Nom": "Valognes",
-          "Code": "50700"
+          "Code": 50700
         },
         "geometry": {
           "type": "Point",

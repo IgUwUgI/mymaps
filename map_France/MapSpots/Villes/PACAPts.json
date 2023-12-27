@@ -4,9 +4,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Banon",
-          "Code": "04150"
+          "Code": 4150
         },
         "geometry": {
           "type": "Point",
@@ -19,9 +19,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Bevons",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -34,9 +34,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Céreste",
-          "Code": "04280"
+          "Code": 4280
         },
         "geometry": {
           "type": "Point",
@@ -49,9 +49,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Curel",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -64,9 +64,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Jausiers",
-          "Code": "04850"
+          "Code": 4850
         },
         "geometry": {
           "type": "Point",
@@ -79,9 +79,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "La Condamine-Chatelard",
-          "Code": "04530"
+          "Code": 4530
         },
         "geometry": {
           "type": "Point",
@@ -94,9 +94,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Le Lauzet-Ubaye",
-          "Code": "04340"
+          "Code": 4340
         },
         "geometry": {
           "type": "Point",
@@ -109,9 +109,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Les Omergues",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -124,9 +124,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Manosque",
-          "Code": "04100"
+          "Code": 4100
         },
         "geometry": {
           "type": "Point",
@@ -139,9 +139,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Noyers-sur-Jabron",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -154,9 +154,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Ongles",
-          "Code": "04230"
+          "Code": 4230
         },
         "geometry": {
           "type": "Point",
@@ -169,9 +169,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Oppedette",
-          "Code": "04110"
+          "Code": 4110
         },
         "geometry": {
           "type": "Point",
@@ -184,9 +184,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Reillanne",
-          "Code": "04110"
+          "Code": 4110
         },
         "geometry": {
           "type": "Point",
@@ -199,9 +199,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Revest-des-Brousses",
-          "Code": "04150"
+          "Code": 4150
         },
         "geometry": {
           "type": "Point",
@@ -214,9 +214,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Revest-du-Bion",
-          "Code": "04150"
+          "Code": 4150
         },
         "geometry": {
           "type": "Point",
@@ -229,9 +229,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Paul-sur-Ubaye",
-          "Code": "04530"
+          "Code": 4530
         },
         "geometry": {
           "type": "Point",
@@ -244,9 +244,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Michel-l'Observatoire",
-          "Code": "04870"
+          "Code": 4870
         },
         "geometry": {
           "type": "Point",
@@ -259,9 +259,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Vincent-sur-Jabron",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -274,9 +274,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Sainte-Croix-du-Verdon",
-          "Code": "04500"
+          "Code": 4500
         },
         "geometry": {
           "type": "Point",
@@ -289,9 +289,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Simiane-la-Rotonde",
-          "Code": "04150"
+          "Code": 4150
         },
         "geometry": {
           "type": "Point",
@@ -304,9 +304,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Sisteron",
-          "Code": "04200"
+          "Code": 4200
         },
         "geometry": {
           "type": "Point",
@@ -319,9 +319,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Ubaye-Serre-Poncon",
-          "Code": "04340"
+          "Code": 4340
         },
         "geometry": {
           "type": "Point",
@@ -334,9 +334,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Barret-sur-Méouge",
-          "Code": "05300"
+          "Code": 5300
         },
         "geometry": {
           "type": "Point",
@@ -349,9 +349,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Cervières",
-          "Code": "05100"
+          "Code": 5100
         },
         "geometry": {
           "type": "Point",
@@ -364,9 +364,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Chateau-Ville-Vieille",
-          "Code": "05350"
+          "Code": 5350
         },
         "geometry": {
           "type": "Point",
@@ -379,9 +379,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Embrun",
-          "Code": "05200"
+          "Code": 5200
         },
         "geometry": {
           "type": "Point",
@@ -394,9 +394,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Eygliers",
-          "Code": "05600"
+          "Code": 5600
         },
         "geometry": {
           "type": "Point",
@@ -409,9 +409,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Guillestre",
-          "Code": "05600"
+          "Code": 5600
         },
         "geometry": {
           "type": "Point",
@@ -424,9 +424,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Le Monetier-les-Bains",
-          "Code": "05220"
+          "Code": 5220
         },
         "geometry": {
           "type": "Point",
@@ -439,9 +439,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Mont-Dauphin",
-          "Code": "05600"
+          "Code": 5600
         },
         "geometry": {
           "type": "Point",
@@ -454,9 +454,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Montgenèvre",
-          "Code": "05100"
+          "Code": 5100
         },
         "geometry": {
           "type": "Point",
@@ -469,9 +469,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Névache",
-          "Code": "05100"
+          "Code": 5100
         },
         "geometry": {
           "type": "Point",
@@ -484,9 +484,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Clément-sur-Durance",
-          "Code": "05600"
+          "Code": 5600
         },
         "geometry": {
           "type": "Point",
@@ -499,9 +499,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Crépin",
-          "Code": "05600"
+          "Code": 5600
         },
         "geometry": {
           "type": "Point",
@@ -514,9 +514,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Véran",
-          "Code": "05350"
+          "Code": 5350
         },
         "geometry": {
           "type": "Point",
@@ -529,8 +529,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Savines-le-Lac",
-          "Code": "05160"
+          "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Savines-le-Lac",
+          "Code": 5160
         },
         "geometry": {
           "type": "Point",
@@ -543,8 +544,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Serres",
-          "Code": "05700"
+          "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Serres",
+          "Code": 5700
         },
         "geometry": {
           "type": "Point",
@@ -557,9 +559,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Val-des-Prés",
-          "Code": "05100"
+          "Code": 5100
         },
         "geometry": {
           "type": "Point",
@@ -572,9 +574,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Cassis",
-          "Code": "13260"
+          "Code": 13260
         },
         "geometry": {
           "type": "Point",
@@ -587,9 +589,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "La Roque-d'Anthéron",
-          "Code": "13640"
+          "Code": 13640
         },
         "geometry": {
           "type": "Point",
@@ -602,9 +604,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Lancon-Provence",
-          "Code": "13680"
+          "Code": 13680
         },
         "geometry": {
           "type": "Point",
@@ -617,9 +619,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Salon-de-Provence",
-          "Code": "13300"
+          "Code": 13300
         },
         "geometry": {
           "type": "Point",
@@ -632,9 +634,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Paul-les-Durance",
-          "Code": "13115"
+          "Code": 13115
         },
         "geometry": {
           "type": "Point",
@@ -647,9 +649,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Rémy-de-Provence",
-          "Code": "13115"
+          "Code": 13115
         },
         "geometry": {
           "type": "Point",
@@ -662,9 +664,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saintes-Maries-de-la-Mer",
-          "Code": "13460"
+          "Code": 13460
         },
         "geometry": {
           "type": "Point",
@@ -677,9 +679,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Tarascon",
-          "Code": "13150"
+          "Code": 13150
         },
         "geometry": {
           "type": "Point",
@@ -692,9 +694,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Borme-les-Mimosas",
-          "Code": "83230"
+          "Code": 83230
         },
         "geometry": {
           "type": "Point",
@@ -707,9 +709,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Cavamaire-sur-Mer",
-          "Code": "83240"
+          "Code": 83240
         },
         "geometry": {
           "type": "Point",
@@ -722,9 +724,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "La Londe-les-Maures",
-          "Code": "83250"
+          "Code": 83250
         },
         "geometry": {
           "type": "Point",
@@ -737,9 +739,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Le Lavandou",
-          "Code": "83980"
+          "Code": 83980
         },
         "geometry": {
           "type": "Point",
@@ -752,9 +754,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Tropez",
-          "Code": "83990"
+          "Code": 83990
         },
         "geometry": {
           "type": "Point",
@@ -767,9 +769,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Aurel",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -782,9 +784,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Bédoin",
-          "Code": "84410"
+          "Code": 84410
         },
         "geometry": {
           "type": "Point",
@@ -797,9 +799,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Bonnieux",
-          "Code": "84480"
+          "Code": 84480
         },
         "geometry": {
           "type": "Point",
@@ -812,9 +814,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Brantes",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -827,9 +829,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Buoux",
-          "Code": "84480"
+          "Code": 84480
         },
         "geometry": {
           "type": "Point",
@@ -842,9 +844,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Cadenet",
-          "Code": "84160"
+          "Code": 84160
         },
         "geometry": {
           "type": "Point",
@@ -857,9 +859,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Flassan",
-          "Code": "84410"
+          "Code": 84410
         },
         "geometry": {
           "type": "Point",
@@ -872,9 +874,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Joucas",
-          "Code": "84220"
+          "Code": 84220
         },
         "geometry": {
           "type": "Point",
@@ -887,9 +889,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Lacoste",
-          "Code": "84480"
+          "Code": 84480
         },
         "geometry": {
           "type": "Point",
@@ -902,9 +904,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Lagarde-d'Apt",
-          "Code": "84400"
+          "Code": 84400
         },
         "geometry": {
           "type": "Point",
@@ -917,9 +919,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Lioux",
-          "Code": "84220"
+          "Code": 84220
         },
         "geometry": {
           "type": "Point",
@@ -932,9 +934,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Lourmarin",
-          "Code": "84160"
+          "Code": 84160
         },
         "geometry": {
           "type": "Point",
@@ -947,9 +949,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Mazan",
-          "Code": "84380"
+          "Code": 84380
         },
         "geometry": {
           "type": "Point",
@@ -962,9 +964,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Monieux",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -977,9 +979,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Murs",
-          "Code": "84220"
+          "Code": 84220
         },
         "geometry": {
           "type": "Point",
@@ -992,9 +994,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Roussillon",
-          "Code": "84220"
+          "Code": 84220
         },
         "geometry": {
           "type": "Point",
@@ -1007,9 +1009,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Rustrel",
-          "Code": "84400"
+          "Code": 84400
         },
         "geometry": {
           "type": "Point",
@@ -1022,9 +1024,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Christol",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -1037,9 +1039,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Léger-du-Ventoux",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -1052,9 +1054,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Saturnin-les-Apt",
-          "Code": "84490"
+          "Code": 84490
         },
         "geometry": {
           "type": "Point",
@@ -1067,9 +1069,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Saint-Trinit",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -1082,9 +1084,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Sault",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -1097,9 +1099,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Savoillan",
-          "Code": "84390"
+          "Code": 84390
         },
         "geometry": {
           "type": "Point",
@@ -1112,9 +1114,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Sivergues",
-          "Code": "84400"
+          "Code": 84400
         },
         "geometry": {
           "type": "Point",
@@ -1127,9 +1129,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Villars",
-          "Code": "84400"
+          "Code": 84400
         },
         "geometry": {
           "type": "Point",
@@ -1142,9 +1144,9 @@
         "type": "Feature",
         "properties": {
           "COUNTRY": "France",
-          "Region": "Provence-Alpes-Côted'Azur",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Villes-sur-Auzon",
-          "Code": "84570"
+          "Code": 84570
         },
         "geometry": {
           "type": "Point",

@@ -8,7 +8,7 @@
               "Region": "Normandie",
               "Departement": "Manche",
               "Nom": "Barfleur",
-              "Code": "50760",
+              "Code": 50760,
               "color":"#58B19F"
             },
             "geometry": {
@@ -24,7 +24,7 @@
               "Region": "Normandie",
               "Departement": "Manche",
               "Nom": "Fermanville",
-              "Code": "50840",
+              "Code": 50840,
               "color":"#58B19F"
             },
             "geometry": {
@@ -59,7 +59,7 @@
               "Region": "Normandie",
               "Departement": "Manche",
               "Nom": "La Hague",
-              "Code": "50440",
+              "Code": 50440,
               "color":"#58B19F"
             },
             "geometry": {
@@ -87,7 +87,7 @@
               "Region": "Normandie",
               "Departement": "Manche",
               "Nom": "La Hague_C",
-              "Code": "50440",
+              "Code": 50440,
               "color":"#58B19F"
             },
             "geometry": {

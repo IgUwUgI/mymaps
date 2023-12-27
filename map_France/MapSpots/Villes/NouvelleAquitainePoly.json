@@ -7,7 +7,7 @@
             "COUNTRY": "France",
             "Region": "Nouvelle-Aquitaine",
             "Nom": "Ars-en-Ré",
-            "Code": "17590",
+            "Code": 17590,
             "color":"#FF793F"
           },
           "geometry": {
@@ -24,7 +24,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Ars-en-Ré_Banlieue",
-              "Code": "17590",
+              "Code": 17590,
               "color":"#FF793F"
             },
             "geometry": {
@@ -42,7 +42,7 @@
                 "COUNTRY": "France",
                 "Region": "Nouvelle-Aquitaine",
                 "Nom": "Ars-en-Ré_Banlieue_C",
-                "Code": "17590",
+                "Code": 17590,
                 "color":"#FF793F"
               },
               "geometry": {
@@ -62,7 +62,7 @@
             "COUNTRY": "France",
             "Region": "Nouvelle-Aquitaine",
             "Nom": "Le Bois-Plage-en-Ré",
-            "Code": "17580",
+            "Code": 17580,
             "color":"#FF793F"
           },
           "geometry": {
@@ -79,7 +79,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Rivedoux-Plage",
-              "Code": "17940",
+              "Code": 17940,
               "color":"#FF793F"
             },
             "geometry": {
@@ -96,7 +96,7 @@
                 "COUNTRY": "France",
                 "Region": "Nouvelle-Aquitaine",
                 "Nom": "Sainte-Marie-de-Ré",
-                "Code": "17740",
+                "Code": 17740,
                 "color":"#FF793F"
               },
               "geometry": {
@@ -113,7 +113,7 @@
                   "COUNTRY": "France",
                   "Region": "Nouvelle-Aquitaine",
                   "Nom": "Bort-les-Orgues",
-                  "Code": "19110",
+                  "Code": 19110,
                   "color":"#FF793F"
                 },
                 "geometry": {
@@ -130,7 +130,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Lacanau",
-              "Code": "33680",
+              "Code": 33680,
               "color":"#FF793F"
             },
             "geometry": {
@@ -147,7 +147,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Aixe-sur-Vienne",
-              "Code": "87700",
+              "Code": 87700,
               "color":"#FF793F"
             },
             "geometry": {
@@ -164,7 +164,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Saint-Priest-sous-Aixe",
-              "Code": "87700",
+              "Code": 87700,
               "color":"#FF793F"
             },
             "geometry": {
@@ -181,7 +181,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Chaillac-sur-Vienne",
-              "Code": "87200",
+              "Code": 87200,
               "color":"#FF793F"
             },
             "geometry": {
@@ -198,7 +198,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Oradour-sur-Glane",
-              "Code": "87520",
+              "Code": 87520,
               "color":"#FF793F"
             },
             "geometry": {
@@ -215,7 +215,7 @@
               "COUNTRY": "France",
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Saint-Junien",
-              "Code": "87200",
+              "Code": 87200,
               "color":"#FF793F"
             },
             "geometry": {

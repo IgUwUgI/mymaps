@@ -28,3 +28,23 @@ export function createMiddleMarker(map, line, icon) {
       return L.marker(newLatLng, {icon : icon}).setRotationAngle(calcRotationAngle(map, line, 45));
     }
   }
+
+  export function l(map, array) {
+    var sumLat = 0;
+    var sumLng = 0;
+    var res = new Array(array.length)
+    for (i = 0; i < res.length; i++) {
+      res[i] = 0
+    }
+
+    for (i = 0; i < array.length; i++) {
+      for (j = 0; j < array[i].length; i++){
+        projection = map.project(array[i][j].coordinates)
+        sumLat = sumLat + array[i][j].coordinates[0]
+        sumLng = sumLng + array[i][j].coordinates[1]
+      }
+      res[i] = [sumLat / array[j].length, sumLng / array[j].length]
+    }
+
+    return res
+  }

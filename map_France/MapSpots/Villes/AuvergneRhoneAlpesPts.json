@@ -7,7 +7,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Crozet",
-            "Code": "01170"
+            "Code": 1170
           },
           "geometry": {
             "type": "Point",
@@ -21,7 +21,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Gex",
-            "Code": "01170"
+            "Code": 1170
           },
           "geometry": {
             "type": "Point",
@@ -35,7 +35,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Lelex",
-            "Code": "01410"
+            "Code": 1410
           },
           "geometry": {
             "type": "Point",
@@ -49,7 +49,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Mijoux",
-            "Code": "01410"
+            "Code": 1410
           },
           "geometry": {
             "type": "Point",
@@ -63,7 +63,7 @@
             "Region": "Auvergne-Rhône-Alpes",
             "Departement": "Ain",
             "Nom": "Oyonnax",
-            "Code": "01100"
+            "Code": 1100
           },
           "geometry": {
             "type": "Point",
@@ -77,7 +77,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Ain",
               "Nom": "Saint-Etienne-du-Bois",
-              "Code": "01350"
+              "Code": 1350
             },
             "geometry": {
               "type": "Point",
@@ -91,7 +91,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Ardèche",
               "Nom": "Les Vans",
-              "Code": "07140"
+              "Code": 7140
             },
             "geometry": {
               "type": "Point",
@@ -105,7 +105,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Ardèche",
               "Nom": "Payzac",
-              "Code": "07230"
+              "Code": 7230
             },
             "geometry": {
               "type": "Point",
@@ -119,7 +119,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Cantal",
               "Nom": "Dienne",
-              "Code": "15300"
+              "Code": 15300
             },
             "geometry": {
               "type": "Point",
@@ -133,7 +133,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Cantal",
               "Nom": "Marcoles",
-              "Code": "15220"
+              "Code": 15220
             },
             "geometry": {
               "type": "Point",
@@ -147,7 +147,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Buis-les-Baronnies",
-              "Code": "26170"
+              "Code": 26170
             },
             "geometry": {
               "type": "Point",
@@ -161,7 +161,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Barret-de-Lioure",
-              "Code": "26570"
+              "Code": 26570
             },
             "geometry": {
               "type": "Point",
@@ -175,7 +175,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Donzere",
-              "Code": "26290"
+              "Code": 26290
             },
             "geometry": {
               "type": "Point",
@@ -189,7 +189,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Ferrassieres",
-              "Code": "26570"
+              "Code": 26570
             },
             "geometry": {
               "type": "Point",
@@ -203,7 +203,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Garde-Adhemar",
-              "Code": "26700"
+              "Code": 26700
             },
             "geometry": {
               "type": "Point",
@@ -217,7 +217,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "La Motte-Chalancon",
-              "Code": "26470"
+              "Code": 26470
             },
             "geometry": {
               "type": "Point",
@@ -231,7 +231,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montbrun-les-bains",
-              "Code": "26570"
+              "Code": 26570
             },
             "geometry": {
               "type": "Point",
@@ -245,7 +245,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montfroc",
-              "Code": "26560"
+              "Code": 26560
             },
             "geometry": {
               "type": "Point",
@@ -259,7 +259,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Mollans-sur-Ouvèze",
-              "Code": "26170"
+              "Code": 26170
             },
             "geometry": {
               "type": "Point",
@@ -273,7 +273,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Montelimar",
-              "Code": "26200"
+              "Code": 26200
             },
             "geometry": {
               "type": "Point",
@@ -287,7 +287,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Pierrelatte",
-              "Code": "26700"
+              "Code": 26700
             },
             "geometry": {
               "type": "Point",
@@ -301,7 +301,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Reilhanette",
-              "Code": "26570"
+              "Code": 26570
             },
             "geometry": {
               "type": "Point",
@@ -315,7 +315,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Remuzat",
-              "Code": "26510"
+              "Code": 26510
             },
             "geometry": {
               "type": "Point",
@@ -329,7 +329,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Drome",
               "Nom": "Saint-Paul-Trois-Chateaux",
-              "Code": "26130"
+              "Code": 26130
             },
             "geometry": {
               "type": "Point",
@@ -343,7 +343,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Lorette",
-              "Code": "42420"
+              "Code": 42420
             },
             "geometry": {
               "type": "Point",
@@ -357,7 +357,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Montrond-les-Bains",
-              "Code": "42210"
+              "Code": 42210
             },
             "geometry": {
               "type": "Point",
@@ -371,7 +371,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Rive-de-Gier",
-              "Code": "42800"
+              "Code": 42800
             },
             "geometry": {
               "type": "Point",
@@ -385,7 +385,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Saint-Chamond",
-              "Code": "42400"
+              "Code": 42400
             },
             "geometry": {
               "type": "Point",
@@ -399,7 +399,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Loire",
               "Nom": "Saint-Paul-en-Jarez",
-              "Code": "42740"
+              "Code": 42740
             },
             "geometry": {
               "type": "Point",
@@ -413,7 +413,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Besse-et-Saint-Anastaise",
-              "Code": "63610"
+              "Code": 63610
             },
             "geometry": {
               "type": "Point",
@@ -427,7 +427,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "La Bourboule",
-              "Code": "63150"
+              "Code": 63150
             },
             "geometry": {
               "type": "Point",
@@ -441,7 +441,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Murol",
-              "Code": "63790"
+              "Code": 63790
             },
             "geometry": {
               "type": "Point",
@@ -455,7 +455,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Puy-de-Dôme",
               "Nom": "Saint-Ours",
-              "Code": "63230"
+              "Code": 63230
             },
             "geometry": {
               "type": "Point",
@@ -469,7 +469,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Beauvallon",
-              "Code": "69700"
+              "Code": 69700
             },
             "geometry": {
               "type": "Point",
@@ -483,7 +483,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Rhône",
               "Nom": "Saint-Martin-en-Haut",
-              "Code": "69850"
+              "Code": 69850
             },
             "geometry": {
               "type": "Point",
@@ -497,7 +497,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Cohennoz",
-              "Code": "73088"
+              "Code": 73088
             },
             "geometry": {
               "type": "Point",
@@ -511,7 +511,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Crest-Voland",
-              "Code": "73590"
+              "Code": 73590
             },
             "geometry": {
               "type": "Point",
@@ -525,7 +525,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Flumet",
-              "Code": "73590"
+              "Code": 73590
             },
             "geometry": {
               "type": "Point",
@@ -539,7 +539,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Hauteluce",
-              "Code": "73620"
+              "Code": 73620
             },
             "geometry": {
               "type": "Point",
@@ -553,7 +553,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Savoie",
               "Nom": "Notre-Dame-de-Bellecombe",
-              "Code": "73590"
+              "Code": 73590
             },
             "geometry": {
               "type": "Point",
@@ -567,7 +567,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Araches-la-Frasse",
-              "Code": "74300"
+              "Code": 74300
             },
             "geometry": {
               "type": "Point",
@@ -581,7 +581,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Chamonix-Mont-Blanc",
-              "Code": "74400"
+              "Code": 74400
             },
             "geometry": {
               "type": "Point",
@@ -595,7 +595,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Cluses",
-              "Code": "74300"
+              "Code": 74300
             },
             "geometry": {
               "type": "Point",
@@ -609,7 +609,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Megeve",
-              "Code": "74120"
+              "Code": 74120
             },
             "geometry": {
               "type": "Point",
@@ -623,7 +623,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Morillon",
-              "Code": "74440"
+              "Code": 74440
             },
             "geometry": {
               "type": "Point",
@@ -637,7 +637,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Praz-sur-Arly",
-              "Code": "74440"
+              "Code": 74440
             },
             "geometry": {
               "type": "Point",
@@ -651,7 +651,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Samoens",
-              "Code": "74340"
+              "Code": 74340
             },
             "geometry": {
               "type": "Point",
@@ -665,7 +665,7 @@
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Haute-Savoie",
               "Nom": "Sixt-Fer-a-Cheval",
-              "Code": "74740"
+              "Code": 74740
             },
             "geometry": {
               "type": "Point",

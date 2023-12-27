@@ -6,7 +6,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Ars-en-Ré",
-          "Code": "17590"
+          "Code": 17590
         },
         "geometry": {
           "type": "Point",
@@ -21,7 +21,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Bois-Plage-en-Ré",
-          "Code": "17580"
+          "Code": 17580
         },
         "geometry": {
           "type": "Point",
@@ -36,7 +36,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Rivedoux-Plage",
-          "Code": "17940"
+          "Code": 17940
         },
         "geometry": {
           "type": "Point",
@@ -51,7 +51,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Saint-Clément-des-Baleines",
-          "Code": "17590"
+          "Code": 17590
         },
         "geometry": {
           "type": "Point",
@@ -66,7 +66,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Sainte-Marie-de-Ré",
-          "Code": "17740"
+          "Code": 17740
         },
         "geometry": {
           "type": "Point",
@@ -81,7 +81,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Bort-les-Orgues",
-          "Code": "19110"
+          "Code": 19110
         },
         "geometry": {
           "type": "Point",
@@ -96,7 +96,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Lacanau",
-          "Code": "33680"
+          "Code": 33680
         },
         "geometry": {
           "type": "Point",
@@ -111,7 +111,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Chaillac-sur-Vienne",
-          "Code": "87200"
+          "Code": 87200
         },
         "geometry": {
           "type": "Point",
@@ -126,7 +126,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Oradour-sur-Glane",
-          "Code": "87520"
+          "Code": 87520
         },
         "geometry": {
           "type": "Point",
@@ -141,7 +141,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Saint-Junien",
-          "Code": "87200"
+          "Code": 87200
         },
         "geometry": {
           "type": "Point",
@@ -156,7 +156,7 @@
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
           "Nom": "Saint-Priest-sous-Aixe",
-          "Code": "87700"
+          "Code": 87700
         },
         "geometry": {
           "type": "Point",

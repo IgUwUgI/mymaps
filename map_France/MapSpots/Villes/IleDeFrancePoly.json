@@ -7,7 +7,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Arbonne-la-Forêt",
-              "Code": "77630",
+              "Code": 77630,
               "color":"#BDC581"
             },
             "geometry": {
@@ -24,7 +24,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Blandy",
-              "Code": "77115",
+              "Code": 77115,
               "color":"#BDC581"
             },
             "geometry": {
@@ -41,7 +41,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Bois-le-Roi",
-              "Code": "77590",
+              "Code": 77590,
               "color":"#BDC581"
             },
             "geometry": {
@@ -58,7 +58,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Bois-le-Roi_Banlieue",
-              "Code": "77590",
+              "Code": 77590,
               "color":"#BDC581"
             },
             "geometry": {
@@ -76,7 +76,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Bois-le-Roi_Banlieue_C",
-              "Code": "77590",
+              "Code": 77590,
               "color":"#BDC581"
             },
             "geometry": {
@@ -94,7 +94,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Bourron-Marlotte",
-              "Code": "77780",
+              "Code": 77780,
               "color":"#BDC581"
             },
             "geometry": {
@@ -111,7 +111,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Bourron-Marlotte_Banlieue",
-              "Code": "77780",
+              "Code": 77780,
               "color":"#BDC581"
             },
             "geometry": {
@@ -129,7 +129,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Buthiers",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -146,7 +146,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Chailly-en-Bière",
-              "Code": "77930",
+              "Code": 77930,
               "color":"#BDC581"
             },
             "geometry": {
@@ -163,7 +163,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Chailly-en-Bière_Banlieue",
-              "Code": "77930",
+              "Code": 77930,
               "color":"#BDC581"
             },
             "geometry": {
@@ -181,7 +181,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Chailly-en-Bière_Banlieue_C",
-              "Code": "77930",
+              "Code": 77930,
               "color":"#BDC581"
             },
             "geometry": {
@@ -199,7 +199,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Chateau-Landon",
-              "Code": "77570",
+              "Code": 77570,
               "color":"#BDC581"
             },
             "geometry": {
@@ -216,7 +216,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Egreville",
-              "Code": "77620",
+              "Code": 77620,
               "color":"#BDC581"
             },
             "geometry": {
@@ -233,7 +233,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Fay-les-Nemours",
-              "Code": "77167",
+              "Code": 77167,
               "color":"#BDC581"
             },
             "geometry": {
@@ -250,7 +250,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Grez-sur-Loing",
-              "Code": "77880",
+              "Code": 77880,
               "color":"#BDC581"
             },
             "geometry": {
@@ -267,7 +267,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "La Chapelle-la-Reine",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -284,7 +284,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "La Genevraye",
-              "Code": "77690",
+              "Code": 77690,
               "color":"#BDC581"
             },
             "geometry": {
@@ -301,7 +301,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Larchant",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -318,7 +318,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Lorrez-le-Bocage-Préaux",
-              "Code": "77710",
+              "Code": 77710,
               "color":"#BDC581"
             },
             "geometry": {
@@ -335,7 +335,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Maincy",
-              "Code": "77950",
+              "Code": 77950,
               "color":"#BDC581"
             },
             "geometry": {
@@ -352,7 +352,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Montcourt-Fromonville",
-              "Code": "77140",
+              "Code": 77140,
               "color":"#BDC581"
             },
             "geometry": {
@@ -369,7 +369,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Montereau-Fault-Yonne",
-              "Code": "77130",
+              "Code": 77130,
               "color":"#BDC581"
             },
             "geometry": {
@@ -386,7 +386,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Montereau-Fault-Yonne_Banlieue",
-              "Code": "77130",
+              "Code": 77130,
               "color":"#BDC581"
             },
             "geometry": {
@@ -405,7 +405,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Montereau-Fault-Yonne_Banlieue_C",
-              "Code": "77130",
+              "Code": 77130,
               "color":"#BDC581"
             },
             "geometry": {
@@ -423,7 +423,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Moret-Loing-et-Orvanne",
-              "Code": "77250",
+              "Code": 77250,
               "color":"#BDC581"
             },
             "geometry": {
@@ -442,7 +442,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Moret-Loing-et-Orvanne_Banlieue",
-              "Code": "77250",
+              "Code": 77250,
               "color":"#BDC581"
             },
             "geometry": {
@@ -463,7 +463,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Nanteau-sur-Lunain",
-              "Code": "77710",
+              "Code": 77710,
               "color":"#BDC581"
             },
             "geometry": {
@@ -480,7 +480,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Nemours",
-              "Code": "77140",
+              "Code": 77140,
               "color":"#BDC581"
             },
             "geometry": {
@@ -497,7 +497,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Nemours",
-              "Code": "77140",
+              "Code": 77140,
               "color":"#BDC581"
             },
             "geometry": {
@@ -517,7 +517,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Noisy-sur-Ecole",
-              "Code": "77123",
+              "Code": 77123,
               "color":"#BDC581"
             },
             "geometry": {
@@ -534,7 +534,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Nonville",
-              "Code": "77140",
+              "Code": 77140,
               "color":"#BDC581"
             },
             "geometry": {
@@ -551,7 +551,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Poligny",
-              "Code": "77167",
+              "Code": 77167,
               "color":"#BDC581"
             },
             "geometry": {
@@ -568,7 +568,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Recloses",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -585,7 +585,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Samois-sur-Seine",
-              "Code": "77920",
+              "Code": 77920,
               "color":"#BDC581"
             },
             "geometry": {
@@ -602,7 +602,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Seine-Port",
-              "Code": "77240",
+              "Code": 77240,
               "color":"#BDC581"
             },
             "geometry": {
@@ -619,7 +619,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Sivry-Courtry",
-              "Code": "77115",
+              "Code": 77115,
               "color":"#BDC581"
             },
             "geometry": {
@@ -636,7 +636,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Souppes-sur-Loing",
-              "Code": "77460",
+              "Code": 77460,
               "color":"#BDC581"
             },
             "geometry": {
@@ -654,7 +654,7 @@
               "Region": "Centre-ValdeLoire",
               "Departement": "Loiret",
               "Nom": "Souppes-sur-Loing_Banlieue_Centre",
-              "Code": "45680",
+              "Code": 45680,
               "color":"#FC427B"
             },
             "geometry": {
@@ -672,7 +672,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Ury",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -689,7 +689,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Villiers-en-Bière",
-              "Code": "77190",
+              "Code": 77190,
               "color":"#BDC581"
             },
             "geometry": {
@@ -706,7 +706,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Villiers-sous-Grez",
-              "Code": "77760",
+              "Code": 77760,
               "color":"#BDC581"
             },
             "geometry": {
@@ -723,7 +723,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Milly-la-Forêt",
-              "Code": "91490",
+              "Code": 91490,
               "color":"#BDC581"
             },
             "geometry": {
@@ -740,7 +740,7 @@
               "COUNTRY": "France",
               "Region": "Île-de-France",
               "Nom": "Milly-la-Forêt_Banlieue",
-              "Code": "91490",
+              "Code": 91490,
               "color":"#BDC581"
             },
             "geometry": {

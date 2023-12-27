@@ -7,7 +7,7 @@
             "Region": "Hauts-de-France",
             "Departement": "Aisne",
             "Nom": "Chamouille",
-            "Code": "02860",
+            "Code": 2860,
             "style":{"color":"#F97F51", "weight":1, "fillOpacity":0.30}
           },
           "geometry": {
@@ -22,7 +22,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Aisne",
               "Nom": "Neuville-sur-Ailette",
-              "Code": "02860",
+              "Code": 2860,
               "style":{"color":"#F97F51", "weight":1, "fillOpacity":0.30}
             },
             "geometry": {
@@ -37,7 +37,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Somme",
               "Nom": "Le Crotoy",
-              "Code": "80550",
+              "Code": 80550,
               "style":{"color":"#F97F51", "weight":1, "fillOpacity":0.30}
             },
             "geometry": {
@@ -52,7 +52,7 @@
               "Region": "Hauts-de-France",
               "Departement": "Somme",
               "Nom": "Saint-Valéry-sur-Somme",
-              "Code": "80230",
+              "Code": 80230,
               "style":{"color":"#F97F51", "weight":1, "fillOpacity":0.30}
             },
             "geometry": {
