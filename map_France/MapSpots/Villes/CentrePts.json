@@ -1,5 +1,103 @@
 {
     "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Bourgueuil",
+          "Code": "37140"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.28248, 0.16861]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Candes-Saint-Martin",
+          "Code": "37500"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.21079, 0.07469]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Channay-sur-Lathan",
+          "Code": "37330"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.48025, 0.26362]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Continvoir",
+          "Code": "37340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.38795, 0.2194]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Courcelles-de-Touraine",
+          "Code": "37330"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.48253, 0.30691]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Gizeux",
+          "Code": "37340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.39258, 0.19596]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Centre-ValdeLoire",
+          "Departement": "Indre-et-Loire",
+          "Nom": "Rillé",
+          "Code": "37340"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [47.44972, 0.24823]
+        }
+      },
           {
             "type": "Feature",
             "properties": {

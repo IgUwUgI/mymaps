@@ -195,6 +195,21 @@
                     ]
                   }
                 },
+                {
+                  "type": "Feature",
+                  "properties": {
+                    "COUNTRY": "France",
+                    "Region": "PaysdelaLoire",
+                    "Nom": "Courléon",
+                    "Code": "49390"
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                      47.38992, 0.14272
+                    ]
+                  }
+                },
           {
             "type": "Feature",
             "properties": {
