@@ -20,7 +20,7 @@ minZoom: 3,
 CartoDB_Voyager.addTo(mymap);
 
 
-import planeIcon from "../assets/assets.js";
+import {planeIcon} from "../assets/assets.js";
 import "../modules/rotated_markers.js";
 import {createMiddleMarker} from "../modules/fonctions_transverses.js";
 import {BusGeo} from "./Transports/BusLines/indexBus.js"

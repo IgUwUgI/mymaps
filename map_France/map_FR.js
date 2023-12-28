@@ -16,7 +16,7 @@
     CartoDB_Voyager.addTo(mymap);
 
 
-    import planeIcon from "../assets/assets.js";
+    import {planeIcon, cityIcon} from "../assets/assets.js";
     import "../modules/rotated_markers.js";
     import {createMiddleMarker, latLngMoyenne} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/indexBus.js"
@@ -51,19 +51,19 @@
     // deptsToGoLayer.addTo(mymap);
 
     var PrefsLayer = L.layerGroup(PrefGeo);
-    PrefsLayer.addTo(mymap)
+    // PrefsLayer.addTo(mymap)
 
     var PrefsPolyLayer = L.layerGroup(PrefPolyGeo);
     PrefsPolyLayer.addTo(mymap)
 
     var SsPrefsLayer = L.layerGroup(SsPrefGeo);
-    SsPrefsLayer.addTo(mymap)
+    // SsPrefsLayer.addTo(mymap)
 
     var SsPrefsPolyLayer = L.layerGroup(SsPrefPolyGeo);
     SsPrefsPolyLayer.addTo(mymap)
 
     var VillesLayer = L.layerGroup(VillesPtsGeo);
-    VillesLayer.addTo(mymap)
+    // VillesLayer.addTo(mymap)
 
     var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
     VillesPolyLayer.addTo(mymap)
@@ -94,8 +94,12 @@
     var VeloLayer = L.layerGroup(VeloGeo);
     VeloLayer.addTo(mymap);
 
-    var VillesDpt = latLngMoyenne(VillesDpttmp)
-    var VillesReg = latLngMoyenne(VillesRegtmp)
+    var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
+    var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
+    console.log(VillesRegLayer)
+    VillesRegLayer.addTo(mymap)
+
+    
 
     // Pour afficher une legende des couleurs
     // Ne toucher que ce qui est indique
@@ -150,7 +154,31 @@
     info.update("");
 
     function zoomChange(e){
-      console.log(mymap.getZoom())
+      if(mymap.getZoom() > 10){
+          if(mymap.hasLayer(VillesDptLayer)){
+          VillesDptLayer.removeFrom(mymap);
+          VillesLayer.addTo(mymap);
+          PrefsLayer.addTo(mymap);
+          SsPrefsLayer.addTo(mymap);
+          }
+      } else if (mymap.getZoom() > 6.5) {
+          if(mymap.hasLayer(VillesRegLayer)){
+          VillesRegLayer.removeFrom(mymap)
+          VillesDptLayer.addTo(mymap);
+          }
+          if(mymap.hasLayer(VillesLayer) || mymap.hasLayer(PrefsLayer) || mymap.hasLayer(SsPrefsLayer)) {
+            VillesLayer.removeFrom(mymap);
+            PrefsLayer.removeFrom(mymap);
+            SsPrefsLayer.removeFrom(mymap);
+            VillesDptLayer.addTo(mymap);
+          }
+        }
+        else {
+          if (mymap.hasLayer(VillesDptLayer)) {
+            VillesDptLayer.removeFrom(mymap);
+            VillesRegLayer.addTo(mymap);
+          }
+        }
   };
 
   mymap.on('zoom', zoomChange);

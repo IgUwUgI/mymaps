@@ -1,3 +1,9 @@
+import { cityIcon0 } from "../assets/assets.js";
+import { cityIcon1 } from "../assets/assets.js";
+import { cityIcon2 } from "../assets/assets.js";
+import { cityIcon3 } from "../assets/assets.js";
+import { cityIcon4 } from "../assets/assets.js";
+
 export function calcMiddleLatLng(map, latlng1, latlng2) {
     // calcule le milieu de deux coordonnees
     const p1 = map.project(latlng1);
@@ -29,22 +35,61 @@ export function createMiddleMarker(map, line, icon) {
     }
   }
 
-  export function l(map, array) {
-    var sumLat = 0;
-    var sumLng = 0;
-    var res = new Array(array.length)
-    for (i = 0; i < res.length; i++) {
-      res[i] = 0
-    }
+  export function latLngMoyenne(map, aray) {
+    var res = new Array()
 
-    for (i = 0; i < array.length; i++) {
-      for (j = 0; j < array[i].length; i++){
-        projection = map.project(array[i][j].coordinates)
-        sumLat = sumLat + array[i][j].coordinates[0]
-        sumLng = sumLng + array[i][j].coordinates[1]
+    for (var i = 0; i < aray.length; i++) {
+      if (aray[i].length == 0) {
       }
-      res[i] = [sumLat / array[j].length, sumLng / array[j].length]
+      else if (aray[i].length == 1) {
+        var tmpMarker = new L.Marker(aray[i][0].geometry.coordinates, {icon: cityIcon0});
+        tmpMarker.bindTooltip(aray[i].length.toString() //specific number
+                        , {
+                            permanent: true,
+                            direction: 'center',
+                            className: "my-labels"
+                         }
+                         ).openTooltip();
+        res.push(tmpMarker);
+      }
+      else {
+        var sumProjLatLng = map.project(map.unproject([0, 0]));
+        var sumX = 0;
+        var sumY = 0;
+        var n = aray[i].length;
+        var iconToUse = cityIcon0
+        for (var j = 0; j < aray[i].length; j++){
+          var projection = map.project(aray[i][j].geometry.coordinates);
+          sumX = sumX + projection["x"];
+          sumY = sumY + projection["y"];
+        }
+        sumProjLatLng["x"] = sumX / n
+        sumProjLatLng["y"] = sumY / n
+        if (n < 9) {
+          iconToUse = cityIcon0
+        }
+        else if (n < 18) {
+          iconToUse = cityIcon1
+        }
+        else if (n < 36) {
+          iconToUse = cityIcon2
+        }
+        else if (n < 72) {
+          iconToUse = cityIcon3
+        }
+        else {
+          iconToUse = cityIcon4
+        }
+        var tmpMarker = new L.Marker(map.unproject(sumProjLatLng), {icon: iconToUse});
+        tmpMarker.bindTooltip(aray[i].length.toString() //specific number
+                        , {
+                            permanent: true,
+                            direction: 'center',
+                            className: "my-labels"
+                         }
+                         ).openTooltip();
+        res.push(tmpMarker);
+      }
     }
-
     return res
   }

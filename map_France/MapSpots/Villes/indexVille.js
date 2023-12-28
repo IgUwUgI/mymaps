@@ -119,7 +119,7 @@ for(var i = 0; i < eltsPrefPts.length; i++) {
     VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
-console.log(VillesRegtmp0)
+
 for(var i = 0; i < eltsSsPrefPoly.length; i++) {
   var j = await fetchPoly(eltsSsPrefPoly[i]);
   var Pref_j = new Array(j.features)[0];
@@ -182,7 +182,6 @@ for(var i = 0; i < eltsPts.length; i++) {
   var Pref_j = new Array(j.features)[0];
   for (var k = 0; k < Pref_j.length; k++){
     VillesPtsGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    console.log(Pref_j[k].properties.Region);
     VillesDpttmp0[Math.floor(Pref_j[k].properties.Code/1000)].push(Pref_j[k]);
     VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
