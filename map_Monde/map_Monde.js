@@ -129,31 +129,18 @@ info.update("");
 function zoomChangeCities(e){
     if(mymap.getZoom() < 8){
         if(mymap.hasLayer(VillesPolyLayer)){
-        VillesPolyLayer.removeFrom(mymap);
         VillesPtsLayer.addTo(mymap);
         }
     } else {
         if(mymap.hasLayer(VillesPtsLayer)){
-        VillesPolyLayer.addTo(mymap);
         VillesPtsLayer.removeFrom(mymap);
         }
     }
 };
 
-function zoomChangeCountries(e){
-    if(mymap.getZoom() > 8){
-        if(mymap.hasLayer(PaysLayer)){
-        PaysLayer.removeFrom(mymap);
-        }
-    } else {
-        if(mymap.hasLayer(VillesPtsLayer)){
-        PaysLayer.addTo(mymap);
-        }
-    }
-};
 
 mymap.on('zoom', zoomChangeCities);
-mymap.on('zoom', zoomChangeCountries);
+
 
 
 //Modification de l'encadre au survol d'un objet a la souris, syntaxe generale

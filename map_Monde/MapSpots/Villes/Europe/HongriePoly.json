@@ -4,12 +4,13 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "Main",
         "Country": "Hungary",
         "Region": "Budapest",
         "FR_Name": "Budapest",
         "EN_Name": "Budapest",
         "OG_Name": "Budapest",
-        "style": {"color": "#AF63E0", "weight": 1, "opacity": 0.75}
+        "color": "#AF63E0"
       },
       "geometry": {
         "type": "MultiPolygon",

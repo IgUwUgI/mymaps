@@ -40,7 +40,6 @@ async function fetchTrain(file) {
   }
 
 for(var i = 0; i < elts.length; i++) {
-    console.log(i);
     var j = await fetchTrain(elts[i]);
     eltsGeo.push(j);
 }

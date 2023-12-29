@@ -62,8 +62,6 @@ var SsPrefPolyGeo0 = Array();
 var SsPrefGeo0 = Array();
 var VillesPolyGeo0 = Array();
 var VillesPtsGeo0 = Array();
-var VillesZoomDpt = Array(96);
-var VillesZoomReg = Array(18);
 
 var VillesDpttmp0 = Array(96);
 var VillesRegtmp0 = Array(18);
