@@ -575,6 +575,66 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Antibes",
+          "Code": 6600
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43.58041, 7.1251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Beaulieu-sur-Mer",
+          "Code": 6310
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43.70772, 7.33437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Villefranche-sur-Mer",
+          "Code": 6230
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43.70397, 7.3111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côte-d'Azur",
+          "Nom": "Saint-Jean-Cap-Ferrat",
+          "Code": 6230
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43.68953, 7.33298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Provence-Alpes-Côte-d'Azur",
           "Nom": "Cassis",
           "Code": 13260
         },
