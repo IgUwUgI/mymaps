@@ -4,19 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Region": "Marrakech",
-        "FR_Name": "Marrakech",
-        "EN_Name": "Marrakesh",
-        "OG_Name": "Murrakus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [31.62947, -7.98108]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Region": "Agadir en Idawtanan",
         "FR_Name": "Agadir",
         "EN_Name": "Agadir",
@@ -30,14 +17,14 @@
     {
       "type": "Feature",
       "properties": {
-        "Region": "Tiznit",
-        "FR_Name": "Tiznit",
-        "EN_Name": "Tiznit",
-        "OG_Name": "Tiznit"
+        "Region": "Marrakech",
+        "FR_Name": "Marrakech",
+        "EN_Name": "Marrakesh",
+        "OG_Name": "Murrakus"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [29.69339, -9.73215]
+        "coordinates": [31.62947, -7.98108]
       }
     },
     {
@@ -57,6 +44,19 @@
       "type": "Feature",
       "properties": {
         "Region": "Tiznit",
+        "FR_Name": "Sifi Ifni",
+        "EN_Name": "Sidi Ifni",
+        "OG_Name": "Sidi Ifni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.37011, -10.17592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
         "FR_Name": "Tafraout",
         "EN_Name": "Tafraout",
         "OG_Name": "Tafrawt"
@@ -64,6 +64,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [29.71821, -8.97698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
+        "FR_Name": "Tioughza",
+        "EN_Name": "Tioughza",
+        "OG_Name": "Tioughza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.388, -9.95908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Tiznit",
+        "FR_Name": "Tiznit",
+        "EN_Name": "Tiznit",
+        "OG_Name": "Tiznit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.69339, -9.73215]
       }
     }
   ]

@@ -4,12 +4,13 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "Main",
         "Country": "Slovenia",
         "Region": "Osrednjeslovenska",
         "FR_Name": "Ljubljana",
         "EN_Name": "Ljubljana",
         "OG_Name": "Ljubljana",
-        "style": {"color": "#7A3BD3", "weight": 1, "opacity": 0.75}
+        "color": "#7A3BD3"
       },
       "geometry": {
         "type": "MultiPolygon",
