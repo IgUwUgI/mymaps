@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Czechia",
+        "Region": "NA",
+        "FR_Name": "Prague",
+        "EN_Name": "Prague",
+        "NAME_1": "Praha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.07553,14.4378]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Czechia",
+        "Region": "NA",
+        "FR_Name": "Moravie-du-Sud",
+        "EN_Name": "Southern-Moravia",
+        "OG_Name": "Jihomoravský"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.19506,16.60683]
+      }
+    }
+  ]
+}

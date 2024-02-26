@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Paris-Agadir",
+                "Distance": 2278,
+                "Empreinte carbone": 0.411,
+                "Nombre de trajets": 1
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [[2.36231, 48.72722], [-9.41028, 30.32992]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Marrakech-Paris",
+                "Distance": 2097,
+                "Empreinte carbone": 0.380,
+                "Nombre de trajets": 1
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [[-8.02523, 31.6008], [2.36231, 48.72722]]
+            }
+        }
+    ]
+}

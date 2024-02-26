@@ -3,8 +3,8 @@
 <head>
     <!-- On ne touche pas ici, en-tete de la page -->
   <meta charset="utf-8">
-  <link rel="stylesheet" href="map_FR.css">
-  <title>Voyages en France</title>
+  <link rel="stylesheet" href="map_Monde.css">
+  <title>Voyages à l'étranger</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin="">
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
@@ -25,43 +25,41 @@
     <!--MENU DEROULANT -->
     <nav class="sidebar">
           <div class="text">
-      Menu</div>
-      <ul>
-        <li class="active"><a href="../index.html"><i class="fas fa-home"></i> Accueil</a></li>
+    Menu</div>
+    <ul>
+    <li class="active"><a href="../index.html"><i class="fas fa-home"></i> Accueil</a></li>
     
     
-        <li>
-              <a href="#" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
+    <li>
+              <a href="../map_France/map_FR.html" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
                 <span class="fas fa-caret-down first"></span>
               </a>
               <ul class="feat-show">
+    </li>
+    </ul>
     
-          </ul>
-        </li>
-    
-    
-    
-        <li>
-              <a href="../map_Monde/map_Monde.html" class="env-btn"><i class="fas fa-seedling"></i> Voyages à l'étranger
+    <li>
+              <a href="#" class="env-btn"><i class="fas fa-seedling"></i> Voyages à l'étranger
                 <span class="fas fa-caret-down third"></span>
               </a>
               <ul class="env-show">
-          </ul>
-        </li>
+    </ul>
+    </li>
     
-        <li>
+    <li>
               <a href="#" class="eco-btn"><i class="fas fa-money-bill-wave"></i> Préparations de voyages
                 <span class="fas fa-caret-down fourth"></span>
               </a>
               <ul class="eco-show">
-                <li><a href="../projects/toDo_France/"> À visiter - France</a></li>
-                <li><a href="../projects/toDo_Monde/map_toDoMonde.html"> À visiter - Monde</a></li>
+                <li><a href="#"> À visiter - France</a></li>
+                <li><a href="#"> À visiter - Monde</a></li>
                 <li><a href="#"> Détail - Canaries</a></li>
                 <li><a href="#"> Détail - Vietnam</a></li>
                 <li><a href="#"> Détail - Jordanie</a></li>
-              </ul>
-          </li>
-      </ul>
+    </ul>
+    </li>
+    
+    </ul>
     </nav>
 
     <script>
@@ -104,7 +102,7 @@
     </div>
 
     <!-- Ci dessous le script javascript des trucs des donnees -->
-    <script type="module" src="./map_FR.js">
+    <script type="module" src="./map_Monde.js">
     </script>
 
 </body>

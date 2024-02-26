@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -60,6 +61,25 @@
             color: #f39c12; /* Orange doux */
         }
 
+        nav ul{
+            background: rgba(100, 100, 100, 0.6);
+            height: 100%;
+            width: 100%;
+            opacity:100%;
+            list-style: none;
+            text-align: center;
+            padding: 0px;
+        }
+
+        nav ul{
+            position: static;
+            display: none;
+        }
+
+        nav .prepa-sub.show{
+            display: block;
+        }
+
         /* Nouvelle section pour le tableau de bord */
         #tableau-bord {
             padding: 20px;
@@ -88,9 +108,22 @@
     <nav>
         <a href="./map_France/map_FR.html">Voyages en France</a>
         <a href="./map_Monde/map_Monde.html">Voyages à l'étranger</a>
-        <a href="#preparation-voyage">Préparation de voyage</a>
+        <a href="#" class="prepa-btn">Préparation de voyage</a>
+        <ul class="prepa-sub">
+            <a href="">À visiter - France</a>
+            <a href="">À visiter - Monde</a>
+            <a href="">Détail - Canaries</a>
+            <a href="">Détail - Vietnam</a>
+            <a href="">Détail - Jordanie</a>
+        </ul>
         <a href="#tableau-bord">Tableau de Bord</a> <!-- Lien vers la nouvelle section -->
     </nav>
+
+    <script>
+        $('.prepa-btn').click(function(){
+            $('nav .prepa-sub').toggleClass("show");
+        });
+    </script>
 
     <section id="tableau-bord">
         <h2>Tableau de Bord Statistique des Voyages</h2>
