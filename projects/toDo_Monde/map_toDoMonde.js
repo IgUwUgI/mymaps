@@ -21,3 +21,7 @@ CartoDB_Voyager.addTo(mymap);
 
 // Imports
 import "../../modules/rotated_markers.js";
+import {PaysGeo} from "./MapSpots/Pays/indexCountries.js";
+
+var PaysLayer = L.layerGroup(PaysGeo);
+PaysLayer.addTo(mymap);
