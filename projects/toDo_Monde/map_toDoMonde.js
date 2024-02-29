@@ -22,6 +22,18 @@ CartoDB_Voyager.addTo(mymap);
 // Imports
 import "../../modules/rotated_markers.js";
 import {PaysGeo} from "./MapSpots/Pays/indexCountries.js";
+import { RegionsGeo } from "./MapSpots/Regions/indexRegions.js";
 
 var PaysLayer = L.layerGroup(PaysGeo);
-PaysLayer.addTo(mymap);
+var RegionsLayer = L.layerGroup(RegionsGeo)
+var RienLayer = L.layerGroup(null);
+
+var layers = {
+    "Rien" : RienLayer,
+    "Pays" : PaysLayer,
+    "Regions" : RegionsLayer
+}
+
+var layerControl = L.control.layers(layers);
+layerControl.addTo(mymap)
+// PaysLayer.addTo(mymap);

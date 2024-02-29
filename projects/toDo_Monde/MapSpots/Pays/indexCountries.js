@@ -225,7 +225,8 @@ var eltsGeo = Array()
 async function fetchPays(file) {
     const res = await fetch(file);
     const Pays = await res.json();
-    return L.geoJson(Pays, {"style": Pays.features[0].properties.style});
+    var style0 = {"color": Pays.features[0].properties.color, "weight": 1, "fillOpacity": 0.30}
+    return L.geoJson(Pays, {"style": style0});
   }
 
 for(var i = 0; i < elts.length; i++) {
