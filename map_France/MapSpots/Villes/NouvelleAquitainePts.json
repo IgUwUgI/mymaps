@@ -110,6 +110,81 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
+          "Nom": "Lege-Cap-Ferret",
+          "Code": 33950
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            44.74378, -1.2185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Civaux",
+          "Code": 86230
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.4442, 0.66486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Lathus-Saint-Remy",
+          "Code": 86390
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.33335, 0.95905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Lussac-les-Chateaux",
+          "Code": 86320
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.40378, 0.72507
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Moulismes",
+          "Code": 86500
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.33011, 0.81466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
           "Nom": "Chaillac-sur-Vienne",
           "Code": 87200
         },

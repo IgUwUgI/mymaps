@@ -32,6 +32,20 @@
             "type": "Feature",
             "properties": {
                 "COUNTRY": "France",
+                "Region": "Nouvelle-Aquitaine",
+                "Departement": "Gironde",
+                "Name": "Arcachon",
+                "Code": 33120
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [44.65229, -1.1785]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
                 "Region": "Bourgogne-Franche-Comté",
                 "Departement": "Côte-d-'Or",
                 "Name": "Autun",
@@ -223,6 +237,21 @@
                 "type": "Point",
                 "coordinates": [44.10057, 3.0778]
             }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "COUNTRY": "France",
+            "Region": "Nouvelle-Aquitaine",
+            "Nom": "Montmorillon",
+            "Code": 86500
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              46.42489, 0.86804
+            ]
+          }
         },
         {
             "type": "Feature",
