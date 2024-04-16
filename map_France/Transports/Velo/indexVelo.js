@@ -1,6 +1,7 @@
 const el1 = "./Transports/Velo/Lyon-Saint-Paul-en-Jarez.geojson"
+const el2 = "./Transports/Velo/3_monts-d_or.geojson"
 
-var elts = [el1]
+var elts = [el1, el2]
 
 var eltsGeo = Array()
 
