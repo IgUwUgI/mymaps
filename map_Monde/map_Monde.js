@@ -26,6 +26,7 @@ import {createMiddleMarker} from "../modules/fonctions_transverses.js";
 import {BusGeo} from "./Transports/BusLines/indexBus.js"
 import {TrainGeo} from "./Transports/TrainLines/indexTrain.js"
 import {RandoGeo} from "./Transports/Randos/indexRando.js"
+import {CarGeo} from "./Transports/CarTrips/indexCar.js"
 import {PaysGeo} from "./MapSpots/Pays/indexCountries.js"
 import {RegionsGeo} from "./MapSpots/Regions/indexRegions.js"
 import {VillesPtGeo} from "./MapSpots/Villes/indexCityPts.js"
@@ -72,10 +73,17 @@ TrainLayer.addTo(mymap);
 
 
 for (var i = 0; i < RandoGeo.length; i++) {
-    TrainGeo[i].setStyle({"color": "#c44569"})
+    RandoGeo[i].setStyle({"color": "#c44569"})
+    RandoGeo[i].setStyle({"dashArray": "4 8"})
 }
 var RandoLayer = L.layerGroup(RandoGeo);
 RandoLayer.addTo(mymap)
+
+for (var i = 0; i < CarGeo.length; i++) {
+    CarGeo[i].setStyle({"color": "#c44569"})
+}
+var CarLayer = L.layerGroup(CarGeo);
+CarLayer.addTo(mymap)
 
 var PaysLayer = L.layerGroup(PaysGeo);
 PaysLayer.addTo(mymap);
