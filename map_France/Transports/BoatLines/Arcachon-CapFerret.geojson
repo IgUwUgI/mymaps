@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "creator": "BRouter-1.7.0",
+        "name": "Arcachon-Cap Ferret",
+        "track-length": "341018",
+        "filtered ascend": "3004",
+        "plain-ascend": "633",
+        "total-time": "12533",
+        "total-energy": "238363504",
+        "cost": "420919"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.16877, 44.66486],
+          [-1.17548, 44.66868],
+          [-1.23685, 44.65634]
+        ]
+      }
+    }
+  ]
+}
