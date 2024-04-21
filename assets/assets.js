@@ -53,3 +53,52 @@ export const cityIcon4 = L.icon({
     iconAnchor: [19, 19],
     popupAnchor: [-3, -76]
 })
+
+export const carMarker = L.icon({
+    iconUrl: "../assets/carMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})
+
+export const busMarker = L.icon({
+    iconUrl: "../assets/busMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})
+
+export const boatMarker = L.icon({
+    iconUrl: "../assets/boatMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})
+
+export const hikeMarker = L.icon({
+    iconUrl: "../assets/hikeMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})
+
+export const trainMarker = L.icon({
+    iconUrl: "../assets/trainMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})
+
+
+export const veloMarker = L.icon({
+    iconUrl: "../assets/veloMarker.png",
+    
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [-3, -76]
+})

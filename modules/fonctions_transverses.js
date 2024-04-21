@@ -3,6 +3,12 @@ import { cityIcon1 } from "../assets/assets.js";
 import { cityIcon2 } from "../assets/assets.js";
 import { cityIcon3 } from "../assets/assets.js";
 import { cityIcon4 } from "../assets/assets.js";
+import { carMarker } from "../assets/assets.js";
+import { busMarker } from "../assets/assets.js";
+import { boatMarker } from "../assets/assets.js";
+import { hikeMarker } from "../assets/assets.js";
+import { trainMarker } from "../assets/assets.js";
+import { veloMarker } from "../assets/assets.js";
 
 export function calcMiddleLatLng(map, latlng1, latlng2) {
     // calcule le milieu de deux coordonnees
@@ -92,4 +98,36 @@ export function createMiddleMarker(map, line, icon) {
       }
     }
     return res
+  }
+
+  export function createMiddleMarkerPath(path, type) {
+    //cree un marqueur au milieu d'un chemin
+    const coordsTot = path.features[0].geometry.coordinates
+    var coords = coordsTot[(coordsTot.length - coordsTot.length % 2) / 2];
+    var tmp = coords[0]
+    coords[0] = coords[1]
+    coords[1] = tmp
+
+    switch (type) {
+      case "Car":
+        var icon = carMarker ;
+        break ;
+      case "Bus":
+        var icon = busMarker ;
+        break
+      case "Boat":
+        var icon = boatMarker ;
+        break
+      case "Hike":
+        var icon = hikeMarker ;
+        break
+      case "Train":
+        var icon = trainMarker ;
+        break
+      case "Velo":
+        var icon = veloMarker ;
+        break
+    }
+
+      return L.marker(coords, {icon : icon});
   }

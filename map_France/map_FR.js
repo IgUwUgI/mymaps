@@ -18,7 +18,7 @@
 
     import {planeIcon, cityIcon} from "../assets/assets.js";
     import "../modules/rotated_markers.js";
-    import {createMiddleMarker, latLngMoyenne} from "../modules/fonctions_transverses.js";
+    import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/indexBus.js"
     import {CarGeo} from "./Transports/CarTrips/indexCar.js"
     import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
@@ -85,7 +85,7 @@
 
 // Voiture
 for (var i = 0; i < CarGeo.length; i++) {
-  CarGeo[i].setStyle({"color": "#de0a26"})
+  //CarGeo[i].setStyle({"color": "#de0a26"})
 }
 var CarLayer = L.layerGroup(CarGeo);
 CarLayer.addTo(mymap);
@@ -93,6 +93,7 @@ CarLayer.addTo(mymap);
 // Bus
     for (var i = 0; i < BusGeo.length; i++) {
       BusGeo[i].setStyle({"color": "#c62d42"})
+      // createMiddleMarkerPath(BusGeo[i], "Bus").addTo(mymap)
     }
     var BusLayer = L.layerGroup(BusGeo);
     BusLayer.addTo(mymap);
