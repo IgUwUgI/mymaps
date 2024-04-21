@@ -125,6 +125,36 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
+          "Nom": "Chapelle-Viviers",
+          "Code": 86300
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.48401, 0.72581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Chauvigny",
+          "Code": 86300
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.57114, 0.64407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
           "Nom": "Civaux",
           "Code": 86230
         },
@@ -147,6 +177,21 @@
           "type": "Point",
           "coordinates": [
             46.33335, 0.95905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Leignes-sur-Fontaine",
+          "Code": 86300
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.50776, 0.77552
           ]
         }
       },
