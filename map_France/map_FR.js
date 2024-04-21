@@ -20,8 +20,11 @@
     import "../modules/rotated_markers.js";
     import {createMiddleMarker, latLngMoyenne} from "../modules/fonctions_transverses.js";
     import {BusGeo} from "./Transports/BusLines/indexBus.js"
+    import {CarGeo} from "./Transports/CarTrips/indexCar.js"
     import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
+    import {BoatGeo} from "./Transports/BoatLines/indexBoat.js"
     import {VeloGeo} from "./Transports/Velo/indexVelo.js"
+    import {RandoGeo} from "./Transports/Randos/indexRando.js"
     import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
     import {PrefGeo, PrefPolyGeo, SsPrefGeo, SsPrefPolyGeo, VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
     
@@ -68,31 +71,61 @@
     var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
     VillesPolyLayer.addTo(mymap)
 
+// Avion
     var Avions = new Array(Avion.features)[0];
     var AvionsGeo = new Array(Avions.length);
     var AvionsMarkers = new Array(Avions.length);
     for (var i = 0; i < Avions.length;i++) {
-      AvionsGeo[i] = L.geoJSON(Avions[i], {style : {"color":"#FF5500", "weight":2, "opacity":0.75}});
+      AvionsGeo[i] = L.geoJSON(Avions[i], {style : {"color":"#FF5500", "opacity":0.75}});
       AvionsMarkers[i] = createMiddleMarker(mymap, Avions[i], planeIcon)
     };
     var AvionsTot = AvionsGeo.concat(AvionsMarkers)
     var AvionsLayer = L.layerGroup(AvionsTot);
     AvionsLayer.addTo(mymap);
 
+// Voiture
+for (var i = 0; i < CarGeo.length; i++) {
+  CarGeo[i].setStyle({"color": "#de0a26"})
+}
+var CarLayer = L.layerGroup(CarGeo);
+CarLayer.addTo(mymap);
+
+// Bus
     for (var i = 0; i < BusGeo.length; i++) {
-      BusGeo[i].setStyle({"color": "#546de5"})
+      BusGeo[i].setStyle({"color": "#c62d42"})
     }
     var BusLayer = L.layerGroup(BusGeo);
     BusLayer.addTo(mymap);
 
+// Train
     for (var i = 0; i < TrainGeo.length; i++) {
-      TrainGeo[i].setStyle({"color": "#c44569"})
+      TrainGeo[i].setStyle({"color": "#2a52be"})
     }
     var TrainLayer = L.layerGroup(TrainGeo);
     TrainLayer.addTo(mymap);
 
+// Bateau
+for (var i = 0; i < BoatGeo.length; i++) {
+  BoatGeo[i].setStyle({"color": "#042e60"})
+}
+var BoatLayer = L.layerGroup(BoatGeo);
+BoatLayer.addTo(mymap);
+
+// Velo
+    for (var i = 0; i < VeloGeo.length; i++) {
+      VeloGeo[i].setStyle({"color": "#228b22"})
+      VeloGeo[i].setStyle({"dashArray": "4 8"})
+  }
     var VeloLayer = L.layerGroup(VeloGeo);
     VeloLayer.addTo(mymap);
+
+// Randonnees
+    for (var i = 0; i < RandoGeo.length; i++) {
+      RandoGeo[i].setStyle({"color": "#388004"})
+      RandoGeo[i].setStyle({"dashArray": "4 8"})
+  }
+  var RandoLayer = L.layerGroup(RandoGeo);
+  RandoLayer.addTo(mymap)
 
     var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
     var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))

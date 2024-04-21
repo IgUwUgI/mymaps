@@ -1,14 +1,15 @@
 const el1 = "./MapSpots/Villes/Europe/AllemagnePts.json"
 const el2 = "./MapSpots/Villes/Europe/AutrichePts.json"
 const el3 = "./MapSpots/Villes/Europe/BelgiquePts.json"
-const el4 = "./MapSpots/Villes/Europe/HongriePts.json"
-const el5 = "./MapSpots/Villes/Afrique/MarocPts.json"
-const el6 = "./MapSpots/Villes/Europe/SlovaquiePts.json"
-const el7 = "./MapSpots/Villes/Europe/SloveniePts.json"
-const el8 = "./MapSpots/Villes/Europe/SuissePts.json"
-const el9 = "./MapSpots/Villes/Europe/TchequiePts.json"
+const el4 = "./MapSpots/Villes/Europe/EspagnePts.json"
+const el5 = "./MapSpots/Villes/Europe/HongriePts.json"
+const el6 = "./MapSpots/Villes/Afrique/MarocPts.json"
+const el7 = "./MapSpots/Villes/Europe/SlovaquiePts.json"
+const el8 = "./MapSpots/Villes/Europe/SloveniePts.json"
+const el9 = "./MapSpots/Villes/Europe/SuissePts.json"
+const el10 = "./MapSpots/Villes/Europe/TchequiePts.json"
 
-var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9]
+var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10]
 
 var eltsGeo = Array()
 

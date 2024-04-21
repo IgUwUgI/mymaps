@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Bajamar",
+        "FR_Name": "Bajamar",
+        "EN_Name": "Bajamar",
+        "OG_Name": "Bajamar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.55418, -16.34453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Igueste de San Andres",
+        "FR_Name": "Igueste de San Andres",
+        "EN_Name": "Igueste de San Andres",
+        "OG_Name": "Igueste de San Andres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.52419, -16.15552]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Las Carboneras",
+        "FR_Name": "Las Carboneras",
+        "EN_Name": "Las Carboneras",
+        "OG_Name": "Las Carboneras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.55398, -16.27669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Punta del Hidalgo",
+        "FR_Name": "Punta del Hidalgo",
+        "EN_Name": "Punta del Hidalgo",
+        "OG_Name": "Punta del Hidalgo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.5681, -16.32651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "San Cristobal de la Laguna",
+        "FR_Name": "San Cristobal de la Laguna",
+        "EN_Name": "San Cristobal de la Laguna",
+        "OG_Name": "San Cristobal de la Laguna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.4874, -16.3159]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Taganana",
+        "FR_Name": "Taganana",
+        "EN_Name": "Taganana",
+        "OG_Name": "Taganana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.56058, -16.21816]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Region": "Tegueste",
+        "FR_Name": "Tegueste",
+        "EN_Name": "Tegueste",
+        "OG_Name": "Tegueste"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.52284, -16.33792]
+      }
+    }
+  ]
+}
