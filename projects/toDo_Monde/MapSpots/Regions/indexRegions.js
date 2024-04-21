@@ -213,13 +213,13 @@ const el201 = "./MapSpots/Regions/Oceanie/Vanuatu.json"
 
 
 var elts = [
-  el2, el5, el7, el8, el9, el13, el16, el19, el26
+  el2, el5, el7, el8, el9, el13, el16, el19, el26, el27, el30, el32, el33, el34, el37, el41, el49,
+  el56, el63, el64, el65, el69, el70, el72, el77, el78, el81,
+  el92, el97, el99, el100, el102, el104, el105, el107, el109, el110, el111, el112, el114, el116
 ]
 
 // var elts = [
-//  , el27, el30, el32, el33, el34, el37, el41, el49,
-//  el56, el63, el64, el65, el69, el70, el72, el77, el78, el81,
-//  el92, el97, el99, el100, el102, el104, el105, el107, el109, el110, el111, el112, el114, el116, el118, el119, el120, el121, el122, el125, el128, el130, el132, el135, el136,
+//  , el118, el119, el120, el121, el122, el125, el128, el130, el132, el135, el136,
 //  el138, el139, el141, el142, el144, el146, el147, el148, el149, el150, el151, el153, el154, el155, el156, el157, el158, el163, el164, el165, el169, el170, el171, el172, el173, el174, el175, el176, el177, el179, el180, el181, el182, el183, el1461, el1462,
 //  el191, el194, el201
 // ]
