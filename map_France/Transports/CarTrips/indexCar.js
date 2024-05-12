@@ -14,8 +14,8 @@ async function fetchCar(file) {
 
 for(var i = 0; i < elts.length; i++) {
     var j = await fetchCar(elts[i]);
-    var jCar = L.geoJson(j)
-    jCar.setStyle({"color": "#de0a26"})
+    var jCar = L.geoJson(j);
+    jCar.setStyle({"color": "#de0a26"});
     var m = await createMiddleMarkerPath(j, "Car");
     eltsGeo.push(jCar);
     eltsGeo.push(m)

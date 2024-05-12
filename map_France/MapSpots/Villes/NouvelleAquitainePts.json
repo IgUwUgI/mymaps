@@ -215,6 +215,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
+          "Nom": "Mazerolles",
+          "Code": 86320
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.4058, 0.68654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
           "Nom": "Moulismes",
           "Code": 86500
         },
@@ -222,6 +237,21 @@
           "type": "Point",
           "coordinates": [
             46.33011, 0.81466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Verrières",
+          "Code": 86410
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.41268, 0.5929
           ]
         }
       },

@@ -132,12 +132,82 @@
               "COUNTRY": "France",
               "Region": "Auvergne-Rhône-Alpes",
               "Departement": "Cantal",
+              "Nom": "Le Falgoux",
+              "Code": 15380
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.15465, 2.62191]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Cantal",
+              "Nom": "Mandailles-Saint-Julien",
+              "Code": 15590
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.07185, 2.6582]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Cantal",
               "Nom": "Marcoles",
               "Code": 15220
             },
             "geometry": {
               "type": "Point",
               "coordinates": [44.78207, 2.352]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Cantal",
+              "Nom": "Saint-Vincent-de-Salers",
+              "Code": 15380
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.20384, 2.53228]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Cantal",
+              "Nom": "Le Vaulmier",
+              "Code": 15380
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.18921, 2.56836]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Auvergne-Rhône-Alpes",
+              "Departement": "Cantal",
+              "Nom": "Ydes",
+              "Code": 15210
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [45.34714, 2.43732]
             }
           },
           {

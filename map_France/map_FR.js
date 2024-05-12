@@ -122,8 +122,8 @@ BoatLayer.addTo(mymap);
 
 // Randonnees
     for (var i = 0; i < RandoGeo.length; i++) {
-      RandoGeo[i].setStyle({"color": "#388004"})
-      RandoGeo[i].setStyle({"dashArray": "4 8"})
+      // RandoGeo[i].setStyle({"color": "#388004"})
+      // RandoGeo[i].setStyle({"dashArray": "4 8"})
   }
   var RandoLayer = L.layerGroup(RandoGeo);
   RandoLayer.addTo(mymap)
