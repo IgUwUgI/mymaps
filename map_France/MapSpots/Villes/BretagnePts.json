@@ -323,6 +323,34 @@
               "type": "Point",
               "coordinates": [48.09352, -2.10071]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Saint-Malon-sur-Mel",
+              "Code": 35750
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.592080268616, -2.8087858803032]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "COUNTRY": "France",
+              "Region": "Bretagne",
+              "Departement": "Ille-et-Vilaine",
+              "Nom": "Saint-Malon-sur-Mel",
+              "Code": 35750
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [48.60637944407, -2.8608816529391]
+            }
           }
     ]
 }

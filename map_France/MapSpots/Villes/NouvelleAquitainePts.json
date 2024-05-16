@@ -200,6 +200,21 @@
         "properties": {
           "COUNTRY": "France",
           "Region": "Nouvelle-Aquitaine",
+          "Nom": "Lhommaize'",
+          "Code": 86410
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.43467, 0.59722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
           "Nom": "Lussac-les-Chateaux",
           "Code": 86320
         },
@@ -237,6 +252,21 @@
           "type": "Point",
           "coordinates": [
             46.33011, 0.81466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "COUNTRY": "France",
+          "Region": "Nouvelle-Aquitaine",
+          "Nom": "Sillars",
+          "Code": 86320
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.41853, 0.7684
           ]
         }
       },
