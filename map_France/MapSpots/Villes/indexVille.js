@@ -165,7 +165,7 @@ for(var i = 0; i < eltsPoly.length; i++) {
         break;
       case "A_completer":
         style0["fillOpacity"] = 0;
-        style0["opacity"] = 0.3;
+        style0["opacity"] = 0.5;
         break;
       default:
         style0 = Ville_j[k].properties.style
