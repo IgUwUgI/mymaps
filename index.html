@@ -91,6 +91,36 @@
         #tableau-bord h2 {
             color: #f39c12; /* Orange doux */
         }
+
+        
+        #stats{
+        display: flex;
+        flex-direction: row;
+        width:50%;
+        margin: auto;
+        }
+
+        #stats h1{
+            color: #3498db;
+            font-size: 64px;
+            margin-bottom: 5px;
+        }
+
+        #continents{
+        float: left;
+        width: 33%
+        }
+
+        #trips{
+        float: right;
+        width: 33%
+        }
+
+
+        #countries{
+        margin: auto;
+        width: 33%;
+        }
     </style>
     <title>Mes Voyages</title>
 </head>
@@ -102,7 +132,7 @@
 
     <section id="accueil">
         <h2>Bienvenue sur ma page de voyages</h2>
-        <p>Ici, je partage mes expériences de voyage et mes aventures à travers le monde.</p>
+        <p>Ici, je partage mes expériences de voyage et mes aventures à travers la France et le Monde.</p>
     </section>
 
     <nav>
@@ -126,7 +156,21 @@
     </script>
 
     <section id="tableau-bord">
-        <h2>Tableau de Bord Statistique des Voyages</h2>
+        <h2>Tableau de Bord</h2>
+        <div id="stats">
+            <div id="countries">
+                <h1>10</h1>
+                <p>COUNTRIES VISITED</p>
+            </div>
+            <div id="continents">
+                <h1>2</h1>
+                <p>CONTINENTS VISITED</p>
+            </div>
+            <div id="trips">
+                <h1>6</h1>
+                <p>TRIPS</p>
+            </div>
+        </div>
         <!-- Ajoutez ici le contenu du tableau de bord -->
     </section>
 
