@@ -4,124 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url("./assets/background.jpg") center/cover fixed no-repeat;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            color: #fff;
-        }
-
-        header {
-            background-color: rgba(30, 30, 30, 0.8); /* Fond sombre avec transparence */
-            text-align: center;
-            padding: 1em;
-            width: 100%;
-            color: #f39c12; /* Orange doux */
-        }
-
-        nav {
-            background-color: rgba(30, 30, 30, 0.8); /* Fond sombre avec transparence */
-            overflow: hidden;
-            text-align: center;
-            width: 100%;
-        }
-
-        nav a {
-            display: block;
-            color: #fff;
-            text-align: center;
-            padding: 24px 16px;
-            text-decoration: none;
-            margin: 10px 0;
-        }
-
-        nav a:hover {
-            background-color: rgba(33,33,33,0.5); /* Couleur au survol */
-        }
-
-        section {
-            padding: 20px;
-            text-align: center;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.9); /* Fond sombre avec transparence */
-        }
-
-        h2 {
-            color: #3498db; /* Bleu */
-        }
-
-        p {
-            color: #f39c12; /* Orange doux */
-        }
-
-        nav ul{
-            background: rgba(100, 100, 100, 0.6);
-            height: 100%;
-            width: 100%;
-            opacity:100%;
-            list-style: none;
-            text-align: center;
-            padding: 0px;
-        }
-
-        nav ul{
-            position: static;
-            display: none;
-        }
-
-        nav .prepa-sub.show{
-            display: block;
-        }
-
-        /* Nouvelle section pour le tableau de bord */
-        #tableau-bord {
-            padding: 20px;
-            text-align: center;
-            width: 100%;
-            background-color: rgba(30, 30, 30, 0.9); /* Fond sombre avec transparence */
-        }
-
-        #tableau-bord h2 {
-            color: #f39c12; /* Orange doux */
-        }
-
-        
-        #stats{
-        display: flex;
-        flex-direction: row;
-        width:50%;
-        margin: auto;
-        }
-
-        #stats h1{
-            color: #3498db;
-            font-size: 64px;
-            margin-bottom: 5px;
-        }
-
-        #continents{
-        float: left;
-        width: 33%
-        }
-
-        #trips{
-        float: right;
-        width: 33%
-        }
-
-
-        #countries{
-        margin: auto;
-        width: 33%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Mes Voyages</title>
 </head>
 <body>
@@ -142,7 +25,6 @@
         <ul class="prepa-sub">
             <a href="./projects/toDo_France/map_toDoFrance.html">À visiter - France</a>
             <a href="./projects/toDo_Monde/map_toDoMonde.html">À visiter - Monde</a>
-            <a href="./projects/plan_Canaries/plan_Canaries.html">Détail - Canaries</a>
             <a href="./projects/plan_Vietnam/plan_Vietnam.html">Détail - Vietnam</a>
             <a href="./projects/plan_Jordanie/plan_Jordanie.html">Détail - Jordanie</a>
         </ul>
@@ -158,13 +40,33 @@
     <section id="tableau-bord">
         <h2>Tableau de Bord</h2>
         <div id="stats">
-            <div id="countries">
-                <h1>10</h1>
-                <p>COUNTRIES VISITED</p>
-            </div>
             <div id="continents">
                 <h1>2</h1>
                 <p>CONTINENTS VISITED</p>
+                <img class="continent-badge" src="./assets/Europe.png">
+                <img class="continent-badge" src="./assets/Africa.png">
+                <!-- <img class="continent-badge" src="./assets/Asia.png">
+                <img class="continent-badge" src="./assets/Antarctica.png">
+                <img class="continent-badge" src="./assets/America.png"> -->
+            </div>
+            <div id="countries">
+                <h1>11</h1>
+                <p>COUNTRIES VISITED</p>
+                <div id="flags">
+                    <img class="flag-mini" src="./assets/flags/Europe/fr.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/at.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/be.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/ch.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/cz.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/de.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/es.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/hu.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/si.png">
+                    <img class="flag-mini" src="./assets/flags/Europe/sk.png">
+                </div>
+                <div id="flags">
+                    <img class="flag-mini" src="./assets/flags/Afrique/ma.png">
+                </div>
             </div>
             <div id="trips">
                 <h1>6</h1>
