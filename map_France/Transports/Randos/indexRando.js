@@ -16,12 +16,22 @@ const el13 = "./Transports/Randos/05-ColletVert2.geojson"
 const el14 = "./Transports/Randos/05-SerreChevalier.geojson"
 const el15 = "./Transports/Randos/05-ValleeClaree.geojson"
 const el16 = "./Transports/Randos/15-PuyMary.geojson"
+const el17 = "./Transports/Randos/36-Lignac.geojson"
+const el18 = "./Transports/Randos/29-Crozon.geojson"
+const el19 = "./Transports/Randos/29-Lanildut.geojson"
+const el20 = "./Transports/Randos/29-Plouzane.geojson"
+const el21 = "./Transports/Randos/29-Plogoff.geojson"
+const el22 = "./Transports/Randos/29-Conquet.geojson"
+const el23 = "./Transports/Randos/29-Locmaria.geojson"
+
 
 var elts = [
   el12, el13, el14, el15,
   el8,
   el9, el10, el11,
   el16,
+  el18, el19, el20, el21, el22, el23,
+  el17,
   el1,
   el2, el3, el4,
   el6,
