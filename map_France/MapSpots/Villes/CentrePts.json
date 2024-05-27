@@ -1,186 +1,242 @@
 {
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Bourgueuil",
-          "Code": 37140
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.28248, 0.16861]
-        }
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Cher",
+        "Name": "Bourges",
+        "Code": 18000
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Candes-Saint-Martin",
-          "Code": 37500
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.21079, 0.07469]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.08101,
+          2.39878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Bourgueuil",
+        "Code": 37140
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Channay-sur-Lathan",
-          "Code": 37330
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.48025, 0.26362]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.28248,
+          0.16861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Candes-Saint-Martin",
+        "Code": 37500
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Continvoir",
-          "Code": 37340
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.38795, 0.2194]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.21079,
+          0.07469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Channay-sur-Lathan",
+        "Code": 37330
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Courcelles-de-Touraine",
-          "Code": 37330
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.48253, 0.30691]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.48025,
+          0.26362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Continvoir",
+        "Code": 37340
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Gizeux",
-          "Code": 37340
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.39258, 0.19596]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.38795,
+          0.2194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Courcelles-de-Touraine",
+        "Code": 37330
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "COUNTRY": "France",
-          "Region": "Centre-Val-de-Loire",
-          "Departement": "Indre-et-Loire",
-          "Nom": "Rillé",
-          "Code": 37340
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [47.44972, 0.24823]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.48253,
+          0.30691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Gizeux",
+        "Code": 37340
       },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Briare",
-              "Code": 45250
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [47.64004, 2.74062]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Dordives",
-              "Code": 45680
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.14553, 2.76746]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Ferrières-en-Gatinais",
-              "Code": 45210
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.09035, 2.78981]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Fontenay-sur-Loing",
-              "Code": 45210
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.10392, 2.77351]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Nargis",
-              "Code": 45210
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.10936, 2.75711]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Centre-Val-de-Loire",
-              "Departement": "Loiret",
-              "Nom": "Saint-Firmin-sur-Loire",
-              "Code": 45250
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [47.62683, 2.73158]
-            }
-          }
-    ]
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.39258,
+          0.19596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Indre-et-Loire",
+        "Nom": "Rillé",
+        "Code": 37340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.44972,
+          0.24823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Briare",
+        "Code": 45250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.64004,
+          2.74062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Dordives",
+        "Code": 45680
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.14553,
+          2.76746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Ferrières-en-Gatinais",
+        "Code": 45210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.09035,
+          2.78981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Fontenay-sur-Loing",
+        "Code": 45210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.10392,
+          2.77351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Nargis",
+        "Code": 45210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.10936,
+          2.75711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Centre-Val-de-Loire",
+        "Departement": "Loiret",
+        "Nom": "Saint-Firmin-sur-Loire",
+        "Code": 45250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.62683,
+          2.73158
+        ]
+      }
+    }
+  ]
 }

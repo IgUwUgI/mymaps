@@ -30,20 +30,21 @@ const el29 = "./Transports/TrainLines/Paris-Etampes.geojson"
 const el30 = "./Transports/TrainLines/Bordeaux-Arcachon.geojson"
 
 var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19, el20, el21, el22, el23, el24,
-el25, el26, el27, el28, el29, el30]
+  el25, el26, el27, el28, el29, el30]
 
 var eltsGeo = Array()
 
 async function fetchTrain(file) {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch(file);
-    const Train = await res.json();
-    return L.geoJson(Train);
-  }
+  // villes ou je suis alle taille sous-prefectures
+  const res = await fetch(file);
+  const Train = await res.json();
+  return L.geoJson(Train);
+}
 
-for(var i = 0; i < elts.length; i++) {
-    var j = await fetchTrain(elts[i]);
-    eltsGeo.push(j);
+for (var i = 0; i < elts.length; i++) {
+  var j = await fetchTrain(elts[i]);
+  j.setStyle({ "color": "#2a52be" })
+  eltsGeo.push(j);
 }
 
 export const TrainGeo = eltsGeo;

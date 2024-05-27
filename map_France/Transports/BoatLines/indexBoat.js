@@ -12,6 +12,7 @@ async function fetchBoat(file) {
 
 for(var i = 0; i < elts.length; i++) {
     var j = await fetchBoat(elts[i]);
+    j.setStyle({"color": "#042e60"})
     eltsGeo.push(j);
 }
 

@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Nantes-Lyon",
+        "Distance": 537,
+        "Empreinte carbone": 0.152,
+        "Nombre de trajets": 2
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                5.08459,
+                45.72356
+            ],
+            [
+                -1.60623,
+                47.15741
+            ]
+        ]
+    }
+}

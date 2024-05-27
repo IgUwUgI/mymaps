@@ -6,15 +6,16 @@ var elts = [el1, el2]
 var eltsGeo = Array()
 
 async function fetchTrain(file) {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch(file);
-    const Velo = await res.json();
-    return L.geoJson(Velo);
-  }
+  // villes ou je suis alle taille sous-prefectures
+  const res = await fetch(file);
+  const Velo = await res.json();
+  return L.geoJson(Velo);
+}
 
-for(var i = 0; i < elts.length; i++) {
-    var j = await fetchTrain(elts[i]);
-    eltsGeo.push(j);
+for (var i = 0; i < elts.length; i++) {
+  var j = await fetchTrain(elts[i]);
+  j.setStyle({ "color": "#228b22", "dashArray": "4 8" })
+  eltsGeo.push(j);
 }
 
 export const VeloGeo = eltsGeo;

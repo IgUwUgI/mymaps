@@ -1,559 +1,681 @@
 {
-    "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Arbonne-la-Forêt",
-              "Code": 77630
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.41405, 2.56529
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Bagneaux-sur-Loing",
-              "Code": 77167
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.23102, 2.70527
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Barbizon",
-              "Code": 77630
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.44719, 2.60349
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Blandy",
-              "Code": 77115
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.56694, 2.78281
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Bois-le-Roi",
-              "Code": 77590
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.47456, 2.69229
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Bourron-Marlotte",
-              "Code": 77780
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.3405, 2.70192
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Buthiers",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.28772, 2.43032
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Chailly-en-Bière",
-              "Code": 77930
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.46695, 2.60676
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Chateau-Landon",
-              "Code": 77570
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.15023, 2.70442
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Egreville",
-              "Code": 77620
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.17528, 2.87186
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Fay-les-Nemours",
-              "Code": 77167
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.23092, 2.67378
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Grez-sur-Loing",
-              "Code": 77880
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.31606, 2.69059
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Fontaine-le-Port",
-              "Code": 77590
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.48594, 2.75966
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "La Chapelle-la-Reine",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.31407, 2.56893
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "La Genevraye",
-              "Code": 77690
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.31644, 2.75107
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Larchant",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.28484, 2.59565
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Lorrez-le-Bocage-Préaux",
-              "Code": 77710
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.23758, 2.90126
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Maincy",
-              "Code": 77950
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.54976, 2.70106
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Montcourt-Fromonville",
-              "Code": 77140
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.30294, 2.70096
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Montereau-Fault-Yonne",
-              "Code": 77130
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.38473, 2.95619
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Moret-Loing-et-Orvanne",
-              "Code": 77250
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.35962, 2.80914
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Nanteau-sur-Lunain",
-              "Code": 77710
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.25611, 2.80927
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Nemours",
-              "Code": 77140
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.26704, 2.69261
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Noisy-sur-Ecole",
-              "Code": 77123
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.37315, 2.49613
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Nonville",
-              "Code": 77140
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.28203, 2.79435
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Poligny",
-              "Code": 77167
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.22454, 2.74406
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Pringy",
-              "Code": 77310
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.52171, 2.55835
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Recloses",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.3464, 2.64092
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Samois-sur-Seine",
-              "Code": 77920
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.45306, 2.75345
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Saint-Fargeau-Ponthierry",
-              "Code": 77310
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.53615, 2.52425
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Seine-Port",
-              "Code": 77240
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.55809, 2.54962
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Sivry-Courtry",
-              "Code": 77115
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.55809, 2.54962
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Souppes-sur-Loing",
-              "Code": 77460
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.18362, 2.73317
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Ury",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.34091, 2.60164
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Villiers-en-Bière",
-              "Code": 77190
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.49652, 2.60443
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Villiers-sous-Grez",
-              "Code": 77760
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.3205, 2.64768
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Île-de-France",
-              "Nom": "Milly-la-Forêt",
-              "Code": 91490
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                48.4033, 2.46833
-              ]
-            }
-          }
-    ]
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Departement": "Paris",
+        "Name": "Paris",
+        "Code": 75000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.85661,
+          2.35222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Arbonne-la-Forêt",
+        "Code": 77630
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.41405,
+          2.56529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Bagneaux-sur-Loing",
+        "Code": 77167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.23102,
+          2.70527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Barbizon",
+        "Code": 77630
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.44719,
+          2.60349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Blandy",
+        "Code": 77115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.56694,
+          2.78281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Bois-le-Roi",
+        "Code": 77590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.47456,
+          2.69229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Bourron-Marlotte",
+        "Code": 77780
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3405,
+          2.70192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Buthiers",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.28772,
+          2.43032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Chailly-en-Bière",
+        "Code": 77930
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.46695,
+          2.60676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Chateau-Landon",
+        "Code": 77570
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.15023,
+          2.70442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Egreville",
+        "Code": 77620
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.17528,
+          2.87186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Fay-les-Nemours",
+        "Code": 77167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.23092,
+          2.67378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Departement": "Seine-et-Marne",
+        "Name": "Fontainebleau",
+        "Code": 77300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.40467,
+          2.70162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Grez-sur-Loing",
+        "Code": 77880
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.31606,
+          2.69059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Fontaine-le-Port",
+        "Code": 77590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.48594,
+          2.75966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "La Chapelle-la-Reine",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.31407,
+          2.56893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "La Genevraye",
+        "Code": 77690
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.31644,
+          2.75107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Larchant",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.28484,
+          2.59565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Lorrez-le-Bocage-Préaux",
+        "Code": 77710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.23758,
+          2.90126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Maincy",
+        "Code": 77950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.54976,
+          2.70106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Departement": "Seine-et-Marne",
+        "Name": "Melun",
+        "Code": 77000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5421,
+          2.6554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Montcourt-Fromonville",
+        "Code": 77140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.30294,
+          2.70096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Montereau-Fault-Yonne",
+        "Code": 77130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.38473,
+          2.95619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Moret-Loing-et-Orvanne",
+        "Code": 77250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.35962,
+          2.80914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Nanteau-sur-Lunain",
+        "Code": 77710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.25611,
+          2.80927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Nemours",
+        "Code": 77140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.26704,
+          2.69261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Noisy-sur-Ecole",
+        "Code": 77123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.37315,
+          2.49613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Nonville",
+        "Code": 77140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.28203,
+          2.79435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Poligny",
+        "Code": 77167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.22454,
+          2.74406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Pringy",
+        "Code": 77310
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.52171,
+          2.55835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Departement": "Seine-et-Marne",
+        "Name": "Provins",
+        "Code": 77160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.56014,
+          3.2992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Recloses",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3464,
+          2.64092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Samois-sur-Seine",
+        "Code": 77920
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.45306,
+          2.75345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Saint-Fargeau-Ponthierry",
+        "Code": 77310
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.53615,
+          2.52425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Seine-Port",
+        "Code": 77240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.55809,
+          2.54962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Sivry-Courtry",
+        "Code": 77115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.55809,
+          2.54962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Souppes-sur-Loing",
+        "Code": 77460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.18362,
+          2.73317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Ury",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.34091,
+          2.60164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Villiers-en-Bière",
+        "Code": 77190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.49652,
+          2.60443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Villiers-sous-Grez",
+        "Code": 77760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3205,
+          2.64768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Departement": "Essone",
+        "Name": "Etampes",
+        "Code": 91150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.43441,
+          2.16142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Île-de-France",
+        "Nom": "Milly-la-Forêt",
+        "Code": 91490
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.4033,
+          2.46833
+        ]
+      }
+    }
+  ]
 }

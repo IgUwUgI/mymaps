@@ -1,60 +1,123 @@
 {
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Hauts-de-France",
-              "Departement": "Aisne",
-              "Nom": "Chamouille",
-              "Code": 2860
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [49.47417, 3.66546]
-            }
-          },
-          {
-              "type": "Feature",
-              "properties": {
-                "COUNTRY": "France",
-                "Region": "Hauts-de-France",
-                "Departement": "Aisne",
-                "Nom": "Neuville-sur-Ailette",
-                "Code": 2860
-              },
-              "geometry": {
-                "type": "Point",
-                "coordinates": [49.4662, 3.69892]
-              }
-            },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Hauts-de-France",
-              "Departement": "Somme",
-              "Nom": "Le Crotoy",
-              "Code": 80550
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [50.21472, 1.62615]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Hauts-de-France",
-              "Departement": "Somme",
-              "Nom": "Saint-Valéry-sur-Somme",
-              "Code": 80230
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [50.18864, 1.62969]
-            }
-          }
-    ]
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Aisne",
+        "Nom": "Chamouille",
+        "Code": 2860
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.47417,
+          3.66546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Aisne",
+        "Nom": "Neuville-sur-Ailette",
+        "Code": 2860
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4662,
+          3.69892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Nord",
+        "Name": "Cambrai",
+        "Code": 59400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.17353,
+          3.23663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Nord",
+        "Name": "Lille",
+        "Code": 59000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.62925,
+          3.05725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Somme",
+        "Name": "Amiens",
+        "Code": 80000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.89406,
+          2.29575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Somme",
+        "Nom": "Le Crotoy",
+        "Code": 80550
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.21472,
+          1.62615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Hauts-de-France",
+        "Departement": "Somme",
+        "Nom": "Saint-Valéry-sur-Somme",
+        "Code": 80230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.18864,
+          1.62969
+        ]
+      }
+    }
+  ]
 }

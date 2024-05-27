@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Brest-Lyon",
+        "Distance": 781,
+        "Empreinte carbone": 0.185,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -4.41853,
+                48.44755
+            ],
+            [
+                5.08459,
+                45.72356
+            ]
+        ]
+    }
+}

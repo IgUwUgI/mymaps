@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Roissy-Montpellier",
+        "Distance": 613,
+        "Empreinte carbone": 0.163,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                2.57691,
+                49.00521
+            ],
+            [
+                3.96523,
+                43.57959
+            ]
+        ]
+    }
+}

@@ -42,16 +42,16 @@ var elts = [
 var eltsGeo = Array()
 
 async function fetchRandos(file) {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch(file);
-    const Randos = await res.json();
-    return Randos;
-  }
+  // villes ou je suis alle taille sous-prefectures
+  const res = await fetch(file);
+  const Randos = await res.json();
+  return Randos;
+}
 
-for(var i = 0; i < elts.length; i++) {
+for (var i = 0; i < elts.length; i++) {
   var j = await fetchRandos(elts[i]);
   var jRando = L.geoJson(j);
-  jRando.setStyle({"color": "#388004", "dashArray": "4 8"});
+  jRando.setStyle({ "color": "#388004", "dashArray": "4 8" });
   var m = await createMiddleMarkerPath(j, "Hike");
   eltsGeo.push(jRando);
   eltsGeo.push(m);

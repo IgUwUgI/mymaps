@@ -1,364 +1,439 @@
 {
-    "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Aigues-Mortes",
-            "Code": 30220
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.56717, 4.19258
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Aimargues",
-            "Code": 30470
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.68508, 4.20884
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Bagnols-sur-Cèze",
-            "Code": 30200
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.16252, 4.62007
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Beaucaire",
-            "Code": 30300
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.80723, 4.64426
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Connaux",
-            "Code": 30330
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.09239, 4.59452
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Laudun-L'Ardoise",
-            "Code": 30290
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.10529, 4.65743
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Le Cailar",
-            "Code": 30740
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.67556, 4.23619
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Ledenon",
-            "Code": 30210
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.9154, 4.5076
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Le Grau-du-Roi",
-            "Code": 30240
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.53747, 4.13791
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Le Vigan",
-            "Code": 30120
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.99292, 3.60632
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Pont-Saint-Esprit",
-            "Code": 30130
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.26103, 4.64807
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Saint-Gilles",
-            "Code": 30800
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.67707, 4.4337
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Saint-Laurent-d'Aigouze",
-            "Code": 30800
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.63344, 4.19548
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Sumène",
-            "Code": 30440
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.97919, 3.71401
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Uzes",
-            "Code": 30700
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.01211, 4.41994
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Val d'Aigoual",
-            "Code": 30570
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.08101, 3.64152
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Vauvert",
-            "Code": 30600
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.69298, 4.27832
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Vergèze",
-            "Code": 30310
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.74352, 4.22069
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Vers-Pont-du-Gard",
-            "Code": 30210
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.96708, 4.52405
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Clermont-l'Hérault",
-            "Code": 34800
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.62759, 3.42949
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "La Grande-Motte",
-            "Code": 34280
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.5607, 4.08607
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Mauguio",
-            "Code": 34130
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.61544, 4.01016
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Palavas-les-Flots",
-            "Code": 34250
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              43.5289, 3.93349
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Occitanie",
-            "Nom": "Gatuzières",
-            "Code": 48150
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              44.19835, 3.48778
-            ]
-          }
-        }
-    ]
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Departement": "Aveyron",
+        "Name": "Millau",
+        "Code": 12100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.10057,
+          3.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Aigues-Mortes",
+        "Code": 30220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.56717,
+          4.19258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Aimargues",
+        "Code": 30470
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.68508,
+          4.20884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Bagnols-sur-Cèze",
+        "Code": 30200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.16252,
+          4.62007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Beaucaire",
+        "Code": 30300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80723,
+          4.64426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Connaux",
+        "Code": 30330
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.09239,
+          4.59452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Laudun-L'Ardoise",
+        "Code": 30290
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.10529,
+          4.65743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Le Cailar",
+        "Code": 30740
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.67556,
+          4.23619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Ledenon",
+        "Code": 30210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9154,
+          4.5076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Le Grau-du-Roi",
+        "Code": 30240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.53747,
+          4.13791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Le Vigan",
+        "Code": 30120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.99292,
+          3.60632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Departement": "Gard",
+        "Name": "Nîmes",
+        "Code": 30000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.83669,
+          4.36005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Pont-Saint-Esprit",
+        "Code": 30130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.26103,
+          4.64807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Saint-Gilles",
+        "Code": 30800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.67707,
+          4.4337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Saint-Laurent-d'Aigouze",
+        "Code": 30800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.63344,
+          4.19548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Sumène",
+        "Code": 30440
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97919,
+          3.71401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Uzes",
+        "Code": 30700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01211,
+          4.41994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Val d'Aigoual",
+        "Code": 30570
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.08101,
+          3.64152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Vauvert",
+        "Code": 30600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.69298,
+          4.27832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Vergèze",
+        "Code": 30310
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.74352,
+          4.22069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Vers-Pont-du-Gard",
+        "Code": 30210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.96708,
+          4.52405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Clermont-l'Hérault",
+        "Code": 34800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.62759,
+          3.42949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "La Grande-Motte",
+        "Code": 34280
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5607,
+          4.08607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Mauguio",
+        "Code": 34130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.61544,
+          4.01016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Departement": "Héraut",
+        "Name": "Montpellier",
+        "Code": 34000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.61076,
+          3.87671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Palavas-les-Flots",
+        "Code": 34250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5289,
+          3.93349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Occitanie",
+        "Nom": "Gatuzières",
+        "Code": 48150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.19835,
+          3.48778
+        ]
+      }
+    }
+  ]
 }

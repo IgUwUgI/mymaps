@@ -1,4 +1,38 @@
 {
     "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Grand-Est",
+                "Departement": "Aube",
+                "Name": "Troyes",
+                "Code": 10000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.29734,
+                    4.0744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "COUNTRY": "France",
+                "Region": "Grand-Est",
+                "Departement": "Marne",
+                "Name": "Reims",
+                "Code": 51100
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.25832,
+                    4.03169
+                ]
+            }
+        }
     ]
 }

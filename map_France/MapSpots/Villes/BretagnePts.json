@@ -1,356 +1,448 @@
 {
-    "features": [
-      {
-          "type": "Feature",
-          "properties": {
-            "COUNTRY": "France",
-            "Region": "Bretagne",
-            "Departement": "Côtes-d'Armor",
-            "Nom": "Binic-Etables-sur-Mer",
-            "Code": 22520
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [48.61912, -2.83492]
-          }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Côtes-d'Armor",
-              "Nom": "Pordic",
-              "Code": 22590
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.57199, -2.81417]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Brennilis",
-              "Code": 29690
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.35728, -3.85065]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Crozon",
-              "Code": 29160
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.2463, -4.48956]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Douarnenez",
-              "Code": 29100
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.09322, -4.32861]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "type": "Main",
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Guilers",
-              "Code": 29820,
-              "color":"#6E7A7D"
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.42484, -4.55824]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Kerlouan",
-              "Code": 29890
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.64517, -4.36564]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Lanildut",
-              "Code": 29840
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.47338, -4.7475]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Le Conquet",
-              "Code": 29217
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.35996, -4.77458]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Le Faou",
-              "Code": 29590
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.29446, -4.1796]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Locmaria-Plouzané",
-              "Code": 29280
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.37014, -4.6508]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Plogoff",
-              "Code": 29770
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.03667, -4.66649]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Plomodiern",
-              "Code": 29550
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.18148, -4.23274]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Plougonvelin",
-              "Code": 29217
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.34142, -4.71871]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Quimperlé",
-              "Code": 29300
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [47.87258, -3.54754]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Roscanvel",
-              "Code": 29570
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.31535, -4.54802]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Saint-Nic",
-              "Code": 29550
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.20213, -4.28319]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Saint-Ségal",
-              "Code": 29590
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.241, -4.06653]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Saint-Thégonnec Loc-Eguiner",
-              "Code": 29410
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.52124, -3.94684]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Trebabu",
-              "Code": 29217
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.37049, -4.73546]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Finistère",
-              "Nom": "Tregunc",
-              "Code": 29910
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [47.85544, -3.85267]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Ille-et-Vilaine",
-              "Nom": "Paimpont",
-              "Code": 35380
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.01956, -2.17405]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Ille-et-Vilaine",
-              "Nom": "Saint-Malon-sur-Mel",
-              "Code": 35750
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.09352, -2.10071]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Ille-et-Vilaine",
-              "Nom": "Saint-Malon-sur-Mel",
-              "Code": 35750
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.592080268616, -2.8087858803032]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "COUNTRY": "France",
-              "Region": "Bretagne",
-              "Departement": "Ille-et-Vilaine",
-              "Nom": "Saint-Malon-sur-Mel",
-              "Code": 35750
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [48.60637944407, -2.8608816529391]
-            }
-          }
-    ]
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Côtes-d'Armor",
+        "Nom": "Binic-Etables-sur-Mer",
+        "Code": 22520
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.61912,
+          -2.83492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Côtes-d'Armor",
+        "Nom": "Pordic",
+        "Code": 22590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.57199,
+          -2.81417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Brennilis",
+        "Code": 29690
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.35728,
+          -3.85065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Name": "Brest",
+        "Code": 29200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.39039,
+          -4.48607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Name": "Châteaulin",
+        "Code": 29150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.19538,
+          -4.0942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Crozon",
+        "Code": 29160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2463,
+          -4.48956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Douarnenez",
+        "Code": 29100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.09322,
+          -4.32861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Main",
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Guilers",
+        "Code": 29820,
+        "color": "#6E7A7D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.42484,
+          -4.55824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Kerlouan",
+        "Code": 29890
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.64517,
+          -4.36564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Lanildut",
+        "Code": 29840
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.47338,
+          -4.7475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Le Conquet",
+        "Code": 29217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.35996,
+          -4.77458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Le Faou",
+        "Code": 29590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.29446,
+          -4.1796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Locmaria-Plouzané",
+        "Code": 29280
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.37014,
+          -4.6508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Plogoff",
+        "Code": 29770
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.03667,
+          -4.66649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Plomodiern",
+        "Code": 29550
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.18148,
+          -4.23274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Plougonvelin",
+        "Code": 29217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.34142,
+          -4.71871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Quimperlé",
+        "Code": 29300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.87258,
+          -3.54754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Roscanvel",
+        "Code": 29570
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.31535,
+          -4.54802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Saint-Nic",
+        "Code": 29550
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.20213,
+          -4.28319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Saint-Ségal",
+        "Code": 29590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.241,
+          -4.06653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Saint-Thégonnec Loc-Eguiner",
+        "Code": 29410
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.52124,
+          -3.94684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Trebabu",
+        "Code": 29217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.37049,
+          -4.73546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Finistère",
+        "Nom": "Tregunc",
+        "Code": 29910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.85544,
+          -3.85267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Ille-et-Vilaine",
+        "Nom": "Paimpont",
+        "Code": 35380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.01956,
+          -2.17405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Ille-et-Vilaine",
+        "Name": "Rennes",
+        "Code": 35000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.11726,
+          -1.67779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "COUNTRY": "France",
+        "Region": "Bretagne",
+        "Departement": "Ille-et-Vilaine",
+        "Nom": "Saint-Malon-sur-Mel",
+        "Code": 35750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.09352,
+          -2.10071
+        ]
+      }
+    }
+  ]
 }

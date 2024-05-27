@@ -60,18 +60,18 @@ var VillesPtsGeo0 = Array();
 var VillesDpttmp0 = Array(96);
 var VillesRegtmp0 = Array(18);
 
-for(i = 0; i < 96; i++) {
+for (i = 0; i < 96; i++) {
   VillesDpttmp0[i] = []
 }
-for(i = 0; i < 18; i++) {
+for (i = 0; i < 18; i++) {
   VillesRegtmp0[i] = []
 }
 
 async function fetchPoly(file) {
-    const res = await fetch(file);
-    const Poly = await res.json();
-    return Poly
-  }
+  const res = await fetch(file);
+  const Poly = await res.json();
+  return Poly
+}
 
 async function fetchPt(file) {
   const res = await fetch(file);
@@ -79,31 +79,31 @@ async function fetchPt(file) {
   return Pt;
 }
 
-for(var i = 0; i < eltsPrefPts.length; i++) {
+for (var i = 0; i < eltsPrefPts.length; i++) {
   var j = await fetchPt(eltsPrefPts[i]);
   var Pref_j = new Array(j.features)[0];
-  for (var k = 0; k < Pref_j.length; k++){
+  for (var k = 0; k < Pref_j.length; k++) {
     PrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    VillesDpttmp0[Pref_j[k].properties.Code/1000].push(Pref_j[k]);
+    VillesDpttmp0[Pref_j[k].properties.Code / 1000].push(Pref_j[k]);
     VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
 
-for(var i = 0; i < eltsSsPrefPts.length; i++) {
+for (var i = 0; i < eltsSsPrefPts.length; i++) {
   var j = await fetchPt(eltsSsPrefPts[i]);
   var Pref_j = new Array(j.features)[0];
-  for (var k = 0; k < Pref_j.length; k++){
+  for (var k = 0; k < Pref_j.length; k++) {
     SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code/1000)].push(Pref_j[k]);
+    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code / 1000)].push(Pref_j[k]);
     VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
 
-for(var i = 0; i < eltsPoly.length; i++) {
+for (var i = 0; i < eltsPoly.length; i++) {
   var j = await fetchPoly(eltsPoly[i]);
   var Ville_j = new Array(j.features)[0];
-  for (var k = 0; k <Ville_j.length; k++){
-    var style0 = {"color": Ville_j[k].properties.color, "weight": 1, "fillOpacity": 0.30}
+  for (var k = 0; k < Ville_j.length; k++) {
+    var style0 = { "color": Ville_j[k].properties.color, "weight": 1, "fillOpacity": 0.30 }
     switch (Ville_j[k].properties.type) {
       case "Main":
         style0["fillOpacity"] = 0.30;
@@ -119,16 +119,16 @@ for(var i = 0; i < eltsPoly.length; i++) {
         style0 = Ville_j[k].properties.style
         break;
     }
-    VillesPolyGeo0.push(L.geoJson(Ville_j[k], {"style": style0}));
+    VillesPolyGeo0.push(L.geoJson(Ville_j[k], { "style": style0 }));
   }
 }
 
-for(var i = 0; i < eltsPts.length; i++) {
+for (var i = 0; i < eltsPts.length; i++) {
   var j = await fetchPt(eltsPts[i]);
   var Pref_j = new Array(j.features)[0];
-  for (var k = 0; k < Pref_j.length; k++){
+  for (var k = 0; k < Pref_j.length; k++) {
     VillesPtsGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code/1000)].push(Pref_j[k]);
+    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code / 1000)].push(Pref_j[k]);
     VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
   }
 }
