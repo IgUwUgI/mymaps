@@ -7,188 +7,30 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#showcase{
-    background-image: url("https://i1.wp.com/www.lechotouristique.com/wp-content/uploads/2020/04/8464339495_2d3b64fb10_b.jpg?resize=750%2C430&ssl=1");
-    height: 600px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color :white;
-    height: 600px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color :white;
-  }
-
-
-
-
-.btn{
-    position: relative;
-    top: 3px;
-    left: 45px;
-    height: 45px;
-    width: 45px;
-    text-align: center;
-    background: #1f3447;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: left 0.4s ease;
-  
+#headerBand {
+  background-color: #1f3447; /* Fond sombre avec transparence */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  color: #f39c12; /* Orange doux */
 }
 
-.btn.click{
-    left: 362px;
-}
-
-  /*couleur bouton */
-.btn span{
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    line-height: 45px;
-}
-
-.btn.click span:before{
-    content: '\f00d';
-}
-
-
-.sidebar {
-  left: -350px;
-  width: 350px;
+#container{
   height: 100%;
-  position: fixed;
-  z-index: 9999999; /* Stay on top */
-  top : 0px;
-  
-  background: none;
-  overflow-x:hidden;
-  padding-top : 20px;
-  transition: left .5s ease;
-    
-  }
-  
-  .sidebar.show{
-    left: 0px;
-  }
+  width: 100%;
+  position: relative;
+}
 
-  .sidebar .text{
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 65px;
-    text-align: center;
-    background: #1f3447;
-    opacity : 99%;
-    letter-spacing: 1px;
-  }
-
-  nav ul{
-    background: #1f3447;
+  #mapid{
     height: 100%;
     width: 100%;
-    opacity:80%;
-    list-style: none;
-  }
-  nav ul li{
-    line-height: 60px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-  }
-  nav ul li:last-child{
-    border-bottom: 1px solid rgba(255,255,255,0.05);
-  }
-  nav ul li a{
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    padding-left: 40px;
-    font-weight: 500;
-    display: block;
-    width: 100%;
-    border-left: 3px solid transparent;
-  }
-  nav ul li.active a{
-    color: none;
-    background: none;
-    border-left-color: transparent;
-  }
-
-  nav ul li a:hover{
-    background: #009AA6;
-  }
-  nav ul ul{
-    position: static;
-    display: none;
-  }
-  nav ul .feat-show.show{
-    display: block;
-  }
-  nav ul .serv-show.show1{
-    display: block;
-  }
-  nav ul .env-show.show1{
-    display: block;
-  }
-  nav ul .eco-show.show1{
-    display: block;
-  }
-  nav ul .dens-show.show1{
-    display: block;
-  }
-  nav ul .esp-show.show1{
-    display: block;
-  }
-  nav ul ul li{
-    line-height: 42px;
-    border-top: none;
-  }
-  nav ul ul li a{
-    font-size: 17px;
-    color: white;
-    padding-left: 80px;
-  }
-  nav ul ul li li li a{
-    font-size: 17px;
-    color: white;
-    padding-left: 160px;
-  }
-  nav ul ul li li a{
-    font-size: 17px;
-    color: white;
-    padding-left: 120px;
-  }
-  nav ul li.active ul li a{
-    color: white;
-    background: #1f3447;
-    border-left-color: transparent;
-  }
-  nav ul ul li a:hover{
-    color: white!important;
-    background: #009AA6!important;
-  }
-  
-  nav ul li a span{
     position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 22px;
-    transition: transform 0.4s;
-  }
-  nav ul li a span.rotate{
-    transform: translateY(-50%) rotate(-180deg);
+    top: 80px;
+    left: 0;
+    z-index: 0;
   }
   
   .leaflet-tooltip.my-labels {
@@ -198,10 +40,3 @@
     font-weight: bold;
     font-size: 30px;
     }
-
-
-
-  /* bouton menu deroulant */
-  
-
-  /* cancel button */

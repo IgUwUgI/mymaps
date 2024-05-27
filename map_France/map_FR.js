@@ -1,33 +1,35 @@
-        
-  // Creation de la carte, ouverture centree sur les coordonnees specifiees
-  // syntaxe : setview([Nord, Est], zoom)
-  var mymap = L.map('mapid', {
-    zoomDelta: 0.25,
-    zoomSnap: 0
+// Creation de la carte, ouverture centree sur les coordonnees specifiees
+// syntaxe : setview([Nord, Est], zoom)
+var mymap = L.map('mapid', {
+  zoomDelta: 0.25,
+  zoomSnap: 0,
+  zoomControl: false
 }).setView([46.4836, 2.5264], 6);
 
-  // fond de carte
-  var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
-	maxZoom: 15,
+// fond de carte
+var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 15,
   minZoom: 3,
-    });
-    CartoDB_Voyager.addTo(mymap);
+  });
+CartoDB_Voyager.addTo(mymap);
 
+new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 
-    import {planeIcon, cityIcon} from "../assets/assets.js";
-    import "../modules/rotated_markers.js";
-    import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
-    import {BusGeo} from "./Transports/BusLines/indexBus.js"
-    import {CarGeo} from "./Transports/CarTrips/indexCar.js"
-    import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
-    import {BoatGeo} from "./Transports/BoatLines/indexBoat.js"
-    import {VeloGeo} from "./Transports/Velo/indexVelo.js"
-    import {RandoGeo} from "./Transports/Randos/indexRando.js"
-    import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-    import {PrefGeo, SsPrefGeo, VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
-    
+// importation des donnees exterieures
+import {planeIcon, cityIcon} from "../assets/assets.js";
+import "../modules/rotated_markers.js";
+import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
+import {BusGeo} from "./Transports/BusLines/indexBus.js"
+import {CarGeo} from "./Transports/CarTrips/indexCar.js"
+import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
+import {BoatGeo} from "./Transports/BoatLines/indexBoat.js"
+import {VeloGeo} from "./Transports/Velo/indexVelo.js"
+import {RandoGeo} from "./Transports/Randos/indexRando.js"
+import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
+import {PrefGeo, SsPrefGeo, VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
+
 
 
 

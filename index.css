@@ -158,6 +158,14 @@ width: 33%;
   margin-bottom: 30px;
 }
 
+.legend{
+    display: none;
+}
+
+.flag-mini:hover + .legend{
+    display: block;
+}
+
   /* bouton menu deroulant */
   
 

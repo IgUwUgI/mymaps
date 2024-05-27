@@ -1,0 +1,245 @@
+<!doctype html>
+<head>
+  <style>
+.btn{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: #1f3447;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease; 
+    z-index: 10;
+}
+    
+    .btn span:before{
+      content: '▶';
+    }
+    
+    .btn.click{
+        left: 350px;
+    }
+    
+      /*couleur bouton */
+    .btn span{
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        line-height: 45px;
+    }
+    
+    .btn.click span:before{
+        content: '◀';
+    }
+    
+    
+    .sidebar {
+      left: -350px;
+      width: 350px;
+      height: 100% ;
+      position: fixed;
+      z-index: 9999999; /* Stay on top */
+      top : 80px;
+      background: none;
+      overflow:hidden;
+      padding-top : 0px;
+      transition: left .5s ease;
+        
+      }
+      
+      .sidebar.show{
+        left: 0px;
+      }
+    
+      .sidebar .text{
+        top: 0px;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 65px;
+        text-align: center;
+        background: #1f3447;
+        opacity : 99%;
+        letter-spacing: 1px;
+      }
+    
+      nav ul{
+        background: #1f3447;
+        height: 100%;
+        width: 100%;
+        opacity:80%;
+        list-style: none;
+      }
+      nav ul li{
+        line-height: 60px;
+        border-top: 1px solid rgba(255,255,255,0.1);
+      }
+      nav ul li:last-child{
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+      nav ul li a{
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding-left: 40px;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        border-left: 3px solid transparent;
+      }
+      nav ul li.active a{
+        color: none;
+        background: none;
+        border-left-color: transparent;
+      }
+    
+      nav ul li a:hover{
+        background: #009AA6;
+      }
+      nav ul ul{
+        position: static;
+        display: none;
+      }
+      nav ul .feat-show.show{
+        display: block;
+      }
+      nav ul .serv-show.show1{
+        display: block;
+      }
+      nav ul .env-show.show1{
+        display: block;
+      }
+      nav ul .eco-show.show1{
+        display: block;
+      }
+      nav ul .dens-show.show1{
+        display: block;
+      }
+      nav ul .esp-show.show1{
+        display: block;
+      }
+      nav ul ul li{
+        line-height: 42px;
+        border-top: none;
+      }
+      nav ul ul li a{
+        font-size: 17px;
+        color: white;
+        padding-left: 80px;
+      }
+      nav ul ul li li li a{
+        font-size: 17px;
+        color: white;
+        padding-left: 160px;
+      }
+      nav ul ul li li a{
+        font-size: 17px;
+        color: white;
+        padding-left: 120px;
+      }
+      nav ul li.active ul li a{
+        color: white;
+        background: #1f3447;
+        border-left-color: transparent;
+      }
+      nav ul ul li a:hover{
+        color: white!important;
+        background: #009AA6!important;
+      }
+      
+      nav ul li a span{
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        font-size: 22px;
+        transition: transform 0.4s;
+      }
+      nav ul li a span.rotate{
+        transform: translateY(-50%) rotate(-180deg);
+      }
+      
+  </style>
+</head>
+<body>
+
+        <div class="btn">
+            <span class="fas fa-bars"></span>
+        </div>
+        
+        <!--MENU DEROULANT -->
+        <nav class="sidebar">
+              <div class="text">Menu</div>
+          <ul>
+            <li class="active"><a href="../index.html"><i class="fas fa-home"></i> Accueil</a></li>
+        
+        
+            <li>
+                  <a href="#" class="feat-btn"><i class="fas fa-user-friends"></i> Voyages en France
+                    <span class="fas fa-caret-down first"></span>
+                  </a>
+                  <ul class="feat-show">
+        
+              </ul>
+            </li>
+    
+            <li>
+                  <a href="../map_Monde/map_Monde.html" class="env-btn"><i class="fas fa-seedling"></i> Voyages à l'étranger
+                    <span class="fas fa-caret-down third"></span>
+                  </a>
+                  <ul class="env-show">
+              </ul>
+            </li>
+        
+            <li>
+                  <a href="#" class="eco-btn"><i class="fas fa-money-bill-wave"></i> Préparations de voyages
+                    <span class="fas fa-caret-down fourth"></span>
+                  </a>
+                  <ul class="eco-show">
+                    <li><a href="../projects/toDo_France/map_toDoFrance.html"> À visiter - France</a></li>
+                    <li><a href="../projects/toDo_Monde/map_toDoMonde.html"> À visiter - Monde</a></li>
+                    <li><a href="../projects/plan_Canaries/plan_Canaries.html"> Détail - Canaries</a></li>
+                    <li><a href="../projects/plan_Vietnam/plan_Vietnam.html"> Détail - Vietnam</a></li>
+                    <li><a href="../projects/plan_Jordanie/plan_Jordanie.html"> Détail - Jordanie</a></li>
+                  </ul>
+              </li>
+          </ul>
+        </nav>
+    
+        <script>
+            $('.btn').click(function(){
+              $(this).toggleClass("click");
+              $('.sidebar').toggleClass("show");
+            });
+              $('.feat-btn').click(function(){
+                $('nav ul .feat-show').toggleClass("show");
+                $('nav ul .first').toggleClass("rotate");
+              });
+              $('.serv-btn').click(function(){
+                $('nav ul .serv-show').toggleClass("show1");
+                $('nav ul .second').toggleClass("rotate");
+              });
+              $('.env-btn').click(function(){
+                $('nav ul .env-show').toggleClass("show1");
+                $('nav ul .third').toggleClass("rotate");
+              });
+              $('.eco-btn').click(function(){
+                $('nav ul .eco-show').toggleClass("show1");
+                $('nav ul .fourth').toggleClass("rotate");
+              });
+              $('.dens-btn').click(function(){
+                $('nav ul .dens-show').toggleClass("show1");
+                $('nav ul .fifth').toggleClass("rotate");
+              });
+              $('.esp-btn').click(function(){
+                $('nav ul .esp-show').toggleClass("show1");
+                $('nav ul .sixth').toggleClass("rotate");
+              });
+              $('nav ul li').click(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+              });
+            </script>
+</body>
