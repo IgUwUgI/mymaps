@@ -22,13 +22,13 @@ new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 import {cityIcon} from "../assets/assets.js";
 import "../modules/rotated_markers.js";
 import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
-import {BusGeo} from "./Transports/BusLines/indexBus.js"
-import {CarGeo} from "./Transports/CarTrips/indexCar.js"
+import {BusLayer} from "./Transports/BusLines/indexBus.js"
+import {CarLayer} from "./Transports/CarTrips/indexCar.js"
 import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
-import {BoatGeo} from "./Transports/BoatLines/indexBoat.js"
-import {VeloGeo} from "./Transports/Velo/indexVelo.js"
-import {RandoGeo} from "./Transports/Randos/indexRando.js"
-import {AvionsGeo} from "./Transports/Planes/indexPlane.js";
+import {BoatLayer} from "./Transports/BoatLines/indexBoat.js"
+import {VeloLayer} from "./Transports/Velo/indexVelo.js"
+import {RandoLayer} from "./Transports/Randos/indexRando.js"
+import {AvionsLayer} from "./Transports/Planes/indexPlane.js";
 import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
 import {VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
 
@@ -45,39 +45,22 @@ var VillesLayer = L.layerGroup(VillesPtsGeo);
 
 // Polygones villes
 var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
-VillesPolyLayer.addTo(mymap)
+VillesPolyLayer.addTo(mymap);
 
-// Avion
-var AvionsLayer = L.layerGroup(AvionsGeo);
-AvionsLayer.addTo(mymap);
+// Lignes
+AvionsLayer.addTo(mymap); // Avion
+CarLayer.addTo(mymap); // Voiture
+BusLayer.addTo(mymap); // Bus
+BoatLayer.addTo(mymap); // Bateau
+VeloLayer.addTo(mymap); // Velo
+RandoLayer.addTo(mymap); // Randonnees
 
-// Voiture
-var CarLayer = L.layerGroup(CarGeo);
-CarLayer.addTo(mymap);
-
-// Bus --> add marker
-var BusLayer = L.layerGroup(BusGeo);
-BusLayer.addTo(mymap);
-
-// Train --> add marker
+// Train --> add marker + merge lines on QGIS
 var TrainLayer = L.layerGroup(TrainGeo);
 TrainLayer.addTo(mymap);
 
-// Bateau --> add marker
-var BoatLayer = L.layerGroup(BoatGeo);
-BoatLayer.addTo(mymap);
-
-// Velo --> add marker
-var VeloLayer = L.layerGroup(VeloGeo);
-VeloLayer.addTo(mymap);
-
-// Randonnees
-var RandoLayer = L.layerGroup(RandoGeo);
-RandoLayer.addTo(mymap)
-
 var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
 var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
-console.log(VillesRegLayer)
 VillesRegLayer.addTo(mymap)
 
 
@@ -113,8 +96,13 @@ VillesRegLayer.addTo(mymap)
 
 // Calques
 var visite = {
-  "Départements visités": dptsLayer,
-  "Avions": AvionsLayer
+  "<span style='font-size: 1.4em'>Départements visités</span>": dptsLayer,
+  "<span style='font-size: 1.4em'>Trajets roadtrip</span>": CarLayer,
+  "<span style='font-size: 1.4em'>Trajets en bus</span>": BusLayer,
+  "<span style='font-size: 1.4em'>Trajets en bateau</span>": BoatLayer,
+  "<span style='font-size: 1.4em'>Vélorandos</span>": VeloLayer,
+  "<span style='font-size: 1.4em'>Randonnées</span>": RandoLayer,
+  "<span style='font-size: 1.4em'>Avions</span>": AvionsLayer
 };
 var layerControl = L.control.layers(null, visite).addTo(mymap);
 // Création d'un encadre qui affiche les infos

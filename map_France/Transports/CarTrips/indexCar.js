@@ -21,4 +21,6 @@ for(var i = 0; i < elts.length; i++) {
     eltsGeo.push(m)
 }
 
-export const CarGeo = eltsGeo;
+var eltsLayer = L.layerGroup(eltsGeo);
+
+export const CarLayer = eltsLayer;

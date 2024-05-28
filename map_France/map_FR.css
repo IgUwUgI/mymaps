@@ -1,42 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
-*{
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 #headerBand {
-  background-color: #1f3447; /* Fond sombre avec transparence */
+  background-color: #1f3447;
+  /* Fond sombre avec transparence */
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80px;
   width: 100%;
-  color: #f39c12; /* Orange doux */
+  color: #f39c12;
+  /* Orange doux */
 }
 
-#container{
+#container {
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-  #mapid{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    z-index: 0;
-  }
-  
-  .leaflet-tooltip.my-labels {
-    background-color: transparent;
-    border: transparent;
-    box-shadow: none;
-    font-weight: bold;
-    font-size: 30px;
-    }
+#mapid {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 0;
+}
+
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 30px;
+}

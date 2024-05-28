@@ -28,9 +28,10 @@ const el27 = "./Transports/TrainLines/Nantes-Pornic.geojson"
 const el28 = "./Transports/TrainLines/Dijon-Troyes.geojson"
 const el29 = "./Transports/TrainLines/Paris-Etampes.geojson"
 const el30 = "./Transports/TrainLines/Bordeaux-Arcachon.geojson"
+const el31 = "./Transports/TrainLines/Montmorillon-Poitiers.geojson"
 
 var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19, el20, el21, el22, el23, el24,
-  el25, el26, el27, el28, el29, el30]
+  el25, el26, el27, el28, el29, el30, el31]
 
 var eltsGeo = Array()
 

@@ -1,21 +1,10 @@
-const el1 = "./Transports/Velo/Lyon-Saint-Paul-en-Jarez.geojson"
-const el2 = "./Transports/Velo/3_monts-d_or.geojson"
+import {toLayer} from "../../../modules/fonctions_transverses.js";
 
-var elts = [el1, el2]
+const el1 = "./Transports/Velo/Lyon-Saint-Paul-en-Jarez.geojson";
+const el2 = "./Transports/Velo/3_monts-d_or.geojson";
 
-var eltsGeo = Array()
+var elts = [el1, el2];
 
-async function fetchTrain(file) {
-  // villes ou je suis alle taille sous-prefectures
-  const res = await fetch(file);
-  const Velo = await res.json();
-  return L.geoJson(Velo);
-}
+var eltsGeo = Array();
 
-for (var i = 0; i < elts.length; i++) {
-  var j = await fetchTrain(elts[i]);
-  j.setStyle({ "color": "#228b22", "dashArray": "4 8" })
-  eltsGeo.push(j);
-}
-
-export const VeloGeo = eltsGeo;
+export const VeloLayer = await toLayer(elts, { "color": "#228b22", "dashArray": "4 8" }, "Velo");
