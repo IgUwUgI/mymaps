@@ -27,24 +27,21 @@ import {CarLayer} from "./Transports/CarTrips/indexCar.js"
 import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
 import {BoatLayer} from "./Transports/BoatLines/indexBoat.js"
 import {VeloLayer} from "./Transports/Velo/indexVelo.js"
-import {RandoLayer} from "./Transports/Randos/indexRando.js"
+import {RandoLayer} from "./Transports/Hikes/indexHike.js"
 import {AvionsLayer} from "./Transports/Planes/indexPlane.js";
-import {DptsGeo} from "./MapSpots/Departements/indexDpt.js"
-import {VillesPtsGeo, VillesPolyGeo, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
+import {DptsLayer} from "./MapSpots/Departements/indexDpt.js"
+import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
 
 
 // Ajout des json importes sur la carte
 
 // Departements
-var dptsLayer = L.layerGroup(DptsGeo);
-dptsLayer.addTo(mymap);
+DptsLayer.addTo(mymap);
 
-// Markers villes
-var VillesLayer = L.layerGroup(VillesPtsGeo);
+// Markers villes (potentiellement à supprimer)
 // VillesLayer.addTo(mymap)
 
 // Polygones villes
-var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
 VillesPolyLayer.addTo(mymap);
 
 // Lignes
@@ -57,7 +54,7 @@ RandoLayer.addTo(mymap); // Randonnees
 
 // Train --> add marker + merge lines on QGIS
 var TrainLayer = L.layerGroup(TrainGeo);
-TrainLayer.addTo(mymap);
+// TrainLayer.addTo(mymap);
 
 var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
 var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
@@ -96,7 +93,7 @@ VillesRegLayer.addTo(mymap)
 
 // Calques
 var visite = {
-  "<span style='font-size: 1.4em'>Départements visités</span>": dptsLayer,
+  "<span style='font-size: 1.4em'>Départements visités</span>": DptsLayer,
   "<span style='font-size: 1.4em'>Trajets roadtrip</span>": CarLayer,
   "<span style='font-size: 1.4em'>Trajets en bus</span>": BusLayer,
   "<span style='font-size: 1.4em'>Trajets en bateau</span>": BoatLayer,
