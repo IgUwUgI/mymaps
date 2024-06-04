@@ -26,4 +26,6 @@ for(var i = 0; i < elts.length; i++) {
     eltsGeo.push(j);
 }
 
-export const DptsGeo = eltsGeo;
+var eltsLayer = L.layerGroup(eltsGeo);
+
+export const DptsLayer = eltsLayer;

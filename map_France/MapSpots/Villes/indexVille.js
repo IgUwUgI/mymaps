@@ -1,5 +1,3 @@
-const el2 = "./MapSpots/Villes/PrefecturesPts.json"
-const el4 = "./MapSpots/Villes/SousPrefPts.json"
 const el5 = "./MapSpots/Villes/AuvergneRhoneAlpesPoly.json"
 const el6 = "./MapSpots/Villes/BourgogneFrancheComtePoly.json"
 const el7 = "./MapSpots/Villes/BretagnePoly.json"
@@ -25,8 +23,6 @@ const el26 = "./MapSpots/Villes/OccitaniePts.json"
 const el27 = "./MapSpots/Villes/PACAPts.json"
 const el28 = "./MapSpots/Villes/PaysDeLoirePts.json"
 
-var eltsPrefPts = [el2];
-var eltsSsPrefPts = [el4];
 var eltsPoly = [el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16];
 var eltsPts = [el17, el18, el19, el20, el21, el22, el23, el24, el25, el26, el27, el28];
 
@@ -52,8 +48,6 @@ var Regions = {
 }
 // 
 
-var PrefGeo0 = Array();
-var SsPrefGeo0 = Array();
 var VillesPolyGeo0 = Array();
 var VillesPtsGeo0 = Array();
 
@@ -77,26 +71,6 @@ async function fetchPt(file) {
   const res = await fetch(file);
   const Pt = await res.json();
   return Pt;
-}
-
-for (var i = 0; i < eltsPrefPts.length; i++) {
-  var j = await fetchPt(eltsPrefPts[i]);
-  var Pref_j = new Array(j.features)[0];
-  for (var k = 0; k < Pref_j.length; k++) {
-    PrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    VillesDpttmp0[Pref_j[k].properties.Code / 1000].push(Pref_j[k]);
-    VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
-  }
-}
-
-for (var i = 0; i < eltsSsPrefPts.length; i++) {
-  var j = await fetchPt(eltsSsPrefPts[i]);
-  var Pref_j = new Array(j.features)[0];
-  for (var k = 0; k < Pref_j.length; k++) {
-    SsPrefGeo0.push(L.marker(Pref_j[k].geometry.coordinates));
-    VillesDpttmp0[Math.floor(Pref_j[k].properties.Code / 1000)].push(Pref_j[k]);
-    VillesRegtmp0[Regions[Pref_j[k].properties.Region]].push(Pref_j[k]);
-  }
 }
 
 for (var i = 0; i < eltsPoly.length; i++) {
@@ -133,10 +107,7 @@ for (var i = 0; i < eltsPts.length; i++) {
   }
 }
 
-
-export const PrefGeo = PrefGeo0;
-export const SsPrefGeo = SsPrefGeo0;
-export const VillesPolyGeo = VillesPolyGeo0;
-export const VillesPtsGeo = VillesPtsGeo0;
+export const VillesPolyLayer = L.layerGroup(VillesPolyGeo0);
+export const VillesPtsLayer = L.layerGroup(VillesPtsGeo0);
 export const VillesDpttmp = VillesDpttmp0;
 export const VillesRegtmp = VillesRegtmp0;
