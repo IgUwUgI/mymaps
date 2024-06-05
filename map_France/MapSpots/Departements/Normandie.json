@@ -7,7 +7,7 @@
               "Region": "Normandie",
               "Nom": "Manche",
               "Code": "50",
-              "style":{"color":"#58B19F", "weight":2, "opacity":0.75}
+              "color":"#58B19F"
             },
             "geometry": {
               "type": "MultiPolygon",

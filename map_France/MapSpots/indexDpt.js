@@ -15,14 +15,14 @@ var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12]
 
 var eltsGeo = Array()
 
-async function fetchVille(file) {
+async function fetchElt(file) {
     const res = await fetch(file);
     const Dpt = await res.json();
-    return L.geoJson(Dpt, {"style": Dpt.features[0].properties.style});
+    return L.geoJson(Dpt, {"style": {"color":Dpt.features[0].properties.color, "weight":0.3, "opacity":0.75}});
   }
 
 for(var i = 0; i < elts.length; i++) {
-    var j = await fetchVille(elts[i]);
+    var j = await fetchElt(elts[i]);
     eltsGeo.push(j);
 }
 

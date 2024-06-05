@@ -7,7 +7,7 @@
               "Region": "Hauts-de-France",
               "Nom": "Aisne",
               "Code": "02",
-              "style":{"color":"#F97F51", "weight":2, "opacity":0.75}
+              "color":"#F97F51"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -21,7 +21,7 @@
               "Region": "Hauts-de-France",
               "Nom": "Nord",
               "Code": "59",
-              "style":{"color":"#F97F51", "weight":2, "opacity":0.75}
+              "color":"#F97F51"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -35,7 +35,7 @@
               "Region": "Hauts-de-France",
               "Nom": "Oise",
               "Code": "60",
-              "style":{"color":"#F97F51", "weight":2, "opacity":0.75}
+              "color":"#F97F51"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -49,7 +49,7 @@
               "Region": "Hauts-de-France",
               "Nom": "Somme",
               "Code": "80",
-              "style":{"color":"#F97F51", "weight":2, "opacity":0.75}
+              "color":"#F97F51"
             },
             "geometry": {
               "type": "MultiPolygon",

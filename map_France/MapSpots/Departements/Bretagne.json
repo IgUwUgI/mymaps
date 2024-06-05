@@ -7,7 +7,7 @@
               "Region": "Bretagne",
               "Nom": "Côtes-d'Armor",
               "Code": "22",
-              "style":{"color":"#6E7A7D", "weight":2, "opacity":0.75}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -21,7 +21,7 @@
               "Region": "Bretagne",
               "Nom": "Finistère",
               "Code": "29",
-              "style":{"color":"#6E7A7D", "weight":2, "opacity":0.75}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -35,7 +35,7 @@
               "Region": "Bretagne",
               "Nom": "Ille-et-Vilaine",
               "Code": "35",
-              "style":{"color":"#6E7A7D", "weight":2, "opacity":0.75}
+              "color":"#6E7A7D"
             },
             "geometry": {
               "type": "MultiPolygon",

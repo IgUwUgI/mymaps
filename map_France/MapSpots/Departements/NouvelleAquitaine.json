@@ -7,7 +7,7 @@
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Charente-Maritime",
               "Code": "17",
-              "style":{"color":"#FF793F", "weight":2, "opacity":0.75}
+              "color":"#FF793F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -21,7 +21,7 @@
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Corrèze",
               "Code": "19",
-              "style":{"color":"#FF793F", "weight":2, "opacity":0.75}
+              "color":"#FF793F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -35,7 +35,7 @@
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Gironde",
               "Code": "33",
-              "style":{"color":"#FF793F", "weight":2, "opacity":0.75}
+              "color":"#FF793F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -49,7 +49,7 @@
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Vienne",
               "Code": "86",
-              "style":{"color":"#FF793F", "weight":2, "opacity":0.75}
+              "color":"#FF793F"
             },
             "geometry": {
               "type": "MultiPolygon",
@@ -63,7 +63,7 @@
               "Region": "Nouvelle-Aquitaine",
               "Nom": "Haute-Vienne",
               "Code": "87",
-              "style":{"color":"#FF793F", "weight":2, "opacity":0.75}
+              "color":"#FF793F"
             },
             "geometry": {
               "type": "MultiPolygon",

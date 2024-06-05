@@ -22,15 +22,15 @@ new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 import {cityIcon} from "../assets/assets.js";
 import "../modules/rotated_markers.js";
 import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
-import {BusLayer} from "./Transports/BusLines/indexBus.js"
-import {CarLayer} from "./Transports/CarTrips/indexCar.js"
-import {TrainGeo} from "./Transports/TrainLines/indexTrains.js"
-import {BoatLayer} from "./Transports/BoatLines/indexBoat.js"
-import {VeloLayer} from "./Transports/Velo/indexVelo.js"
-import {RandoLayer} from "./Transports/Hikes/indexHike.js"
-import {AvionsLayer} from "./Transports/Planes/indexPlane.js";
-import {DptsLayer} from "./MapSpots/Departements/indexDpt.js"
-import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/Villes/indexVille.js"
+import {BusLayer} from "./Transports/indexBus.js"
+import {CarLayer} from "./Transports/indexCar.js"
+import {TrainGeo} from "./Transports/indexTrains.js"
+import {BoatLayer} from "./Transports/indexBoat.js"
+import {VeloLayer} from "./Transports/indexVelo.js"
+import {RandoLayer} from "./Transports/indexHike.js"
+import {AvionsLayer} from "./Transports/indexPlane.js";
+import {DptsLayer} from "./MapSpots/indexDpt.js"
+import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/indexVille.js"
 
 
 // Ajout des json importes sur la carte
@@ -60,7 +60,11 @@ var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
 var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
 VillesRegLayer.addTo(mymap)
 
+function openSidebar() {
+  document.getElementById('sideBar').style.right = '0';
+}
 
+AvionsLayer.on('click', openSidebar);
 
 // Pour afficher une legende des couleurs
 // Ne toucher que ce qui est indique
@@ -94,12 +98,12 @@ VillesRegLayer.addTo(mymap)
 // Calques
 var visite = {
   "<span style='font-size: 1.4em'>Départements visités</span>": DptsLayer,
-  "<span style='font-size: 1.4em'>Trajets roadtrip</span>": CarLayer,
-  "<span style='font-size: 1.4em'>Trajets en bus</span>": BusLayer,
-  "<span style='font-size: 1.4em'>Trajets en bateau</span>": BoatLayer,
-  "<span style='font-size: 1.4em'>Vélorandos</span>": VeloLayer,
-  "<span style='font-size: 1.4em'>Randonnées</span>": RandoLayer,
-  "<span style='font-size: 1.4em'>Avions</span>": AvionsLayer
+  "<span style='font-size: 1.4em'><img src='../assets/carMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets roadtrip</span>": CarLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/busMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bus</span>": BusLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/boatMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bateau</span>": BoatLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/bikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Vélorandos</span>": VeloLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/hikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Randonnées</span>": RandoLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/plane.png' style='margin-top:5px;height:30px;margin-right: 10px;align-items: center;justify-content: center;'>Avions</span>": AvionsLayer
 };
 var layerControl = L.control.layers(null, visite).addTo(mymap);
 // Création d'un encadre qui affiche les infos
@@ -115,7 +119,7 @@ info.update = function (props) {
   this._div.innerHTML = props;
 };
 info.addTo(mymap);
-info.update("");
+info.update("uwu");
 
  
 

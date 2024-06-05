@@ -19,6 +19,7 @@
   width: 100%;
   color: #f39c12;
   /* Orange doux */
+  z-index: 2;
 }
 
 #container {
@@ -28,12 +29,29 @@
 }
 
 #mapid {
-  height: 100%;
+  height: calc(100% - 80px);
   width: 100%;
   position: absolute;
   top: 80px;
   left: 0;
   z-index: 0;
+}
+
+.sideBar {
+  right: -35%;
+  width: 35%;
+  height: 100% ;
+  position: fixed;
+  z-index: 9999999; /* Stay on top */
+  top : 80px;
+  background: white;
+  overflow:hidden;
+  padding-top : 0px;
+  transition: right .5s ease;
+}
+
+.sideBar.show{
+  right: 0px;
 }
 
 .leaflet-tooltip.my-labels {
