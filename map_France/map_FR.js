@@ -15,13 +15,21 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
   });
 CartoDB_Voyager.addTo(mymap);
 
+
+document.getElementById('mapid').addEventListener('transitionend', function(){
+  mymap.invalidateSize();
+});
+
 // Ajout du +/- du zoom
 new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 
 // importation des donnees exterieures
+// images
 import {cityIcon} from "../assets/assets.js";
+//fonctions
 import "../modules/rotated_markers.js";
-import {createMiddleMarker, createMiddleMarkerPath, latLngMoyenne} from "../modules/fonctions_transverses.js";
+import {latLngMoyenne, textUpdate} from "../modules/fonctions_transverses.js";
+//données
 import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
 import {TrainGeo} from "./Transports/indexTrains.js"
@@ -56,15 +64,9 @@ RandoLayer.addTo(mymap); // Randonnees
 var TrainLayer = L.layerGroup(TrainGeo);
 // TrainLayer.addTo(mymap);
 
-var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
-var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
-VillesRegLayer.addTo(mymap)
-
-function openSidebar() {
-  document.getElementById('sideBar').style.right = '0';
-}
-
-AvionsLayer.on('click', openSidebar);
+// var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))
+// var VillesRegLayer = L.layerGroup(latLngMoyenne(mymap, VillesRegtmp))
+// VillesRegLayer.addTo(mymap)
 
 // Pour afficher une legende des couleurs
 // Ne toucher que ce qui est indique
@@ -120,8 +122,6 @@ info.update = function (props) {
 };
 info.addTo(mymap);
 info.update("uwu");
-
- 
 
     //Modification de l'encadre au survol d'un objet a la souris, syntaxe generale
     // Les trucs a changer sont monObjet, monTexte, #maNouvelleCouleur

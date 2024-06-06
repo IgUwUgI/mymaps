@@ -10,6 +10,28 @@ import { hikeMarker } from "../assets/assets.js";
 import { trainMarker } from "../assets/assets.js";
 import { bikeMarker } from "../assets/assets.js";
 
+
+export function interactSidebar() {
+  var sideBarLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
+  var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
+  sideBarLeft = sideBarLeft.substring(0, sideBarLeft.length - 2);
+  containerSize = containerSize.substring(0, containerSize.length - 2);
+  switch (sideBarLeft / containerSize) {
+    case 1 :
+      document.getElementById('sideBar').style.left = '50%';
+      document.getElementById('mapid').style.width = '50%';
+      break;
+    case 0.5 :
+      document.getElementById('sideBar').style.left = '100%';
+      document.getElementById('mapid').style.width = '100%';
+      break;
+  }
+}
+
+export function textUpdate(elt, props) {
+  document.getElementById(elt)._div.innerHTML = props;
+}
+
 export function calcMiddleLatLng(map, latlng1, latlng2) {
   // calcule le milieu de deux coordonnees
   const p1 = map.project(latlng1);
@@ -128,7 +150,9 @@ export function createMiddleMarkerPath(path, type) {
       var icon = bikeMarker;
       break
   }
-  return L.marker(coords, { icon: icon });
+  var addMark = new L.marker(coords, { icon: icon });
+  addMark.on('click', interactSidebar);
+  return addMark;
 };
 
 async function fetchElt(file) {
@@ -150,3 +174,4 @@ export async function toLayer(elts, style, type) {
   var eltsLayer = L.layerGroup(eltsGeo);
   return eltsLayer;
 };
+
