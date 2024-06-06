@@ -20,12 +20,20 @@ export function interactSidebar() {
     case 1 :
       document.getElementById('sideBar').style.left = '50%';
       document.getElementById('mapid').style.width = '50%';
+      document.getElementById('rightSideBtn').style.left = 'calc(50% - 50px)';
       break;
     case 0.5 :
       document.getElementById('sideBar').style.left = '100%';
       document.getElementById('mapid').style.width = '100%';
+      document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
       break;
   }
+}
+
+export function closeSidebar() {
+  document.getElementById('sideBar').style.left = '100%';
+  document.getElementById('mapid').style.width = '100%';
+  document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
 }
 
 export function textUpdate(elt, props) {

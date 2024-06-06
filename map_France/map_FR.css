@@ -10,7 +10,6 @@
 
 #headerBand {
   background-color: #1f3447;
-  /* Fond sombre avec transparence */
   text-align: center;
   display: flex;
   align-items: center;
@@ -18,7 +17,6 @@
   height: 80px;
   width: 100%;
   color: #f39c12;
-  /* Orange doux */
   z-index: 2;
 }
 
@@ -36,19 +34,6 @@
   left: 0;
   z-index: 0;
   transition: width 0.5s ease;
-}
-
-#sideBar {
-  left: 100%;
-  width: 50%;
-  height: 100% ;
-  position: fixed;
-  z-index: 9999999; /* Stay on top */
-  top : 80px;
-  background: white;
-  overflow:hidden;
-  padding-top : 0px;
-  transition: left .5s ease;
 }
 
 .leaflet-tooltip.my-labels {
