@@ -4,14 +4,70 @@ import { cityIcon2 } from "../assets/assets.js";
 import { cityIcon3 } from "../assets/assets.js";
 import { cityIcon4 } from "../assets/assets.js";
 import { carMarker } from "../assets/assets.js";
+import { carMarkerBig } from "../assets/assets.js";
 import { busMarker } from "../assets/assets.js";
+import { busMarkerBig } from "../assets/assets.js";
 import { boatMarker } from "../assets/assets.js";
+import { boatMarkerBig } from "../assets/assets.js";
 import { hikeMarker } from "../assets/assets.js";
+import { hikeMarkerBig } from "../assets/assets.js";
 import { trainMarker } from "../assets/assets.js";
 import { bikeMarker } from "../assets/assets.js";
+import { bikeMarkerBig } from "../assets/assets.js";
 
+let StoreMarker = L.marker();
 
-export function interactSidebar() {
+export function enlargeMarker(marker) {
+  StoreMarker = marker;
+  var markerIcon = marker.getIcon();
+  var markerURL = markerIcon.options.iconUrl;
+  console.log(markerURL);
+  switch (markerURL) {
+    case "../assets/carMarker.png":
+      var icon = carMarkerBig;
+      break;
+    case "../assets/busMarker.png":
+      var icon = busMarkerBig;
+      break
+    case "../assets/boatMarker.png":
+      var icon = boatMarkerBig;
+      break
+    case "../assets/hikeMarker.png":
+      var icon = hikeMarkerBig;
+      break
+    case "../assets/bikeMarker.png":
+      var icon = bikeMarkerBig;
+      break
+  }
+  marker.setIcon(icon);
+}
+
+export function reduceMarker(marker) {
+  StoreMarker = marker;
+  var markerIcon = marker.getIcon();
+  var markerURL = markerIcon.options.iconUrl;
+  console.log(markerURL);
+  switch (markerURL) {
+    case "../assets/carMarker.png":
+      var icon = carMarker;
+      break;
+    case "../assets/busMarker.png":
+      var icon = busMarker;
+      break
+    case "../assets/boatMarker.png":
+      var icon = boatMarker;
+      break
+    case "../assets/hikeMarker.png":
+      var icon = hikeMarker;
+      break
+    case "../assets/bikeMarker.png":
+      var icon = bikeMarker;
+      break
+  }
+  marker.setIcon(icon);
+}
+
+export function interactSidebar(marker) {
   var sideBarLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideBarLeft = sideBarLeft.substring(0, sideBarLeft.length - 2);
@@ -21,16 +77,26 @@ export function interactSidebar() {
       document.getElementById('sideBar').style.left = '50%';
       document.getElementById('mapid').style.width = '50%';
       document.getElementById('rightSideBtn').style.left = 'calc(50% - 50px)';
+      enlargeMarker(marker);
       break;
     case 0.5 :
-      document.getElementById('sideBar').style.left = '100%';
-      document.getElementById('mapid').style.width = '100%';
-      document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
+      
+      if(marker == StoreMarker) {
+        document.getElementById('sideBar').style.left = '100%';
+        document.getElementById('mapid').style.width = '100%';
+        document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
+        reduceMarker(marker);
+      } else {
+        reduceMarker(StoreMarker);
+        enlargeMarker(marker);
+        StoreMarker = marker;
+      }
       break;
   }
 }
 
 export function closeSidebar() {
+  reduceMarker(StoreMarker);
   document.getElementById('sideBar').style.left = '100%';
   document.getElementById('mapid').style.width = '100%';
   document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
@@ -159,7 +225,9 @@ export function createMiddleMarkerPath(path, type) {
       break
   }
   var addMark = new L.marker(coords, { icon: icon });
-  addMark.on('click', interactSidebar);
+  addMark.on('click', function() {
+    interactSidebar(addMark)
+});
   return addMark;
 };
 
