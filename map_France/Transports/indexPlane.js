@@ -1,5 +1,5 @@
-import { createMiddleMarker } from "../../modules/fonctions_transverses.js";
-import {planeIcon} from "../../assets/assets.js";
+import { createMiddleMarker } from "./modules/fonctions_transverses.js";
+import {planeIcon} from "./assets/assets.js";
 
 const prefix = "./map_France/Transports/Planes/"
 
