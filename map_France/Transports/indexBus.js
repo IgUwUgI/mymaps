@@ -1,4 +1,4 @@
-import { toLayer } from "./modules/fonctions_transverses.js";
+import { toLayer } from "../../modules/fonctions_transverses.js";
 
 const prefix = "./map_France/Transports/BusLines/"
 
