@@ -4,8 +4,8 @@
 <head>
   <!-- On ne touche pas ici, en-tete de la page -->
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/maps.css">
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="/mymaps/maps.css">
+  <link rel="icon" type="image/x-icon" href="/mymaps/assets/favicon.ico">
   <title>Voyages en France</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -21,8 +21,8 @@
 <body>
   <script>
     $(function () {
-      $("#sideMenu").load("/sideMenu.html");
-      $("#rightSideBar").load("/sideBar.html");
+      $("#sideMenu").load("/mymaps/sideMenu.html");
+      $("#rightSideBar").load("/mymaps/sideBar.html");
     });
   </script>
 
@@ -39,7 +39,7 @@
     <div id="rightSideBar"></div>
 
     <!-- Ci dessous le script javascript de la carte -->
-    <script type="module" src="/map_France/map_FR.js" >
+    <script type="module" src="/mymaps/map_France/map_FR.js" >
     </script>
   </div>
 
