@@ -26,8 +26,8 @@ new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 // importation des donnees exterieures
 // images
 //fonctions
-import "../modules/rotated_markers.js";
-import {textUpdate} from "../modules/fonctions_transverses.js";
+import "./modules/rotated_markers.js";
+import {textUpdate} from "./modules/fonctions_transverses.js";
 //données
 import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
