@@ -1,7 +1,7 @@
 import { createMiddleMarker } from "../../modules/fonctions_transverses.js";
 import {planeIcon} from "../../assets/assets.js";
 
-const prefix = "./map_France/Transports/Planes/"
+const prefix = "./Transports/Planes/"
 
 // Creation de la carte pour les projections
 // syntaxe : setview([Nord, Est], zoom)

@@ -1,4 +1,4 @@
-const prefix = "./map_France/MapSpots/Departements/"
+const prefix = "./MapSpots/Departements/"
 
 const el1 = prefix + "AuvergneRhoneAlpes.json"
 const el2 = prefix + "BourgogneFrancheComte.json"

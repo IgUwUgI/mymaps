@@ -1,6 +1,6 @@
 import {toLayer } from "../../modules/fonctions_transverses.js";
 
-const prefix = "./map_France/Transports/BoatLines/"
+const prefix = "./Transports/BoatLines/"
 
 const el1 = prefix + "Arcachon-CapFerret.geojson"
 

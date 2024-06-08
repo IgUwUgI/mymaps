@@ -1,6 +1,6 @@
 import {toLayer} from "../../modules/fonctions_transverses.js";
 
-const prefix = "./map_France/Transports/Bike/"
+const prefix = "./Transports/Bike/"
 
 const el1 = prefix + "Lyon-Saint-Paul-en-Jarez.geojson";
 const el2 = prefix + "3_monts-d_or.geojson";
