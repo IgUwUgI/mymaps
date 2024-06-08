@@ -1,20 +1,20 @@
-import { cityIcon0 } from "../assets/assets.js";
-import { cityIcon1 } from "../assets/assets.js";
-import { cityIcon2 } from "../assets/assets.js";
-import { cityIcon3 } from "../assets/assets.js";
-import { cityIcon4 } from "../assets/assets.js";
-import { carMarker } from "../assets/assets.js";
-import { carMarkerBig } from "../assets/assets.js";
-import { busMarker } from "../assets/assets.js";
-import { busMarkerBig } from "../assets/assets.js";
-import { boatMarker } from "../assets/assets.js";
-import { boatMarkerBig } from "../assets/assets.js";
-import { hikeMarker } from "../assets/assets.js";
-import { hikeMarkerBig } from "../assets/assets.js";
-import { trainMarker } from "../assets/assets.js";
-import { trainMarkerBig } from "../assets/assets.js";
-import { bikeMarker } from "../assets/assets.js";
-import { bikeMarkerBig } from "../assets/assets.js";
+import { cityIcon0 } from "/mymaps/assets/assets.js";
+import { cityIcon1 } from "/mymaps/assets/assets.js";
+import { cityIcon2 } from "/mymaps/assets/assets.js";
+import { cityIcon3 } from "/mymaps/assets/assets.js";
+import { cityIcon4 } from "/mymaps/assets/assets.js";
+import { carMarker } from "/mymaps/assets/assets.js";
+import { carMarkerBig } from "/mymaps/assets/assets.js";
+import { busMarker } from "/mymaps/assets/assets.js";
+import { busMarkerBig } from "/mymaps/assets/assets.js";
+import { boatMarker } from "/mymaps/assets/assets.js";
+import { boatMarkerBig } from "/mymaps/assets/assets.js";
+import { hikeMarker } from "/mymaps/assets/assets.js";
+import { hikeMarkerBig } from "/mymaps/assets/assets.js";
+import { trainMarker } from "/mymaps/assets/assets.js";
+import { trainMarkerBig } from "/mymaps/assets/assets.js";
+import { bikeMarker } from "/mymaps/assets/assets.js";
+import { bikeMarkerBig } from "/mymaps/assets/assets.js";
 
 let StoreMarker = L.marker();
 
@@ -24,22 +24,22 @@ export function enlargeMarker(marker) {
   var markerURL = markerIcon.options.iconUrl;
   console.log(markerURL);
   switch (markerURL) {
-    case "../assets/carMarker.png":
+    case "/mymaps/assets/carMarker.png":
       var icon = carMarkerBig;
       break;
-    case "../assets/busMarker.png":
+    case "/mymaps/assets/busMarker.png":
       var icon = busMarkerBig;
       break
-    case "../assets/boatMarker.png":
+    case "/mymaps/assets/boatMarker.png":
       var icon = boatMarkerBig;
       break
-    case "../assets/hikeMarker.png":
+    case "/mymaps/assets/hikeMarker.png":
       var icon = hikeMarkerBig;
       break
-    case "../assets/bikeMarker.png":
+    case "/mymaps/assets/bikeMarker.png":
       var icon = bikeMarkerBig;
       break
-    case "../assets/trainMarker.png":
+    case "/mymaps/assets/trainMarker.png":
       var icon = trainMarkerBig;
       break
   }
@@ -52,22 +52,22 @@ export function reduceMarker(marker) {
   var markerURL = markerIcon.options.iconUrl;
   console.log(markerURL);
   switch (markerURL) {
-    case "../assets/carMarker.png":
+    case "/mymaps/assets/carMarker.png":
       var icon = carMarker;
       break;
-    case "../assets/busMarker.png":
+    case "/mymaps/assets/busMarker.png":
       var icon = busMarker;
       break
-    case "../assets/boatMarker.png":
+    case "/mymaps/assets/boatMarker.png":
       var icon = boatMarker;
       break
-    case "../assets/hikeMarker.png":
+    case "/mymaps/assets/hikeMarker.png":
       var icon = hikeMarker;
       break
-    case "../assets/bikeMarker.png":
+    case "/mymaps/assets/bikeMarker.png":
       var icon = bikeMarker;
       break
-    case "../assets/trainMarker.png":
+    case "/mymaps/assets/trainMarker.png":
       var icon = trainMarker;
       break
   }
