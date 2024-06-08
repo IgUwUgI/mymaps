@@ -26,19 +26,19 @@ new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 // importation des donnees exterieures
 // images
 //fonctions
-import "../modules/rotated_markers.js";
-import {textUpdate} from "../modules/fonctions_transverses.js";
+import "/modules/rotated_markers.js";
+import {textUpdate} from "/modules/fonctions_transverses.js";
 //données
-import {BusLayer} from "./Transports/indexBus.js"
-import {CarLayer} from "./Transports/indexCar.js"
-// import {TrainLayer} from "./Transports/indexTrains.js"
-import {BoatLayer} from "./Transports/indexBoat.js"
-import {VeloLayer} from "./Transports/indexBike.js"
-import {RandoLayer} from "./Transports/indexHike.js"
-import {AvionsLayer} from "./Transports/indexPlane.js";
-import {DptsLayer} from "./MapSpots/indexDpt.js"
-import { TrainLayer } from "./Transports/indexTrain.js";
-import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/indexVille.js"
+import {BusLayer} from "/map_France/Transports/indexBus.js"
+import {CarLayer} from "/map_France/Transports/indexCar.js"
+// import {TrainLayer} from "/map_France/Transports/indexTrains.js"
+import {BoatLayer} from "/map_France/Transports/indexBoat.js"
+import {VeloLayer} from "/map_France/Transports/indexBike.js"
+import {RandoLayer} from "/map_France/Transports/indexHike.js"
+import {AvionsLayer} from "/map_France/Transports/indexPlane.js";
+import {DptsLayer} from "/map_France/MapSpots/indexDpt.js"
+import { TrainLayer } from "/map_France/Transports/indexTrain.js";
+import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "/map_France/MapSpots/indexVille.js"
 
 // Ajout des json importes sur la carte
 
