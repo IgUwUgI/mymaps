@@ -3,14 +3,11 @@
 // syntaxe : setview([Nord, Est], zoom)
 var mymap = L.map('mapid', {
     zoomDelta: 0.25,
-    zoomSnap: 0
+    zoomSnap: 0,
+    zoomControl: false
 }).setView([10, 3], 3);
-// var mymap = new WE.map('mapid');
-// WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-//         attribution: '© OpenStreetMap contributors'
-//       }).addTo(mymap);
 
-// fond de carte : ne pas toucher svp c'est relou, et j'ai pas trouvé mieux dans l'aprem
+// fond de carte
 var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 subdomains: 'abcd',
@@ -19,83 +16,67 @@ minZoom: 3,
 });
 CartoDB_Voyager.addTo(mymap);
 
+// pour recentrer la carte en cas de redimention du div
+document.getElementById('mapid').addEventListener('transitionend', function(){
+    mymap.invalidateSize();
+  });
 
-import {planeIcon} from "../assets/assets.js";
+// Ajout du +/- du zoom
+new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
+
+// importation des donnees exterieures
+// images
+import {cityIcon} from "../assets/assets.js";
+//fonctions
 import "../modules/rotated_markers.js";
-import {createMiddleMarker} from "../modules/fonctions_transverses.js";
-import {BusGeo} from "./Transports/BusLines/indexBus.js"
-import {TrainGeo} from "./Transports/TrainLines/indexTrain.js"
-import {RandoGeo} from "./Transports/Randos/indexRando.js"
-import {CarGeo} from "./Transports/CarTrips/indexCar.js"
+import {textUpdate} from "../modules/fonctions_transverses.js";
+//données
+import {BusLayer} from "./Transports/indexBus.js"
+import {CarLayer} from "./Transports/indexCar.js"
+// import {BoatLayer} from "./Transports/indexBoat.js"
+// import {VeloLayer} from "./Transports/indexVelo.js"
+import {RandoLayer} from "./Transports/indexHike.js"
+import {AvionsLayer} from "./Transports/indexPlane.js";
+import {TrainLayer} from "./Transports/indexTrain.js";
 import {PaysGeo} from "./MapSpots/Pays/indexCountries.js"
 import {RegionsGeo} from "./MapSpots/Regions/indexRegions.js"
+// import {VillesPtsLayer, VillesPolyLayer} from "./MapSpots/indexVille.js" //
+
+
 import {VillesPtGeo} from "./MapSpots/Villes/indexCityPts.js"
 import {VillesPolyGeo} from "./MapSpots/Villes/indexCityPoly.js"
 
 
 
 
-// Import des fichiers json
-
-    async function fetchPlane() {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch("./Transports/Avion.json");
-    const Avion = await res.json();
-    return Avion
-    }
-    var Avion = await fetchPlane();
-
 // Ajout des json importes sur la carte
 
-var Avions = new Array(Avion.features)[0];
-var AvionsGeo = new Array(Avions.length);
-var AvionsMarkers = new Array(Avions.length);
-for (var i = 0; i < Avions.length;i++) {
-AvionsGeo[i] = L.geoJSON(Avions[i], {style : {"color":"#FF5500", "weight":2, "opacity":0.75}});
-AvionsMarkers[i] = createMiddleMarker(mymap, Avions[i], planeIcon)
-};
-var AvionsTot = AvionsGeo.concat(AvionsMarkers)
-var AvionsLayer = L.layerGroup(AvionsTot);
-AvionsLayer.addTo(mymap);
-
-for (var i = 0; i < BusGeo.length; i++) {
-BusGeo[i].setStyle({"color": "#546de5"})
-}
-var BusLayer = L.layerGroup(BusGeo);
-BusLayer.addTo(mymap);
-
-for (var i = 0; i < TrainGeo.length; i++) {
-TrainGeo[i].setStyle({"color": "#c44569"})
-}
-
-var TrainLayer = L.layerGroup(TrainGeo);
-TrainLayer.addTo(mymap);
-
-
-for (var i = 0; i < RandoGeo.length; i++) {
-    RandoGeo[i].setStyle({"color": "#c44569"})
-    RandoGeo[i].setStyle({"dashArray": "4 8"})
-}
-var RandoLayer = L.layerGroup(RandoGeo);
-RandoLayer.addTo(mymap)
-
-for (var i = 0; i < CarGeo.length; i++) {
-    CarGeo[i].setStyle({"color": "#c44569"})
-}
-var CarLayer = L.layerGroup(CarGeo);
-CarLayer.addTo(mymap)
-
+// Pays
 var PaysLayer = L.layerGroup(PaysGeo);
 PaysLayer.addTo(mymap);
 
+// Regions
 var RegionsLayer = L.layerGroup(RegionsGeo);
 RegionsLayer.addTo(mymap);
+
+// Polygones villes
+var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
+VillesPolyLayer.addTo(mymap);
+
+// Lignes
+AvionsLayer.addTo(mymap); // Avion
+CarLayer.addTo(mymap); // Voiture
+BusLayer.addTo(mymap); // Bus
+// BoatLayer.addTo(mymap); // Bateau
+// VeloLayer.addTo(mymap); // Velo
+RandoLayer.addTo(mymap); // Randonnees
+TrainLayer.addTo(mymap); // Train
+
 
 var VillesPtsLayer = L.layerGroup(VillesPtGeo);
 VillesPtsLayer.addTo(mymap);
 
-var VillesPolyLayer = L.layerGroup(VillesPolyGeo);
-VillesPolyLayer.addTo(mymap);
+
 
 // Pour afficher une legende des couleurs
 // Ne toucher que ce qui est indique

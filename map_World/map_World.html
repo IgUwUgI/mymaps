@@ -1,42 +1,50 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <!-- On ne touche pas ici, en-tete de la page -->
+  <!-- On ne touche pas ici, en-tete de la page -->
   <meta charset="utf-8">
-  <link rel="stylesheet" href="map_Monde.css">
-  <title>Voyages à l'étranger</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-  crossorigin="">
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-  
-  crossorigin=""></script>
+  <link rel="stylesheet" href="../maps.css">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <title>Voyages en France</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
   <!-- <script src="https://www.webglearth.com/v2/api.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-
 </head>
 
 <body>
   <script>
-    $(function() {
+    $(function () {
       $("#sideMenu").load("../sideMenu.html");
+      $("#rightSideBar").load("../sideBar.html");
     });
   </script>
 
-  <div id="headerBand">
-    <h1>Voyages dans le monde</h1>
-  </div>
-
-  <div class="container">
+  <div id="mainContainer" class="container">
+    <div id="headerBand">
+      <h1>Voyages dans le monde</h1>
+    </div>
 
     <div id="sideMenu"></div>
 
     <!-- Creation de la carte -->
-    <div id="mapid" style="height: 100vh;">
+    <div id="mapid">
+
+      <div id="rightSideBar"></div>
+
+      <!-- Ci dessous le script javascript des trucs des donnees -->
+      <script type="module" src="./map_World.js">
+      </script>
     </div>
 
-    <!-- Ci dessous le script javascript des trucs des donnees -->
-    <script type="module" src="./map_Monde.js">
-    </script>
-</div>
+
+  </div>
+  <!-- Juste pour faire des projections, besoin d'une map vierge-->
+  <div id="mapidX" style="display: none;"></div>
 </body>

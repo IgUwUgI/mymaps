@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Paris-Agadir",
+        "Distance": 2278,
+        "Empreinte carbone": 0.411,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                2.36231,
+                48.72722
+            ],
+            [
+                -9.41028,
+                30.32992
+            ]
+        ]
+    }
+}

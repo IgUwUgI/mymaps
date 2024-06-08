@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "La Palma-Tenerife Nord",
+        "Distance": 2097,
+        "Empreinte carbone": 0.380,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -17.75511,
+                28.62588
+            ],
+            [
+                -16.34342,
+                28.48451
+            ]
+        ]
+    }
+}

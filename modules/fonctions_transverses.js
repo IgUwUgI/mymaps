@@ -12,6 +12,7 @@ import { boatMarkerBig } from "../assets/assets.js";
 import { hikeMarker } from "../assets/assets.js";
 import { hikeMarkerBig } from "../assets/assets.js";
 import { trainMarker } from "../assets/assets.js";
+import { trainMarkerBig } from "../assets/assets.js";
 import { bikeMarker } from "../assets/assets.js";
 import { bikeMarkerBig } from "../assets/assets.js";
 
@@ -38,6 +39,9 @@ export function enlargeMarker(marker) {
     case "../assets/bikeMarker.png":
       var icon = bikeMarkerBig;
       break
+    case "../assets/trainMarker.png":
+      var icon = trainMarkerBig;
+      break
   }
   marker.setIcon(icon);
 }
@@ -62,6 +66,9 @@ export function reduceMarker(marker) {
       break
     case "../assets/bikeMarker.png":
       var icon = bikeMarker;
+      break
+    case "../assets/trainMarker.png":
+      var icon = trainMarker;
       break
   }
   marker.setIcon(icon);

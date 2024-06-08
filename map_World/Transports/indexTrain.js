@@ -1,3 +1,5 @@
+import { toLayer } from "../../modules/fonctions_transverses.js"
+
 const el1 = "./Transports/TrainLines/01-Schopfheim-Lorrach.geojson"
 const el2 = "./Transports/TrainLines/02-Lorrach-Freiburg.geojson"
 const el3 = "./Transports/TrainLines/03-Lorrach-Basel.geojson"
@@ -30,18 +32,4 @@ var elts = [
   el19, el20, el21, el22, el23, el24
 ]
 
-var eltsGeo = Array()
-
-async function fetchTrain(file) {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch(file);
-    const Train = await res.json();
-    return L.geoJson(Train);
-  }
-
-for(var i = 0; i < elts.length; i++) {
-    var j = await fetchTrain(elts[i]);
-    eltsGeo.push(j);
-}
-
-export const TrainGeo = eltsGeo;
+export const TrainLayer = await toLayer(elts, { "color": "#2a52be"}, "Train")

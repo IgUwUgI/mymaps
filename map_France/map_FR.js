@@ -15,7 +15,7 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
   });
 CartoDB_Voyager.addTo(mymap);
 
-
+// pour recentrer la carte en cas de redimention du div
 document.getElementById('mapid').addEventListener('transitionend', function(){
   mymap.invalidateSize();
 });
@@ -28,17 +28,18 @@ new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 import {cityIcon} from "../assets/assets.js";
 //fonctions
 import "../modules/rotated_markers.js";
-import {latLngMoyenne, textUpdate} from "../modules/fonctions_transverses.js";
+import {textUpdate} from "../modules/fonctions_transverses.js";
 //données
 import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
-import {TrainGeo} from "./Transports/indexTrains.js"
+// import {TrainLayer} from "./Transports/indexTrains.js"
 import {BoatLayer} from "./Transports/indexBoat.js"
-import {VeloLayer} from "./Transports/indexVelo.js"
+import {VeloLayer} from "./Transports/indexBike.js"
 import {RandoLayer} from "./Transports/indexHike.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
 import {DptsLayer} from "./MapSpots/indexDpt.js"
 import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/indexVille.js"
+import { TrainLayer } from "../map_World/Transports/indexTrain.js";
 
 
 // Ajout des json importes sur la carte
@@ -59,9 +60,10 @@ BusLayer.addTo(mymap); // Bus
 BoatLayer.addTo(mymap); // Bateau
 VeloLayer.addTo(mymap); // Velo
 RandoLayer.addTo(mymap); // Randonnees
+TrainLayer.addTo(mymap); // Trains
 
 // Train --> add marker + merge lines on QGIS
-var TrainLayer = L.layerGroup(TrainGeo);
+// var TrainLayer = L.layerGroup(TrainGeo);
 // TrainLayer.addTo(mymap);
 
 // var VillesDptLayer = L.layerGroup(latLngMoyenne(mymap, VillesDpttmp))

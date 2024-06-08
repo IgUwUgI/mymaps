@@ -1,3 +1,5 @@
+import { toLayer } from "../../../modules/fonctions_transverses.js";
+
 const el1 = "./Transports/BusLines/AUT-Salzburg-Grodig.geojson"
 const el2 = "./Transports/BusLines/AUT-Wien-Kahlenberg.geojson"
 const el3 = "./Transports/BusLines/ALL-Polac-Schopfheim.geojson"
@@ -22,18 +24,4 @@ var elts = [
   el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16
 ]
 
-var eltsGeo = Array()
-
-async function fetchBus(file) {
-    // villes ou je suis alle taille sous-prefectures
-    const res = await fetch(file);
-    const Bus = await res.json();
-    return L.geoJson(Bus);
-  }
-
-for(var i = 0; i < elts.length; i++) {
-    var j = await fetchBus(elts[i]);
-    eltsGeo.push(j);
-}
-
-export const BusGeo = eltsGeo;
+export const BusLayer = await toLayer(elts, { "color": "#c62d42"}, "Bus");

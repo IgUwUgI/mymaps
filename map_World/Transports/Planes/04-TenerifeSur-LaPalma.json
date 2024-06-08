@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Tenerife Sud-La Palma",
+        "Distance": 2097,
+        "Empreinte carbone": 0.380,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                -16.57253,
+                28.04675
+            ],
+            [
+                -17.75511,
+                28.62588
+            ]
+        ]
+    }
+}
