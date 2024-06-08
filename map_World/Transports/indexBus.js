@@ -1,21 +1,23 @@
-import { toLayer } from "../../../modules/fonctions_transverses.js";
+import { toLayer } from "../../modules/fonctions_transverses.js";
 
-const el1 = "./Transports/BusLines/AUT-Salzburg-Grodig.geojson"
-const el2 = "./Transports/BusLines/AUT-Wien-Kahlenberg.geojson"
-const el3 = "./Transports/BusLines/ALL-Polac-Schopfheim.geojson"
-const el4 = "./Transports/BusLines/ESP-Adeje-Aeropuerto.geojson"
-const el5 = "./Transports/BusLines/ESP-Aeropuerto-ElPaso.geojson"
-const el6 = "./Transports/BusLines/ESP-ElPaso-Tazacorte.geojson"
-const el7 = "./Transports/BusLines/ESP-Guia-Adeje.geojson"
-const el8 = "./Transports/BusLines/ESP-Icod-Chio.geojson"
-const el9 = "./Transports/BusLines/ESP-LaLaguna-Anaga.geojson"
-const el10 = "./Transports/BusLines/ESP-LaLaguna-Icod.geojson"
-const el11 = "./Transports/BusLines/ESP-LaLaguna-PuntaHidalgo.geojson"
-const el12 = "./Transports/BusLines/ESP-LaLaguna-SantaCruz.geojson"
-const el13 = "./Transports/BusLines/ESP-PuertoCruz-Orotava.geojson"
-const el14 = "./Transports/BusLines/ESP-PuertoCruz-Teide.geojson"
-const el15 = "./Transports/BusLines/ESP-SantaCruz-Anaga.geojson"
-const el16 = "./Transports/BusLines/ESP-SantaCruz-LosCristianos.geojson"
+const prefix = "./Transports/BusLines/"
+
+const el1 = prefix + "AUT-Salzburg-Grodig.geojson"
+const el2 = prefix + "AUT-Wien-Kahlenberg.geojson"
+const el3 = prefix + "ALL-Polac-Schopfheim.geojson"
+const el4 = prefix + "ESP-Adeje-Aeropuerto.geojson"
+const el5 = prefix + "ESP-Aeropuerto-ElPaso.geojson"
+const el6 = prefix + "ESP-ElPaso-Tazacorte.geojson"
+const el7 = prefix + "ESP-Guia-Adeje.geojson"
+const el8 = prefix + "ESP-Icod-Chio.geojson"
+const el9 = prefix + "ESP-LaLaguna-Anaga.geojson"
+const el10 = prefix + "ESP-LaLaguna-Icod.geojson"
+const el11 = prefix + "ESP-LaLaguna-PuntaHidalgo.geojson"
+const el12 = prefix + "ESP-LaLaguna-SantaCruz.geojson"
+const el13 = prefix + "ESP-PuertoCruz-Orotava.geojson"
+const el14 = prefix + "ESP-PuertoCruz-Teide.geojson"
+const el15 = prefix + "ESP-SantaCruz-Anaga.geojson"
+const el16 = prefix + "ESP-SantaCruz-LosCristianos.geojson"
 
 
 var elts = [

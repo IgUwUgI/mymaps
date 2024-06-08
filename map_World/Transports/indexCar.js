@@ -1,7 +1,9 @@
-import { toLayer } from "../../../modules/fonctions_transverses.js";
+import { toLayer } from "../../modules/fonctions_transverses.js";
 
-const el1 = "./Transports/CarTrips/ESP-Teide-LaLaguna.geojson"
-const el2 = "./Transports/CarTrips/ESP-Tour_LaPalma.geojson"
+const prefix = "./Transports/CarTrips/"
+
+const el1 = prefix + "ESP-Teide-LaLaguna.geojson"
+const el2 = prefix + "ESP-Tour_LaPalma.geojson"
 
 var elts = [
   el1, el2

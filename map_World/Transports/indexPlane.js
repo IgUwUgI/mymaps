@@ -1,5 +1,7 @@
-import { createMiddleMarker } from "../../../modules/fonctions_transverses.js";
-import {planeIcon} from "../../../assets/assets.js";
+import { createMiddleMarker } from "../../modules/fonctions_transverses.js";
+import {planeIcon} from "../../assets/assets.js";
+
+const prefix = "./Transports/Planes/"
 
 // Creation de la carte pour les projections
 // syntaxe : setview([Nord, Est], zoom)
@@ -9,12 +11,12 @@ var mymapX = L.map('mapidX', {
   zoomControl: false
 }).setView([46.4836, 2.5264], 6);
 
-const el1 = "./Transports/Planes/01-Paris-Agadir.json"
-const el2 = "./Transports/Planes/02-Marrakech-Paris.json"
-const el3 = "./Transports/Planes/03-Lyon-TenerifeNorte.json"
-const el4 = "./Transports/Planes/04-TenerifeSur-LaPalma.json"
-const el5 = "./Transports/Planes/05-LaPalma-TenerifeNorte.json"
-const el6 = "./Transports/Planes/06-TenerifeSur-Lyon.json"
+const el1 = prefix + "01-Paris-Agadir.json"
+const el2 = prefix + "02-Marrakech-Paris.json"
+const el3 = prefix + "03-Lyon-TenerifeNorte.json"
+const el4 = prefix + "04-TenerifeSur-LaPalma.json"
+const el5 = prefix + "05-LaPalma-TenerifeNorte.json"
+const el6 = prefix + "06-TenerifeSur-Lyon.json"
 
 var elts = [
     el1, el2, el3, el4, el5, el6

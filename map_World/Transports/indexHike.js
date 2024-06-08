@@ -1,16 +1,17 @@
-import { toLayer } from "../../../modules/fonctions_transverses.js";
+import { toLayer } from "../../modules/fonctions_transverses.js";
 
+const prefix = "./Transports/Hikes/"
 
-const el1 = "./Transports/Hikes/ESP-Anaga-1.geojson"
-const el2 = "./Transports/Hikes/ESP-Teide.geojson"
-const el3 = "./Transports/Hikes/ESP-Chio.geojson"
-const el4 = "./Transports/Hikes/ESP-SantiagoDelTeide-Chio.geojson"
-const el5 = "./Transports/Hikes/ESP-ElPaso-LosLLanos.geojson"
-const el6 = "./Transports/Hikes/ESP-Tajogaite.geojson"
-const el7 = "./Transports/Hikes/ESP-Anaga-2.geojson"
-const el8 = "./Transports/Hikes/ESP-Anaga-3.geojson"
-const el9 = "./Transports/Hikes/AUT-Unsterberg.geojson"
-const el10 = "./Transports/Hikes/AUT-Kahlenberg.geojson"
+const el1 = prefix + "ESP-Anaga-1.geojson"
+const el2 = prefix + "ESP-Teide.geojson"
+const el3 = prefix + "ESP-Chio.geojson"
+const el4 = prefix + "ESP-SantiagoDelTeide-Chio.geojson"
+const el5 = prefix + "ESP-ElPaso-LosLLanos.geojson"
+const el6 = prefix + "ESP-Tajogaite.geojson"
+const el7 = prefix + "ESP-Anaga-2.geojson"
+const el8 = prefix + "ESP-Anaga-3.geojson"
+const el9 = prefix + "AUT-Unsterberg.geojson"
+const el10 = prefix + "AUT-Kahlenberg.geojson"
 
 
 var elts = [
