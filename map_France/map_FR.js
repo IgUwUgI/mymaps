@@ -37,9 +37,8 @@ import {VeloLayer} from "./Transports/indexBike.js"
 import {RandoLayer} from "./Transports/indexHike.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
 import {DptsLayer} from "./MapSpots/indexDpt.js"
+import { TrainLayer } from "./Transports/indexTrain.js";
 import {VillesPtsLayer, VillesPolyLayer, VillesDpttmp, VillesRegtmp} from "./MapSpots/indexVille.js"
-import { TrainLayer } from "../map_World/Transports/indexTrain.js";
-
 
 // Ajout des json importes sur la carte
 
@@ -59,7 +58,7 @@ BusLayer.addTo(mymap); // Bus
 BoatLayer.addTo(mymap); // Bateau
 VeloLayer.addTo(mymap); // Velo
 RandoLayer.addTo(mymap); // Randonnees
-TrainLayer.addTo(mymap); // Trains
+// TrainLayer.addTo(mymap); // Trains
 
 // Train --> add marker + merge lines on QGIS
 // var TrainLayer = L.layerGroup(TrainGeo);
