@@ -1,3 +1,10 @@
+/* Define color variables */
+:root {
+  --main-bg-color: #1f3447ff;
+  --text-color: #ffffffff;
+  --hover-bg-color: #009AA6ff;
+}
+
 .btn {
   position: absolute;
   top: 85px;
@@ -5,7 +12,7 @@
   height: 45px;
   width: 45px;
   text-align: center;
-  background: #1f3447;
+  background: var(--main-bg-color);
   border-radius: 3px;
   cursor: pointer;
   transition: left 0.5s ease;
@@ -20,9 +27,8 @@
   left: 355px;
 }
 
-/*couleur bouton */
 .btn span {
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
   font-size: 28px;
   line-height: 45px;
 }
@@ -30,7 +36,6 @@
 .btn.click span:before {
   content: '◀';
 }
-
 
 .sidebar {
   left: -350px;
@@ -44,7 +49,6 @@
   overflow: hidden;
   padding-top: 0px;
   transition: left .5s ease;
-
 }
 
 .sidebar.show {
@@ -53,21 +57,21 @@
 
 .sidebar .text {
   top: 0px;
-  color: white;
+  color: var(--text-color);
   font-size: 25px;
   font-weight: 600;
   line-height: 65px;
   text-align: center;
-  background: #1f3447;
-  opacity: 90%;
+  background: var(--main-bg-color);
+  opacity: 0.9;
   letter-spacing: 1px;
 }
 
 nav ul {
-  background: #1f3447;
+  background: var(--main-bg-color);
   height: 100%;
   width: 100%;
-  opacity: 80%;
+  opacity: 0.8;
   list-style: none;
 }
 
@@ -82,7 +86,7 @@ nav ul li:last-child {
 
 nav ul li a {
   position: relative;
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 15px;
   padding-left: 40px;
@@ -99,7 +103,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-  background: #009AA6;
+  background: var(--hover-bg-color);
 }
 
 nav ul ul {
@@ -118,31 +122,31 @@ nav ul ul li {
 
 nav ul ul li a {
   font-size: 17px;
-  color: white;
+  color: var(--text-color);
   padding-left: 80px;
 }
 
 nav ul ul li li li a {
   font-size: 17px;
-  color: white;
+  color: var(--text-color);
   padding-left: 160px;
 }
 
 nav ul ul li li a {
   font-size: 17px;
-  color: white;
+  color: var(--text-color);
   padding-left: 120px;
 }
 
 nav ul li.active ul li a {
-  color: white;
-  background: #1f3447;
+  color: var(--text-color);
+  background: var(--main-bg-color);
   border-left-color: transparent;
 }
 
 nav ul ul li a:hover {
-  color: white !important;
-  background: #009AA6 !important;
+  color: var(--text-color) !important;
+  background: var(--hover-bg-color) !important;
 }
 
 nav ul li a span {
@@ -156,4 +160,17 @@ nav ul li a span {
 
 nav ul li a span.rotate {
   transform: translateY(-50%) rotate(-180deg);
+}
+
+.menuIcon {
+  margin-top: 10px;
+  height: 30px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+ /* placeholder */
 }
