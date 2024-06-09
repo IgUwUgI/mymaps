@@ -73,25 +73,31 @@ export function reduceMarker(marker) {
 }
 
 export function interactSidebar(marker) {
-  var sideBarLeft = window.getComputedStyle(document.getElementById('sideBar')).right;
+  var x = window.matchMedia("(max-width: 768px)")
+  var sideBarRight = window.getComputedStyle(document.getElementById('sideBar')).right;
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
-  sideBarLeft = sideBarLeft.substring(0, sideBarLeft.length - 2);
+  sideBarRight = sideBarRight.substring(0, sideBarRight.length - 2);
   containerSize = containerSize.substring(0, containerSize.length - 2);
-  console.log(sideBarLeft / containerSize)
-  if (sideBarLeft / containerSize == -1) {
+  if (sideBarRight / containerSize == -1) {
+    if (x.matches) {
+      document.getElementById('sideBar').style.right = '0%';
+      document.getElementById('sideBar').style.width = '100%';
+      document.getElementById('BtnContainer').style.right = 'calc(-50% + 50px)';
+     } else {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('BtnContainer').style.right = 'calc(-50% + 50px)';
-      enlargeMarker(marker);
+    }
+    enlargeMarker(marker);
   } else {
-      if(marker == StoreMarker) {
-        document.getElementById('sideBar').style.right = '-100%';
-        document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
-        reduceMarker(marker);
-      } else {
-        reduceMarker(StoreMarker);
-        enlargeMarker(marker);
-        StoreMarker = marker;
-      }
+    if (marker == StoreMarker) {
+      document.getElementById('sideBar').style.right = '-100%';
+      document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
+      reduceMarker(marker);
+    } else {
+      reduceMarker(StoreMarker);
+      enlargeMarker(marker);
+      StoreMarker = marker;
+    }
   }
 }
 
@@ -251,9 +257,9 @@ export function createMarkerPath(path, type) {
       break;
   }
   var addMark = new L.marker(coords, { icon: icon });
-  addMark.on('click', function() {
+  addMark.on('click', function () {
     interactSidebar(addMark)
-});
+  });
   return addMark;
 };
 
