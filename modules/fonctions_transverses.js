@@ -79,13 +79,11 @@ export function interactSidebar(marker) {
   containerSize = containerSize.substring(0, containerSize.length - 2);
   if (sideBarLeft / containerSize == 1) {
       document.getElementById('sideBar').style.left = '50%';
-      document.getElementById('mapid').style.width = '50%';
       document.getElementById('BtnContainer').style.left = 'calc(50% - 50px)';
       enlargeMarker(marker);
   } else {
       if(marker == StoreMarker) {
         document.getElementById('sideBar').style.left = '100%';
-        document.getElementById('mapid').style.width = '100%';
         document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
         reduceMarker(marker);
       } else {
@@ -99,7 +97,6 @@ export function interactSidebar(marker) {
 export function closeSidebar() {
   reduceMarker(StoreMarker);
   document.getElementById('sideBar').style.left = '100%';
-  document.getElementById('mapid').style.width = '100%';
   document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
 }
 
@@ -112,11 +109,10 @@ export function expandSidebar() {
   if (sideSize / containerSize == 1) {
     document.getElementById('sideBar').style.width = '50%';
     document.getElementById('sideBar').style.left = '50%';
-    document.getElementById('mapid').style.width = '50%';
+    document.getElementById('expandContent').style
   } else {
     document.getElementById('sideBar').style.width = '100%';
     document.getElementById('sideBar').style.left = '0%';
-    document.getElementById('mapid').style.width = '100%';
   }
 }
 
