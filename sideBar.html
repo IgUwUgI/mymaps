@@ -15,6 +15,12 @@
                 $(this).attr('title', 'Réduire')
             } else { $(this).attr('title', 'Agrandir') }
         });
+        $('#rightSideBtn').click(function () {
+            if ($('#expandBtn').attr('title') == "Agrandir") { } else {
+                $('#expandBtn').attr('title', 'Agrandir');
+                $('#expandBtn').toggleClass('click');
+            }
+        });
     </script>
     <div id="BtnContainer">
         <div id="expandBtn" title="Agrandir"><span id="expandContent"></span></div>

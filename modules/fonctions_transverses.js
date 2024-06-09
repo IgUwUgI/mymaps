@@ -82,10 +82,10 @@ export function interactSidebar(marker) {
     if (x.matches) {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('sideBar').style.width = '100%';
-      document.getElementById('BtnContainer').style.right = 'calc(-50% + 50px)';
+      document.getElementById('BtnContainer').style.right = 'calc(-100% + 105px)';
      } else {
       document.getElementById('sideBar').style.right = '0%';
-      document.getElementById('BtnContainer').style.right = 'calc(-50% + 50px)';
+      document.getElementById('BtnContainer').style.right = 'calc(-100% + 105px)';
     }
     enlargeMarker(marker);
   } else {
@@ -113,13 +113,76 @@ export function expandSidebar() {
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideSize = sideSize.substring(0, sideSize.length - 2);
   containerSize = containerSize.substring(0, containerSize.length - 2);
-  console.log(sideSize);
   if (sideSize / containerSize == 1) {
     document.getElementById('sideBar').style.width = '50%';
     document.getElementById('expandContent').style
   } else {
     document.getElementById('sideBar').style.width = '100%';
   }
+}
+
+export function updateMapOpenSidebar(mymap) {
+  var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
+  var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
+  var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
+  overlayWidth = overlayWidth.substring(0, overlayWidth.length - 2);
+  overlayLeft = overlayLeft.substring(0, overlayLeft.length - 2);
+  containerSize = containerSize.substring(0, containerSize.length - 2);
+  var limit3 = 3 * containerSize / 4;
+  var targetZoom = mymap.getZoom();
+  var centerPoint = mymap.getSize().divideBy(2);
+  var targetPoint = centerPoint;
+  if (overlayLeft >= limit3) {
+    targetPoint['x'] = limit3;
+  }
+  var targetLatLng = mymap.containerPointToLatLng(targetPoint);
+  mymap.setView(targetLatLng, targetZoom);
+}
+
+export function updateMapCloseSidebar(mymap) {
+  var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
+  var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
+  var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
+  overlayWidth = overlayWidth.substring(0, overlayWidth.length - 2);
+  overlayLeft = overlayLeft.substring(0, overlayLeft.length - 2);
+  containerSize = containerSize.substring(0, containerSize.length - 2);
+  var limit1 = containerSize / 4;
+  var limit2 = containerSize / 2;
+  var limit3 = 3 * containerSize / 4;
+  var targetZoom = mymap.getZoom();
+  var centerPoint = mymap.getSize().divideBy(2);
+  var targetPoint = centerPoint;
+  if (overlayLeft == limit2) {
+    targetPoint['x'] = limit1;
+  }
+  var targetLatLng = mymap.containerPointToLatLng(targetPoint);
+  setTimeout(function() {
+    mymap.setView(targetLatLng, targetZoom);
+  }, 50)
+}
+
+export function updateMapExpandSidebar(mymap) {
+  var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
+      var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
+      var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
+      overlayWidth = overlayWidth.substring(0, overlayWidth.length - 2);
+      overlayLeft = overlayLeft.substring(0, overlayLeft.length - 2);
+      containerSize = containerSize.substring(0, containerSize.length - 2);
+      var limit1 = containerSize / 4;
+      var limit2 = containerSize / 2;
+      var limit3 = 3 * containerSize / 4;
+      var targetZoom = mymap.getZoom();
+      var centerPoint = mymap.getSize().divideBy(2);
+      var targetPoint = centerPoint;
+      if (overlayLeft == limit2) {
+        targetPoint['x'] = limit1;
+      } else if (overlayLeft == 0) {
+        targetPoint['x'] = limit3;
+      }
+      var targetLatLng = mymap.containerPointToLatLng(targetPoint);
+      setTimeout(function() {
+        mymap.setView(targetLatLng, targetZoom);
+      }, 50)
 }
 
 export function textUpdate(elt, props) {

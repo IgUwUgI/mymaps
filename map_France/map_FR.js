@@ -1,3 +1,5 @@
+import { updateMapCloseSidebar, updateMapOpenSidebar, updateMapExpandSidebar } from "../modules/fonctions_transverses.js";
+
 // Creation de la carte, ouverture centree sur les coordonnees specifiees
 // syntaxe : setview([Nord, Est], zoom)
 var mymap = L.map('mapid', {
@@ -16,8 +18,20 @@ var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles
 CartoDB_Voyager.addTo(mymap);
 
 // pour recentrer la carte en cas de redimention du div
-document.getElementById('mapid').addEventListener('transitionend', function(){
+document.getElementById('mapid').addEventListener('transitionend', function() {
   mymap.invalidateSize();
+});
+
+document.getElementById('sideBar').addEventListener('transitionstart', function() {
+  updateMapOpenSidebar(mymap);
+})
+
+document.getElementById('rightSideBtn').addEventListener('click', function() {
+  updateMapCloseSidebar(mymap);
+});
+
+document.getElementById('expandBtn').addEventListener('click', function() {
+  updateMapExpandSidebar(mymap);
 });
 
 // Ajout du +/- du zoom
