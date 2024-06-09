@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
 
 :root {
-  --headerHeight: 100px;
+  --headerHeightSmall: 80px;
+  --headerHeightBig: 100px;
+  --headerHeight: var(--headerHeightSmall);
   --main-bg-colour: #1f3447ff;
 }
 
@@ -47,4 +49,10 @@
   box-shadow: none;
   font-weight: bold;
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --headerHeight: var(--headerHeightBig);
+  }
 }

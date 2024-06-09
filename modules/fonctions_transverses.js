@@ -73,18 +73,19 @@ export function reduceMarker(marker) {
 }
 
 export function interactSidebar(marker) {
-  var sideBarLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
+  var sideBarLeft = window.getComputedStyle(document.getElementById('sideBar')).right;
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideBarLeft = sideBarLeft.substring(0, sideBarLeft.length - 2);
   containerSize = containerSize.substring(0, containerSize.length - 2);
-  if (sideBarLeft / containerSize == 1) {
-      document.getElementById('sideBar').style.left = '50%';
-      document.getElementById('BtnContainer').style.left = 'calc(50% - 50px)';
+  console.log(sideBarLeft / containerSize)
+  if (sideBarLeft / containerSize == -1) {
+      document.getElementById('sideBar').style.right = '0%';
+      document.getElementById('BtnContainer').style.right = 'calc(-50% + 50px)';
       enlargeMarker(marker);
   } else {
       if(marker == StoreMarker) {
-        document.getElementById('sideBar').style.left = '100%';
-        document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
+        document.getElementById('sideBar').style.right = '-100%';
+        document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
         reduceMarker(marker);
       } else {
         reduceMarker(StoreMarker);
@@ -96,8 +97,9 @@ export function interactSidebar(marker) {
 
 export function closeSidebar() {
   reduceMarker(StoreMarker);
-  document.getElementById('sideBar').style.left = '100%';
-  document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
+  document.getElementById('sideBar').style.right = '-100%';
+  document.getElementById('sideBar').style.width = '50%';
+  document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
 }
 
 export function expandSidebar() {
@@ -108,11 +110,9 @@ export function expandSidebar() {
   console.log(sideSize);
   if (sideSize / containerSize == 1) {
     document.getElementById('sideBar').style.width = '50%';
-    document.getElementById('sideBar').style.left = '50%';
     document.getElementById('expandContent').style
   } else {
     document.getElementById('sideBar').style.width = '100%';
-    document.getElementById('sideBar').style.left = '0%';
   }
 }
 

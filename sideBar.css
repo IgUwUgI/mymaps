@@ -7,14 +7,13 @@
   
   /* Sidebar */
   #sideBar {
-    left: 100%;
+    right: -100%;
     width: 50%;
     height: 100%;
     position: fixed;
     top: var(--headerHeight);
-    overflow: hidden;
     padding-top: 0px;
-    transition: left .5s ease;
+    transition: right .5s ease, width .5s ease;
   }
   
   /* Button Container */
@@ -25,9 +24,9 @@
     top: 5px;
     height: 45px;
     width: 100px;
-    left: calc(100% + 50px);
+    right: calc(-100% - 50px);
     z-index: 10;
-    transition: left 0.5s ease;
+    transition: right 0.5s ease;
   }
   
   /* Right Side Button */
@@ -38,7 +37,7 @@
     background: var(--main-bg-color);
     border-radius: 3px;
     cursor: pointer;
-    transition: left 0.5s ease;
+    transition: right 0.5s ease;
   }
   
   /* Right Side Button Text */
@@ -67,7 +66,7 @@
   /* Spacing between buttons */
   #BtnSpace {
     width: 10px;
-    transition: left 0.5s ease;
+    transition: right 0.5s ease;
   }
   
   /* Sidebar text */
