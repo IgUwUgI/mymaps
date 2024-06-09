@@ -203,4 +203,12 @@ nav .prepa-sub.show li a {
     #trips {
         width: 100%;
     }
+
+    nav a {
+        width: 75%;
+    }
+
+    nav ul  {
+        width: 65%;
+    }
 }
