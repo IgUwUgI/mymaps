@@ -9,17 +9,30 @@
     transition: left .5s ease;
 }
 
-#rightSideBtn {
+#BtnContainer {
+    display: flex;
     position: relative;
-    height: 45px;
-    width: 45px;
+    flex-direction: row;
+    position: relative;
     top: 5px;
+    height: 45px;
+    width: 100px;
     left: calc(100% + 50px);
+    z-index: 10;
+    transition: left 0.5s ease;
+}
+
+#rightSideBtn {
+    /* position: relative; */
+    /* height: 45px; */
+    width: 45px;
+    /* top: 5px; */
+    left: 0px;
     text-align: center;
     background: #1f3447;
     border-radius: 3px;
     cursor: pointer;
-    z-index: 10;
+    /* z-index: 10; */
     transition: left 0.5s ease;
 }
 
@@ -30,6 +43,39 @@
 }
 
 #rightSideBtn span:before {
+    content: '\2716';
+}
+
+#BtnSpace {
+    width: 10px;
+    transition: left 0.5s ease;
+}
+
+#expandBtn {
+    /* position: relative; */
+    /* height: 45px; */
+    width: 45px;
+    /* top: 5px; */
+    left: 55px;
+    text-align: center;
+    background: #1f3447;
+    border-radius: 3px;
+    cursor: pointer;
+    /* z-index: 10; */
+    /* transition: left 0.5s ease; */
+}
+
+#expandBtn span {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 45px;
+}
+
+#expandBtn span:before {
+    content: '\26F6';
+}
+
+#expandBtn.click span:before {
     content: '▶';
 }
 

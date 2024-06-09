@@ -84,9 +84,6 @@ for (var i = 0; i < eltsPoly.length; i++) {
       case "Main":
         style0["fillOpacity"] = 0.30;
         break;
-      case "Banlieue":
-        style0["fillOpacity"] = 0.15;
-        break;
       case "A_completer":
         style0["fillOpacity"] = 0;
         style0["opacity"] = 0.5;

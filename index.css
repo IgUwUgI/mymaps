@@ -1,5 +1,18 @@
+/* Import fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
-*{
+
+/* CSS variables for the colors */
+:root {
+    /* Color format: #RRGGBBAA with AA the alpha */
+    --main-bg-color: #1e1e1ecc; /* Dark background with transparency */
+    --hover-bg-color: #21212180; /* Hover color */
+    --primary-color: #f39c12ff;  /* Orange without transparency */
+    --secondary-color: #3498dbff; /* Blue without transparency */
+    --body-bg-color: #000000e6;  /* Dark background with transparency for body and sections */
+}
+
+/* Reset margins and paddings for all elements */
+* {
     margin: 0;
     padding: 0;
     user-select: none;
@@ -7,8 +20,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-  body {
-    font-family: Arial, sans-serif;
+/* Global styles for the body */
+body {
     margin: 0;
     padding: 0;
     background: url("./assets/background.jpg") center/cover fixed no-repeat;
@@ -17,11 +30,12 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    color: #fff;
+    color: #ffffff;
 }
 
+/* Styles for the header */
 header {
-    background-color: rgba(30, 30, 30, 0.8); /* Fond sombre avec transparence */
+    background-color: var(--main-bg-color);
     text-align: center;
     display: flex;
     align-items: center;
@@ -29,11 +43,11 @@ header {
     padding: 1em;
     width: 100%;
     height: 80px;
-    color: #f39c12; /* Orange doux */
+    color: var(--primary-color);
 }
 
+/* Styles for the navigation */
 nav {
-    /*background-color: rgba(30, 30, 30, 0.8); /* Fond sombre avec transparence */
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -42,154 +56,151 @@ nav {
 nav a {
     display: block;
     width: 33%;
-    background-color: rgba(30, 30, 30, 0.8);
-    margin: auto;
-    color: #fff;
+    background-color: var(--main-bg-color);
+    margin: 10px auto;
+    color: #ffffff;
     text-align: center;
     padding: 24px 16px;
     text-decoration: none;
-    border-color:#000000;
     border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-/* au survol */
 nav a:hover {
-    background-color: rgba(33,33,33,0.5); /* Couleur au survol */
+    background-color: var(--hover-bg-color);
 }
 
+/* Styles for sections */
 section {
     padding: 20px;
     text-align: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Fond sombre avec transparence */
+    background-color: var(--body-bg-color);
 }
 
+/* Styles for h2 elements */
 h2 {
-    color: #3498db; /* Bleu */
+    color: var(--secondary-color);
     margin-bottom: 30px;
 }
 
+/* Styles for paragraphs */
 p {
-    color: #f39c12; /* Orange doux */
+    color: var(--primary-color);
 }
 
-nav ul{
-    height: 100%;
-    width: 30%;
-    opacity:100%;
+/* Styles for navigation lists */
+nav ul {
     list-style: none;
     text-align: center;
-    padding: 0px;
-    margin: auto;
-}
-
-nav ul{
-    position: static;
+    padding: 0;
+    margin: 0 auto;
+    width: 30%;
     height: 0;
     opacity: 0;
     transition: height 0.5s ease, opacity 0.5s ease;
 }
 
-nav .prepa-sub.show{
+nav .prepa-sub.show {
     height: 305px;
     opacity: 1;
     transition: height 0.5s ease, opacity 0.5s ease;
 }
 
-nav ul a{
+nav ul li a {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 
-nav .prepa-sub.show a{
+nav .prepa-sub.show li a {
     opacity: 1;
     transition: opacity 0.5s ease;
 }
 
+/* Styles for the dashboard */
 #dashboard {
     padding: 20px;
     text-align: center;
     width: 100%;
-    background-color: rgba(30, 30, 30, 0.9); /* Fond sombre avec transparence */
+    background-color: var(--main-bg-color);
 }
 
 #dashboard h2 {
-    color: #f39c12; /* Orange doux */
+    color: var(--primary-color);
 }
 
-
-#stats{
-display: flex;
-flex-direction: row;
-width:50%;
-margin: auto;
+/* Styles for the stats section */
+#stats {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
 }
 
-#stats h1{
-    color: #3498db;
+#stats h1 {
+    color: var(--secondary-color);
     font-size: 64px;
-    margin-top: 30px;
-    margin-bottom: 5px;
+    margin: 30px 0 5px;
 }
 
-#stats p{
-  margin-bottom: 25px;
+#stats p {
+    margin-bottom: 25px;
 }
 
-#continents{
-float: left;
-width: 33%;
-display: block;
+#continents,
+#countries,
+#trips {
+    width: 33%;
 }
 
-#trips{
-float: right;
-width: 33%
+.continent-badge {
+    display: inline-block;
+    max-height: 30%;
+    max-width: 30%;
 }
 
-
-#countries{
-width: 33%;
+.flag-mini {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
-.continent-badge{
-  display: inline-block;
-  max-height: 30%;
-  max-width: 30%;
+.flags {
+    display: inline-grid;
+    column-gap: 3%;
+    row-gap: 5%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: row;
+    grid-auto-columns: 20%;
+    margin-bottom: 30px;
 }
 
-.flag-mini{
-  margin: auto;
-  max-height: 100%;
-  max-width: 100%;
+#stats h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
-#flags{
-  display: inline-grid;
-  column-gap: 3%;
-  row-gap: 5%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-flow: row;
-  grid-auto-columns: 20%;
-  margin-bottom: 30px;
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    #stats {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #trips {
+        order: 1;
+    }
+
+    #continents {
+        order: 2;
+    }
+
+    #countries {
+        order: 3;
+    }
+
+    #continents,
+    #countries,
+    #trips {
+        width: 100%;
+    }
 }
-
-#stats h2{
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.legend{
-    display: none;
-}
-
-.flag-mini:hover + .legend{
-    display: block;
-}
-
-  /* bouton menu deroulant */
-  
-
-  /* cancel button */

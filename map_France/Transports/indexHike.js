@@ -27,12 +27,17 @@ const el22 = prefix + "29-Conquet.geojson"
 const el23 = prefix + "29-Locmaria.geojson"
 
 
-var elts = [
-  el12, el13, el14, el15,
+var eltsStraight = [
+  el12, el13, el14,
+  el20, el22, el23,
+]
+
+var eltsLoop = [
+  el15,
   el8,
   el9, el10, el11,
   el16,
-  el18, el19, el20, el21, el22, el23,
+  el18, el19, el21,
   el17,
   el1,
   el2, el3, el4,
@@ -41,4 +46,11 @@ var elts = [
   el5
 ]
 
-export const RandoLayer = await toLayer(elts, { "color": "#388004", "dashArray": "4 8" }, "Hike");
+var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight");
+var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop");
+
+const HikeLayer0 = new L.LayerGroup();
+HikeLayer0.addLayer(HikeStraightLayer);
+HikeLayer0.addLayer(HikeLoopLayer);
+
+export const HikeLayer = HikeLayer0;

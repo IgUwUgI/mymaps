@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <title>Mes Voyages</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <header>
@@ -24,35 +26,29 @@
         <a href="./map_World/map_World.html">Voyages à l'étranger</a>
         <a href="#" class="prepa-btn">Préparation de voyage</a>
         <ul class="prepa-sub">
-            <a href="./projects/toDo_France/map_toDoFrance.html">À visiter - France</a>
-            <a href="./projects/toDo_World/map_toDoWorld.html">À visiter - Monde</a>
-            <a href="./projects/plan_Vietnam/plan_Vietnam.html">Détail - Vietnam</a>
-            <a href="./projects/plan_Jordanie/plan_Jordanie.html">Détail - Jordanie</a>
+            <li><a href="./projects/toDo_France/map_toDoFrance.html">À visiter - France</a></li>
+            <li><a href="./projects/toDo_World/map_toDoWorld.html">À visiter - Monde</a></li>
+            <li><a href="./projects/plan_Vietnam/plan_Vietnam.html">Détail - Vietnam</a></li>
+            <li><a href="./projects/plan_Jordanie/plan_Jordanie.html">Détail - Jordanie</a></li>
         </ul>
     </nav>
-
-    <script>
-        $('.prepa-btn').click(function(){
-            $('nav .prepa-sub').toggleClass("show");
-        });
-    </script>
 
     <section id="dashboard">
         <h2>Tableau de Bord</h2>
         <div id="stats">
             <div id="continents">
-                <h1>2</h1>
+                <h1></h1>
                 <h2>CONTINENTS VISITÉS</h2>
                 <img class="continent-badge" title="Europe" src="./assets/Europe.png">
                 <img class="continent-badge" title="Afrique" src="./assets/Africa.png">
-                <!-- <img class="continent-badge" src="./assets/Asia.png">
-                <img class="continent-badge" src="./assets/Antarctica.png">
-                <img class="continent-badge" src="./assets/America.png"> -->
+                <!-- <img class="continent-badge" src="./assets/Asia.png"> -->
+                <!-- <img class="continent-badge" src="./assets/Antarctica.png"> -->
+                <!-- <img class="continent-badge" src="./assets/America.png"> -->
             </div>
             <div id="countries">
-                <h1>11</h1>
+                <h1></h1>
                 <h2>PAYS VISITÉS</h2>
-                <div id="flags">
+                <div class="flags" id="flagsEurope">
                     <img class="flag-mini" title="France" src="./assets/flags/Europe/fr.png">
                     <img class="flag-mini" title="Autriche" src="./assets/flags/Europe/at.png">
                     <img class="flag-mini" title="Belgique" src="./assets/flags/Europe/be.png">
@@ -64,8 +60,14 @@
                     <img class="flag-mini" title="Slovénie" src="./assets/flags/Europe/si.png">
                     <img class="flag-mini" title="Slovaquie" src="./assets/flags/Europe/sk.png">
                 </div>
-                <div id="flags">
+                <div class="flags" id="flagsAfrica">
                     <img class="flag-mini" title="Maroc" src="./assets/flags/Africa/ma.png">
+                </div>
+                <div class="flags" id="flagsAsia">
+                </div>
+                <div class="flags" id="flagsAmerica">
+                </div>
+                <div class="flags" id="flagsPacific">
                 </div>
             </div>
             <div id="trips">
@@ -73,10 +75,25 @@
                 <h2>VOYAGES</h2>
             </div>
         </div>
-        <!-- Ajoutez ici le contenu du tableau de bord -->
     </section>
 
-    <!-- Ajoutez du contenu pour les autres sections (voyages en France, voyages à l'étranger, préparation de voyage) -->
+    <script>
+        $(document).ready(function () {
+            // Toggle the visibility of the preparation sub-menu
+            $('.prepa-btn').click(function () {
+                $('nav .prepa-sub').toggleClass("show");
+            });
+
+            // Update the countries count based on the number of flags
+            const flagCount = $('.flag-mini').length;
+            $('#countries h1').text(flagCount);
+
+            // Update the continents count based on the number of badges
+            const contiCount = $('.continent-badge').length;
+            $('#continents h1').text(contiCount);
+        });
+    </script>
 
 </body>
+
 </html>

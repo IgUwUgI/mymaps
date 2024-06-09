@@ -33,8 +33,8 @@ import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
 // import {TrainLayer} from "./Transports/indexTrains.js"
 import {BoatLayer} from "./Transports/indexBoat.js"
-import {VeloLayer} from "./Transports/indexBike.js"
-import {RandoLayer} from "./Transports/indexHike.js"
+import {BikeLayer} from "./Transports/indexBike.js"
+import {HikeLayer} from "./Transports/indexHike.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
 import {DptsLayer} from "./MapSpots/indexDpt.js"
 import { TrainLayer } from "./Transports/indexTrain.js";
@@ -56,8 +56,8 @@ AvionsLayer.addTo(mymap); // Avion
 CarLayer.addTo(mymap); // Voiture
 BusLayer.addTo(mymap); // Bus
 BoatLayer.addTo(mymap); // Bateau
-VeloLayer.addTo(mymap); // Velo
-RandoLayer.addTo(mymap); // Randonnees
+BikeLayer.addTo(mymap); // Velo
+HikeLayer.addTo(mymap); // Randonnees
 // TrainLayer.addTo(mymap); // Trains
 
 // Train --> add marker + merge lines on QGIS
@@ -103,8 +103,8 @@ var visite = {
   "<span style='font-size: 1.4em'><img src='../assets/carMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets roadtrip</span>": CarLayer,
   "<span style='font-size: 1.4em'><img src='../assets/busMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bus</span>": BusLayer,
   "<span style='font-size: 1.4em'><img src='../assets/boatMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bateau</span>": BoatLayer,
-  "<span style='font-size: 1.4em'><img src='../assets/bikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Vélorandos</span>": VeloLayer,
-  "<span style='font-size: 1.4em'><img src='../assets/hikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Randonnées</span>": RandoLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/bikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Vélorandos</span>": BikeLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/hikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Randonnées</span>": HikeLayer,
   "<span style='font-size: 1.4em'><img src='../assets/plane.png' style='margin-top:5px;height:30px;margin-right: 10px;align-items: center;justify-content: center;'>Avions</span>": AvionsLayer
 };
 var layerControl = L.control.layers(null, visite).addTo(mymap);

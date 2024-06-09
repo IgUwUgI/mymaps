@@ -22,7 +22,6 @@ export function enlargeMarker(marker) {
   StoreMarker = marker;
   var markerIcon = marker.getIcon();
   var markerURL = markerIcon.options.iconUrl;
-  console.log(markerURL);
   switch (markerURL) {
     case "../assets/carMarker.png":
       var icon = carMarkerBig;
@@ -50,7 +49,6 @@ export function reduceMarker(marker) {
   StoreMarker = marker;
   var markerIcon = marker.getIcon();
   var markerURL = markerIcon.options.iconUrl;
-  console.log(markerURL);
   switch (markerURL) {
     case "../assets/carMarker.png":
       var icon = carMarker;
@@ -79,26 +77,22 @@ export function interactSidebar(marker) {
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideBarLeft = sideBarLeft.substring(0, sideBarLeft.length - 2);
   containerSize = containerSize.substring(0, containerSize.length - 2);
-  switch (sideBarLeft / containerSize) {
-    case 1 :
+  if (sideBarLeft / containerSize == 1) {
       document.getElementById('sideBar').style.left = '50%';
       document.getElementById('mapid').style.width = '50%';
-      document.getElementById('rightSideBtn').style.left = 'calc(50% - 50px)';
+      document.getElementById('BtnContainer').style.left = 'calc(50% - 50px)';
       enlargeMarker(marker);
-      break;
-    case 0.5 :
-      
+  } else {
       if(marker == StoreMarker) {
         document.getElementById('sideBar').style.left = '100%';
         document.getElementById('mapid').style.width = '100%';
-        document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
+        document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
         reduceMarker(marker);
       } else {
         reduceMarker(StoreMarker);
         enlargeMarker(marker);
         StoreMarker = marker;
       }
-      break;
   }
 }
 
@@ -106,7 +100,24 @@ export function closeSidebar() {
   reduceMarker(StoreMarker);
   document.getElementById('sideBar').style.left = '100%';
   document.getElementById('mapid').style.width = '100%';
-  document.getElementById('rightSideBtn').style.left = 'calc(100% + 45px)';
+  document.getElementById('BtnContainer').style.left = 'calc(100% + 50px)';
+}
+
+export function expandSidebar() {
+  var sideSize = window.getComputedStyle(document.getElementById('sideBar')).width;
+  var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
+  sideSize = sideSize.substring(0, sideSize.length - 2);
+  containerSize = containerSize.substring(0, containerSize.length - 2);
+  console.log(sideSize);
+  if (sideSize / containerSize == 1) {
+    document.getElementById('sideBar').style.width = '50%';
+    document.getElementById('sideBar').style.left = '50%';
+    document.getElementById('mapid').style.width = '50%';
+  } else {
+    document.getElementById('sideBar').style.width = '100%';
+    document.getElementById('sideBar').style.left = '0%';
+    document.getElementById('mapid').style.width = '100%';
+  }
 }
 
 export function textUpdate(elt, props) {
@@ -203,33 +214,45 @@ export function latLngMoyenne(map, aray) {
   return res
 };
 
-export function createMiddleMarkerPath(path, type) {
+export function createMarkerPath(path, type) {
   //cree un marqueur au milieu d'un chemin
   const coordsTot = path.features[0].geometry.coordinates
-  var coords = coordsTot[(coordsTot.length - coordsTot.length % 2) / 2];
-  var tmp = coords[0]
-  coords[0] = coords[1]
-  coords[1] = tmp
-
+  var coordsMid = coordsTot[(coordsTot.length - coordsTot.length % 2) / 2];
+  var tmp = coordsMid[0];
+  coordsMid[0] = coordsMid[1];
+  coordsMid[1] = tmp;
+  var coords0 = coordsTot[0];
+  tmp = coords0[0];
+  coords0[0] = coords0[1];
+  coords0[1] = tmp;
+  var coords = coordsMid
   switch (type) {
     case "Car":
       var icon = carMarker;
       break;
     case "Bus":
       var icon = busMarker;
-      break
+      break;
     case "Boat":
       var icon = boatMarker;
-      break
-    case "Hike":
+      break;
+    case "HikeStraight":
       var icon = hikeMarker;
-      break
+      break;
+    case "HikeLoop":
+      var icon = hikeMarker;
+      var coords = coords0;
+      break;
     case "Train":
       var icon = trainMarker;
-      break
-    case "Velo":
+      break;
+    case "BikeStraight":
       var icon = bikeMarker;
-      break
+      break;
+    case "BikeLoop":
+      var icon = bikeMarker;
+      var coords = coords0;
+      break;
   }
   var addMark = new L.marker(coords, { icon: icon });
   addMark.on('click', function() {
@@ -250,7 +273,7 @@ export async function toLayer(elts, style, type) {
     var j = await fetchElt(elts[i]);
     var jGeo = L.geoJson(j);
     jGeo.setStyle(style);
-    var m = await createMiddleMarkerPath(j, type);
+    var m = await createMarkerPath(j, type);
     eltsGeo.push(jGeo);
     eltsGeo.push(m);
   }

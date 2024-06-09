@@ -6,10 +6,21 @@
 
 <body style="overflow-x: hidden;">
     <script type="module">
-        import { closeSidebar } from "../modules/fonctions_transverses.js";
+        import { closeSidebar, expandSidebar } from "../modules/fonctions_transverses.js";
         document.getElementById('rightSideBtn').addEventListener('click', closeSidebar);
+        document.getElementById('expandBtn').addEventListener('click', expandSidebar);
+        $('#expandBtn').click(function () {
+            $(this).toggleClass("click");
+            if ($(this).attr('title') == "Agrandir") {
+                $(this).attr('title', 'Réduire')
+            } else { $(this).attr('title', 'Agrandir') }
+        });
     </script>
-    <div id="rightSideBtn"><span></span></div>
+    <div id="BtnContainer">
+        <div id="expandBtn" title="Agrandir"><span id="expandContent"></span></div>
+        <div id="BtnSpace"></div>
+        <div id="rightSideBtn" title="Fermer le panneau"><span></span></div>
+    </div>
     <div id="sideBar">
         <div class="text">TITRE</div>
         <div id="sideContent">
