@@ -2,6 +2,7 @@
 :root {
     --main-bg-color: #1f3447;
     --text-color: #ffffff;
+    --headerHeight: 80px;
   }
   
   /* Sidebar */
@@ -10,7 +11,7 @@
     width: 50%;
     height: 100%;
     position: fixed;
-    top: 80px;
+    top: var(--headerHeight);
     overflow: hidden;
     padding-top: 0px;
     transition: left .5s ease;
