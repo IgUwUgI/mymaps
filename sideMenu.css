@@ -16,7 +16,7 @@
   border-radius: 3px;
   cursor: pointer;
   transition: left 0.5s ease;
-  z-index: 10;
+  z-index: 11;
 }
 
 .btn span:before {
@@ -42,7 +42,7 @@
   width: 350px;
   height: 100%;
   position: fixed;
-  z-index: 9999999;
+  z-index: 10;
   /* Stay on top */
   top: 80px;
   background: none;

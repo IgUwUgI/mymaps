@@ -73,7 +73,7 @@ export function reduceMarker(marker) {
 }
 
 export function interactSidebar(marker) {
-  var x = window.matchMedia("(max-width: 768px)")
+  var x = window.matchMedia("(max-width: 768px)");
   var sideBarRight = window.getComputedStyle(document.getElementById('sideBar')).right;
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideBarRight = sideBarRight.substring(0, sideBarRight.length - 2);
@@ -82,6 +82,7 @@ export function interactSidebar(marker) {
     if (x.matches) {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('sideBar').style.width = '100%';
+      document.getElementById('BtnContainer').style.display = 'block';
       document.getElementById('BtnContainer').style.right = 'calc(-100% + 105px)';
     } else {
       document.getElementById('sideBar').style.right = '0%';
@@ -103,9 +104,13 @@ export function interactSidebar(marker) {
 
 export function closeSidebar() {
   reduceMarker(StoreMarker);
+  var x = window.matchMedia("(max-width: 768px)");
   document.getElementById('sideBar').style.right = '-100%';
   document.getElementById('sideBar').style.width = '50%';
   document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
+  if (x.matches) {
+    document.getElementById('BtnContainer').style.display = 'none';
+  }
 }
 
 export function expandSidebar() {
@@ -123,7 +128,7 @@ export function expandSidebar() {
 
 export function updateMapOpenSidebar(mymap) {
   var x = window.matchMedia('max-width: 768px');
-  if (!x.matches) {
+  if (x.matches) { } else {
     var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
     var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
     var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
@@ -144,7 +149,7 @@ export function updateMapOpenSidebar(mymap) {
 
 export function updateMapCloseSidebar(mymap) {
   var x = window.matchMedia('max-width: 768px');
-  if (!x.matches) {
+  if (x.matches) { } else {
     var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
     var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
     var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
@@ -169,7 +174,7 @@ export function updateMapCloseSidebar(mymap) {
 
 export function updateMapExpandSidebar(mymap) {
   var x = window.matchMedia('max-width: 768px');
-  if (!x.matches) {
+  if (x.matches) { } else {
     var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
     var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
     var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
