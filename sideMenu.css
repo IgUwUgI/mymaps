@@ -40,7 +40,7 @@
 .sidebar {
   left: -350px;
   width: 350px;
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: fixed;
   z-index: 10;
   /* Stay on top */
