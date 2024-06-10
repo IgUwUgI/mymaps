@@ -135,7 +135,7 @@ export function updateMapOpenSidebar(mymap) {
     var centerPoint = mymap.getSize().divideBy(2);
     var targetPoint = centerPoint;
     if (overlayLeft >= limit3) {
-      targetPoint['x'] = limit3;
+      targetPoint['x'] = limit3; 
     }
     var targetLatLng = mymap.containerPointToLatLng(targetPoint);
     mymap.setView(targetLatLng, targetZoom);
