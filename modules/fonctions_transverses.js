@@ -82,7 +82,8 @@ export function interactSidebar(marker) {
     if (x.matches) {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('sideBar').style.width = '100vw';
-      document.getElementById('BtnContainer').style.right = 'calc(-100vw + 55px)';
+      document.getElementById('BtnContainer').style.display= "flex";
+      document.getElementById('BtnContainer').style.right = 'calc(-100vw + 60px)';
     } else {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('BtnContainer').style.right = 'calc(-100vw + 105px)';
