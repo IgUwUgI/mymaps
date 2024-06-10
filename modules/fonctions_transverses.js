@@ -82,7 +82,6 @@ export function interactSidebar(marker) {
     if (x.matches) {
       document.getElementById('sideBar').style.right = '0%';
       document.getElementById('sideBar').style.width = '100%';
-      document.getElementById('BtnContainer').style.display = 'block';
       document.getElementById('BtnContainer').style.right = 'calc(-100% + 105px)';
     } else {
       document.getElementById('sideBar').style.right = '0%';
@@ -104,13 +103,9 @@ export function interactSidebar(marker) {
 
 export function closeSidebar() {
   reduceMarker(StoreMarker);
-  var x = window.matchMedia("(max-width: 768px)");
   document.getElementById('sideBar').style.right = '-100%';
   document.getElementById('sideBar').style.width = '50%';
   document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
-  if (x.matches) {
-    document.getElementById('BtnContainer').style.display = 'none';
-  }
 }
 
 export function expandSidebar() {
