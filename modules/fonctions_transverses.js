@@ -122,7 +122,8 @@ export function expandSidebar() {
 }
 
 export function updateMapOpenSidebar(mymap) {
-  var x = window.matchMedia('max-width: 768px');
+  var x = window.matchMedia('(max-width: 768px)');
+  console.log(x, x.matches, !x.matches)
   if (x.matches) { } else {
     var overlayWidth = window.getComputedStyle(document.getElementById('sideBar')).width;
     var overlayLeft = window.getComputedStyle(document.getElementById('sideBar')).left;
