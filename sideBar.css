@@ -95,8 +95,8 @@
   /* Media query for mobile devices */
 @media (max-width: 768px) {
     #sideBar {
-        width: 100%;
-        right: -100%
+        width: 100vw;
+        right: -100vw;
     }
 
     #expandBtn {

@@ -154,7 +154,7 @@ nav ul li a span.rotate {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .sidebar {
-      width: 75%;
+      width: 75vw;
       left: -75%
   }
   
@@ -163,6 +163,6 @@ nav ul li a span.rotate {
   }
 
   .btn.click {
-    left: calc(75% + 5px);
+    left: calc(75vw + 5px);
   }
 }
