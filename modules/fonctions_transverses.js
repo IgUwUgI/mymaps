@@ -78,22 +78,34 @@ export function interactSidebar(marker) {
   var containerSize = window.getComputedStyle(document.getElementById('mainContainer')).width;
   sideBarRight = sideBarRight.substring(0, sideBarRight.length - 2);
   containerSize = containerSize.substring(0, containerSize.length - 2);
-  if (sideBarRight / containerSize == -1) {
+  // If sidebar not displayed
+  if (window.getComputedStyle(document.getElementById('sideBar')).display == 'none') {
+    document.getElementById('sideBar').style.display = 'block';
+    setTimeout(function () {
+      // If mobile
     if (x.matches) {
-      document.getElementById('sideBar').style.right = (window.getComputedStyle(document.getElementById('mapid')).right+'px');
+      document.getElementById('sideBar').style.right = '100vw';
       document.getElementById('sideBar').style.width = '100vw';
       document.getElementById('BtnContainer').style.display= "flex";
       document.getElementById('BtnContainer').style.right = 'calc(-100vw + 60px)';
+      // Else = not mobile
     } else {
       document.getElementById('sideBar').style.right = '0%';
-      document.getElementById('BtnContainer').style.right = 'calc(-100vw + 105px)';
+      console.log(window.getComputedStyle(document.getElementById('sideBar')).width)
+      document.getElementById('sideBar').style.width = '50%';
+      console.log(window.getComputedStyle(document.getElementById('sideBar')).width)
+      document.getElementById('BtnContainer').style.right = 'calc(-100% + 105px)';
     }
     enlargeMarker(marker);
+    }, 30)
+    //If sidebar displayed
   } else {
     if (marker == StoreMarker) {
       document.getElementById('sideBar').style.right = '-100%';
-      document.getElementById('BtnContainer').style.right = 'calc(-100vw - 50px)';
+      document.getElementById('BtnContainer').style.right = 'calc(-100% - 50px)';
+      document.getElementById('sideBar').style.display = 'none';
       reduceMarker(marker);
+      StoreMarker = L.marker()
     } else {
       reduceMarker(StoreMarker);
       enlargeMarker(marker);
@@ -103,10 +115,15 @@ export function interactSidebar(marker) {
 }
 
 export function closeSidebar() {
+  var x = window.matchMedia("(max-width: 768px)");
   reduceMarker(StoreMarker);
   document.getElementById('sideBar').style.right = '-100%';
-  document.getElementById('sideBar').style.width = '50%';
-  document.getElementById('BtnContainer').style.display = 'none';
+  if (x.matches) {
+    document.getElementById('BtnContainer').style.display = 'none';
+    document.getElementById('sideBar').style.display = 'none';
+  } else {
+    document.getElementById('BtnContainer').style.right = 'calc(-100vw - 50px)';
+  }
 }
 
 export function expandSidebar() {
