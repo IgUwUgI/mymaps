@@ -85,9 +85,9 @@ export function interactSidebar(marker) {
     setTimeout(function () {
       // If mobile
     if (x.matches) {
-      document.getElementById('sideBar').style.right = '100vw';
+      document.getElementById('sideBar').style.right = '0%';
       document.getElementById('sideBar').style.width = '100vw';
-      document.getElementById('BtnContainer').style.right = 'calc(-100vw + 60px)';
+      document.getElementById('BtnContainer').style.right = 'calc(-100% + 60px)';
       // Else = not mobile
     } else {
       document.getElementById('sideBar').style.right = '0%';
@@ -124,7 +124,7 @@ export function closeSidebar() {
     document.getElementById('sideBar').style.display = 'none';
     document.getElementById('BtnContainer').style.display = 'none';
   }
-    , 30)
+    , 500)
 }
 
 export function expandSidebar() {
@@ -134,7 +134,6 @@ export function expandSidebar() {
   containerSize = containerSize.substring(0, containerSize.length - 2);
   if (sideSize / containerSize == 1) {
     document.getElementById('sideBar').style.width = '50%';
-    document.getElementById('expandContent').style
   } else {
     document.getElementById('sideBar').style.width = '100%';
   }
