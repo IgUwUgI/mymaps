@@ -80,7 +80,7 @@ export function interactSidebar(marker) {
   containerSize = containerSize.substring(0, containerSize.length - 2);
   if (sideBarRight / containerSize == -1) {
     if (x.matches) {
-      document.getElementById('sideBar').style.right = '0%';
+      document.getElementById('sideBar').style.right = (window.getComputedStyle(document.getElementById('mapid')).right+'px');
       document.getElementById('sideBar').style.width = '100vw';
       document.getElementById('BtnContainer').style.display= "flex";
       document.getElementById('BtnContainer').style.right = 'calc(-100vw + 60px)';
