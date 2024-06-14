@@ -106,7 +106,7 @@ export function closeSidebar() {
   reduceMarker(StoreMarker);
   document.getElementById('sideBar').style.right = '-100%';
   document.getElementById('sideBar').style.width = '50%';
-  document.getElementById('BtnContainer').style.right = 'calc(-100vw - 50px)';
+  document.getElementById('BtnContainer').style.display = 'none';
 }
 
 export function expandSidebar() {
