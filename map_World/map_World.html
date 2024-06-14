@@ -18,7 +18,7 @@
   <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 </head>
 
-<body>
+<body style="overflow: hidden;">
   <script>
     $(function () {
       $("#sideMenu").load("../sideMenu.html");
@@ -34,14 +34,14 @@
     <div id="sideMenu"></div>
 
     <!-- Creation de la carte -->
-    <div id="mapid">
+    <div id="mapid"></div>
 
-      <div id="rightSideBar"></div>
+    <div id="rightSideBar"></div>
 
-      <!-- Ci dessous le script javascript des trucs des donnees -->
-      <script type="module" src="./map_World.js">
-      </script>
-    </div>
+    <!-- Ci dessous le script javascript de la carte -->
+    <script type="module" src="./map_World.js" >
+    </script>
+  </div>
 
   </div>
   <!-- Juste pour faire des projections, besoin d'une map vierge-->

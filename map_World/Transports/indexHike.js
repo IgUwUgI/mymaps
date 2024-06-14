@@ -13,10 +13,19 @@ const el8 = prefix + "ESP-Anaga-3.geojson"
 const el9 = prefix + "AUT-Unsterberg.geojson"
 const el10 = prefix + "AUT-Kahlenberg.geojson"
 
-
-var elts = [
-  el1, el2, el3, el4, el5, el6, el7, el8,
-  el9, el10
+var eltsStraight = [
+  el1, el2, el4, el5, el10
 ]
 
-export const RandoLayer = await toLayer(elts, { "color": "#388004", "dashArray": "4 8" }, "Hike");
+var eltsLoop = [
+  el3, el6, el7, el8, el9
+]
+
+var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight");
+var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop");
+
+const HikeLayer0 = new L.LayerGroup();
+HikeLayer0.addLayer(HikeStraightLayer);
+HikeLayer0.addLayer(HikeLoopLayer);
+
+export const HikeLayer = HikeLayer0;

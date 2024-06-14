@@ -1,3 +1,5 @@
+import { updateMapCloseSidebar, updateMapOpenSidebar, updateMapExpandSidebar } from "../modules/fonctions_transverses.js";
+
 
 // Creation de la carte, ouverture centree sur les coordonnees specifiees
 // syntaxe : setview([Nord, Est], zoom)
@@ -6,6 +8,23 @@ var mymap = L.map('mapid', {
     zoomSnap: 0,
     zoomControl: false
 }).setView([10, 3], 3);
+
+// pour recentrer la carte en cas de redimention du div
+document.getElementById('mapid').addEventListener('transitionend', function() {
+    mymap.invalidateSize();
+  });
+  
+  document.getElementById('sideBar').addEventListener('transitionstart', function() {
+    updateMapOpenSidebar(mymap);
+  })
+  
+  document.getElementById('rightSideBtn').addEventListener('click', function() {
+    updateMapCloseSidebar(mymap);
+  });
+  
+  document.getElementById('expandBtn').addEventListener('click', function() {
+    updateMapExpandSidebar(mymap);
+  });
 
 // fond de carte
 var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -35,7 +54,7 @@ import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
 // import {BoatLayer} from "./Transports/indexBoat.js"
 // import {VeloLayer} from "./Transports/indexVelo.js"
-import {RandoLayer} from "./Transports/indexHike.js"
+import {HikeLayer} from "./Transports/indexHike.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
 import {TrainLayer} from "./Transports/indexTrain.js";
 import {PaysGeo} from "./MapSpots/Pays/indexCountries.js"
@@ -69,7 +88,7 @@ CarLayer.addTo(mymap); // Voiture
 BusLayer.addTo(mymap); // Bus
 // BoatLayer.addTo(mymap); // Bateau
 // VeloLayer.addTo(mymap); // Velo
-RandoLayer.addTo(mymap); // Randonnees
+HikeLayer.addTo(mymap); // Randonnees
 TrainLayer.addTo(mymap); // Train
 
 

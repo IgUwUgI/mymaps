@@ -101,7 +101,8 @@ nav ul {
 }
 
 nav .prepa-sub.show {
-    height: 305px;
+    /* height: 305px; */
+    height: 350px;
     opacity: 1;
     transition: height 0.5s ease, opacity 0.5s ease;
 }
@@ -177,6 +178,12 @@ nav .prepa-sub.show li a {
 #stats h2 {
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+#construction {
+    color: #FF0000FF;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 /* Media query for mobile devices */
