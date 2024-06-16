@@ -1,28 +1,41 @@
 import { toLayer } from "../../modules/fonctions_transverses.js";
 
 const prefix = "./Transports/Hikes/"
+const suffix = ".geojson"
 
-const el1 = prefix + "ESP-Anaga-1.geojson"
-const el2 = prefix + "ESP-Teide.geojson"
-const el3 = prefix + "ESP-Chio.geojson"
-const el4 = prefix + "ESP-SantiagoDelTeide-Chio.geojson"
-const el5 = prefix + "ESP-ElPaso-LosLLanos.geojson"
-const el6 = prefix + "ESP-Tajogaite.geojson"
-const el7 = prefix + "ESP-Anaga-2.geojson"
-const el8 = prefix + "ESP-Anaga-3.geojson"
-const el9 = prefix + "AUT-Unsterberg.geojson"
-const el10 = prefix + "AUT-Kahlenberg.geojson"
+const el1 = "ESP-Anaga-1"
+const el2 = "ESP-Teide"
+const el3 = "ESP-Chio"
+const el4 = "ESP-SantiagoDelTeide-Chio"
+const el5 = "ESP-ElPaso-LosLLanos"
+const el6 = "ESP-Tajogaite"
+const el7 = "ESP-Anaga-2"
+const el8 = "ESP-Anaga-3"
+const el9 = "AUT-Unsterberg"
+const el10 = "AUT-Kahlenberg"
 
-var eltsStraight = [
+var IDsStraight = [
   el1, el2, el4, el5, el10
 ]
 
-var eltsLoop = [
+var IDsLoop = [
   el3, el6, el7, el8, el9
 ]
 
-var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight");
-var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop");
+var eltsStraight = new Array(IDsStraight.length)
+
+for (var i =  0; i < IDsStraight.length; i++) {
+  eltsStraight[i] = prefix + IDsStraight[i] + suffix;
+}
+
+var eltsLoop = new Array(IDsLoop.length)
+
+for (var i =  0; i < IDsLoop.length; i++) {
+  eltsLoop[i] = prefix + IDsLoop[i] + suffix;
+}
+
+var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight", IDsStraight);
+var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop", IDsLoop);
 
 const HikeLayer0 = new L.LayerGroup();
 HikeLayer0.addLayer(HikeStraightLayer);

@@ -17,6 +17,7 @@ import { bikeMarker } from "../assets/assets.js";
 import { bikeMarkerBig } from "../assets/assets.js";
 
 let StoreMarker = L.marker();
+let StoreIDs = {};
 
 export function enlargeMarker(marker) {
   StoreMarker = marker;
@@ -113,6 +114,7 @@ export function interactSidebar(marker) {
       StoreMarker = marker;
     }
   }
+  textUpdate(marker.customID)
 }
 
 export function closeSidebar() {
@@ -154,7 +156,6 @@ export function updateMapOpenSidebar(mymap) {
     var targetZoom = mymap.getZoom();
     var centerPoint = mymap.getSize().divideBy(2);
     var targetPoint = centerPoint;
-    console.log(overlayLeft, limit2)
     if (overlayLeft >= limit2 && overlayLeft < limit3) {
       targetPoint['x'] = limit1; 
     }
@@ -218,9 +219,25 @@ export function updateMapExpandSidebar(mymap) {
   }
 }
 
-export function textUpdate(elt, props) {
-  document.getElementById(elt)._div.innerHTML = props;
+// export function textUpdate(ID) {
+//   var props = `
+//   <script>
+//       $(function () {
+//       $("#sideBar").load("../subHTML/` + ID + `.html");
+//     });
+//   </script>
+//   `
+//   setTimeout(function() {
+//   document.getElementById("sideBar").innerHTML = props;
+//   }, 30)
+// }
+
+export function textUpdate(ID) {
+      $(function () {
+      $("#sideBar").load("../subHTML/" + ID + ".html");
+    });
 }
+
 
 export function calcMiddleLatLng(map, latlng1, latlng2) {
   // calcule le milieu de deux coordonnees
@@ -312,7 +329,8 @@ export function latLngMoyenne(map, aray) {
   return res
 };
 
-export function createMarkerPath(path, type) {
+export function createMarkerPath(path, type, ID) {
+  console.log(ID);
   //cree un marqueur au milieu d'un chemin
   const coordsTot = path.features[0].geometry.coordinates
   var coordsMid = coordsTot[(coordsTot.length - coordsTot.length % 2) / 2];
@@ -353,9 +371,11 @@ export function createMarkerPath(path, type) {
       break;
   }
   var addMark = new L.marker(coords, { icon: icon });
+  addMark.customID = ID;
   addMark.on('click', function () {
     interactSidebar(addMark)
   });
+  StoreIDs[ID] = addMark;
   return addMark;
 };
 
@@ -365,13 +385,14 @@ async function fetchElt(file) {
   return renvoi;
 };
 
-export async function toLayer(elts, style, type) {
+export async function toLayer(elts, style, type, IDs) {
   var eltsGeo = Array();
   for (var i = 0; i < elts.length; i++) {
     var j = await fetchElt(elts[i]);
     var jGeo = L.geoJson(j);
+    var ID = IDs[i];
     jGeo.setStyle(style);
-    var m = await createMarkerPath(j, type);
+    var m = await createMarkerPath(j, type, ID);
     eltsGeo.push(jGeo);
     eltsGeo.push(m);
   }

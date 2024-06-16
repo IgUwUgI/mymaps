@@ -1,38 +1,39 @@
 import { toLayer } from "../../modules/fonctions_transverses.js";
 
-const prefix = "./Transports/Hikes/"
+const prefix = "./Transports/Hikes/";
+const suffix = ".geojson";
 
-const el1 = prefix + "39-Noirmont.geojson"
-const el2 = prefix + "50-LaHague.geojson"
-const el3 = prefix + "50-MaraisSaire.geojson"
-const el4 = prefix + "50-PlageSiouville.geojson"
-const el5 = prefix + "86-Lathus.geojson"
-const el6 = prefix + "73-Gallopaz.geojson"
-const el7 = prefix + "74-Confins.geojson"
-const el8 = prefix + "06-CapFerrat.geojson"
-const el9 = prefix + "13-EnVau.geojson"
-const el10 = prefix + "13-Luminy.geojson"
-const el11 = prefix + "13-Sugiton.geojson"
-const el12 = prefix + "05-ColletVert1.geojson"
-const el13 = prefix + "05-ColletVert2.geojson"
-const el14 = prefix + "05-SerreChevalier.geojson"
-const el15 = prefix + "05-ValleeClaree.geojson"
-const el16 = prefix + "15-PuyMary.geojson"
-const el17 = prefix + "36-Lignac.geojson"
-const el18 = prefix + "29-Crozon.geojson"
-const el19 = prefix + "29-Lanildut.geojson"
-const el20 = prefix + "29-Plouzane.geojson"
-const el21 = prefix + "29-Plogoff.geojson"
-const el22 = prefix + "29-Conquet.geojson"
-const el23 = prefix + "29-Locmaria.geojson"
+const el1 = "39-Noirmont"
+const el2 = "50-LaHague"
+const el3 = "50-MaraisSaire"
+const el4 = "50-PlageSiouville"
+const el5 = "86-Lathus"
+const el6 = "73-Gallopaz"
+const el7 = "74-Confins"
+const el8 = "06-CapFerrat"
+const el9 = "13-EnVau"
+const el10 = "13-Luminy"
+const el11 = "13-Sugiton"
+const el12 = "05-ColletVert1"
+const el13 = "05-ColletVert2"
+const el14 = "05-SerreChevalier"
+const el15 = "05-ValleeClaree"
+const el16 = "15-PuyMary"
+const el17 = "36-Lignac"
+const el18 = "29-Crozon"
+const el19 = "29-Lanildut"
+const el20 = "29-Plouzane"
+const el21 = "29-Plogoff"
+const el22 = "29-Conquet"
+const el23 = "29-Locmaria"
+const el24 = "87-Saint-Junien"
 
-
-var eltsStraight = [
+var IDsStraight = [
   el12, el13, el14,
   el20, el22, el23,
 ]
 
-var eltsLoop = [
+var IDsLoop = [
   el15,
   el8,
   el9, el10, el11,
@@ -43,11 +44,24 @@ var eltsLoop = [
   el2, el3, el4,
   el6,
   el7,
-  el5
+  el5,
+  el24
 ]
 
-var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight");
-var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop");
+var eltsStraight = new Array(IDsStraight.length)
+
+for (var i =  0; i < IDsStraight.length; i++) {
+  eltsStraight[i] = prefix + IDsStraight[i] + suffix;
+}
+
+var eltsLoop = new Array(IDsLoop.length)
+
+for (var i =  0; i < IDsLoop.length; i++) {
+  eltsLoop[i] = prefix + IDsLoop[i] + suffix;
+}
+
+var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight", IDsStraight);
+var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "4 8" }, "HikeLoop", IDsLoop);
 
 const HikeLayer0 = new L.LayerGroup();
 HikeLayer0.addLayer(HikeStraightLayer);

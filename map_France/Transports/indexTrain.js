@@ -1,40 +1,47 @@
 import { toLayer } from "../../modules/fonctions_transverses.js"
 
 const prefix = "./Transports/TrainLines/"
+const suffix = ".geojson";
 
-const el1 = prefix + "Annecy-Culoz.geojson"
-const el2 = prefix + "Avgn-Lyon-TER.geojson"
-const el3 = prefix + "Avgn-Mpl-TER.geojson"
-const el4 = prefix + "Avgn-Mpl-TGV.geojson"
-const el5 = prefix + "Avgn-TGV-TER.geojson"
-const el6 = prefix + "Bale-Marseille.geojson"
-const el7 = prefix + "BeB-Genf.geojson"
-const el8 = prefix + "Lyon-Marseille.geojson"
-const el9 = prefix + "Nimes-GDR.geojson"
-const el10 = prefix + "StCham-Lyon.geojson"
-const el11 = prefix + "Dijon-Paris-TGV.geojson"
-const el12 = prefix + "Lyon-Mulhouse-TGV.geojson"
-const el13 = prefix + "Lyon-Paris.geojson"
-const el14 = prefix + "LyonSE-Lille.geojson"
-const el15 = prefix + "Dijon-Paris-TER.geojson"
-const el16 = prefix + "Lyon-AeB.geojson"
-const el17 = prefix + "Kortrijk-Lille.geojson"
-const el18 = prefix + "Cambrai-Lille.geojson"
-const el19 = prefix + "Paris-StQuentin.geojson"
-const el20 = prefix + "LeCroisic-TGVHPic.geojson"
-const el21 = prefix + "Paris-Bdx.geojson"
-const el22 = prefix + "Angers-Lyon.geojson"
-const el23 = prefix + "Paris-Brest.geojson"
-const el24 = prefix + "Paris-Cherbourg.geojson"
-const el25 = prefix + "Paris-Bruxelles.geojson"
-const el26 = prefix + "Rennes-Nantes.geojson"
-const el27 = prefix + "Nantes-Pornic.geojson"
-const el28 = prefix + "Dijon-Troyes.geojson"
-const el29 = prefix + "Paris-Etampes.geojson"
-const el30 = prefix + "Bordeaux-Arcachon.geojson"
-const el31 = prefix + "Montmorillon-Poitiers.geojson"
+const el1 = "Annecy-Culoz"
+const el2 = "Avgn-Lyon-TER"
+const el3 = "Avgn-Mpl-TER"
+const el4 = "Avgn-Mpl-TGV"
+const el5 = "Avgn-TGV-TER"
+const el6 = "Bale-Marseille"
+const el7 = "BeB-Genf"
+const el8 = "Lyon-Marseille"
+const el9 = "Nimes-GDR"
+const el10 = "StCham-Lyon"
+const el11 = "Dijon-Paris-TGV"
+const el12 = "Lyon-Mulhouse-TGV"
+const el13 = "Lyon-Paris"
+const el14 = "LyonSE-Lille"
+const el15 = "Dijon-Paris-TER"
+const el16 = "Lyon-AeB"
+const el17 = "Kortrijk-Lille"
+const el18 = "Cambrai-Lille"
+const el19 = "Paris-StQuentin"
+const el20 = "LeCroisic-TGVHPic"
+const el21 = "Paris-Bdx"
+const el22 = "Angers-Lyon"
+const el23 = "Paris-Brest"
+const el24 = "Paris-Cherbourg"
+const el25 = "Paris-Bruxelles"
+const el26 = "Rennes-Nantes"
+const el27 = "Nantes-Pornic"
+const el28 = "Dijon-Troyes"
+const el29 = "Paris-Etampes"
+const el30 = "Bordeaux-Arcachon"
+const el31 = "Montmorillon-Poitiers"
 
-var elts = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19, el20, el21, el22, el23, el24,
+var IDs = [el1, el2, el3, el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, el19, el20, el21, el22, el23, el24,
   el25, el26, el27, el28, el29, el30, el31]
 
-export const TrainLayer = await toLayer(elts, { "color": "#2a52be"}, "Train")
+var elts = new Array(IDs.length)
+
+for (var i =  0; i < IDs.length; i++) {
+  elts[i] = prefix + IDs[i] + suffix;
+}
+
+export const TrainLayer = await toLayer(elts, { "color": "#2a52be"}, "Train", IDs)
