@@ -27,12 +27,14 @@ const el21 = "21-Bruxelles-Gand"
 const el22 = "22-Gand-Brugge"
 const el23 = "23-Brugge-Knokke"
 const el24 = "24-Brugge-Lille"
+const el25 = "25-Bejaia-Alger"
 
 
 var IDs = [
   el1, el2, el3, el4, 
   el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, 
-  el19, el20, el21, el22, el23, el24
+  el19, el20, el21, el22, el23, el24,
+  el25
 ]
 
 var elts = new Array(IDs.length)

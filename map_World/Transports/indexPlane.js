@@ -17,9 +17,12 @@ const el3 = prefix + "03-Lyon-TenerifeNorte.json"
 const el4 = prefix + "04-TenerifeSur-LaPalma.json"
 const el5 = prefix + "05-LaPalma-TenerifeNorte.json"
 const el6 = prefix + "06-TenerifeSur-Lyon.json"
+const el7 = prefix + "07-Alger-ElOued.json"
+const el8 = prefix + "08-ElOued-Djanet.json"
+const el9 = prefix + "09-Djanet-Alger.json"
 
 var elts = [
-    el1, el2, el3, el4, el5, el6
+    el1, el2, el3, el4, el5, el6, el7, el8, el9
 ]
 
 var eltsGeo = Array()
