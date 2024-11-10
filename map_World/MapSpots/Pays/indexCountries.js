@@ -1,20 +1,20 @@
 // Afrique
-const el6 = "./MapSpots/Pays/Afrique/Maroc.json"
-const el11 = "./MapSpots/Pays/Afrique/Algerie.json"
+const el6 = "./MapSpots/Pays/Afrique/MAR.json"
+const el11 = "./MapSpots/Pays/Afrique/DZA.json"
 
 // Amérique du Nord
 // Amérique du Sud
 // Asie
 // Europe
-const el1 = "./MapSpots/Pays/Europe/France.json"
-const el2 = "./MapSpots/Pays/Europe/Allemagne.json"
-const el3 = "./MapSpots/Pays/Europe/Autriche.json"
-const el4 = "./MapSpots/Pays/Europe/Belgique.json"
-const el5 = "./MapSpots/Pays/Europe/Hongrie.json"
-const el7 = "./MapSpots/Pays/Europe/Slovaquie.json"
-const el8 = "./MapSpots/Pays/Europe/Slovenie.json"
-const el9 = "./MapSpots/Pays/Europe/Suisse.json"
-const el10 = "./MapSpots/Pays/Europe/Tchequie.json"
+const el1 = "./MapSpots/Pays/Europe/FRA.json"
+const el2 = "./MapSpots/Pays/Europe/DEU.json"
+const el3 = "./MapSpots/Pays/Europe/AUT.json"
+const el4 = "./MapSpots/Pays/Europe/BEL.json"
+const el5 = "./MapSpots/Pays/Europe/HUN.json"
+const el7 = "./MapSpots/Pays/Europe/SVK.json"
+const el8 = "./MapSpots/Pays/Europe/SVN.json"
+const el9 = "./MapSpots/Pays/Europe/CHE.json"
+const el10 = "./MapSpots/Pays/Europe/CZE.json"
 
 // Océanie
 

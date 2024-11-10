@@ -3,8 +3,16 @@ import {toLayer } from "../../modules/fonctions_transverses.js";
 const prefix = "./Transports/BoatLines/"
 const suffix = ".geojson";
 
-const el1 = "01-Marseille-Bejaia"
-const el2 = "02-Alger-Marseille"
+// Intercontinental
+const el1 = "FRADZA-Marseille-Bejaia"
+const el2 = "DZAFRA-Alger-Marseille"
+
+// Afrique
+// Amérique du Nord
+// Amérique du Sud
+// Asie
+// Europe
+// Océanie
 
 var IDs = [el1, el2]
 
