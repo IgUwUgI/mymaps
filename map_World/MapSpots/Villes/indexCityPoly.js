@@ -14,6 +14,7 @@ const el7 = "./MapSpots/Villes/Europe/SVKPoly.json"
 const el8 = "./MapSpots/Villes/Europe/SVNPoly.json"
 const el9 = "./MapSpots/Villes/Europe/CHEPoly.json"
 const el10 = "./MapSpots/Villes/Europe/CZEPoly.json"
+const el12 = "./MapSpots/Villes/Europe/NLDPoly.json"
 const el99 = "./MapSpots/Villes/Europe/FRAPoly.json"
 
 // Océanie
@@ -22,7 +23,7 @@ const el99 = "./MapSpots/Villes/Europe/FRAPoly.json"
 
 var elts = [
   el6, el11,
-  el1, el2, el3, el4, el5, el7, el8, el9, el10
+  el1, el2, el3, el4, el5, el7, el8, el9, el10, el12
 ]
 
 var eltsGeo = Array()
