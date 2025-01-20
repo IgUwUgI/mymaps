@@ -1,0 +1,20 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Alger - El Oued",
+        "Distance": 482,
+        "Empreinte carbone": 0.171,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                3.19138, 36.69153
+            ],
+            [
+                6.78486, 33.50721
+            ]
+        ]
+    }
+}

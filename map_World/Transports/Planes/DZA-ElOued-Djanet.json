@@ -1,0 +1,20 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "El Oued - Djanet",
+        "Distance": 1059,
+        "Empreinte carbone": 0.237,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                6.78486, 33.50721
+            ],
+            [
+                9.46576, 24.28941
+            ]
+        ]
+    }
+}

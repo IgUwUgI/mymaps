@@ -3,6 +3,14 @@ import { toLayer } from "../../modules/fonctions_transverses.js";
 const prefix = "./Transports/Hikes/"
 const suffix = ".geojson"
 
+// Intercontiental
+// Afrique
+const el11 = "DZA-Bejaia-Cap Carbon"
+
+// Amérique du Nord
+// Amérique du Sud
+// Asie
+//Europe
 const el1 = "ESP-Anaga-1"
 const el2 = "ESP-Teide"
 const el3 = "ESP-Chio"
@@ -13,9 +21,13 @@ const el7 = "ESP-Anaga-2"
 const el8 = "ESP-Anaga-3"
 const el9 = "AUT-Unsterberg"
 const el10 = "AUT-Kahlenberg"
+const el12 = "ESP-Chio-Guia"
+
+// Océanie
 
 var IDsStraight = [
-  el1, el2, el4, el5, el10
+  el11,
+  el1, el2, el4, el5, el10, el12
 ]
 
 var IDsLoop = [

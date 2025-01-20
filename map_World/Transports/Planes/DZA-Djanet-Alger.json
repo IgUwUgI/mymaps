@@ -1,0 +1,20 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Djanet - Alger",
+        "Distance": 1506,
+        "Empreinte carbone": 0.351,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                9.46576, 24.28941
+            ],
+            [
+                3.19138, 36.69153
+            ]
+        ]
+    }
+}

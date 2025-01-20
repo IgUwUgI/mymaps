@@ -3,9 +3,15 @@ import { toLayer } from "../../modules/fonctions_transverses.js";
 const prefix = "./Transports/BusLines/"
 const suffix = ".geojson";
 
+// Intercontinental
+// Afrique
+// Amérique du Nord
+// Amérique du Sud
+// Asie
+// Europe
 const el1 = "AUT-Salzburg-Grodig"
 const el2 = "AUT-Wien-Kahlenberg"
-const el3 = "ALL-Polac-Schopfheim"
+const el3 = "FRADEU-Polac-Schopfheim"
 const el4 = "ESP-Adeje-Aeropuerto"
 const el5 = "ESP-Aeropuerto-ElPaso"
 const el6 = "ESP-ElPaso-Tazacorte"
@@ -19,6 +25,8 @@ const el13 = "ESP-PuertoCruz-Orotava"
 const el14 = "ESP-PuertoCruz-Teide"
 const el15 = "ESP-SantaCruz-Anaga"
 const el16 = "ESP-SantaCruz-LosCristianos"
+
+// Océanie
 
 
 var IDs = [

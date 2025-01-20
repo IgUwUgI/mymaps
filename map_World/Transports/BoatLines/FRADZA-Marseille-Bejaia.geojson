@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Marseille - Bejaia",
+        "Distance": 752,
+        "Empreinte carbone": 0.156,
+        "Nombre de trajets": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [5.34704, 43.33773],
+          [5.33886, 43.33765],
+          [5.31607, 43.35054],
+          [5.26467, 43.28939],
+          [5.26295, 43.18735], 
+          [5.95202, 39.01531],
+          [5.13034, 36.7757],
+          [5.10408, 36.74849],
+          [5.0988, 36.75344],
+          [5.09004, 36.74966],
+          [5.09059, 36.75232]
+        ]
+      }
+    }
+  ]
+}

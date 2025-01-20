@@ -2,6 +2,7 @@ import { createMiddleMarker } from "../../modules/fonctions_transverses.js";
 import {planeIcon} from "../../assets/assets.js";
 
 const prefix = "./Transports/Planes/"
+const suffix = ".json";
 
 // Creation de la carte pour les projections
 // syntaxe : setview([Nord, Est], zoom)
@@ -11,15 +12,28 @@ var mymapX = L.map('mapidX', {
   zoomControl: false
 }).setView([46.4836, 2.5264], 6);
 
-const el1 = prefix + "01-Paris-Agadir.json"
-const el2 = prefix + "02-Marrakech-Paris.json"
-const el3 = prefix + "03-Lyon-TenerifeNorte.json"
-const el4 = prefix + "04-TenerifeSur-LaPalma.json"
-const el5 = prefix + "05-LaPalma-TenerifeNorte.json"
-const el6 = prefix + "06-TenerifeSur-Lyon.json"
+// Intercontinental
+const el1 = prefix + "FRAMAR-Paris-Agadir" + suffix
+const el2 = prefix + "MARFRA-Marrakech-Paris" + suffix
+
+// Afrique
+const el7 = prefix + "DZA-Alger-ElOued" + suffix
+const el8 = prefix + "DZA-ElOued-Djanet" + suffix
+const el9 = prefix + "DZA-Djanet-Alger" + suffix
+
+// Amérique du Nord
+// Amérique du Sud
+// Asie
+// Europe
+const el3 = prefix + "FRAESP-Lyon-TenerifeNorte" + suffix
+const el4 = prefix + "ESP-TenerifeSur-LaPalma" + suffix
+const el5 = prefix + "ESP-LaPalma-TenerifeNorte" + suffix
+const el6 = prefix + "ESPFRA-TenerifeSur-Lyon" + suffix
+
+// Océanie
 
 var elts = [
-    el1, el2, el3, el4, el5, el6
+    el1, el2, el3, el4, el5, el6, el7, el8, el9
 ]
 
 var eltsGeo = Array()

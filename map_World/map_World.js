@@ -52,7 +52,7 @@ import {textUpdate} from "../modules/fonctions_transverses.js";
 //données
 import {BusLayer} from "./Transports/indexBus.js"
 import {CarLayer} from "./Transports/indexCar.js"
-// import {BoatLayer} from "./Transports/indexBoat.js"
+import {BoatLayer} from "./Transports/indexBoat.js"
 // import {VeloLayer} from "./Transports/indexVelo.js"
 import {HikeLayer} from "./Transports/indexHike.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
@@ -86,7 +86,7 @@ VillesPolyLayer.addTo(mymap);
 AvionsLayer.addTo(mymap); // Avion
 CarLayer.addTo(mymap); // Voiture
 BusLayer.addTo(mymap); // Bus
-// BoatLayer.addTo(mymap); // Bateau
+BoatLayer.addTo(mymap); // Bateau
 // VeloLayer.addTo(mymap); // Velo
 HikeLayer.addTo(mymap); // Randonnees
 TrainLayer.addTo(mymap); // Train
