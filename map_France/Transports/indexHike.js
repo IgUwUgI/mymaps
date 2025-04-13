@@ -30,10 +30,12 @@ const el24 = "87-Saint-Junien"
 const el25 = "74-Aiguilles_rouges"
 const el26 = "07-DentDeRez"
 const el27 = "69-Cabornis"
+const el28 = "38-Vercors"
 
 var IDsStraight = [
   el12, el13, el14,
   el20, el22, el23,
+  el28,
   el25
 ]
 
