@@ -3,11 +3,24 @@ import {toLayer} from "../../modules/fonctions_transverses.js";
 const prefix = "./Transports/Bike/"
 const suffix = ".geojson";
 
-const el1 = "Lyon-Saint-Paul-en-Jarez";
-const el2 = "3_monts-d_or";
+const el1 = "69-Lyon-Saint-Paul-en-Jarez";
+const el2 = "69-Monts_d'or";
+const el3 = "44-Le_Croisic-Port_Navalo"
+const el4 = "56-Locmariaquer-Auray"
+const el5 = "29-Quimperle-Concarneau"
+const el6 = "29-Concarneau-Benodet"
+const el7 = "29-Sainte_Marine-Ile_Tudy"
+const el8 = "29-Loctudy-Plogoff"
 
-var IDsStraight = [el1];
-var IDsLoop = [el2];
+var IDsStraight = [
+  el5, el6, el7, el8,
+  el3,
+  el4, 
+  el1
+];
+var IDsLoop = [
+  el2
+];
 
 var eltsStraight = new Array(IDsStraight.length)
 

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "creator": "BRouter-1.7.0",
+        "name": "Port_Navalo-Locmariaquer",
+        "track-length": "341018",
+        "filtered ascend": "3004",
+        "plain-ascend": "633",
+        "total-time": "12533",
+        "total-energy": "238363504",
+        "cost": "420919"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.91694, 47.54877],
+          [-2.9202, 47.55734],
+          [-2.9372, 47.56713]
+        ]
+      }
+    }
+  ]
+}
