@@ -19,6 +19,17 @@ import { bikeMarkerBig } from "../assets/assets.js";
 let StoreMarker = L.marker();
 let StoreIDs = {};
 
+
+// Creation de la carte pour les projections
+// syntaxe : setview([Nord, Est], zoom)
+const mymapX = L.map('mapidX', {
+  zoomDelta: 0.25,
+  zoomSnap: 0,
+  zoomControl: false
+}).setView([46.4836, 2.5264], 6);
+
+export {mymapX};
+
 export function enlargeMarker(marker) {
   StoreMarker = marker;
   var markerIcon = marker.getIcon();

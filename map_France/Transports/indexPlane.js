@@ -1,15 +1,7 @@
-import { createMiddleMarker } from "../../modules/fonctions_transverses.js";
+import { createMiddleMarker, mymapX } from "../../modules/fonctions_transverses.js";
 import {planeIcon} from "../../assets/assets.js";
 
 const prefix = "./Transports/Planes/"
-
-// Creation de la carte pour les projections
-// syntaxe : setview([Nord, Est], zoom)
-var mymapX = L.map('mapidX', {
-  zoomDelta: 0.25,
-  zoomSnap: 0,
-  zoomControl: false
-}).setView([46.4836, 2.5264], 6);
 
 const el1 = prefix + "01-Brest-Lyon.json"
 const el2 = prefix + "02-Nantes-Lyon.json"

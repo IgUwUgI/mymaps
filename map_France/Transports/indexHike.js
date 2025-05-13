@@ -57,16 +57,25 @@ var IDsLoop = [
   el24
 ]
 
+async function fetchElt(file) {
+  const res = await fetch(file);
+  const rando = await res.json();
+  return rando
+}
+
 var eltsStraight = new Array(IDsStraight.length)
+var data = new Map()
 
 for (var i =  0; i < IDsStraight.length; i++) {
   eltsStraight[i] = prefix + IDsStraight[i] + suffix;
+  data.set(IDsStraight[i], await fetchElt(eltsStraight[i]));
 }
 
 var eltsLoop = new Array(IDsLoop.length)
 
 for (var i =  0; i < IDsLoop.length; i++) {
   eltsLoop[i] = prefix + IDsLoop[i] + suffix;
+  data.set(IDsLoop[i], await fetchElt(eltsLoop[i]));
 }
 
 var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight", IDsStraight);
@@ -75,5 +84,7 @@ var HikeLoopLayer = await toLayer(eltsLoop, { "color": "#388004", "dashArray": "
 const HikeLayer0 = new L.LayerGroup();
 HikeLayer0.addLayer(HikeStraightLayer);
 HikeLayer0.addLayer(HikeLoopLayer);
+const HikesTraces = data
 
 export const HikeLayer = HikeLayer0;
+export default HikesTraces;

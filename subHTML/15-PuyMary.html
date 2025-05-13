@@ -3,11 +3,56 @@
 <head>
     <link rel="stylesheet" href="../sideBar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
     <div class="text">Tour du Cantal en 3 jours</div>
     <div id="sideContent">
         CONTENU TEST
+        <canvas id="profilAlti" style="width:100%;max-width:700px;background:rgba(255,255,255,1.0)"></canvas>
+        <script type="module">
+            import HikesTraces from "./Transports/indexHike.js";
+            import "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js";
+            import {mymapX} from "../../modules/fonctions_transverses.js"
+
+            var rando = HikesTraces.get("15-PuyMary");
+
+            var xValues = new Array();
+            var yValues = new Array();
+            
+            console.log(rando)
+            var coordinates = rando.features[0].geometry.coordinates;
+
+            xValues.push(0);
+            yValues.push(coordinates[0][2])
+
+            for (var i = 1; i < coordinates.length; i++) {
+                var latlng1 = [coordinates[i-1][0], coordinates[i-1][1]];
+                var latlng2 = [coordinates[i][0], coordinates[i][1]];
+                var p1 = mymapX.project(latlng1);
+                var p2 = mymapX.project(latlng2);
+                xValues.push((xValues[i - 1] + ((p2.x - p1.x) ** 2 + (p2.y - p1.y) ** 2) ** 0.5));
+                yValues.push(coordinates[i][2])
+            }
+            console.log(xValues)
+
+            new Chart("profilAlti", {
+                type: "line",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor:"rgba(0,0,255,1.0)",
+                    pointRadius: 0,
+                    borderColor: "rgba(0,0,255,0)",
+                    data: yValues
+                    }]
+                },
+                options:{
+                    legend: {display: false}
+                }
+                });
+
+        </script>
     </div>
 </body>
