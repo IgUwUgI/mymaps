@@ -6,17 +6,17 @@
 </head>
 
 <body>
-    <div class="text">Mont Verdun, Mont Thou et Mont Cindre</div>
+    <div class="text">Sentier côtier à Locmaria-Plouzané</div>
     <div id="sideContent">
         CONTENU TEST
         <div id="profilAlti" style="width:100%;max-width:700px;background:rgba(255,255,255,1.0)"></div>
         <script type="module">
-            import BikeTraces from "./Transports/indexBike.js";
+            import HikesTraces from "./Transports/indexHike.js";
             import "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js";
             import "https://cdn.jsdelivr.net/npm/apexcharts";
             import {mymapX, chartOptions} from "../../modules/fonctions_transverses.js"
 
-            var trace = BikeTraces.get("69-Monts_d'or");
+            var trace = HikesTraces.get("29-Locmaria");
 
             var chart = new ApexCharts(document.querySelector("#profilAlti"), await chartOptions(trace));
 
