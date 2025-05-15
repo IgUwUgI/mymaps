@@ -341,7 +341,6 @@ export function latLngMoyenne(map, aray) {
 };
 
 export function createMarkerPath(path, type, ID) {
-  console.log(ID);
   //cree un marqueur au milieu d'un chemin
   const coordsTot = path.features[0].geometry.coordinates
   var coordsMid = coordsTot[(coordsTot.length - coordsTot.length % 2) / 2];
@@ -411,3 +410,150 @@ export async function toLayer(elts, style, type, IDs) {
   return eltsLayer;
 };
 
+export async function profilAltiData(trace) {
+  var xValuesAll = new Array();
+  var yValuesAll = new Array();
+  var slopes = new Array();
+
+  var coordinates = trace.features[0].geometry.coordinates;
+
+  xValuesAll.push(0);
+  yValuesAll.push(coordinates[0][2]);
+
+  var R = 6371;
+  var latlng1 = [coordinates[0][1], coordinates[0][0]];
+  var latlng2 = [coordinates[1][1], coordinates[1][0]];
+  var dlat = (latlng2[0] - latlng1[0]) * Math.PI / 180;
+  var dlng = (latlng2[1] - latlng1[1]) * Math.PI / 180;
+  var a = Math.sin(dlat / 2) * Math.sin(dlat / 2) + Math.cos(latlng1[0] * Math.PI / 180) * Math.cos(latlng2[0] * Math.PI / 180) * Math.sin(dlng / 2) * Math.sin(dlng / 2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  var d = (R * c);
+  slopes.push(100 * (coordinates[1][2] - coordinates[0][2]) / (d * 1000));
+
+  for (var i = 1; i < coordinates.length; i++) {
+    var R = 6371;
+    var latlng1 = [coordinates[i - 1][1], coordinates[i - 1][0]];
+    var latlng2 = [coordinates[i][1], coordinates[i][0]];
+    var dlat = (latlng2[0] - latlng1[0]) * Math.PI / 180;
+    var dlng = (latlng2[1] - latlng1[1]) * Math.PI / 180;
+    var a = Math.sin(dlat / 2) * Math.sin(dlat / 2) + Math.cos(latlng1[0] * Math.PI / 180) * Math.cos(latlng2[0] * Math.PI / 180) * Math.sin(dlng / 2) * Math.sin(dlng / 2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var d = (R * c)
+    var appendD = (xValuesAll[i - 1] + d).toFixed(2)
+    xValuesAll.push(parseFloat(appendD));
+    if (coordinates[i][2] == undefined) {
+      yValuesAll.push(yValuesAll[yValuesAll.length - 1])
+    } else {
+      yValuesAll.push(coordinates[i][2]);
+    }
+    if (i < coordinates.length - 1) {
+      var latlng1 = [coordinates[i - 1][1], coordinates[i - 1][0]];
+      var latlng2 = [coordinates[i + 1][1], coordinates[i + 1][0]];
+      var dlat = (latlng2[0] - latlng1[0]) * Math.PI / 180;
+      var dlng = (latlng2[1] - latlng1[1]) * Math.PI / 180;
+      var a = Math.sin(dlat / 2) * Math.sin(dlat / 2) + Math.cos(latlng1[0] * Math.PI / 180) * Math.cos(latlng2[0] * Math.PI / 180) * Math.sin(dlng / 2) * Math.sin(dlng / 2);
+      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      var d = (R * c)
+      if (d == 0) {
+        slopes.push(0.0)
+      } else {
+        if (coordinates[i + 1][2] == undefined) {
+          slopes.push(100 * (yValuesAll[yValuesAll.length - 1] - yValuesAll[yValuesAll.length - 2]) / (d * 1000))
+        } else {
+          slopes.push(100 * (coordinates[i + 1][2] - yValuesAll[yValuesAll.length - 2]) / (d * 1000))
+        }
+      }
+    }
+  }
+
+  var latlng1 = [coordinates[coordinates.length - 2][1], coordinates[coordinates.length - 2][0]];
+  var latlng2 = [coordinates[coordinates.length - 1][1], coordinates[coordinates.length - 1][0]];
+  var dlat = (latlng2[0] - latlng1[0]) * Math.PI / 180;
+  var dlng = (latlng2[1] - latlng1[1]) * Math.PI / 180;
+  var a = Math.sin(dlat / 2) * Math.sin(dlat / 2) + Math.cos(latlng1[0] * Math.PI / 180) * Math.cos(latlng2[0] * Math.PI / 180) * Math.sin(dlng / 2) * Math.sin(dlng / 2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  var d = (R * c);
+  slopes.push(100 * (coordinates[coordinates.length - 1][2] - coordinates[coordinates.length - 2][2]) / (d * 1000));
+  console.log(yValuesAll)
+
+  return [xValuesAll, yValuesAll, slopes]
+}
+
+const generateSlopeColors = (data, x) => {
+  return data.map((d, idx) => {
+      var color = "#ffffff";
+      if (d < -20) {
+          color = "#08376f"
+      } else if (d < -2) {
+          color = "#34bfff"
+      } else if (d < 2) {
+          color = '#22c55f'
+      } else if (d < 5) {
+          color = "#fab90a"
+      } else if (d < 10) {
+          color = "#f77f01"
+      } else if (d < 15) {
+          color = '#ef4544'
+      } else {
+          color = "#920f3d"
+      }
+
+      return {
+          offset: x[idx] / (x[x.length - 1]) * 100,
+          color,
+          opacity: 1
+      }
+  })
+}
+export {generateSlopeColors}
+
+export async function chartOptions(trace) {
+  const profAltiData = await profilAltiData(trace);
+
+  const xValuesAll = profAltiData[0];
+  const yValuesAll = profAltiData[1];
+  const slopes = profAltiData[2];
+
+  var options = {
+    chart: {
+      type: "line"
+    },
+    series: [{
+      name: "",
+      data: yValuesAll
+    }],
+    xaxis: {
+      categories: xValuesAll,
+      type: "numeric"
+    },
+    animations: {
+      enabled: true,
+      speed: 800,
+      animateGradually: {
+        enabled: true,
+        delay: 150
+      },
+      dynamicAnimation: {
+        enabled: true,
+        speed: 350
+      }
+    },
+    fill: {
+      type: 'gradient',
+      gradient: {
+        shadeIntensity: 1,
+        opacityFrom: 0.7,
+        opacityTo: 0.9,
+        colorStops: generateSlopeColors(slopes, xValuesAll)
+      }
+    },
+    tooltip: {
+      custom: function ({ series, seriesIndex, dataPointIndex, w }) {
+        return '<div class="arrow_box">' +
+          '<span>' + series[seriesIndex][dataPointIndex] + '</span><br><span>↗ ' + (slopes[dataPointIndex]).toFixed(1) + '%</span>' +
+          '</div>'
+      }
+    }
+  }
+  return options
+}

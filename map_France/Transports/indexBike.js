@@ -22,16 +22,25 @@ var IDsLoop = [
   el2
 ];
 
+async function fetchElt(file) {
+  const res = await fetch(file);
+  const trace = await res.json();
+  return trace
+}
+
 var eltsStraight = new Array(IDsStraight.length)
+var data = new Map()
 
 for (var i =  0; i < IDsStraight.length; i++) {
   eltsStraight[i] = prefix + IDsStraight[i] + suffix;
+  data.set(IDsStraight[i], await fetchElt(eltsStraight[i]));
 }
 
 var eltsLoop = new Array(IDsLoop.length)
 
 for (var i =  0; i < IDsLoop.length; i++) {
   eltsLoop[i] = prefix + IDsLoop[i] + suffix;
+  data.set(IDsLoop[i], await fetchElt(eltsLoop[i]));
 }
 
 var BikeStraightLayer = await toLayer(eltsStraight, { "color": "#228b22", "dashArray": "4 8" }, "BikeStraight", IDsStraight);
@@ -40,5 +49,7 @@ var BikeLoopLayer = await toLayer(eltsLoop, { "color": "#228b22", "dashArray": "
 const BikeLayer0 = new L.LayerGroup();
 BikeLayer0.addLayer(BikeStraightLayer);
 BikeLayer0.addLayer(BikeLoopLayer);
+const BikeTraces = data
 
 export const BikeLayer = BikeLayer0;
+export default BikeTraces;

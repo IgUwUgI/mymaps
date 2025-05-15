@@ -59,8 +59,8 @@ var IDsLoop = [
 
 async function fetchElt(file) {
   const res = await fetch(file);
-  const rando = await res.json();
-  return rando
+  const trace = await res.json();
+  return trace
 }
 
 var eltsStraight = new Array(IDsStraight.length)
