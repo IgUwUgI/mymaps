@@ -11,9 +11,11 @@ const el5 = "29-Quimperle-Concarneau"
 const el6 = "29-Concarneau-Benodet"
 const el7 = "29-Sainte_Marine-Ile_Tudy"
 const el8 = "29-Loctudy-Plogoff"
+const el9 = "38-Lyon-Saint_Marcellin"
 
 var IDsStraight = [
   el5, el6, el7, el8,
+  el9,
   el3,
   el4, 
   el1

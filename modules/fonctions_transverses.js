@@ -458,6 +458,7 @@ export async function profilAltiData(trace) {
         slopes.push(0.0)
       } else {
         if (coordinates[i + 1][2] == undefined) {
+          console.log(latlng2)
           slopes.push(100 * (yValuesAll[yValuesAll.length - 1] - yValuesAll[yValuesAll.length - 2]) / (d * 1000))
         } else {
           slopes.push(100 * (coordinates[i + 1][2] - yValuesAll[yValuesAll.length - 2]) / (d * 1000))
