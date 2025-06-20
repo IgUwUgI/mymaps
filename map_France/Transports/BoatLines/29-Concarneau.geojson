@@ -5,13 +5,7 @@
       "type": "Feature",
       "properties": {
         "creator": "BRouter-1.7.0",
-        "name": "Concarneau",
-        "track-length": "341018",
-        "filtered ascend": "3004",
-        "plain-ascend": "633",
-        "total-time": "12533",
-        "total-energy": "238363504",
-        "cost": "420919"
+        "name": "Concarneau"
       },
       "geometry": {
         "type": "LineString",

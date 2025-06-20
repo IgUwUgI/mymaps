@@ -6,12 +6,7 @@
       "properties": {
         "creator": "BRouter-1.7.0",
         "name": "Port_Navalo-Locmariaquer",
-        "track-length": "341018",
-        "filtered ascend": "3004",
-        "plain-ascend": "633",
-        "total-time": "12533",
-        "total-energy": "238363504",
-        "cost": "420919"
+        "track-length": "341018"
       },
       "geometry": {
         "type": "LineString",

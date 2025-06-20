@@ -6,12 +6,7 @@
       "properties": {
         "creator": "BRouter-1.7.0",
         "name": "Avignon -> Gargas BUS (51.4 km)",
-        "track-length": "51430",
-        "filtered ascend": "208",
-        "plain-ascend": "187",
-        "total-time": "3649",
-        "total-energy": "24111635",
-        "cost": "105657"
+        "track-length": "51430"
       },
       "geometry": {
         "type": "LineString",

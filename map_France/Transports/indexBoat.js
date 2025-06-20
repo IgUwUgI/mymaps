@@ -8,11 +8,13 @@ const el2 = "56-Port_Navalo-Locmariaquer"
 const el3 = "29-Benodet-Sainte_Marine"
 const el4 = "29-Concarneau"
 const el5 = "29-Ile_Tudy-Loctudy"
+const el6 = "83-Hyeres-PortCros"
 
 var IDs = [
   el3, el4, el5,
   el1, 
-  el2
+  el2,
+  el6
 ]
 
 var elts = new Array(IDs.length)
