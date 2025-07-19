@@ -37,6 +37,9 @@ const el31 = "38-BalmeRousse"
 const el32 = "83-Esterel"
 const el33 = "83-PortCros"
 const el34 = "39-Surchauffant"
+const el35 = "05-LacOule"
+const el36 = "05-LacBellety"
+const el37 = "05-Arsine"
 
 var IDsStraight = [
   el12, el13, el14,
@@ -46,7 +49,7 @@ var IDsStraight = [
 ]
 
 var IDsLoop = [
-  el15,
+  el15, el35, el36, el37,
   el8,
   el26,
   el9, el10, el11,
