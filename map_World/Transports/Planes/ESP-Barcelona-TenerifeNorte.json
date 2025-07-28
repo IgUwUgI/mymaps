@@ -1,17 +1,17 @@
 {
     "type": "Feature",
     "properties": {
-        "Name": "Lyon-Tenerife Nord",
-        "Distance": 2097,
-        "Empreinte carbone": 0.380,
+        "Name": "Barcelone-Tenerife Nord",
+        "Distance": 2197,
+        "Empreinte carbone": 0.387,
         "Nombre de trajets": 1
     },
     "geometry": {
         "type": "LineString",
         "coordinates": [
             [
-                5.08459,
-                45.72356
+                2.08,
+                41.29834
             ],
             [
                 -16.34342,

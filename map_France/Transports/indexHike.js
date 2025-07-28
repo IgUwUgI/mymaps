@@ -40,6 +40,8 @@ const el34 = "39-Surchauffant"
 const el35 = "05-LacOule"
 const el36 = "05-LacBellety"
 const el37 = "05-Arsine"
+const el38 = "06-BaouSaint_Jeannet"
+const el39 = "05-ClaviereLacGignoux"
 
 var IDsStraight = [
   el12, el13, el14,
@@ -49,8 +51,8 @@ var IDsStraight = [
 ]
 
 var IDsLoop = [
-  el15, el35, el36, el37,
-  el8,
+  el15, el35, el36, el37, el39,
+  el8, el38,
   el26,
   el9, el10, el11,
   el16,

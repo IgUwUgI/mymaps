@@ -16,13 +16,14 @@ const el8 = "./MapSpots/Pays/Europe/SVN.json"
 const el9 = "./MapSpots/Pays/Europe/CHE.json"
 const el10 = "./MapSpots/Pays/Europe/CZE.json"
 const el12 = "./MapSpots/Pays/Europe/NLD.json"
+const el13 = "./MapSpots/Pays/Europe/ITA.json"
 // Océanie
 
 
 
 var elts = [
   el6, el11,
-  el1, el2, el3, el4, el5, el7, el8, el9, el10, el12
+  el1, el2, el3, el4, el5, el7, el8, el9, el10, el12, el13
 ]
 
 var eltsGeo = Array()

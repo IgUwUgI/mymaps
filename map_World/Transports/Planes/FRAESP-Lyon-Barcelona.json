@@ -1,21 +1,21 @@
 {
     "type": "Feature",
     "properties": {
-        "Name": "Tenerife Sud-La Palma",
-        "Distance": 132,
-        "Empreinte carbone": 0.084,
+        "Name": "Lyon-Barcelone",
+        "Distance": 549,
+        "Empreinte carbone": 0.179,
         "Nombre de trajets": 1
     },
     "geometry": {
         "type": "LineString",
         "coordinates": [
             [
-                -16.57253,
-                28.04675
+                5.08459,
+                45.72356
             ],
             [
-                -17.75511,
-                28.62588
+                2.08,
+                41.29834
             ]
         ]
     }

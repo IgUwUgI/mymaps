@@ -122,6 +122,7 @@ var visite = {
   "<span style='font-size: 1.4em'><img src='../assets/plane.png' style='margin-top:5px;height:30px;margin-right: 10px;align-items: center;justify-content: center;'>Avions</span>": AvionsLayer
 };
 var layerControl = L.control.layers(null, visite).addTo(mymap);
+
 // Création d'un encadre qui affiche les infos
 var info = L.control();
 
@@ -130,6 +131,7 @@ info.onAdd = function (map) {
   this.update();
   return this._div;
 };
+
 // methode de mise a jour de l'encadre
 info.update = function (props) {
   this._div.innerHTML = props;

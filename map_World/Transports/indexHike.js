@@ -5,7 +5,8 @@ const suffix = ".geojson"
 
 // Intercontiental
 // Afrique
-const el11 = "DZA-Bejaia-Cap Carbon"
+const el11 = "DZA-Bejaia-CapCarbon"
+const el14 = "DZA-CanyonEssendilene"
 
 // Amérique du Nord
 // Amérique du Sud
@@ -22,8 +23,15 @@ const el8 = "ESP-Anaga-3"
 const el9 = "AUT-Unsterberg"
 const el10 = "AUT-Kahlenberg"
 const el12 = "ESP-Chio-Guia"
+const el13 = "ITA-ClaviereLacGignoux"
 
 // Océanie
+
+async function fetchElt(file) {
+  const res = await fetch(file);
+  const trace = await res.json();
+  return trace
+}
 
 var IDsStraight = [
   el11,
@@ -31,19 +39,22 @@ var IDsStraight = [
 ]
 
 var IDsLoop = [
-  el3, el6, el7, el8, el9
+  el3, el6, el7, el8, el9, el13, el14
 ]
 
 var eltsStraight = new Array(IDsStraight.length)
+var data = new Map()
 
 for (var i =  0; i < IDsStraight.length; i++) {
   eltsStraight[i] = prefix + IDsStraight[i] + suffix;
+  data.set(IDsStraight[i], await fetchElt(eltsStraight[i]));
 }
 
 var eltsLoop = new Array(IDsLoop.length)
 
 for (var i =  0; i < IDsLoop.length; i++) {
   eltsLoop[i] = prefix + IDsLoop[i] + suffix;
+  data.set(IDsLoop[i], await fetchElt(eltsLoop[i]));
 }
 
 var HikeStraightLayer = await toLayer(eltsStraight, { "color": "#388004", "dashArray": "4 8" }, "HikeStraight", IDsStraight);
@@ -53,4 +64,7 @@ const HikeLayer0 = new L.LayerGroup();
 HikeLayer0.addLayer(HikeStraightLayer);
 HikeLayer0.addLayer(HikeLoopLayer);
 
+const HikesTraces = data
+
 export const HikeLayer = HikeLayer0;
+export default HikesTraces;

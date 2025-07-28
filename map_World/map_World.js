@@ -1,6 +1,5 @@
 import { updateMapCloseSidebar, updateMapOpenSidebar, updateMapExpandSidebar } from "../modules/fonctions_transverses.js";
 
-
 // Creation de la carte, ouverture centree sur les coordonnees specifiees
 // syntaxe : setview([Nord, Est], zoom)
 var mymap = L.map('mapid', {
@@ -8,6 +7,15 @@ var mymap = L.map('mapid', {
     zoomSnap: 0,
     zoomControl: false
 }).setView([10, 3], 3);
+
+// fond de carte
+var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+subdomains: 'abcd',
+maxZoom: 15,
+minZoom: 3,
+});
+CartoDB_Voyager.addTo(mymap);
 
 // pour recentrer la carte en cas de redimention du div
 document.getElementById('mapid').addEventListener('transitionend', function() {
@@ -26,26 +34,11 @@ document.getElementById('mapid').addEventListener('transitionend', function() {
     updateMapExpandSidebar(mymap);
   });
 
-// fond de carte
-var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-subdomains: 'abcd',
-maxZoom: 15,
-minZoom: 3,
-});
-CartoDB_Voyager.addTo(mymap);
-
-// pour recentrer la carte en cas de redimention du div
-document.getElementById('mapid').addEventListener('transitionend', function(){
-    mymap.invalidateSize();
-  });
-
 // Ajout du +/- du zoom
 new L.Control.Zoom({position: 'bottomleft'}).addTo(mymap);
 
 // importation des donnees exterieures
 // images
-import {cityIcon} from "../assets/assets.js";
 //fonctions
 import "../modules/rotated_markers.js";
 import {textUpdate} from "../modules/fonctions_transverses.js";
@@ -60,13 +53,8 @@ import {TrainLayer} from "./Transports/indexTrain.js";
 import {PaysGeo} from "./MapSpots/Pays/indexCountries.js"
 import {RegionsGeo} from "./MapSpots/Regions/indexRegions.js"
 // import {VillesPtsLayer, VillesPolyLayer} from "./MapSpots/indexVille.js" //
-
-
 import {VillesPtGeo} from "./MapSpots/Villes/indexCityPts.js"
 import {VillesPolyGeo} from "./MapSpots/Villes/indexCityPoly.js"
-
-
-
 
 // Ajout des json importes sur la carte
 
@@ -91,9 +79,9 @@ BoatLayer.addTo(mymap); // Bateau
 HikeLayer.addTo(mymap); // Randonnees
 TrainLayer.addTo(mymap); // Train
 
-
-var VillesPtsLayer = L.layerGroup(VillesPtGeo);
-VillesPtsLayer.addTo(mymap);
+//Points des villes, temporairement masqué
+// var VillesPtsLayer = L.layerGroup(VillesPtGeo);
+// VillesPtsLayer.addTo(mymap);
 
 
 
@@ -127,6 +115,19 @@ VillesPtsLayer.addTo(mymap);
 // transformation en objet facilement manipulable
 
 // Calques
+var visite = {
+  "<span style='font-size: 1.4em'>Pays visités</span>": PaysLayer,
+  "<span style='font-size: 1.4em'>Régions visitées</span>": RegionsLayer,
+  "<span style='font-size: 1.4em'>Villes visitées</span>": VillesPolyLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/carMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets roadtrip</span>": CarLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/busMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bus</span>": BusLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/boatMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Trajets en bateau</span>": BoatLayer,
+  // "<span style='font-size: 1.4em'><img src='../assets/bikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Vélorandos</span>": BikeLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/hikeMarker.png' style='margin-top:5px;height:25px;margin-right: 10px;align-items: center;justify-content: center;'>Randonnées</span>": HikeLayer,
+  "<span style='font-size: 1.4em'><img src='../assets/plane.png' style='margin-top:5px;height:30px;margin-right: 10px;align-items: center;justify-content: center;'>Avions</span>": AvionsLayer
+};
+var layerControl = L.control.layers(null, visite).addTo(mymap);
+
 // Création d'un encadre qui affiche les infos
 var info = L.control();
 
@@ -135,6 +136,7 @@ info.onAdd = function (map) {
     this.update();
     return this._div;
 };
+
 // methode de mise a jour de l'encadre
 info.update = function (props) {
     this._div.innerHTML = props;
@@ -143,17 +145,17 @@ info.addTo(mymap);
 info.update("");
 
 // Apparition disparition de choses selon le zoom
-function zoomChangeCities(e){
-    if(mymap.getZoom() < 8){
-        if(mymap.hasLayer(VillesPolyLayer)){
-        VillesPtsLayer.addTo(mymap);
-        }
-    } else {
-        if(mymap.hasLayer(VillesPtsLayer)){
-        VillesPtsLayer.removeFrom(mymap);
-        }
-    }
-};
+// function zoomChangeCities(e){
+//     if(mymap.getZoom() < 8){
+//         if(mymap.hasLayer(VillesPolyLayer)){
+//         VillesPtsLayer.addTo(mymap);
+//         }
+//     } else {
+//         if(mymap.hasLayer(VillesPtsLayer)){
+//         VillesPtsLayer.removeFrom(mymap);
+//         }
+//     }
+// };
 
 
 mymap.on('zoom', zoomChangeCities);

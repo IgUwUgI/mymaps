@@ -2,8 +2,8 @@
     "type": "Feature",
     "properties": {
         "Name": "Tenerife Sud-Lyon",
-        "Distance": 2097,
-        "Empreinte carbone": 0.380,
+        "Distance": 2738,
+        "Empreinte carbone": 0.468,
         "Nombre de trajets": 1
     },
     "geometry": {

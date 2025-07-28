@@ -1,0 +1,27 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="../sideBar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="text">Hauteurs de Claviere et frontière France-Italie</div>
+    <div id="sideContent">
+        CONTENU TEST
+        <div id="profilAlti" style="width:100%;max-width:700px;background:rgba(255,255,255,1.0)"></div>
+        <script type="module">
+            import HikesTraces from "./Transports/indexHike.js";
+            import "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js";
+            import "https://cdn.jsdelivr.net/npm/apexcharts";
+            import {mymapX, chartOptions} from "../../modules/fonctions_transverses.js"
+
+            var trace = HikesTraces.get("05-ClaviereLacGignoux");
+
+            var chart = new ApexCharts(document.querySelector("#profilAlti"), await chartOptions(trace));
+
+            chart.render();
+
+        </script>
+    </div>
+</body>
