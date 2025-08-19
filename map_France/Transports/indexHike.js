@@ -29,7 +29,7 @@ const el23 = "29-Locmaria"
 const el24 = "87-Saint-Junien"
 const el25 = "74-Aiguilles_rouges"
 const el26 = "07-DentDeRez"
-const el27 = "69-Cabornis"
+const el27 = "05-ClaviereLacGignoux"
 const el28 = "38-Vercors"
 const el29 = "73-BlancPlat"
 const el30 = "63-PuyEbert"
@@ -41,7 +41,6 @@ const el35 = "05-LacOule"
 const el36 = "05-LacBellety"
 const el37 = "05-Arsine"
 const el38 = "06-BaouSaint_Jeannet"
-const el39 = "05-ClaviereLacGignoux"
 
 var IDsStraight = [
   el12, el13, el14,
@@ -51,7 +50,7 @@ var IDsStraight = [
 ]
 
 var IDsLoop = [
-  el15, el35, el36, el37, el39,
+  el15, el35, el36, el37, el27,
   el8, el38,
   el26,
   el9, el10, el11,
@@ -62,7 +61,6 @@ var IDsLoop = [
   el1, el34,
   el2, el3, el4,
   el30,
-  el27,
   el29, el6,
   el7,
   el32, el33,

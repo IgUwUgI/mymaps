@@ -439,7 +439,7 @@ export async function profilAltiData(trace) {
     var a = Math.sin(dlat / 2) * Math.sin(dlat / 2) + Math.cos(latlng1[0] * Math.PI / 180) * Math.cos(latlng2[0] * Math.PI / 180) * Math.sin(dlng / 2) * Math.sin(dlng / 2);
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     var d = (R * c)
-    var appendD = (xValuesAll[i - 1] + d).toFixed(2)
+    var appendD = (xValuesAll[i - 1] + d)//.toFixed(2)
     xValuesAll.push(parseFloat(appendD));
     if (coordinates[i][2] == undefined) {
       yValuesAll.push(yValuesAll[yValuesAll.length - 1])
@@ -476,6 +476,7 @@ export async function profilAltiData(trace) {
   var d = (R * c);
   slopes.push(100 * (coordinates[coordinates.length - 1][2] - coordinates[coordinates.length - 2][2]) / (d * 1000));
   console.log(yValuesAll)
+  console.log(xValuesAll)
 
   return [xValuesAll, yValuesAll, slopes]
 }

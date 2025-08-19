@@ -49,6 +49,7 @@ import {CarLayer} from "./Transports/indexCar.js"
 import {BoatLayer} from "./Transports/indexBoat.js"
 import {BikeLayer} from "./Transports/indexBike.js"
 import {HikeLayer} from "./Transports/indexHike.js"
+import {RunLayer} from "./Transports/indexRuns.js"
 import {AvionsLayer} from "./Transports/indexPlane.js";
 import {DptsLayer} from "./MapSpots/indexDpt.js"
 import { TrainLayer } from "./Transports/indexTrain.js";
@@ -72,6 +73,7 @@ BusLayer.addTo(mymap); // Bus
 BoatLayer.addTo(mymap); // Bateau
 BikeLayer.addTo(mymap); // Velo
 HikeLayer.addTo(mymap); // Randonnees
+RunLayer.addTo(mymap); // Courses
 // TrainLayer.addTo(mymap); // Trains
 
 // Train --> add marker + merge lines on QGIS
