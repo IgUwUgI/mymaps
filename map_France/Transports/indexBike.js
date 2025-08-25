@@ -12,6 +12,7 @@ const el6 = "29-Concarneau-Benodet"
 const el7 = "29-Sainte_Marine-Ile_Tudy"
 const el8 = "29-Loctudy-Plogoff"
 const el9 = "38-Lyon-Saint_Marcellin"
+const el10 = "69-Saone"
 
 var IDsStraight = [
   el5, el6, el7, el8,
@@ -21,7 +22,7 @@ var IDsStraight = [
   el1
 ];
 var IDsLoop = [
-  el2
+  el2, el10
 ];
 
 async function fetchElt(file) {
