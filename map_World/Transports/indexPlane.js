@@ -22,11 +22,15 @@ const el4 = prefix + "ESP-Barcelona-TenerifeNorte" + suffix
 const el5 = prefix + "ESP-TenerifeSur-LaPalma" + suffix
 const el6 = prefix + "ESP-LaPalma-TenerifeNorte" + suffix
 const el7 = prefix + "ESPFRA-TenerifeSur-Lyon" + suffix
+const el11 = prefix + "FRAGBR-Paris-Bristol" + suffix
+const el12 = prefix + "GBRFRA-Bristol-Paris" + suffix
 
 // Océanie
 
 var elts = [
-    el1, el2, el3, el4, el5, el6, el7, el8, el9, el10
+    el1, el2,
+    el3, el4, el5, el6, el7, el11, el12,
+    el8, el9, el10
 ]
 
 var eltsGeo = Array()

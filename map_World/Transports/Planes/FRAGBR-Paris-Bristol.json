@@ -1,0 +1,22 @@
+{
+    "type": "Feature",
+    "properties": {
+        "Name": "Paris-Bristol",
+        "Distance": 460,
+        "Empreinte carbone": 0.161,
+        "Nombre de trajets": 1
+    },
+    "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+                2.56708,
+                49.00531
+            ],
+            [
+                -2.71716,
+                51.38305
+            ]
+        ]
+    }
+}
