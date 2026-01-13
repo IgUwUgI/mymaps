@@ -25,6 +25,10 @@ const el13 = "ESP-PuertoCruz-Orotava"
 const el14 = "ESP-PuertoCruz-Teide"
 const el15 = "ESP-SantaCruz-Anaga"
 const el16 = "ESP-SantaCruz-LosCristianos"
+const el17 = "GBR-Edinburgh-Inverness"
+const el18 = "GBR-Inverness-Fort_William"
+const el19 = "GBR-Fort_William-Glencoe"
+const el20 = "GBR-Fort_William-Edinburgh"
 
 // Océanie
 
@@ -32,7 +36,8 @@ const el16 = "ESP-SantaCruz-LosCristianos"
 var IDs = [
   el1, el2,
   el3,
-  el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16
+  el4, el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16,
+  el17, el18, el19, el20
 ]
 
 var elts = new Array(IDs.length)

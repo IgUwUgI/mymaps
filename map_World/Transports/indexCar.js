@@ -13,12 +13,15 @@ const el3 = "DZA-Djanet_RT"
 // Europe
 const el1 = "ESP-Teide-LaLaguna"
 const el2 = "ESP-Tour_LaPalma"
+const el4 = "GBR-Broadford-Inverness"
+const el5 = "GBR-Inverness-Broadford"
 
 // Océanie
 
 var IDs = [
   el3,
-  el1, el2
+  el1, el2,
+  el4, el5
 ]
 
 var elts = new Array(IDs.length)

@@ -35,6 +35,8 @@ const el21 = "BEL-Bruxelles-Gand"
 const el22 = "BEL-Gand-Brugge"
 const el23 = "BEL-Brugge-Knokke"
 const el24 = "BELFRA-Brugge-Lille"
+const el26 = "FRAGBR-Paris-London"
+const el27 = "GBR-London-Edinburgh"
 
 // Océanie
 
@@ -43,7 +45,8 @@ var IDs = [
   el1, el2, el3, el4, 
   el5, el6, el7, el8, el9, el10, el11, el12, el13, el14, el15, el16, el17, el18, 
   el19, el20, el21, el22, el23, el24,
-  el25
+  el25,
+  el26, el27
 ]
 
 var elts = new Array(IDs.length)
